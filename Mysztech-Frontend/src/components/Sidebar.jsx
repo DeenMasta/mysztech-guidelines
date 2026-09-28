@@ -1,208 +1,215 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography } from '@mui/material';
+import { Link, useSearchParams } from 'react-router-dom';
+import { client } from '../../tina/__generated__/client'; // Sesuaikan path mengikut folder awak
 import './Sidebar.css';
 
-// KEMAS KINI: Fungsi baru untuk baca sub-topik tanpa perlu pergi ke page
-const getSubMenuItems = (item) => {
-  const attr = item.attributes || item;
-  const contentData = attr.Content || attr.content || attr.Description || attr.description;
-  let subs = [];
-
-  if (Array.isArray(contentData)) {
-    const headings = contentData.filter(n => n.type === 'heading');
-    const sliceLevel = headings.length > 0 ? Math.min(...headings.map(n => n.level || 2)) : 2;
-
-    contentData.forEach((node, index) => {
-      if (node.type === 'heading' && (node.level || 2) === sliceLevel) {
-        const text = node.children ? node.children.map(c => c.text).join('') : '';
-        subs.push({ id: `sub-${index}`, text });
-      }
-    });
-  }
-  return subs;
-};
-
-const Sidebar = ({
-  isIntroActive,
-  prologueSubs,
-  prologueMainId,
-  filteredCards,
-  articleId,
-  activeSub,
-  leftSubMenu,
-  setSearchParams,
-  isTroubleshootActive,
-  onMobileClose,
-  language
-}) => {
-  
-  // KEMAS KINI: State untuk kawal menu dropdown mana yang terbuka
+const Sidebar = ({ language, onMobileClose }) => {
+  const [panduan, setPanduan] = useState([]);
   const [expandedTopic, setExpandedTopic] = useState(null);
+  
+  const [searchParams] = useSearchParams();
+  const activeId = searchParams.get('id');
 
-  // KEMAS KINI: Buka dropdown secara automatik jika pengguna me-refresh page
+  // Tarik data dari TinaCMS
   useEffect(() => {
-    if (articleId) {
-      setExpandedTopic(String(articleId));
-    }
-  }, [articleId]);
+    const ambilDataTina = async () => {
+      try {
+        const respons = await client.queries.guidelinesConnection();
+        let items = respons.data.guidelinesConnection.edges.map(edge => edge.node);
+        
+        items.sort((a, b) => (a.order || 99) - (b.order || 99));
+        setPanduan(items);
+      } catch (error) {
+        console.error("Gagal menarik data dari TinaCMS:", error);
+      }
+    };
 
-  const handleNavigate = (params) => {
-    setSearchParams(params);
+    ambilDataTina();
+  }, []);
+
+  const handleLinkClick = () => {
     if (onMobileClose) {
       onMobileClose();
     }
   };
 
-  // KEMAS KINI: Fungsi untuk butang toggle (buka/tutup) dropdown
-  const toggleTopic = (id) => {
-    setExpandedTopic(prev => prev === String(id) ? null : String(id));
+  const toggleTopic = (filename) => {
+    setExpandedTopic(prev => prev === filename ? null : filename);
   };
 
+  // ==========================================
+  // KEMAS KINI: TAPIS DATA PROLOGUE
+  // ==========================================
+  const prologueDocs = panduan.filter(item => item.section === "PROLOGUE");
+  const userGuidelines = panduan.filter(item => item.section === "USER GUIDELINES");
+  const support = panduan.filter(item => item.section === "SUPPORT");
+
+  const topikUtama = userGuidelines.filter(item => !item.isSubTopic);
+  const subTopik = userGuidelines.filter(item => item.isSubTopic);
+
   return (
-    <Box 
-      component="nav" 
-      className="doc-sidebar-nav"
-    >
+    <Box component="nav" className="doc-sidebar-nav">
       <Box sx={{ flexGrow: 1 }}>
         
         {/* ======================================= */}
-        {/* PROLOGUE & SUB-PAGES DARI STRAPI */}
+        {/* PROLOGUE / INTRO (DINAMIK) */}
         {/* ======================================= */}
-        <Box sx={{ mb: 2 }}>
-          <Typography 
-            onClick={() => handleNavigate({ id: prologueMainId || 'prologue' })}
-            className={`sidebar-heading sidebar-clickable ${isIntroActive && (String(articleId) === String(prologueMainId) || articleId === 'prologue' || !articleId) ? 'active-main' : ''}`}
-            sx={{ color: isIntroActive ? 'var(--global-accent)' : 'inherit' }}
-          >
-            {language === 'ms' ? 'Prolog' : 'Prologue'}
-          </Typography>
+        <Typography className="sidebar-heading" sx={{ mb: 1.5 }}>
+          {language === 'ms' ? 'PROLOG' : 'PROLOGUE'}
+        </Typography>
+        
+        <Box className="sidebar-list" sx={{ mb: 3 }}>
+          {prologueDocs.length === 0 && (
+            <Typography className="sidebar-empty">
+              {language === 'ms' ? 'Tiada fail prolog.' : 'No prologue files.'}
+            </Typography>
+          )}
 
-          {/* Paparkan sub-page Prologue jika ada */}
-          {(prologueSubs && prologueSubs.length > 0) ? (
-            <Box className="sidebar-submenu">
-              {prologueSubs.map(item => {
-                const attr = item.attributes || item;
-                const fullTitle = attr.title || attr.Title || "Tanpa Tajuk";
-                
-                // Buang perkataan "Prologue: " dari menu supaya nampak kemas
-                const displayTitle = fullTitle.replace(/^(Prologue|Prolog)\s*[:-]\s*/i, '');
-                const isSubPageActive = String(item.id) === String(articleId);
-
-                return (
-                  <Typography
-                    key={item.id}
-                    onClick={() => handleNavigate({ id: item.id })}
-                    className={`sidebar-subitem ${isSubPageActive ? 'active-subitem' : ''}`}
-                  >
-                    {displayTitle}
-                  </Typography>
-                )
-              })}
-            </Box>
-          ) : (isIntroActive && leftSubMenu.length > 0) ? (
-            <Box className="sidebar-submenu">
-              {leftSubMenu.map(heading => {
-                const isSubActive = activeSub === heading.id;
-                return (
-                  <Typography
-                    key={heading.id}
-                    onClick={() => handleNavigate({ id: 'prologue', sub: heading.id })}
-                    className={`sidebar-subitem ${isSubActive ? 'active-subitem' : ''}`}
-                  >
-                    {heading.text}
-                  </Typography>
-                )
-              })}
-            </Box>
-          ) : null}
+          {prologueDocs.map((item) => {
+            const filename = item._sys.filename;
+            const pathPautan = `/docs?id=${filename}`;
+            const isActive = activeId === filename;
+            
+            return (
+              <Link 
+                key={filename} 
+                to={pathPautan} 
+                onClick={handleLinkClick} 
+                style={{ textDecoration: 'none', display: 'block', paddingBottom: '8px' }}
+              >
+                <Typography className={`sidebar-item ${isActive ? 'active-item' : ''}`} sx={{ fontWeight: isActive ? 600 : 400 }}>
+                  {item.title}
+                </Typography>
+              </Link>
+            );
+          })}
         </Box>
 
         {/* ======================================= */}
-        {/* USER GUIDELINES (1, 2, 3, 4, 5, 6, 7) */}
+        {/* USER GUIDELINES */}
         {/* ======================================= */}
         <Typography className="sidebar-heading" sx={{ mt: 3 }}>
           {language === 'ms' ? 'Panduan Pengguna' : 'User Guidelines'}
         </Typography>
         
         <Box className="sidebar-list">
-          {filteredCards.length === 0 && (
+          {topikUtama.length === 0 && (
             <Typography className="sidebar-empty">
               {language === 'ms' ? 'Tiada topik dijumpai.' : 'No topic found.'}
             </Typography>
           )}
-          {filteredCards.map(item => {
-            const isActive = String(item.id) === String(articleId);
-            const isExpanded = expandedTopic === String(item.id); // Check jika menu ni sedang kembang
-            const attr = item.attributes || item;
-            const menuTajuk = item.isEmptySlot ? item.fallbackTitle : (attr.title || attr.Title || "Tanpa Tajuk");
+
+          {topikUtama.map((item) => {
+            const filename = item._sys.filename;
+            const pathPautan = `/docs?id=${filename}`;
+            const isActive = activeId === filename;
             
-            // Dapatkan senarai sub-topik
-            const subItems = getSubMenuItems(item);
+            // Cari anak-anak
+            const anakAnakTopik = subTopik.filter(sub => sub.parentTopic === item.title);
+            const hasChildren = anakAnakTopik.length > 0;
+
+            const isChildActive = anakAnakTopik.some(anak => activeId === anak._sys.filename);
+            const isExpanded = expandedTopic === filename || isChildActive;
 
             return (
-              <React.Fragment key={item.id}>
-                <Typography
-                  // KEMAS KINI: Klik sekarang hanya toggle menu (tidak menukar URL page)
-                  onClick={() => !item.isEmptySlot && toggleTopic(item.id)}
-                  className={`sidebar-item ${item.isEmptySlot ? 'item-disabled' : ''} ${(isActive && !activeSub) ? 'active-item' : ''}`}
-                  sx={{ 
-                    cursor: item.isEmptySlot ? 'not-allowed' : 'pointer'
-                  }}
-                >
-                  {menuTajuk}
-                </Typography>
+              <React.Fragment key={filename}>
+                {/* PAPARAN BAPA (TOPIK INDUK) */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                  
+                  {hasChildren ? (
+                    // JIKA ADA ANAK: Cuma buka/tutup menu (Jangan tukar muka surat)
+                    <div 
+                      onClick={() => toggleTopic(filename)}
+                      style={{ flexGrow: 1, cursor: 'pointer' }}
+                    >
+                      <Typography className={`sidebar-item ${isExpanded ? 'active-item' : ''}`}>
+                        {item.title}
+                      </Typography>
+                    </div>
+                  ) : (
+                    // JIKA TIADA ANAK: Bertindak sebagai Link biasa (Tukar muka surat)
+                    <Link 
+                      to={pathPautan} 
+                      onClick={handleLinkClick}
+                      style={{ textDecoration: 'none', flexGrow: 1 }}
+                    >
+                      <Typography className={`sidebar-item ${isActive ? 'active-item' : ''}`}>
+                        {item.title}
+                      </Typography>
+                    </Link>
+                  )}
 
-                {(item.matchedHighlights && item.matchedHighlights.length > 0) ? (
-                  <Box className="sidebar-submenu">
-                    {item.matchedHighlights.map(highlight => (
-                        <Typography
-                          key={highlight.id}
-                          onClick={() => handleNavigate({ id: item.id, sub: highlight.id })}
-                          className="sidebar-subitem"
-                        >
-                          <span style={{ color: 'var(--global-accent)', marginRight: '6px', fontSize: '16px', verticalAlign: 'middle' }}>•</span>
-                          {highlight.text}
-                        </Typography>
-                    ))}
-                  </Box>
-                ) : (isExpanded && subItems.length > 0) ? (
-                  // KEMAS KINI: Akan memaparkan senarai jika butang diklik (isExpanded)
-                  <Box className="sidebar-submenu">
-                    {subItems.map(heading => {
-                      const isSubActive = isActive && activeSub === heading.id;
+                </div>
+
+                {/* PAPARAN ANAK (SUB-TOPIK) */}
+                {isExpanded && hasChildren && (
+                  <Box className="sidebar-submenu" sx={{ pl: 2.5, mt: 0.5, mb: 1, animation: 'fadeIn 0.2s ease-in-out' }}>
+                    {anakAnakTopik.map((anak) => {
+                      const subFilename = anak._sys.filename;
+                      const subPath = `/docs?id=${subFilename}`;
+                      const subIsActive = activeId === subFilename;
+
                       return (
-                        <Typography
-                          key={heading.id}
-                          // Ini baru tukar URL page ke sub-topik sebenar
-                          onClick={() => handleNavigate({ id: item.id, sub: heading.id })}
-                          className={`sidebar-subitem ${isSubActive ? 'active-subitem' : ''}`}
+                        <Link 
+                          key={subFilename}
+                          to={subPath} 
+                          onClick={handleLinkClick}
+                          style={{ textDecoration: 'none', display: 'block', padding: '4px 0' }}
                         >
-                          {heading.text}
-                        </Typography>
-                      )
+                          <Typography 
+                            className={`sidebar-subitem ${subIsActive ? 'active-subitem' : ''}`}
+                            sx={{ 
+                              fontSize: '0.95em', 
+                              // KEMAS KINI: Tukar warna kelabu supaya lebih terang (#d1d5db) dan oren bila aktif
+                              color: subIsActive ? '#f97316' : '#d1d5db', 
+                              transition: 'color 0.2s',
+                              '&:hover': {
+                                color: '#f97316'
+                              }
+                            }}
+                          >
+                            {/* TITIK BULLET TELAH DIPADAM DI SINI */}
+                            {anak.title}
+                          </Typography>
+                        </Link>
+                      );
                     })}
                   </Box>
-                ) : null}
+                )}
               </React.Fragment>
             );
           })}
         </Box>
 
         {/* ======================================= */}
-        {/* TROUBLESHOOTING DARI KOMPONEN KASTAM */}
+        {/* SUPPORT / TROUBLESHOOTING */}
         {/* ======================================= */}
-        <Typography className="sidebar-heading sidebar-mt">
+        {/* <Typography className="sidebar-heading sidebar-mt">
           {language === 'ms' ? 'Sokongan' : 'Support'}
         </Typography>
 
         <Box className="sidebar-list">
-          <Typography
-            onClick={() => handleNavigate({ id: 'troubleshooting_page' })}
-            className={`sidebar-item ${isTroubleshootActive ? 'active-item' : ''}`}
-          >
-            Troubleshooting
-          </Typography>
-        </Box>
+          {support.length > 0 ? (
+            support.map((item) => {
+              const pathPautan = `/docs?id=${item._sys.filename}`;
+              const isActive = activeId === item._sys.filename;
+              return (
+                <Link key={item._sys.filename} to={pathPautan} onClick={handleLinkClick} style={{ textDecoration: 'none' }}>
+                  <Typography className={`sidebar-item ${isActive ? 'active-item' : ''}`}>
+                    {item.title}
+                  </Typography>
+                </Link>
+              );
+            })
+          ) : (
+            <Link to="/docs?id=troubleshooting_page" onClick={handleLinkClick} style={{ textDecoration: 'none' }}>
+              <Typography className={`sidebar-item ${activeId === 'troubleshooting_page' ? 'active-item' : ''}`}>
+                Troubleshooting
+              </Typography>
+            </Link>
+          )}
+        </Box> */}
 
       </Box>
     </Box>
