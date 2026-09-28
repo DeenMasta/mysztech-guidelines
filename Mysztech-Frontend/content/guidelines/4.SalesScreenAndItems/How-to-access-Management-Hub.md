@@ -9,6 +9,8 @@ language: en
 
 The **Management Hub**, also called the **Backoffice**, is the main control panel for Mysztech POS. It gives users one place to manage and control the system, including its settings, products, users, orders, and reports. By using the Management Hub, users can keep POS information organized, make updates, and review important business details. Always check changes before saving, and ask a system administrator for help when needed.
 
+To access Management Hub you can visit: [https://mysztech.com/login](https://mysztech.com/login)
+
 1\.	Press the Menu button (three lines) at the top left.
 
 ![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture1-management.jpg>)
