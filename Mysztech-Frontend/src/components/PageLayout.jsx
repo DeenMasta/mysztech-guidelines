@@ -6,6 +6,7 @@ import {
 import SearchIcon from '@mui/icons-material/Search';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import TranslateIcon from '@mui/icons-material/Translate';
 import MenuIcon from '@mui/icons-material/Menu';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
@@ -171,6 +172,27 @@ const PageLayout = ({
         </ClickAwayListener>
 
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+          <Button
+            onClick={toggleLanguage}
+            startIcon={<TranslateIcon fontSize="small" />}
+            aria-label={language === 'en' ? 'Switch website language to Malay' : 'Switch website language to English'}
+            title={language === 'en' ? 'Switch to Bahasa Melayu' : 'Switch to English'}
+            sx={{
+              minWidth: 0,
+              px: 1.25,
+              py: 0.6,
+              borderRadius: '7px',
+              color: theme.textMain,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: '12px',
+              fontWeight: 600,
+              textTransform: 'none',
+              '&:hover': { bgcolor: isDarkMode ? '#27272a' : '#f3f4f6' },
+              '& .MuiButton-startIcon': { mr: 0.6 },
+            }}
+          >
+            {language === 'en' ? 'EN' : 'BM'}
+          </Button>
           <IconButton onClick={toggleTheme} sx={{ color: theme.textMain }}>
             {isDarkMode ? <LightModeIcon fontSize="small" /> : <DarkModeIcon fontSize="small" />}
           </IconButton>

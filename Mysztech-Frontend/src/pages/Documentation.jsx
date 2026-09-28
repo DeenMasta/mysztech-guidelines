@@ -43,7 +43,7 @@ const Documentation = () => {
 
   useEffect(() => {
     const savedLang = localStorage.getItem('mysztech_lang');
-    if (savedLang) setLanguage(savedLang);
+    if (savedLang === 'ms' || savedLang === 'en') setLanguage(savedLang);
     const savedTheme = localStorage.getItem('mysztech_theme');
     if (savedTheme === 'light') {
       setIsDarkMode(false);
@@ -57,6 +57,16 @@ const Documentation = () => {
     const newLang = language === 'en' ? 'ms' : 'en';
     setLanguage(newLang);
     localStorage.setItem('mysztech_lang', newLang);
+
+    // Google Translate uses this cookie to translate the complete rendered page,
+    // including documentation loaded from Markdown.
+    if (newLang === 'ms') {
+      document.cookie = 'googtrans=/en/ms; path=/; SameSite=Lax';
+    } else {
+      document.cookie = 'googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax';
+    }
+
+    window.location.reload();
   };
 
   const toggleTheme = () => {
