@@ -813,38 +813,42 @@ Note: Make sure you choose the correct outlet before creating, because the varia
 Note: Always double-check the name you entered to confirm the variant is saved correctly and linked to the right outlet.\r
 \r
 ![](</admin/4. Sales Screen and Items/How to add predefined Variant/Picture8-variant.png>)\r
-`,rr=`---\r
-title: How to access Management Hub\r
-section: USER GUIDELINES\r
-order: 1\r
-isSubTopic: false\r
-parentTopic: ''\r
-language: en\r
----\r
-\r
-The **Management Hub**, also called the **Backoffice**, is the main control panel for Mysztech POS. It gives users one place to manage and control the system, including its settings, products, users, orders, and reports. By using the Management Hub, users can keep POS information organized, make updates, and review important business details. Always check changes before saving, and ask a system administrator for help when needed.\r
-\r
-To access Management Hub you can visit: [https://mysztech.com/login](https://mysztech.com/login)\r
-\r
-1\\.	Press the Menu button (three lines) at the top left.\r
-\r
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture1-management.jpg>)\r
-\r
-2\\.	Select Management Hub to go to the Backoffice of Mysztech POS to proceed further.\r
-\r
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture2-management.jpg>)![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture3-management.jpg>)\r
-\r
-3\\.	Press Sign In button to proceed further.\r
-\r
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture4-management.jpg>)\r
-\r
-4\\.	Enter your email address and password, then click Sign In to access the Backoffice.\r
-\r
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture5-management.jpg>)\r
-\r
-5\\.	You have logged in to the Backoffice of Mysztech POS.\r
-\r
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture6-management.jpg>)\r
+`,rr=`---
+title: How to access Management Hub
+section: USER GUIDELINES
+order: 1
+isSubTopic: false
+parentTopic: ''
+language: en
+---
+
+The **Management Hub**, also called the **Backoffice**, is the main control panel for Mysztech POS. It gives users one place to manage and control the system, including its settings, products, users, orders, and reports. By using the Management Hub, users can keep POS information organized, make updates, and review important business details. Always check changes before saving, and ask a system administrator for help when needed.
+
+To access the Management Hub, you can log in directly using the link below:
+
+[https://mysztech.com/login](https://mysztech.com/login)
+
+Alternatively, you can access the Management Hub directly from the POS system by following these steps:
+
+1\\.	Press the Menu button (three lines) at the top left.
+
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture1-management.jpg>)
+
+2\\.	Select Management Hub to go to the Backoffice of Mysztech POS to proceed further.
+
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture2-management.jpg>)![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture3-management.jpg>)
+
+3\\.	Press Sign In button to proceed further.
+
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture4-management.jpg>)
+
+4\\.	Enter your email address and password, then click Sign In to access the Backoffice.
+
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture5-management.jpg>)
+
+5\\.	You have logged in to the Backoffice of Mysztech POS.
+
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture6-management.jpg>)
 `,ir=`---\r
 title: How to add Predefined Modifiers\r
 section: USER GUIDELINES\r
