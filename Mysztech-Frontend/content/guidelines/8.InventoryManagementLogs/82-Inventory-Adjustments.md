@@ -1,7 +1,7 @@
 ---
-title: 8.2 Inventory Adjustments
+title: 8.4 Inventory Adjustments
 section: USER GUIDELINES
-order: 8.2
+order: 8.4
 isSubTopic: true
 parentTopic: 8. Inventory Management & Logs
 language: en

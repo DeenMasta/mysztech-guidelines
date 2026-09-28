@@ -1,15 +1,15 @@
 ---
-title: 8.1 Suppliers
+title: 8.2 Suppliers
 section: USER GUIDELINES
-order: 8.1
+order: 8.2
 isSubTopic: true
 parentTopic: 8. Inventory Management & Logs
 language: en
 ---
 
-You can manage your outlet’s suppliers from the **Suppliers** page. This setup needs to be done in the **Management Hub**.
+You can manage your outlet’s suppliers from the **Suppliers** page. This setup needs to be done in the **Management Hub.**
 
-Don’t know how to access Management Hub ? *Click Here to learn how to access Management Hub.*
+Don’t know how to access Management Hub ?[ *Click Here to learn how to access Management Hub.*](http://localhost:5173/docs?id=How-to-access-Management-Hub)
 
 1\.	Go to **Inventory > Suppliers**. This page will display all the registered suppliers.
 
