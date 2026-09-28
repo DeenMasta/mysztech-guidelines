@@ -4,6 +4,7 @@ import { guidelines, renderGuidelineMarkdown } from '../data/guidelines';
 
 import Troubleshooting from './Troubleshooting';
 import PageLayout from '../components/PageLayout';
+import ImageLightbox from '../components/ImageLightbox';
 
 import { Typography, CircularProgress, Box } from '@mui/material';
 
@@ -38,6 +39,7 @@ const Documentation = () => {
 
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [language, setLanguage] = useState('en');
+  const [previewImage, setPreviewImage] = useState(null);
 
   useEffect(() => {
     const savedLang = localStorage.getItem('mysztech_lang');
@@ -154,6 +156,15 @@ const Documentation = () => {
     setSearchParams({ id: result.articleId });
   };
 
+  const handleContentImageClick = (event) => {
+    if (!(event.target instanceof HTMLImageElement)) return;
+
+    setPreviewImage({
+      src: event.target.currentSrc || event.target.src,
+      alt: event.target.alt,
+    });
+  };
+
   if (loading) {
     return (
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', bgcolor: theme.bg, flexDirection: 'column', gap: 2 }}>
@@ -203,6 +214,7 @@ const Documentation = () => {
             {selectedArticle.body ? (
               <Box 
                 className="tina-content"
+                onClick={handleContentImageClick}
                 sx={{
                   '& img': {
                     maxWidth: '100%',
@@ -210,7 +222,10 @@ const Documentation = () => {
                     borderRadius: '8px',
                     my: 3,               
                     display: 'block',
-                    border: `1px solid ${theme.border}`
+                    border: `1px solid ${theme.border}`,
+                    cursor: 'zoom-in',
+                    transition: 'opacity 0.2s ease',
+                    '&:hover': { opacity: 0.88 },
                   }
                 }}
               >
@@ -226,6 +241,11 @@ const Documentation = () => {
       ) : (
         <Typography sx={{ color: theme.textMuted, fontStyle: 'italic' }}>Tiada kandungan dijumpai.</Typography>
       )}
+      <ImageLightbox
+        image={previewImage}
+        onClose={() => setPreviewImage(null)}
+        isDarkMode={isDarkMode}
+      />
     </PageLayout>
   );
 };

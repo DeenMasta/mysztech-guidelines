@@ -7,9 +7,9 @@ import {
   Typography,
   CircularProgress,
   Paper,
-  Divider,
   Link as MuiLink // Ditambah untuk sokongan pautan
 } from '@mui/material';
+import ImageLightbox from '../components/ImageLightbox';
 
 // --- IKON MUI ---
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
@@ -19,6 +19,7 @@ const Troubleshooting = ({ isDarkMode = false, language = 'en' }) => {
   const [whatToDos, setWhatToDos] = useState([]);
   const [whatNotToDos, setWhatNotToDos] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [previewImage, setPreviewImage] = useState(null);
 
   // --- PEMBOLEH UBAH WARNA DINAMIK & PREMIUM ---
   const textColor = isDarkMode ? '#ffffff' : '#111827';
@@ -112,12 +113,42 @@ const Troubleshooting = ({ isDarkMode = false, language = 'en' }) => {
       const fullUrl = imgUrl.startsWith('http') ? imgUrl : `http://localhost:1337${imgUrl}`;
       return (
         <Box
-          component="img"
+          component="button"
           key={index}
-          src={fullUrl}
-          alt={node.image?.alternativeText || 'Guide Image'}
-          sx={{ width: '100%', maxWidth: '100%', height: 'auto', borderRadius: '8px', display: 'block', mt: 2, mb: 2, border: `1px solid ${dosBorder}` }}
-        />
+          type="button"
+          aria-label={`View ${node.image?.alternativeText || 'guide image'} at full size`}
+          onClick={() => setPreviewImage({
+            src: fullUrl,
+            alt: node.image?.alternativeText || 'Guide Image',
+          })}
+          sx={{
+            display: 'block',
+            width: '100%',
+            p: 0,
+            mt: 2,
+            mb: 2,
+            border: `1px solid ${dosBorder}`,
+            borderRadius: '8px',
+            overflow: 'hidden',
+            bgcolor: 'transparent',
+            cursor: 'zoom-in',
+            '& img': {
+              display: 'block',
+              width: '100%',
+              maxWidth: '100%',
+              height: 'auto',
+              transition: 'opacity 0.2s ease',
+            },
+            '&:hover img': { opacity: 0.88 },
+            '&:focus-visible': { outline: `3px solid ${dosColor}`, outlineOffset: '3px' },
+          }}
+        >
+          <Box
+            component="img"
+            src={fullUrl}
+            alt={node.image?.alternativeText || 'Guide Image'}
+          />
+        </Box>
       );
     }
 
@@ -339,6 +370,11 @@ const Troubleshooting = ({ isDarkMode = false, language = 'en' }) => {
         </Paper>
 
       </Box>
+      <ImageLightbox
+        image={previewImage}
+        onClose={() => setPreviewImage(null)}
+        isDarkMode={isDarkMode}
+      />
     </Box>
   );
 };
