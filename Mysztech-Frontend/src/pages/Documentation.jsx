@@ -1,13 +1,11 @@
-import React, { useEffect, useState, useMemo } from 'react';
-import { useSearchParams, Link as RouterLink } from 'react-router-dom';
-import { client } from '../../tina/__generated__/client'; 
-import { TinaMarkdown } from 'tinacms/dist/rich-text'; 
+import { useEffect, useState, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import { guidelines, renderGuidelineMarkdown } from '../data/guidelines';
 
 import Troubleshooting from './Troubleshooting';
-import Sidebar from '../components/Sidebar';
 import PageLayout from '../components/PageLayout';
 
-import { Typography, CircularProgress, Box, Link as MuiLink } from '@mui/material';
+import { Typography, CircularProgress, Box } from '@mui/material';
 
 // Fungsi bantuan untuk mengekstrak teks sebenar dari struktur AST (TinaCMS Rich Text)
 const extractTextFromAst = (node) => {
@@ -29,8 +27,8 @@ const extractTextFromAst = (node) => {
 };
 
 const Documentation = () => {
-  const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const articles = guidelines;
+  const loading = false;
 
   const [searchFocused, setSearchFocused] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -81,26 +79,6 @@ const Documentation = () => {
     cardBg: isDarkMode ? '#18181b' : '#ffffff',
     cardHover: isDarkMode ? '#27272a' : '#f3f4f6',
   };
-
-  // TARIK DATA DARI TINACMS
-  useEffect(() => {
-    const fetchDocsFromTina = async () => {
-      setLoading(true);
-      try {
-        const response = await client.queries.guidelinesConnection();
-        const docs = response.data.guidelinesConnection.edges.map(edge => edge.node);
-        
-        // Susun mengikut nombor "order"
-        docs.sort((a, b) => (a.order || 99) - (b.order || 99));
-        setArticles(docs);
-        setLoading(false);
-      } catch (error) {
-        console.error("Ralat ketika menarik data dari TinaCMS:", error);
-        setLoading(false);
-      }
-    };
-    fetchDocsFromTina();
-  }, [language]);
 
   // Tetapkan artikel pertama secara automatik jika tiada ID dipilih
   useEffect(() => {
@@ -236,37 +214,8 @@ const Documentation = () => {
                   }
                 }}
               >
-                <TinaMarkdown 
-                  content={selectedArticle.body} 
-                  components={{
-                    KotakInfo: (props) => {
-                      const isOrange = props.jenis === 'oren';
-                      const bgColor = isOrange ? '#fd7e14' : '#0c6b8a';
-                      const textColor = isOrange ? '#111827' : '#ffffff';
-                      const borderColor = isOrange ? '#111827' : '#064459';
-
-                      return (
-                        <Box
-                          sx={{
-                            backgroundColor: bgColor,
-                            border: `1.5px solid ${borderColor}`,
-                            borderRadius: '6px',
-                            p: { xs: 2, sm: 2.5, md: 3.5 },
-                            mb: 4,
-                            maxWidth: '850px',
-                            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
-                            '& p, & span, & strong, & em, & li, & h1, & h2, & h3': { color: `${textColor} !important` },
-                            '& ul, & ol': { paddingLeft: '24px', marginBottom: 0 },
-                            '& ul': { listStyleType: 'disc' },
-                            '& ul ul': { listStyleType: 'circle', mt: 1 },
-                            '& ul ul ul': { listStyleType: 'square', mt: 1 }
-                          }}
-                        >
-                          <TinaMarkdown content={props.kandungan} />
-                        </Box>
-                      );
-                    }
-                  }}
+                <Box
+                  dangerouslySetInnerHTML={{ __html: renderGuidelineMarkdown(selectedArticle.body) }}
                 />
               </Box>
             ) : (

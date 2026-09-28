@@ -1,32 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Box, Typography } from '@mui/material';
 import { Link, useSearchParams } from 'react-router-dom';
-import { client } from '../../tina/__generated__/client'; // Sesuaikan path mengikut folder awak
+import { guidelines } from '../data/guidelines';
 import './Sidebar.css';
 
 const Sidebar = ({ language, onMobileClose }) => {
-  const [panduan, setPanduan] = useState([]);
+  const panduan = guidelines;
   const [expandedTopic, setExpandedTopic] = useState(null);
   
   const [searchParams] = useSearchParams();
   const activeId = searchParams.get('id');
-
-  // Tarik data dari TinaCMS
-  useEffect(() => {
-    const ambilDataTina = async () => {
-      try {
-        const respons = await client.queries.guidelinesConnection();
-        let items = respons.data.guidelinesConnection.edges.map(edge => edge.node);
-        
-        items.sort((a, b) => (a.order || 99) - (b.order || 99));
-        setPanduan(items);
-      } catch (error) {
-        console.error("Gagal menarik data dari TinaCMS:", error);
-      }
-    };
-
-    ambilDataTina();
-  }, []);
 
   const handleLinkClick = () => {
     if (onMobileClose) {
@@ -43,8 +26,6 @@ const Sidebar = ({ language, onMobileClose }) => {
   // ==========================================
   const prologueDocs = panduan.filter(item => item.section === "PROLOGUE");
   const userGuidelines = panduan.filter(item => item.section === "USER GUIDELINES");
-  const support = panduan.filter(item => item.section === "SUPPORT");
-
   const topikUtama = userGuidelines.filter(item => !item.isSubTopic);
   const subTopik = userGuidelines.filter(item => item.isSubTopic);
 
