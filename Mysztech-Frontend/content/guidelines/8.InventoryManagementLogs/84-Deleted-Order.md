@@ -15,20 +15,20 @@ If you do not know how to access Management Hub, ***[click here to learn how to 
 
 Note: If you do not know how to access Management Hub, ***click here to learn how to access management hub***
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-094624.png>)
+![](</admin/8.Invenory Management Logs/8.5/8.4(1).png>)
 
 2\.	Go to **Logs > Deleted Order**.You can view a list of all deleted orders from the **Open Orders** list.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095213.png>)
+![](</admin/8.Invenory Management Logs/8.4(2).png>)
 
 3\. Use the **Search Bar** to search for a deleted order by **Outlet, POS Device, Order Number, Item, or Staff.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095305.png>)
+![](</admin/8.Invenory Management Logs/8.5/8.4.1.png>)
 
 4\. You can also click the **Filter** icon to filter the deleted orders by **POS Device, Outlet, Staff, Deleted From date, and Deleted Until date.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095424.png>)
+![](</admin/8.Invenory Management Logs/8.5/8.4.2.png>)
 
 5\. After selecting the required filters, check the details and click Apply Filters to view the results.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095503.png>)
+![](</admin/8.Invenory Management Logs/8.5/8.4.3.png>)

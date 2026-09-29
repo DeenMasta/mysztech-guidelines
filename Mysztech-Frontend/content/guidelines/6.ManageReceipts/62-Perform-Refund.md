@@ -13,7 +13,7 @@ The **Refund** function allows you to refund selected items from a completed rec
 
 1\.	Press the **Menu** button.
 
-![](</admin/6. Manage Receipts/6.2/Picture1-6.2.png>)
+![](</admin/6. Manage Receipts/6.3/15.png>)
 
 2\.	Select **Refund**.
 

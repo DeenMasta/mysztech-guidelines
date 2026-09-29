@@ -13,7 +13,7 @@ You can view and manage all completed receipts from the **Receipt** section.
 
 1\.	Press the Menu button.
 
-![](</admin/6. Manage Receipts/6.1/Picture1-6.1.png>)
+![](</admin/6. Manage Receipts/6.1/1.png>)
 
 2\.	Select the Receipt tab.
 
@@ -31,7 +31,7 @@ You can view and manage all completed receipts from the **Receipt** section.
 
 Press the Filter button to filter receipts based on the following options:
 
-![](</admin/6. Manage Receipts/6.1/Picture5-6.1.png>)
+![](</admin/6. Manage Receipts/6.1/2.png>)
 
 **Date Range**
 
@@ -69,7 +69,7 @@ Press the Filter button to filter receipts based on the following options:
 
 **Note:** You can also search for a specific receipt using its Receipt ID. A unique **Receipt ID** is automatically generated and assigned to receipts.
 
-![](</admin/6. Manage Receipts/6.1/Picture12-6.1.png>)
+![](</admin/6. Manage Receipts/6.1/4.png>)
 
 **Receipt Options**
 
@@ -79,7 +79,7 @@ After selecting a receipt, you can optionally:
 
 1\.	Tap Send Receipt to Email and enter your email address.
 
-![](</admin/6. Manage Receipts/6.1/Picture13-6.1.png>)
+![](</admin/6. Manage Receipts/6.1/5.png>)
 
 2\.	The receipt will be sent to the email address provided.
 
@@ -87,4 +87,4 @@ After selecting a receipt, you can optionally:
 
 **Print Receipt** —  Optionally, you can print the receipt again by pressing the **Print Receipt** button.
 
-![](</admin/6. Manage Receipts/6.1/Picture16-6.1.png>)
+![](</admin/6. Manage Receipts/6.1/6.png>)

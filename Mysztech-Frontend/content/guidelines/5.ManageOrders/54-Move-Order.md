@@ -17,15 +17,15 @@ To edit an order using the table:
 
 1\.	Tap the table where you saved the order, then tap **Edit Order** to update the order.
 
-![](</admin/5. Manage Order /Pic22.png>)
+![](</admin/5. Manage Order /5.4/1.png>)
 
 2\.	You will be returned to the **Order Layout** page. You can now make any changes to the order. Once you are done, tap **Save** to save the changes.
 
-![](</admin/5. Manage Order /Pic23.png>)
+![](</admin/5. Manage Order /5.4/2.png>)
 
 **Example:** If the customer changes Teh Hot Kurang Manis to Teh Cold and wants it served in a bowl (Mangkuk), tap Teh Hot, select Cold, enter "Mangkuk" in the Comment section, then tap Save.
 
-![](</admin/5. Manage Order /Pic24.png>)
+![](</admin/5. Manage Order /5.4/3.png>)
 
 3\.	You will see that the Teh item has been updated with the changes you made. Tap the **Save** button at the bottom to save the changes to the table.
 
@@ -37,11 +37,11 @@ For example:
 
 **•	Teh → Beverages Printer**
 
-![](</admin/5. Manage Order /Pic25.png>)
+![](</admin/5. Manage Order /5.4/4.png>)
 
 4\.	You have successfully updated the order by table. You can see the changes on the **Table Layout** page.
 
-![](</admin/5. Manage Order /Pic26.png>)
+![](</admin/5. Manage Order /5.4/5.png>)
 
 **B. Update Order through Open Order**
 
@@ -49,19 +49,19 @@ To edit an order using Open Order:
 
 1\.	Tap **Open Order.**
 
-![](</admin/5. Manage Order /Pic27.png>)
+![](</admin/5. Manage Order /5.4/6.png>)
 
 2\.	Select the order you want to edit. If you are not sure which order to select, check the **Comment** you added when creating the order (e.g., "**Make it Faster**").
 
-![](</admin/5. Manage Order /Pic28.png>)
+![](</admin/5. Manage Order /5.4/7.png>)
 
 3\.	Make the changes to the order.
 
-![](</admin/5. Manage Order /Pic29.png>)
+![](</admin/5. Manage Order /5.4/8.png>)
 
 **Example:** If the customer changes **Teh Hot** to **Teh Cold** and wants it served in a bowl (Mangkuk), tap **Teh Hot**, select **Cold**, enter **"Mangkuk"** in the **Comment** section, then tap Save.
 
-![](</admin/5. Manage Order /Pic30.png>)
+![](</admin/5. Manage Order /5.4/9.png>)
 
 4\.	You will see that the Teh item has been updated with the changes you made. Tap the **Save** button at the bottom to save the changes.
 
@@ -73,8 +73,8 @@ For example:
 
 **•	Teh → Beverages Printer**
 
-![](</admin/5. Manage Order /Pic31.png>)
+![](</admin/5. Manage Order /5.4/10.png>)
 
 5\.	You have successfully updated the order through **Open Order**.
 
-![](</admin/5. Manage Order /Pic32.png>)
+![](</admin/5. Manage Order /5.4/11.png>)

@@ -30,7 +30,7 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 
 3\.	Press Export button to to export your receipt. You can export the receipt records in **CSV or Excel format.**
 
-![](</admin/6. Manage Receipts/6.4/Picture3-6.2.png>)
+![](</admin/6. Manage Receipts/6.2/7.png>)
 
 4\.	Select the columns you want to include in the export (e.g., **Receipt No. and Order Type**), then press **Export**.
 
@@ -38,7 +38,7 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 
 5\.	You will receive a notification once the export is complete. Press the **Notification** button to view the completed export.
 
-![](</admin/6. Manage Receipts/6.4/Picture5-6.2.png>)
+![](</admin/6. Manage Receipts/6.2/8.png>)
 
 6\.	Select either **CSV or Excel** format to download the exported receipt records.
 
@@ -46,7 +46,7 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 
 7\.	You can select a receipt to **view** its details.
 
-![](</admin/6. Manage Receipts/6.4/Picture7-6.2.png>)
+![](</admin/6. Manage Receipts/6.2/9.png>)
 
 8\.	You can view the receipt details from the selected receipt.
 
@@ -58,34 +58,34 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 
 10\.	Enter the customer's **email address** and select **Send Receipt** to send the receipt to the customer's email.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153048.png>)
+![](</admin/6. Manage Receipts/6.2/10.png>)
 
 11\.	Or, select **Send Invoice** to send the invoice to the customer's email.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153135.png>)
+![](</admin/6. Manage Receipts/6.2/11.png>)
 
 12\.	Press **Preview Receipt** to view the receipt before sending.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153324.png>)
+![](</admin/6. Manage Receipts/6.2/12.png>)
 
 13\.	You can now view the receipt details.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153407.png>)
+![](</admin/6. Manage Receipts/6.2/Pict.png>)
 
 14\.	Press **Preview Invoice** to view the invoice.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153455.png>)
+![](</admin/6. Manage Receipts/6.2/13.png>)
 
 15\.	You can now view the invoice details.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153534.png>)
+![](</admin/6. Manage Receipts/6.2/Picture2.png>)
 
-16\.	You can also **cancel a receipt** when required. 
+16\.	You can also **cancel a receipt** when required.
 
 **Note:** Cancelling a receipt will not delete it from the system. The receipt will remain in the **Receipt List** with the **Type** labelled as **“Cancel”**.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153649.png>)
+![](</admin/6. Manage Receipts/6.2/14.png>)
 
 17\.	Optionally, you can search for an **Invoice No.** using the search bar.
 
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153729.png>)
+![](</admin/6. Manage Receipts/6.2/Picture3.png>)

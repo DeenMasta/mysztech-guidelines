@@ -37,4 +37,4 @@ Receipt settings can be configured from the Management Hub.
 
 6\. Press **Save** to save and apply the changes.
 
-![](</admin/6. Manage Receipts/6.5/Picture6-6.5.png>)
+![](</admin/6. Manage Receipts/6.5/17.png>)

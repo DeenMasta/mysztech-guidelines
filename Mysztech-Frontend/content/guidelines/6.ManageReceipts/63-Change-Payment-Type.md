@@ -21,7 +21,7 @@ In this situation, you can change the payment type on the receipt from **Cash** 
 
 1\.	Press the **Menu** button.
 
-![](</admin/6. Manage Receipts/6.3/Picture1-6.3.png>)
+![](</admin/6. Manage Receipts/6.4/16.png>)
 
 2\.	Select **Change Payment Type.**
 

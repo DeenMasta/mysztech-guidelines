@@ -13,11 +13,11 @@ Go to **Inventory > Inventories**. Here, you can view and manage all your invent
 
 1\.	Select an item from the inventory list.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115522.png>)
+![](</admin/8.Invenory Management Logs/8.3/1.png>)
 
 2\.	Click the **Actions** button on the right.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115601.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.1.png>)
 
 3\.	You will see 3 options:
 
@@ -27,11 +27,11 @@ Go to **Inventory > Inventories**. Here, you can view and manage all your invent
 
 **o	History**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115647.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.2.png>)
 
 4\.	Select **Stock Details.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115728.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.3.png>)
 
 5\.	A small tab will open on the same page, showing the quantity available at each outlet.
 
@@ -41,7 +41,7 @@ For example:
 
 •	GD CAFE – 21
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115811.png>)
+![](</admin/8.Invenory Management Logs/8.3/2.png>)
 
 **Adjusting Stock by Item**
 
@@ -49,7 +49,7 @@ There are two ways to adjust stock. The first way is to adjust the stock directl
 
 1\.	Click the **Adjust Stock** button for the item.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115903.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.4.png>)
 
 2\.	Under **Stock Details**, select the **Adjustment Type:**
 
@@ -59,61 +59,61 @@ o	Stock In
 
 o	Stock Out
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115958.png>)
+![](</admin/8.Invenory Management Logs/8.3/3.png>)
 
 3\.	The **Item Name** will be automatically filled in.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120041.png>)
+![](</admin/8.Invenory Management Logs/8.3/4.png>)
 
 4\.	Select the **Outlet.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120126.png>)
+![](</admin/8.Invenory Management Logs/8.3/5.png>)
 
 5\.	Select a predefined **Reason** for the adjustment, such as **Receiving Item.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120206.png>)
+![](</admin/8.Invenory Management Logs/8.3/6.png>)
 
 6\.	In the **Notes** box, you can add any additional notes if needed. This is **optional.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120256.png>)
+![](</admin/8.Invenory Management Logs/8.3/7.png>)
 
 7\.	Scroll down to the **Adjustment Details** section. Select a **Supplier** if needed. This is **optional.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120342.png>)
+![](</admin/8.Invenory Management Logs/8.3/8.png>)
 
 8\.	The **Measurement Type** will be automatically applied based on the item.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120701.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.5.png>)
 
 9\.	The **Current Quantity** will be displayed.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120746.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.6.png>)
 
 10\.	Enter the quantity in the quantity field (e.g. 10).
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120859.png>)
+![](</admin/8.Invenory Management Logs/8.3/9.png>)
 
 11\.	The **Quantity After Adjustment** will be calculated automatically based on the current quantity and the quantity entered.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120951.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.7.png>)
 
 12\.	Enter the **Unit Cost** if required.
 
 **Note:** Unit Cost can only be added for St**ock In** and **Stock Out**. Unit Cost cannot be set for **Stock Adjustment.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121243.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.8.png>)
 
 13\.	The **Total Cost** will be calculated automatically based on the **Unit Cost** and the **Added Quantity.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121347.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.9.png>)
 
-14\.	Check all the details and click Submit.
+14\.	Check all the details and click **Submit.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121423.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.10.png>)
 
 15\.	Your stock has been successfully updated.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121458.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.11.png>)
 
 **Adjusting Stock from the Inventory Dashboard**
 
@@ -121,7 +121,7 @@ You can also adjust stock directly from the main inventory dashboard.
 
 1\.	Click the **Adjust Stock** button.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121619.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.12.png>)
 
 2\.	Select the **Adjustment Type:**
 
@@ -131,69 +131,69 @@ o	Stock Out
 
 o	Stock Adjustment
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121704.png>)
+![](</admin/8.Invenory Management Logs/8.3/10.png>)
 
 3\.	Manually select the **Item** from the list.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121741.png>)
+![](</admin/8.Invenory Management Logs/8.3/11.png>)
 
 4\.	Select the **Outlet.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121829.png>)
+![](</admin/8.Invenory Management Logs/8.3/12.png>)
 
 5\.	Select the predefined Reason for the adjustment.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121903.png>)
+![](</admin/8.Invenory Management Logs/8.3/13.png>)
 
 6\.	Add any additional information in the **Notes** box if needed. This is **optional**.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122000.png>)
+![](</admin/8.Invenory Management Logs/8.3/14.png>)
 
 7\.	Under **Adjustment Details**, select a **Supplier** if needed. This is optional.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122052.png>)
+![](</admin/8.Invenory Management Logs/8.3/15.png>)
 
 8\.	The **Measurement Type** will be automatically applied based on the item's criteria.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122135.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.13.png>)
 
 9\.	The **Current Quantity** will be displayed.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122213.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.14.png>)
 
 10\.	Enter the quantity in the **Quantity Added/Removed/Counted Quantity** section.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122300.png>)
+![](</admin/8.Invenory Management Logs/8.3/16.png>)
 
 11\.	The **Quantity After Adjustment** will be calculated and updated automatically.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122419.png>)
+![](</admin/8.Invenory Management Logs/8.3/17.png>)
 
 12\.	Enter the **Unit Cost** if required.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122516.png>)
+![](</admin/8.Invenory Management Logs/8.3/18.png>)
 
 13\.	The **Total Cost** will be calculated automatically based on the Unit Cost and total quantity.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122618.png>)
+![](</admin/8.Invenory Management Logs/8.3/19.png>)
 
 14\.	Check all the details and click **Submit.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123027.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.15.png>)
 
 15\.	Your stock has been successfully adjusted.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123100.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.16.png>)
 
 **Recalculate Stock**
 
 If there is a delay in the inventory quantity or the quantity does not match the actual stock, you can use the **Recalculate Stock** button.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123213.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.17.png>)
 
 Click **Recalculate Stock** to recalculate the stock quantities across all outlets simultaneously.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123306.png>)
+![](</admin/8.Invenory Management Logs/8.3/20.png>)
 
 **Searching and Filtering Inventory**
 
@@ -201,25 +201,25 @@ You can use the **Search** button to search for an item by:
 
 •	Item Name
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123349.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.18.png>)
 
 •	Barcode
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123419.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.19.png>)
 
 •	SKU Code
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123522.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.20.png>)
 
 You can also use the **Filter** button to filter the inventory list by:
 
 •	Outlet
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123557.png>)
+![](</admin/8.Invenory Management Logs/8.3/21.png>)
 
 •	Category
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123626.png>)
+![](</admin/8.Invenory Management Logs/8.3/22.png>)
 
 **Customizing Columns**
 
@@ -227,17 +227,17 @@ The **Column Modifier** button allows you to choose which columns are displayed 
 
 1\.	Click **Column Modifier.**
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123711.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.21.png>)
 
 2\.	Select or deselect the columns you want to display and click **Apply Columns** to save your changes.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123802.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.22.png>)
 
 3\.	 You have successfully adjusted the columns.
 
 **Note:** Click Reset to return the columns to their default settings.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-124711.png>)
+![](</admin/8.Invenory Management Logs/8.3/23.png>)
 
 **Inventory List and Page Navigation**
 
@@ -249,8 +249,8 @@ Scroll down to view the total inventory results.You can choose how many rows to 
 
 •	100
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-124759.png>)
+![](</admin/8.Invenory Management Logs/8.3/24.png>)
 
 If there are multiple pages, use the **page numbers** at the bottom to navigate through the inventory list.
 
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-124830.png>)
+![](</admin/8.Invenory Management Logs/8.4/8.2.23.png>)

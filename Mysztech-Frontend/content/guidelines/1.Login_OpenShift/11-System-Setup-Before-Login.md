@@ -13,7 +13,7 @@ Before accessing the POS system, complete the required setup in the Management H
 
 Before using the POS system, the required staff, roles, POS devices and other settings must be configured in the **Management Hub.**
 
-Don’t  know how to access the Management Hub, *Click Here to learn how to access the Management Hub.*
+Don’t  know how to access the Management Hub, *[Click Here to learn how to access the Management Hub](http://localhost:5173/docs?id=How-to-access-Management-Hub).*
 
 **Create Roles**
 
@@ -39,11 +39,11 @@ Each permission controls what the assigned staff can access or perform.
 
 To enable a permission, **toggle the button on**. To prevent the staff from using a permission, **toggle the button off**.
 
-![](</admin/1. Login & Open Shift/Screenshot-2026-09-23-094712.png>)
+![](</admin/1. Login & Open Shift/Screenshot-2026-09-28-172614.png>)
 
 **Management Hub**
 
-![](</admin/1. Login & Open Shift/Screenshot-2026-09-23-095141.png>)
+![](</admin/1. Login & Open Shift/Screenshot-2026-09-28-172601.png>)
 
 5\.	Review all permissions and make sure they match the staff member's responsibilities.
 
@@ -53,7 +53,7 @@ To enable a permission, **toggle the button on**. To prevent the staff from usin
 
 6\.	Click **Create** to create the role. A confirmation message will appear when the role has been successfully created
 
-![](</admin/1. Login & Open Shift/1.1(6).png>)
+![](</admin/1. Login & Open Shift/2.png>)
 
 **Manage Existing Roles**
 
@@ -61,9 +61,15 @@ After creating a role, the role will appear on the Roles dashboard.
 
 •	Use the **Search** bar to find a specific role by name.
 
+![](</admin/1. Login & Open Shift/3.png>)
+
 •	Click **Edit** on a role to modify its permissions.
 
+![](</admin/1. Login & Open Shift/4.png>)
+
 •	Update the required permissions and **Save** the changes.
+
+![](</admin/1. Login & Open Shift/5.png>)
 
 \>	Create **Staff IDs** and assign the appropriate roles.
 
@@ -71,23 +77,39 @@ Creating Staff Account
 
 1\.	Go to **Employee > Staff**. Here, you can view all staff accounts that have already been created.
 
+![](</admin/1. Login & Open Shift/1.1(10).png>)
+
 2\.	Click ‘New Staff’
 
+![](</admin/1. Login & Open Shift/6.png>)
+
 3\.	Select the staff member's **Role** (e.g. **Staff**). Then, enter the staff member's **Name**.
+
+![](</admin/1. Login & Open Shift/1.1(12).png>)
 
 4\.	If the selected role has **POS Access** enabled, a **POS PIN** will be required.
 
 **Note:** Each staff account must have a different POS PIN.
 
+![](</admin/1. Login & Open Shift/1.1(13).png>)
+
 5\.	 Enter a **6-digit PIN** that the staff member can remember.
+
+![](</admin/1. Login & Open Shift/1.1(14).png>)
 
 6\.	Optionally, enter the staff member's **Email** and **Phone No**.
 
 **Note: If Management Hub Access** is enabled for the selected role, the staff member's **Email** and **Password** will be required.
 
+![](</admin/1. Login & Open Shift/1.1(15).png>)
+
 7\.	Select the **Outlet** where the staff member is assigned.
 
+![](</admin/1. Login & Open Shift/1.1(16).png>)
+
 8\.	Check the details and click **Create** to create the staff account. After the account is created, you will be redirected to the **Staff Dashboard**.
+
+![](</admin/1. Login & Open Shift/7.png>)
 
 **Manage Staff**
 
@@ -95,9 +117,15 @@ In the **Staff Dashboard**, you can:
 
 •	Search for a staff member by their **Name**.
 
+![](</admin/1. Login & Open Shift/1.1(20).png>)
+
 •	Use the Filter button to filter staff by their **Role**.
 
+![](</admin/1. Login & Open Shift/1.1(19).png>)
+
 •	Remove a staff member's active shift if necessary. If you need to forcefully close a staff member's active shift.
+
+![](</admin/1. Login & Open Shift/8.png>)
 
 \>	Register the **POS Device** that will be used.
 
@@ -105,15 +133,25 @@ A **POS Device** must be selected before starting a shift. Each device must have
 
 1\.	Go to Settings > POS Devices. Here, you can view all registered POS Device.
 
+![](</admin/1. Login & Open Shift/1.1(21).png>)
+
 2\.	Click New Pos Device.
+
+![](</admin/1. Login & Open Shift/9.png>)
 
 3\.	Enter a **Code Number** (e.g. **001, 002**). Then, enter a **Name** for the POS Device (e.g. **Main POS**).
 
 **Note:** The **Code Number** must be unique for each POS Device. This unique code will be used in the receipt number.
 
+![](</admin/1. Login & Open Shift/1.1(23).png>)
+
 4\.	Select the **Outlet** where the POS Device will be used.
 
+![](</admin/1. Login & Open Shift/1.1(24).png>)
+
 5\.	Click **Create** and you have successfully created a POS Device.
+
+![](</admin/1. Login & Open Shift/10.png>)
 
 **Manage POS Devices**
 
@@ -121,40 +159,72 @@ You can manage your registered POS Devices from the **POS Devices** page.
 
 •	Use the **Search Bar** to search for a specific POS Device.
 
+![](</admin/1. Login & Open Shift/11.png>)
+
 •	Click **Filter** to filter POS Devices by **Outlet**. Turn on **Activated Only** to display only activated POS Devices.
+
+![](</admin/1. Login & Open Shift/1.1(27).png>)
 
 •	Select a POS Device and click **Edit** to update its details.
 
+![](</admin/1. Login & Open Shift/12.png>)
+
 •	Select a POS Device and click **Delete** to remove it.
+
+![](</admin/1. Login & Open Shift/13.png>)
 
 •	If a POS Device is activated, you can deactivate it by clicking **Edit** and changing its status.
 
 **Note:** You can only deactivate an active POS Device.
 
+![](</admin/1. Login & Open Shift/14.png>)
+
 \>Create an Outlet for your shop.
 
-Creating an outlet is important because the outlet name and address will be displayed on your receipts. This setup needs to be done in the Management Hub.
+Creating an outlet is important because the **outlet name and address will be displayed on your receipts**. This setup needs to be done in the Management Hub.
 
-Don’t know how to access Management Hub? *Click Here to learn how to access Management Hub.*
+Don’t know how to access Management Hub? *[Click Here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*
 
-1\.	Go to Outlets > Outlets. Here, you can see all the outlets that have already been registered.
+1\.	Go to **Outlet > Outlets**. Here, you can see all the outlets that have already been registered.
+
+![](</admin/1. Login & Open Shift/Picture86.png>)
 
 2\.	Click **New Outlet** to create a new outlet.
 
+![](</admin/1. Login & Open Shift/1.png>)
+
 3\.	Enter the **Outlet Name** and **Phone Number**.
+
+![](</admin/1. Login & Open Shift/Picture87.png>)
 
 4\.	Enter the **Address** of the outlet.
 
+![](</admin/1. Login & Open Shift/Picture88.png>)
+
 5\.	Enter the **Postcode**.
+
+![](</admin/1. Login & Open Shift/Picture89.png>)
 
 6\.	Select the **Country**. By default, it is set to Malaysia.
 
+![](</admin/1. Login & Open Shift/Picture90.png>)
+
 7\.	Select the **State** and **City**.
+
+![](</admin/1. Login & Open Shift/Picture91.png>)
 
 8\.	In the **Description** box, you can leave any additional notes if needed.
 
+![](</admin/1. Login & Open Shift/Picture92.png>)
+
 9\.	Check that all the information entered is correct and Click **Create**.
+
+![](</admin/1. Login & Open Shift/2.png>)
 
 10\.	Your **Outlet** has now been successfully created.
 
+![](</admin/1. Login & Open Shift/Picture93.png>)
+
 11\.	Optional: You can use the **Search button** to search for an outlet by name. You can also use the Filter button to filter outlets by City, State, or Country.
+
+![](</admin/1. Login & Open Shift/3.png>)
