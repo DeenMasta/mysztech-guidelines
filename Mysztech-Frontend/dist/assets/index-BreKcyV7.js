@@ -32,7 +32,7 @@ Before accessing the POS system, complete the required setup in the Management H
 \r
 Before using the POS system, the required staff, roles, POS devices and other settings must be configured in the **Management Hub.**\r
 \r
-Don’t  know how to access the Management Hub, *Click Here to learn how to access the Management Hub.*\r
+Don’t  know how to access the Management Hub, *[Click Here to learn how to access the Management Hub](http://localhost:5173/docs?id=How-to-access-Management-Hub).*\r
 \r
 **Create Roles**\r
 \r
@@ -58,11 +58,11 @@ Each permission controls what the assigned staff can access or perform.\r
 \r
 To enable a permission, **toggle the button on**. To prevent the staff from using a permission, **toggle the button off**.\r
 \r
-![](</admin/1. Login & Open Shift/Screenshot-2026-09-23-094712.png>)\r
+![](</admin/1. Login & Open Shift/Screenshot-2026-09-28-172614.png>)\r
 \r
 **Management Hub**\r
 \r
-![](</admin/1. Login & Open Shift/Screenshot-2026-09-23-095141.png>)\r
+![](</admin/1. Login & Open Shift/Screenshot-2026-09-28-172601.png>)\r
 \r
 5\\.	Review all permissions and make sure they match the staff member's responsibilities.\r
 \r
@@ -72,7 +72,7 @@ To enable a permission, **toggle the button on**. To prevent the staff from usin
 \r
 6\\.	Click **Create** to create the role. A confirmation message will appear when the role has been successfully created\r
 \r
-![](</admin/1. Login & Open Shift/1.1(6).png>)\r
+![](</admin/1. Login & Open Shift/2.png>)\r
 \r
 **Manage Existing Roles**\r
 \r
@@ -80,9 +80,15 @@ After creating a role, the role will appear on the Roles dashboard.\r
 \r
 •	Use the **Search** bar to find a specific role by name.\r
 \r
+![](</admin/1. Login & Open Shift/3.png>)\r
+\r
 •	Click **Edit** on a role to modify its permissions.\r
 \r
+![](</admin/1. Login & Open Shift/4.png>)\r
+\r
 •	Update the required permissions and **Save** the changes.\r
+\r
+![](</admin/1. Login & Open Shift/5.png>)\r
 \r
 \\>	Create **Staff IDs** and assign the appropriate roles.\r
 \r
@@ -90,23 +96,39 @@ Creating Staff Account\r
 \r
 1\\.	Go to **Employee > Staff**. Here, you can view all staff accounts that have already been created.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(10).png>)\r
+\r
 2\\.	Click ‘New Staff’\r
 \r
+![](</admin/1. Login & Open Shift/6.png>)\r
+\r
 3\\.	Select the staff member's **Role** (e.g. **Staff**). Then, enter the staff member's **Name**.\r
+\r
+![](</admin/1. Login & Open Shift/1.1(12).png>)\r
 \r
 4\\.	If the selected role has **POS Access** enabled, a **POS PIN** will be required.\r
 \r
 **Note:** Each staff account must have a different POS PIN.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(13).png>)\r
+\r
 5\\.	 Enter a **6-digit PIN** that the staff member can remember.\r
+\r
+![](</admin/1. Login & Open Shift/1.1(14).png>)\r
 \r
 6\\.	Optionally, enter the staff member's **Email** and **Phone No**.\r
 \r
 **Note: If Management Hub Access** is enabled for the selected role, the staff member's **Email** and **Password** will be required.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(15).png>)\r
+\r
 7\\.	Select the **Outlet** where the staff member is assigned.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(16).png>)\r
+\r
 8\\.	Check the details and click **Create** to create the staff account. After the account is created, you will be redirected to the **Staff Dashboard**.\r
+\r
+![](</admin/1. Login & Open Shift/7.png>)\r
 \r
 **Manage Staff**\r
 \r
@@ -114,9 +136,15 @@ In the **Staff Dashboard**, you can:\r
 \r
 •	Search for a staff member by their **Name**.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(20).png>)\r
+\r
 •	Use the Filter button to filter staff by their **Role**.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(19).png>)\r
+\r
 •	Remove a staff member's active shift if necessary. If you need to forcefully close a staff member's active shift.\r
+\r
+![](</admin/1. Login & Open Shift/8.png>)\r
 \r
 \\>	Register the **POS Device** that will be used.\r
 \r
@@ -124,15 +152,25 @@ A **POS Device** must be selected before starting a shift. Each device must have
 \r
 1\\.	Go to Settings > POS Devices. Here, you can view all registered POS Device.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(21).png>)\r
+\r
 2\\.	Click New Pos Device.\r
+\r
+![](</admin/1. Login & Open Shift/9.png>)\r
 \r
 3\\.	Enter a **Code Number** (e.g. **001, 002**). Then, enter a **Name** for the POS Device (e.g. **Main POS**).\r
 \r
 **Note:** The **Code Number** must be unique for each POS Device. This unique code will be used in the receipt number.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(23).png>)\r
+\r
 4\\.	Select the **Outlet** where the POS Device will be used.\r
 \r
+![](</admin/1. Login & Open Shift/1.1(24).png>)\r
+\r
 5\\.	Click **Create** and you have successfully created a POS Device.\r
+\r
+![](</admin/1. Login & Open Shift/10.png>)\r
 \r
 **Manage POS Devices**\r
 \r
@@ -140,43 +178,75 @@ You can manage your registered POS Devices from the **POS Devices** page.\r
 \r
 •	Use the **Search Bar** to search for a specific POS Device.\r
 \r
+![](</admin/1. Login & Open Shift/11.png>)\r
+\r
 •	Click **Filter** to filter POS Devices by **Outlet**. Turn on **Activated Only** to display only activated POS Devices.\r
+\r
+![](</admin/1. Login & Open Shift/1.1(27).png>)\r
 \r
 •	Select a POS Device and click **Edit** to update its details.\r
 \r
+![](</admin/1. Login & Open Shift/12.png>)\r
+\r
 •	Select a POS Device and click **Delete** to remove it.\r
+\r
+![](</admin/1. Login & Open Shift/13.png>)\r
 \r
 •	If a POS Device is activated, you can deactivate it by clicking **Edit** and changing its status.\r
 \r
 **Note:** You can only deactivate an active POS Device.\r
 \r
+![](</admin/1. Login & Open Shift/14.png>)\r
+\r
 \\>Create an Outlet for your shop.\r
 \r
-Creating an outlet is important because the outlet name and address will be displayed on your receipts. This setup needs to be done in the Management Hub.\r
+Creating an outlet is important because the **outlet name and address will be displayed on your receipts**. This setup needs to be done in the Management Hub.\r
 \r
-Don’t know how to access Management Hub? *Click Here to learn how to access Management Hub.*\r
+Don’t know how to access Management Hub? *[Click Here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
 \r
-1\\.	Go to Outlets > Outlets. Here, you can see all the outlets that have already been registered.\r
+1\\.	Go to **Outlet > Outlets**. Here, you can see all the outlets that have already been registered.\r
+\r
+![](</admin/1. Login & Open Shift/Picture86.png>)\r
 \r
 2\\.	Click **New Outlet** to create a new outlet.\r
 \r
+![](</admin/1. Login & Open Shift/1.png>)\r
+\r
 3\\.	Enter the **Outlet Name** and **Phone Number**.\r
+\r
+![](</admin/1. Login & Open Shift/Picture87.png>)\r
 \r
 4\\.	Enter the **Address** of the outlet.\r
 \r
+![](</admin/1. Login & Open Shift/Picture88.png>)\r
+\r
 5\\.	Enter the **Postcode**.\r
+\r
+![](</admin/1. Login & Open Shift/Picture89.png>)\r
 \r
 6\\.	Select the **Country**. By default, it is set to Malaysia.\r
 \r
+![](</admin/1. Login & Open Shift/Picture90.png>)\r
+\r
 7\\.	Select the **State** and **City**.\r
+\r
+![](</admin/1. Login & Open Shift/Picture91.png>)\r
 \r
 8\\.	In the **Description** box, you can leave any additional notes if needed.\r
 \r
+![](</admin/1. Login & Open Shift/Picture92.png>)\r
+\r
 9\\.	Check that all the information entered is correct and Click **Create**.\r
+\r
+![](</admin/1. Login & Open Shift/2.png>)\r
 \r
 10\\.	Your **Outlet** has now been successfully created.\r
 \r
+![](</admin/1. Login & Open Shift/Picture93.png>)\r
+\r
 11\\.	Optional: You can use the **Search button** to search for an outlet by name. You can also use the Filter button to filter outlets by City, State, or Country.\r
+\r
+![](</admin/1. Login & Open Shift/3.png>)\r
 `,Bn=`---\r
 title: 1.2 Login & Open Shift\r
 section: USER GUIDELINES\r
@@ -279,65 +349,65 @@ A. Close Shift from **POS System**\r
 \r
 2\\.	Select Shift button.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-2.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(2).jpg>)\r
 \r
 3\\.	Select Close Shift button to continue.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-3.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(3).png>)\r
 \r
 4\\.	Press Actual Cash Amount button (RM 0.00).\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-4.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(4).png>)\r
 \r
 5\\.	Calculate total amount in cash drawer correctly, then enter the actual cash amount and press OK.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-5.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(5).png>)\r
 \r
 6\\.	Enable Print Report and Print Sold Items button (if you want to print out current shift’s sales report and sold item), then select Close Shift.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-6.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(6).png>)\r
 \r
 7\\.	You have successfully completed the close shift process.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-7.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(7).png>)\r
 \r
 B. Close Shift from **Management Hub**\r
 \r
 **Note:** When selecting a shift, check the **Closing Time** column. If a shift appears without a closing time, it means that the shift has not been closed yet.\r
 \r
-Don’t know how to access Management Hub, *click here to learn how to access Management Hub*\r
+Don’t know how to access Management Hub, *[click here to learn how to access Management Hub](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
 \r
 1\\.	This section displays the shifts list. To close shift in the management hub, click the filter button located at the top right.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114346.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(8).png>)\r
 \r
 2\\.	In the filter section, you can select any desired criteria and then click the apply button.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114423.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(9).png>)\r
 \r
 3\\.	To view the details of a specific shift, you must click on the eye icons.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114530.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(10).png>)\r
 \r
 4\\.	To close the selected shift,click on the close shift button.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114612.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(11).png>)\r
 \r
 5\\.	Insert the actual cash amount into the provided field and then click close shift button.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114656.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(12).png>)\r
 \r
 6\\.	Once completed, the system will display a notification indicating that the shift has been closed successfully.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114738.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(13).png>)\r
 \r
 7\\.	To export the shift report, click on the export button located at the top right corner, select desired criteria, and then click the export button.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114813.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(14).png>)\r
 \r
 8\\.	Once the export is completed, the system will display a confirmation notification and you can download the report.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-114843.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/1.png>)\r
 `,Un=`---\r
 title: 2.2 Attendance Records\r
 section: USER GUIDELINES\r
@@ -353,29 +423,29 @@ The **Attendance** section keeps a record of staff attendance. Every time a staf
 \r
 1\\.	Go to **Employee > Attendance**. Here, you can view all recorded attendance records.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-115258.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(16).png>)\r
 \r
 2\\.	Use the **Search** button to search for a specific attendance record.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-115416.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(17).png>)\r
 \r
 3\\.	Click **Filter** to filter the records by **Outlet.**\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-115459.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.png>)\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-115537.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(19).png>)\r
 \r
 4\\.	Scroll down to view **the total number of results.**\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-115615.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/3.png>)\r
 \r
 5\\.	Use the **Per Page** option to choose how many records are displayed on each page. You can choose **10, 50, 100, or 200** records per page.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-115704.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(21).png>)\r
 \r
 6\\.	Use the page numbers at the bottom to move between pages, such as **Page 1, 2, 3, 4, 5,** and so on.\r
 \r
-![](</admin/2. Logout & Close Shift/Screenshot-2026-09-23-115755.png>)\r
+![](</admin/2. Logout & Close Shift/2.1/2.1(22).png>)\r
 `,Wn=`---\r
 title: 2.3 Logout\r
 section: USER GUIDELINES\r
@@ -387,15 +457,15 @@ language: en\r
 \r
 1\\.	Press the logout button at the bottom right to log out.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-7.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/Picture94.jpg>)\r
 \r
 2\\.	Press Confirm button to continue.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-8.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/Picture95.jpg>)\r
 \r
 3\\.	You have successfully logged out of your account.\r
 \r
-![](</admin/2. Logout & Close Shift/Picture2-9.jpg>)\r
+![](</admin/2. Logout & Close Shift/2.1/Picture96.jpg>)\r
 `,Gn=`---\r
 title: 3. Restaurant Table Layout\r
 section: USER GUIDELINES\r
@@ -414,23 +484,23 @@ language: en\r
 \r
 1\\.	Select the Layout icon at the bottom of the page.\r
 \r
-![](</admin/3. Restaurant Table Layout/Picture3-1.jpg>)\r
+![](</admin/3. Restaurant Table Layout/3.1/3.1(1).png>)\r
 \r
 2\\.	Select Edit button at the top right to create a section.\r
 \r
-![](</admin/3. Restaurant Table Layout/Picture3-2.jpg>)\r
+![](</admin/3. Restaurant Table Layout/3.1/3.1(2).png>)\r
 \r
 3\\.	Select + Add Section button.\r
 \r
-![](</admin/3. Restaurant Table Layout/Picture3-3.jpg>)\r
+![](</admin/3. Restaurant Table Layout/3.1/3.1(3).png>)\r
 \r
 4\\.	Select the Save button at the top right to save changes.\r
 \r
-![](</admin/3. Restaurant Table Layout/Picture3-4.jpg>)\r
+![](</admin/3. Restaurant Table Layout/3.1/3.1(4).png>)\r
 \r
 5\\.	 You have successfully created a section.\r
 \r
-![](</admin/3. Restaurant Table Layout/Picture3-5.jpg>)\r
+![](</admin/3. Restaurant Table Layout/3.1/3.1(5).png>)\r
 `,qn=`---\r
 title: 3.2 Delete a Section\r
 section: USER GUIDELINES\r
@@ -574,23 +644,23 @@ language: en\r
 \r
 1\\.	Press the **Edit** button at the top right.\r
 \r
-![](</admin/3. Restaurant Table Layout/Screenshot-2026-09-23-121811.png>)\r
+![](</admin/3. Restaurant Table Layout/chapter33.png>)\r
 \r
 2\\.	Select the table you want to delete.\r
 \r
-![](</admin/3. Restaurant Table Layout/Screenshot-2026-09-23-121856.png>)\r
+![](</admin/3. Restaurant Table Layout/44.png>)\r
 \r
 3\\.	Press the **Delete** button to permanently delete the table.\r
 \r
-![](</admin/3. Restaurant Table Layout/Screenshot-2026-09-23-121940.png>)\r
+![](</admin/3. Restaurant Table Layout/33.png>)\r
 \r
 4\\.	Press **Save** to save your changes.\r
 \r
-![](</admin/3. Restaurant Table Layout/Screenshot-2026-09-23-122039.png>)\r
+![](</admin/3. Restaurant Table Layout/22.png>)\r
 \r
 5\\.	You have successfully deleted a table.\r
 \r
-![](</admin/3. Restaurant Table Layout/Screenshot-2026-09-23-122143.png>)\r
+![](</admin/3. Restaurant Table Layout/11.png>)\r
 `,Zn=`---\r
 title: 4. Sales Screen and Items\r
 section: USER GUIDELINES\r
@@ -813,42 +883,42 @@ Note: Make sure you choose the correct outlet before creating, because the varia
 Note: Always double-check the name you entered to confirm the variant is saved correctly and linked to the right outlet.\r
 \r
 ![](</admin/4. Sales Screen and Items/How to add predefined Variant/Picture8-variant.png>)\r
-`,rr=`---
-title: How to access Management Hub
-section: USER GUIDELINES
-order: 1
-isSubTopic: false
-parentTopic: ''
-language: en
----
-
-The **Management Hub**, also called the **Backoffice**, is the main control panel for Mysztech POS. It gives users one place to manage and control the system, including its settings, products, users, orders, and reports. By using the Management Hub, users can keep POS information organized, make updates, and review important business details. Always check changes before saving, and ask a system administrator for help when needed.
-
-To access the Management Hub, you can log in directly using the link below:
-
-[https://mysztech.com/login](https://mysztech.com/login)
-
-Alternatively, you can access the Management Hub directly from the POS system by following these steps:
-
-1\\.	Press the Menu button (three lines) at the top left.
-
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture1-management.jpg>)
-
-2\\.	Select Management Hub to go to the Backoffice of Mysztech POS to proceed further.
-
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture2-management.jpg>)![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture3-management.jpg>)
-
-3\\.	Press Sign In button to proceed further.
-
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture4-management.jpg>)
-
-4\\.	Enter your email address and password, then click Sign In to access the Backoffice.
-
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture5-management.jpg>)
-
-5\\.	You have logged in to the Backoffice of Mysztech POS.
-
-![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture6-management.jpg>)
+`,rr=`---\r
+title: How to access Management Hub\r
+section: USER GUIDELINES\r
+order: 1\r
+isSubTopic: false\r
+parentTopic: ''\r
+language: en\r
+---\r
+\r
+The **Management Hub**, also called the **Backoffice**, is the main control panel for Mysztech POS. It gives users one place to manage and control the system, including its settings, products, users, orders, and reports. By using the Management Hub, users can keep POS information organized, make updates, and review important business details. Always check changes before saving, and ask a system administrator for help when needed.\r
+\r
+To access the Management Hub, you can log in directly using the link below:\r
+\r
+[https://mysztech.com/login](https://mysztech.com/login)\r
+\r
+Alternatively, you can access the Management Hub directly from the POS system by following these steps:\r
+\r
+1\\.	Press the Menu button (three lines) at the top left.\r
+\r
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture1-management.jpg>)\r
+\r
+2\\.	Select Management Hub to go to the Backoffice of Mysztech POS to proceed further.\r
+\r
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture2-management.jpg>)![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture3-management.jpg>)\r
+\r
+3\\.	Press Sign In button to proceed further.\r
+\r
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture4-management.jpg>)\r
+\r
+4\\.	Enter your email address and password, then click Sign In to access the Backoffice.\r
+\r
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture5-management.jpg>)\r
+\r
+5\\.	You have logged in to the Backoffice of Mysztech POS.\r
+\r
+![](</admin/4. Sales Screen and Items/How to access Management Hub/Picture6-management.jpg>)\r
 `,ir=`---\r
 title: How to add Predefined Modifiers\r
 section: USER GUIDELINES\r
@@ -955,43 +1025,43 @@ language: en\r
 \r
 1\\.	If the order method is set by Table, click the Table Layout button at the bottom to open the table selection screen. This allows you to assign the order to a specific table before proceeding.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-15-115337.png>)\r
+![](</admin/5. Manage Order /5.3/123.png>)\r
 \r
 2\\.	Select the table where you want to assign the order.\r
 \r
-![](</admin/5. Manage Order /Picture9.png>)\r
+![](</admin/5. Manage Order /5.3/1.png>)\r
 \r
 3\\.	Enter a name and add a comment if needed.  tap **Assign Order** and select the order you want to assign to assign an existing order to this table.\r
 \r
-![](</admin/5. Manage Order /Picture10.png>)\r
+![](</admin/5. Manage Order /5.3/2.png>)\r
 \r
 4\\.	Search for the order you want to assign to the table, then tap **Assign** to assign the order to the table.\r
 \r
-![](</admin/5. Manage Order /Picture11.png>)\r
+![](</admin/5. Manage Order /5.3/3.png>)\r
 \r
 5\\.	The order has been assigned to the table. Tap the table to view the order.\r
 \r
-![](</admin/5. Manage Order /Picture12.png>)\r
+![](</admin/5. Manage Order /5.3/4.png>)\r
 \r
 **B.	Create a New Order for a Table**\r
 \r
 1\\.	Select the table (e.g., **T4**).\r
 \r
-![](</admin/5. Manage Order /Picture13.png>)\r
+![](</admin/5. Manage Order /5.3/5.png>)\r
 \r
 2\\.	You can add a comment if needed, then tap **Save Order** to continue taking the customer's order.\r
 \r
-![](</admin/5. Manage Order /Picture14.png>)\r
+![](</admin/5. Manage Order /5.3/6.png>)\r
 \r
 3\\.	You will be returned to the **Order Layout** page, where all items and categories are displayed. You can take the customer's order simply by pressing an item and pressing **Save** if prompted.\r
 \r
-![](</admin/5. Manage Order /Picture15.png>)\r
+![](</admin/5. Manage Order /5.3/7.png>)\r
 \r
 **Reminder:** When adding an item with a **Variant** and **Modifier**, you must select **one Variant** (e.g., **HOT** or **COLD**).\r
 \r
 **Modifier** is optional, and you can select more than one Modifier if needed. Once done, tap **Save** to continue.\r
 \r
-![](</admin/5. Manage Order /Picture16.png>)\r
+![](</admin/5. Manage Order /5.3/8.png>)\r
 \r
 4\\.	After taking the order, tap the **Save** button to save the order.\r
 \r
@@ -1003,21 +1073,21 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /Picture17.png>)\r
+![](</admin/5. Manage Order /5.3/9.png>)\r
 \r
 5\\.	You have successfully created an order for the table. To verify the order, go to the **Table Layout** and tap the table.\r
 \r
-![](</admin/5. Manage Order /Picture18.png>)\r
+![](</admin/5. Manage Order /5.3/10.png>)\r
 \r
 \\>	If the Order Method is set to Custom Order :\r
 \r
 1\\.	Take the order as usual, then tap the **Save** button at the bottom of the screen to save the order.\r
 \r
-![](</admin/5. Manage Order /Picture20.png>)\r
+![](</admin/5. Manage Order /5.3/11.png>)\r
 \r
-2\\.	Tap the Pencil button to create a Custom Order\r
+2\\.	Tap the **Pencil** button to create a **Custom Order**\r
 \r
-![](</admin/5. Manage Order /Picture21.png>)\r
+![](</admin/5. Manage Order /5.3/7z.png>)\r
 \r
 3\\.	You can add a **Comment** if needed (optional), then tap **Save** to save the order.\r
 \r
@@ -1029,11 +1099,11 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /Picture22.png>)\r
+![](</admin/5. Manage Order /5.3/12.png>)\r
 \r
 4\\.	 This is the order you have just created.\r
 \r
-![](</admin/5. Manage Order /Picture23.png>)\r
+![](</admin/5. Manage Order /5.3/13.png>)\r
 \r
 \\>	If the Order Method is set to Order Number :\r
 \r
@@ -1045,39 +1115,39 @@ Open Order Setup – **Management Hub**\r
 \r
 1\\.	Go to Outlets and select Open Orders.\r
 \r
-![](</admin/5. Manage Order /Picture6(5.2).png>)\r
+![](</admin/5. Manage Order /5.3/14.png>)\r
 \r
 2\\.	Select the Outlet where you want to manage the Open Orders (e.g. GD Café). Make sure the Active button is toggled on to enable Open Orders.\r
 \r
-![](</admin/5. Manage Order /Pic7.png>)\r
+![](</admin/5. Manage Order /5.3/15.png>)\r
 \r
 3\\.	You will see the list of existing Open Orders if any have already been created.  **Press New Open Order** to create a new Open Order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-163056.png>)\r
+![](</admin/5. Manage Order /5.3/8z.png>)\r
 \r
 4\\.	Enter a **name** for the Open Order (e.g., 101). In the Remark section, you can enter the NFC Card Number if you are using NFC Order Cards, or the Barcode of the Order Card if you are using Barcode Order Cards.\r
 \r
-![](</admin/5. Manage Order /Pic8.png>)\r
+![](</admin/5. Manage Order /5.3/16.png>)\r
 \r
 5\\.	After entering the required information, press Create to save the Open Order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-163241.png>)\r
+![](</admin/5. Manage Order /5.3/9z.png>)\r
 \r
 6\\.	To edit an existing Open Order, select the Open Order and press Edit. Make the required changes and press Save Changes.\r
 \r
-![](</admin/5. Manage Order /Pic9.png>)\r
+![](</admin/5. Manage Order /5.3/17.png>)\r
 \r
 7\\.	To delete an Open Order, select the Open Order and press Delete button.\r
 \r
-![](</admin/5. Manage Order /Pic10.png>)\r
+![](</admin/5. Manage Order /5.3/18.png>)\r
 \r
 8\\.	You can use the Search bar to quickly find a specific Open Order.\r
 \r
-![](</admin/5. Manage Order /Pic11.png>)\r
+![](</admin/5. Manage Order /5.3/19.png>)\r
 \r
 9\\.	To change the order of the Open Orders, press the **Reordering button** and drag and drop the Open Order numbers into your preferred order (e.g., 101, 102, 103).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-163549.png>)\r
+![](</admin/5. Manage Order /5.3/10z.png>)\r
 \r
 Open Order – **POS Device**\r
 \r
@@ -1085,11 +1155,11 @@ Open Order – **POS Device**\r
 \r
 The system will display the available Order Numbers for you to choose from.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-15-123542.png>)\r
+![](</admin/5. Manage Order /5.3/11z.png>)\r
 \r
 2\\.	Select an available **Order Number** (e.g., **104**) to save the order.\r
 \r
-![](</admin/5. Manage Order /Picture25.png>)\r
+![](</admin/5. Manage Order /5.3/20.png>)\r
 \r
 **Note:** When you tap **Save**, the order will be submitted and sent to the printer assigned to each item's department.\r
 \r
@@ -1099,9 +1169,9 @@ For example:\r
 \r
 **Teh → Beverages Printer**\r
 \r
-3\\.	The order has been saved to **Order No. 104**. To verify the order, tap **Open Order**. You will see **Order No. 104** with the assigned items.\r
+3\\.	The order has been saved to **Order No. 104**. To verify the order, tap **Open Order**. You will see Order No. 104 with the assigned items.\r
 \r
-![](</admin/5. Manage Order /Picture26.png>)\r
+![](</admin/5. Manage Order /5.3/21.png>)\r
 `,sr=`---\r
 title: 5.1 Order Options\r
 section: USER GUIDELINES\r
@@ -1119,27 +1189,27 @@ Before selecting an **Order Option** on the POS system, you must first create th
 \r
 1\\.	Go to the **Outlet** section in the Management Hub and go to  **Order Options.**\r
 \r
-![](</admin/5. Manage Order /Pic1.png>)\r
+![](</admin/5. Manage Order /5.1/5.1(1).png>)\r
 \r
 2\\.	Select the **Outlet** where you want to create the order option (e.g. GD Cafe).\r
 \r
-![](</admin/5. Manage Order /Pic2.png>)\r
+![](</admin/5. Manage Order /5.1/5.1(2).png>)\r
 \r
 3\\.	You will see the existing order options for the selected outlet, if any have already been created.\r
 \r
-![](</admin/5. Manage Order /Pic3.png>)\r
+![](</admin/5. Manage Order /5.1/5.1(3).png>)\r
 \r
 4\\.	Press **New Order Option** to create a new order option.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-155829.png>)\r
+![](</admin/5. Manage Order /5.1/1.png>)\r
 \r
 5\\.	Enter the name of the order option (e.g., **Dine In** or **Take Away**) and press **Create**.\r
 \r
-![](</admin/5. Manage Order /Pic4.png>)\r
+![](</admin/5. Manage Order /5.1/5.1(4).png>)\r
 \r
 6\\.	The new order option has now been created successfully and will be available for selection on the POS system.\r
 \r
-![](</admin/5. Manage Order /Pic5.png>)\r
+![](</admin/5. Manage Order /5.1/5.1(5).png>)\r
 \r
 Before creating an order, select the Order Type and Order Method. The manual lists these service options:\r
 \r
@@ -1149,7 +1219,7 @@ Before creating an order, select the Order Type and Order Method. The manual lis
 \r
 •	Pickup — customer collects the order.\r
 \r
-![](</admin/5. Manage Order /WhatsApp-Image-2026-09-17-at-16.17.39.jpeg>)\r
+![](</admin/5. Manage Order /5.1/5.1(6).png>)\r
 `,cr=`---\r
 title: 5.2 Customer Orders\r
 section: USER GUIDELINES\r
@@ -1165,27 +1235,27 @@ Customers can be managed from both the **POS device** and the **Management Hub.*
 \r
 1\\.	Click the **Customer icon** and then select the customer from the list. This ensures the order is linked to the correct customer profile in the POS system.\r
 \r
-![](</admin/5. Manage Order /Pic12.png>)\r
+![](</admin/5. Manage Order /5.2/1.png>)\r
 \r
 2\\.	If the customer is not listed, click the **Add** button, then type in their **name** and **phone number**. Once done, click the Save button at the top right to store the new customer in the system.\r
 \r
-![](</admin/5. Manage Order /Pic13.png>)\r
+![](</admin/5. Manage Order /5.2/2.png>)\r
 \r
 3\\.	You have added the customer. You can now verify the customer’s name in the list and proceed to select them to continue with the order.\r
 \r
-![](</admin/5. Manage Order /Pic14.png>)\r
+![](</admin/5. Manage Order /5.2/3.png>)\r
 \r
 4\\.	Select the **Add to Order** button to continue with choosing a customer. If you need to edit the customer’s information, press the **Edit** button (pencil like icon) to make changes.\r
 \r
-![](</admin/5. Manage Order /Pic15.png>)\r
+![](</admin/5. Manage Order /5.2/4.png>)\r
 \r
 5\\.	You have selected a customer to take orders. You can now continue taking orders as usual within the POS system.\r
 \r
-![](</admin/5. Manage Order /Pic16.png>)\r
+![](</admin/5. Manage Order /5.2/5.png>)\r
 \r
 6\\.	If you want to remove the customer, click the **Customer icon** and then select the **Remove From Order** button. This will detach the customer from the current order so you can proceed without linking it to their profile.\r
 \r
-![](</admin/5. Manage Order /Pic17.png>)\r
+![](</admin/5. Manage Order /5.2/6.png>)\r
 \r
 \\>	Add Customer from **Management Hub:**\r
 \r
@@ -1195,37 +1265,33 @@ The Management Hub provides additional options for managing customer records, in
 \r
 1\\.	Go to the **Customer** section in the Management Hub. You will see the list of customers created in the system.\r
 \r
-![](</admin/5. Manage Order /Pic18.png>)\r
+![](</admin/5. Manage Order /5.2/7.png>)\r
 \r
 2\\.	Press **New Customer** to create a new customer and enter the required customer information.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-164918.png>)\r
+![](</admin/5. Manage Order /5.2/2z.png>)\r
 \r
 3\\.	Enter the customer's **Name** (required). The remaining fields are optional. Press **Create** to save changes.\r
 \r
 **Note:** You can note their **Phone Number** for better customer tracking.\r
 \r
-![](</admin/5. Manage Order /Pic19.png>)\r
+![](</admin/5. Manage Order /5.2/8.png>)\r
 \r
 4\\.	You have successfully created a **Customer.** Select a customer from the list to **view** their customer details.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-165258.png>)\r
+![](</admin/5. Manage Order /5.2/3z.png>)\r
 \r
 5\\.	To export customer records, select the required customer records or columns and press **Export**. Choose the available file format to download the customer data.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-165405.png>)\r
+![](</admin/5. Manage Order /5.2/4z.png>)\r
 \r
 6\\.	To update the customer's information, select the customer and press **Edit**. Make the necessary changes and save them.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-165451.png>)\r
+![](</admin/5. Manage Order /5.2/9.png>)\r
 \r
-7\\.	To remove a customer from the system, select the customer and press **Delete**. Confirm the deletion when prompted.\r
+8\\.	The customer (e.g., Adam) has been successfully deleted. You will no longer see Adam in the customer list.\r
 \r
-![](</admin/5. Manage Order /Pic20.png>)\r
-\r
-8\\.	The customer (e.g., **Adam**) has been successfully deleted. You will no longer see **Adam** in the customer list.\r
-\r
-![](</admin/5. Manage Order /Pic21.png>)\r
+![](</admin/5. Manage Order /5.2/10.png>)\r
 `,lr=`---\r
 title: 5.4 Update Order\r
 section: USER GUIDELINES\r
@@ -1245,15 +1311,15 @@ To edit an order using the table:\r
 \r
 1\\.	Tap the table where you saved the order, then tap **Edit Order** to update the order.\r
 \r
-![](</admin/5. Manage Order /Pic22.png>)\r
+![](</admin/5. Manage Order /5.4/1.png>)\r
 \r
 2\\.	You will be returned to the **Order Layout** page. You can now make any changes to the order. Once you are done, tap **Save** to save the changes.\r
 \r
-![](</admin/5. Manage Order /Pic23.png>)\r
+![](</admin/5. Manage Order /5.4/2.png>)\r
 \r
 **Example:** If the customer changes Teh Hot Kurang Manis to Teh Cold and wants it served in a bowl (Mangkuk), tap Teh Hot, select Cold, enter "Mangkuk" in the Comment section, then tap Save.\r
 \r
-![](</admin/5. Manage Order /Pic24.png>)\r
+![](</admin/5. Manage Order /5.4/3.png>)\r
 \r
 3\\.	You will see that the Teh item has been updated with the changes you made. Tap the **Save** button at the bottom to save the changes to the table.\r
 \r
@@ -1265,11 +1331,11 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /Pic25.png>)\r
+![](</admin/5. Manage Order /5.4/4.png>)\r
 \r
 4\\.	You have successfully updated the order by table. You can see the changes on the **Table Layout** page.\r
 \r
-![](</admin/5. Manage Order /Pic26.png>)\r
+![](</admin/5. Manage Order /5.4/5.png>)\r
 \r
 **B. Update Order through Open Order**\r
 \r
@@ -1277,19 +1343,19 @@ To edit an order using Open Order:\r
 \r
 1\\.	Tap **Open Order.**\r
 \r
-![](</admin/5. Manage Order /Pic27.png>)\r
+![](</admin/5. Manage Order /5.4/6.png>)\r
 \r
 2\\.	Select the order you want to edit. If you are not sure which order to select, check the **Comment** you added when creating the order (e.g., "**Make it Faster**").\r
 \r
-![](</admin/5. Manage Order /Pic28.png>)\r
+![](</admin/5. Manage Order /5.4/7.png>)\r
 \r
 3\\.	Make the changes to the order.\r
 \r
-![](</admin/5. Manage Order /Pic29.png>)\r
+![](</admin/5. Manage Order /5.4/8.png>)\r
 \r
 **Example:** If the customer changes **Teh Hot** to **Teh Cold** and wants it served in a bowl (Mangkuk), tap **Teh Hot**, select **Cold**, enter **"Mangkuk"** in the **Comment** section, then tap Save.\r
 \r
-![](</admin/5. Manage Order /Pic30.png>)\r
+![](</admin/5. Manage Order /5.4/9.png>)\r
 \r
 4\\.	You will see that the Teh item has been updated with the changes you made. Tap the **Save** button at the bottom to save the changes.\r
 \r
@@ -1301,11 +1367,11 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /Pic31.png>)\r
+![](</admin/5. Manage Order /5.4/10.png>)\r
 \r
 5\\.	You have successfully updated the order through **Open Order**.\r
 \r
-![](</admin/5. Manage Order /Pic32.png>)\r
+![](</admin/5. Manage Order /5.4/11.png>)\r
 `,ur=`---\r
 title: 5.5 Submit Order\r
 section: USER GUIDELINES\r
@@ -1343,21 +1409,21 @@ This allows each department to receive only the items they need to prepare.\r
 \r
 1\\.	Take the customer's order.\r
 \r
-![](</admin/5. Manage Order /Pic33.png>)\r
+![](</admin/5. Manage Order /5.5/1.png>)\r
 \r
 2\\.	Tap **Save** button.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-171342.png>)\r
+![](</admin/5. Manage Order /5.5/1a.png>)\r
 \r
 3\\.	You can choose to create an order using an **Order Number** or a **Custom Order**.\r
 \r
 **Order Number:** Tap any available order number to save the order under that order number (e.g. Order Number 101).\r
 \r
-![](</admin/5. Manage Order /Pic34.png>)\r
+![](</admin/5. Manage Order /5.5/2.png>)\r
 \r
 **Custom Order:** Press the **Edit** button (pencil icon) to create a custom order and press Save.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-171536.png>)\r
+![](</admin/5. Manage Order /5.5/2a.png>)\r
 \r
 **Note:** Each item is sent to its assigned department printer. The **Kitchen** receives the food items.The **Beverages** department receives the drink items. The order will only be printed to a department if the item has been assigned to a printer for that department.\r
 `,dr=`---\r
@@ -1383,29 +1449,29 @@ For example, **Customer A** wants to pay for **Customer B’s** order as well. I
 \r
 1\\.	Go to **Open Order**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-172517.png>)\r
+![](</admin/5. Manage Order /5.6/3a.png>)\r
 \r
 2\\.	Select the square checkbox to the left of the **Order Number** you want to move. Do not click the order number itself, as that will only open the order.\r
 \r
 **Example:** To move **Order No. 102** to **Order No. 101**, select the checkbox to the left of **Order No. 102** first.\r
 \r
-![](</admin/5. Manage Order /Pic35.png>)\r
+![](</admin/5. Manage Order /5.6/1.png>)\r
 \r
 3\\.	Tap **Move** at the top (right-arrow button) to move the selected order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-17-172723.png>)\r
+![](</admin/5. Manage Order /5.6/4a.png>)\r
 \r
 4\\.	Select the **Order Number** you want to move the selected order to (e.g., **Order No. 101**).\r
 \r
-![](</admin/5. Manage Order /Pic36.png>)\r
+![](</admin/5. Manage Order /5.6/2.png>)\r
 \r
 5\\.	Tap **Confirm** to move **Order No. 102** to **Order No. 10**1 and proceed.\r
 \r
-![](</admin/5. Manage Order /Pic37.png>)\r
+![](</admin/5. Manage Order /5.6/3.png>)\r
 \r
 6\\.	You have successfully moved the order to another order. To verify, go to **Open Order** and tap the order number you moved it to (e.g., **Order No. 101**).\r
 \r
-![](</admin/5. Manage Order /Pic38.png>)\r
+![](</admin/5. Manage Order /5.6/4.png>)\r
 `,fr=`---\r
 title: 5.7 Delete Order\r
 section: USER GUIDELINES\r
@@ -1423,43 +1489,43 @@ Use this when you want to completely delete an order that has already been taken
 \r
 1\\.	Go to **Open Order.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-092902.png>)\r
+![](</admin/5. Manage Order /5.7/5a.png>)\r
 \r
 2\\.	Select the **square box** next to the order you want to delete.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-093013.png>)\r
+![](</admin/5. Manage Order /5.7/1.png>)\r
 \r
 3\\.	Tap the **Delete** icon at the top.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-093425.png>)\r
+![](</admin/5. Manage Order /5.7/6a.png>)\r
 \r
-4\\.	After that, tap **Confirm** to remove the order from the active order list. \r
+4\\.	After that, tap **Confirm** to remove the order from the active order list.\r
 \r
 Note : When deleting an order, tick **Print Void Receipt** if you want the kitchen printer to print a cancellation notice. This lets the kitchen staff know that the order has been cancelled and should not be prepared.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-093544.png>)\r
+![](</admin/5. Manage Order /5.7/2.png>)\r
 \r
 5\\.	The order has been removed from the **Active Order List**. Notice that **Order No. 101** is no longer displayed.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-093642.png>)\r
+![](</admin/5. Manage Order /5.7/3.png>)\r
 \r
 **Another way to delete an order:**\r
 \r
 1\\.	Go to **Open Order** and select the order you want to delete (e.g. Order No.101).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-093749.png>)\r
+![](</admin/5. Manage Order /5.7/4.png>)\r
 \r
 2\\.	Tap the **3-dot menu** at the top.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-094623.png>)\r
+![](</admin/5. Manage Order /5.7/7a.png>)\r
 \r
 3\\.	Select **Void Order**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-094712.png>)\r
+![](</admin/5. Manage Order /5.7/5.png>)\r
 \r
 4\\.	Tap **Void** to confirm.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-094805.png>)\r
+![](</admin/5. Manage Order /5.7/6.png>)\r
 \r
 **B. Remove an Item from an Order**\r
 \r
@@ -1469,15 +1535,15 @@ Use this when you only want to remove one item from an order.\r
 \r
 1\\.	Swipe the item to the **right**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-094912.png>)\r
+![](</admin/5. Manage Order /5.7/7.png>)\r
 \r
 2\\.	The item will be removed from the order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-095031.png>)\r
+![](</admin/5. Manage Order /5.7/8.png>)\r
 \r
 3\\.	Tap **Save** to save the changes.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-095242.png>)\r
+![](</admin/5. Manage Order /5.7/8a.png>)\r
 \r
 **C. Close an Order Without Making Changes**\r
 \r
@@ -1489,19 +1555,19 @@ Use this when you accidentally open an order from **Open Order** and do not make
 \r
 1\\.	Tap the **3-dot menu** at the top.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-100346.png>)\r
+![](</admin/5. Manage Order /5.7/9a.png>)\r
 \r
 2\\.	Tap **Close Order.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-100444.png>)\r
+![](</admin/5. Manage Order /5.7/9.png>)\r
 \r
 3\\.	Tap **Close** to close the order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-100610.png>)\r
+![](</admin/5. Manage Order /5.7/10.png>)\r
 \r
 4\\.	You have successfully closed the order. You can verify that the order is still available in the **Open Order List.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-100747.png>)\r
+![](</admin/5. Manage Order /5.7/11.png>)\r
 \r
 **D. Remove an Order from a Table**\r
 \r
@@ -1513,19 +1579,19 @@ Note: Removing an order from a table does **not** delete the order. It only remo
 \r
 1\\.	Go to **Table Layout.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-101205.png>)\r
+![](</admin/5. Manage Order /5.7/10a.png>)\r
 \r
 2\\.	Select the table with the order (e.g. T3).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-103509.png>)\r
+![](</admin/5. Manage Order /5.7/12.png>)\r
 \r
 3\\.	Tap **Unlink button** at the top, beside **Close button.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-103556.png>)\r
+![](</admin/5. Manage Order /5.7/11a.png>)\r
 \r
 4\\.	The order has been removed from the table (e.g., T3).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-103645.png>)\r
+![](</admin/5. Manage Order /5.7/13.png>)\r
 \r
 You can verify the order by going to **Open Order.**\r
 `,pr=`---\r
@@ -1551,15 +1617,15 @@ This is useful for shops that use a **"Pay First, Eat Later"** system.\r
 \r
 1\\.	Take the customer's order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-103928.png>)\r
+![](</admin/5. Manage Order /5.8/1.png>)\r
 \r
 2\\.	Tap **Charge** at the bottom.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-104014.png>)\r
+![](</admin/5. Manage Order /5.8/12a.png>)\r
 \r
 3\\.	You will be taken to the **Payment** page.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-104058.png>)\r
+![](</admin/5. Manage Order /5.8/2.png>)\r
 \r
 **B. Charge an Order from Open Order**\r
 \r
@@ -1569,19 +1635,19 @@ Use this method when the order has already been saved.\r
 \r
 1\\.	Go to **Open Order.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-104206.png>)\r
+![](</admin/5. Manage Order /5.8/3.png>)\r
 \r
 2\\.	Select the order you want to charge.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-104250.png>)\r
+![](</admin/5. Manage Order /5.8/4.png>)\r
 \r
 3\\.	Open the order and Tap **Charge.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-104341.png>)\r
+![](</admin/5. Manage Order /5.8/13a.png>)\r
 \r
 4\\.	You will be taken to the **Payment** page.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-104515.png>)\r
+![](</admin/5. Manage Order /5.8/5.png>)\r
 \r
 **C. Charge an Order by Table**\r
 \r
@@ -1591,19 +1657,19 @@ Use this method when the shop takes orders by table and collects payment by tabl
 \r
 1\\.	Go to **Table Layout.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-105024.png>)\r
+![](</admin/5. Manage Order /5.8/14a.png>)\r
 \r
 2\\.	Select the table that needs to make payment (e.g. T3).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-105333.png>)\r
+![](</admin/5. Manage Order /5.8/6.png>)\r
 \r
 3\\.	Tap **Charge.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-105451.png>)\r
+![](</admin/5. Manage Order /5.8/7.png>)\r
 \r
 4\\.	You will be taken to the **Payment** page.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-105546.png>)\r
+![](</admin/5. Manage Order /5.8/8.png>)\r
 \r
 **Payment Page**\r
 \r
@@ -1613,11 +1679,11 @@ After tapping **Charge,** you will be taken to the **Payment** page. You can use
 \r
 •	For **cash payment,** you can enter the amount received from the customer manually. You can also use the preset amount buttons on the side, such as **RM5, RM10,** or **RM50**, to enter the amount quickly.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-110520.png>)\r
+![](</admin/5. Manage Order /5.8/15a.png>)\r
 \r
 •	If the customer gives the exact amount, tap Exact Amount.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-111141.png>)\r
+![](</admin/5. Manage Order /5.8/16a.png>)\r
 \r
 **2. Select Payment Type**\r
 \r
@@ -1625,13 +1691,13 @@ Select the payment method used by the customer.\r
 \r
 Available payment types may include: CASH, QR, TOUCH N GO, ONLINE BANKING\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-111256.png>)\r
+![](</admin/5. Manage Order /5.8/9.png>)\r
 \r
 **3. Adjustment**\r
 \r
 •	The **Adjustment** option allows you to give a discount to the order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-111343.png>)\r
+![](</admin/5. Manage Order /5.8/17a.png>)\r
 \r
 You can apply a discount by **Value** or **Percentage.**\r
 \r
@@ -1641,31 +1707,31 @@ You can apply a discount by **Value** or **Percentage.**\r
 \r
 **Note:** The adjustment is set to **Value** by default. The toggle is **OFF** for Value and **ON** for Percentage.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-111817.png>)\r
+![](</admin/5. Manage Order /5.8/18a.png>)\r
 \r
 2\\.	Enter the adjustment amount (e.g., **RM2**) press Save.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-111842.png>)\r
+![](</admin/5. Manage Order /5.8/10.png>)\r
 \r
 3\\.	The adjustment will be deducted from the total amount.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112008.png>)\r
+![](</admin/5. Manage Order /5.8/19a.png>)\r
 \r
 **Adjustment by Percentage**\r
 \r
 1\\.	Select **Percentage.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112123.png>)\r
+![](</admin/5. Manage Order /5.8/20a.png>)\r
 \r
 2\\.	Enter the adjustment percentage (e.g. 10%) and press Save.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112159.png>)\r
+![](</admin/5. Manage Order /5.8/11.png>)\r
 \r
 3\\.	The system will calculate the adjustment based on the receipt total and deduct it from the amount due.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112245.png>)\r
+![](</admin/5. Manage Order /5.8/21a.png>)\r
 \r
-***\r
+**4.	Discount Creation**\r
 \r
 Discount settings must be created and configured in the Backoffice. Once the discount has been set up in the Backoffice, it will automatically be displayed in the POS system when applicable. Discount creation and configuration cannot be done directly from the POS system.\r
 \r
@@ -1673,15 +1739,15 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 1\\.	Scroll down to the **Discount** section.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112416.png>)\r
+![](</admin/5. Manage Order /5.8/12.png>)\r
 \r
 2\\.	Press the **New Discount** button to create a new discount.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112458.png>)\r
+![](</admin/5. Manage Order /5.8/13.png>)\r
 \r
 3\\.	Enter a name for the discount (e.g., **Opening Promotion**).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112600.png>)\r
+![](</admin/5. Manage Order /5.8/14.png>)\r
 \r
 4\\.	Under **Apply**, select how the discount should be applied (e.g. **Apply discount to selected categories**).\r
 \r
@@ -1693,7 +1759,7 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 **•	Don't apply**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-112745.png>)\r
+![](</admin/5. Manage Order /5.8/15.png>)\r
 \r
 5\\.	Under **Type**, select either **Percentage** or **Amount**. Enter the discount value based on the selected type:\r
 \r
@@ -1701,15 +1767,15 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 •	**Amount:** Enter the discount amount.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-113415.png>)\r
+![](</admin/5. Manage Order /5.8/16.png>)\r
 \r
 6\\.	Under **Valid From – Valid To**, select the **Start Date** and **End Date** for the discount.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-114158.png>)\r
+![](</admin/5. Manage Order /5.8/17.png>)\r
 \r
 7\\.	Select the **Outlet(s)** where the discount will be available.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-114227.png>)\r
+![](</admin/5. Manage Order /5.8/18.png>)\r
 \r
 8\\.	Scroll down to view the available selection list:\r
 \r
@@ -1719,23 +1785,23 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 •	If you selected **Apply discount to the whole order** or **Don't apply**, no item or category list will be displayed.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-114351.png>)\r
+![](</admin/5. Manage Order /5.8/19.png>)\r
 \r
 9\\.	Select the items or categories you want the discount to apply to (e.g., **Teh O or Beverages**).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-114443.png>)\r
+![](</admin/5. Manage Order /5.8/20.png>)\r
 \r
 10\\.	After confirming all the discount settings, press **Create**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-114636.png>)\r
+![](</admin/5. Manage Order /5.8/22a.png>)\r
 \r
 11\\.	The newly created discount will now be displayed in the **Discount** section.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-114947.png>)\r
+![](</admin/5. Manage Order /5.8/21.png>)\r
 \r
 12\\.	Return to the **POS system** and charge an order. The discount will automatically appear when the order meets the discount conditions.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-115806.png>)\r
+![](</admin/5. Manage Order /5.8/23a.png>)\r
 \r
 **5.	Tax Creation**\r
 \r
@@ -1745,15 +1811,15 @@ Don't know how to access Management Hub?\r
 \r
 1\\.	Go to Settings and select Tax. You will see a list of all taxes that have been created in the system, if any.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-115917.png>)\r
+![](</admin/5. Manage Order /5.8/22.png>)\r
 \r
 2\\.	Press New Tax to create a new tax.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-115958.png>)\r
+![](</admin/5. Manage Order /5.8/24a.png>)\r
 \r
 3\\.	Enter a Tax Name and Tax Rate (e.g., 6%).\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-120033.png>)\r
+![](</admin/5. Manage Order /5.8/23.png>)\r
 \r
 4\\.	Select the **Tax Type:** **Added** or **Included.**\r
 \r
@@ -1763,7 +1829,7 @@ Don't know how to access Management Hub?\r
 \r
 **Note – Included:** The tax is already included in the displayed item price. For example, an item priced at **RM10.00** with 6% tax remains **RM10.00**, with approximately **RM0.57** representing the tax portion.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-120233.png>)\r
+![](</admin/5. Manage Order /5.8/24.png>)\r
 \r
 5\\.	Under Apply, select how the tax should be applied:\r
 \r
@@ -1775,35 +1841,35 @@ o	Apply tax to selected categories\r
 \r
 o	Don't apply\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-120314.png>)\r
+![](</admin/5. Manage Order /5.8/25.png>)\r
 \r
 **Note:** If you select Apply tax to selected items or Apply tax to selected categories, you can select the specific items or categories that the tax should apply to.\r
 \r
 6\\.	Under Tax Application Depends on Order Option, select Yes or No depending on whether the tax application should vary based on the selected Order Option.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-120835.png>)\r
+![](</admin/5. Manage Order /5.8/26.png>)\r
 \r
 7\\.	Select the Outlet(s) where the tax should be applied.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-121653.png>)\r
+![](</admin/5. Manage Order /5.8/27.png>)\r
 \r
 8\\.	Scroll down to the **Items/Categories to Select** section and the **Order Option to Select** section.  Select the items/categories and order options that you preferred.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-121802.png>)![](</admin/5. Manage Order /Screenshot-2026-09-21-121846.png>)\r
+![](</admin/5. Manage Order /5.8/28.png>)![](</admin/5. Manage Order /5.8/29.png>)\r
 \r
 **Note:** These sections will be displayed if you select **Apply tax to selected items/categories** or choose **Yes** for **Tax Application Depends on Order Option.**\r
 \r
 9\\.	Review all the tax settings and confirm that the information is correct.  Create to save the tax.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-121955.png>)\r
+![](</admin/5. Manage Order /5.8/25a.png>)\r
 \r
 10\\.	The new tax will now be created and applied according to the settings you have configured.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122033.png>)\r
+![](</admin/5. Manage Order /5.8/30.png>)\r
 \r
 11\\.	Return to the POS system and charge an order. The tax will be automatically applied when the order meets the tax conditions you have configured.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122405.png>)\r
+![](</admin/5. Manage Order /5.8/26a.png>)\r
 \r
 **6.	Payment Type Creation**\r
 \r
@@ -1813,15 +1879,15 @@ If you do not know how to **Hub**. access Management Hub,\r
 \r
 1\\.	Go to **Settings**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122521.png>)\r
+![](</admin/5. Manage Order /5.8/31.png>)\r
 \r
 2\\.	Select **Payment Types**. You will see a list of all Payment Types that have been created, if already have created.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122600.png>)\r
+![](</admin/5. Manage Order /5.8/32.png>)\r
 \r
 3\\.	Click **New Payment Type** to create a new Payment Type.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122652.png>)\r
+![](</admin/5. Manage Order /5.8/33.png>)\r
 \r
 4\\.	Select the Payment Type:\r
 \r
@@ -1831,47 +1897,47 @@ o	**Cheque** – for cheque payments.\r
 \r
 o	**Other** – for other payment methods such as cash, online transfer, or QR payment.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122747.png>)\r
+![](</admin/5. Manage Order /5.8/34.png>)\r
 \r
 5\\.	Enter the **Payment Type Name**. For example, Cash, Online Transfer, or QR Payment.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122829.png>)\r
+![](</admin/5. Manage Order /5.8/35.png>)\r
 \r
 6\\.	Select **Yes** or **No** for **Auto Rounding**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-122914.png>)\r
+![](</admin/5. Manage Order /5.8/36.png>)\r
 \r
 7\\.	Select the **Outlet** where the Payment Type will be used. Check that all the information is correct. Click **Create** to save the Payment Type.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123006.png>)\r
+![](</admin/5. Manage Order /5.8/37.png>)\r
 \r
 8\\.	The new Payment Type will now appear in the Payment Types dashboard.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123309.png>)\r
+![](</admin/5. Manage Order /5.8/38.png>)\r
 \r
 9\\.	From the dashboard, you can **enable or disable Auto Rounding** for a Payment Type.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123436.png>)\r
+![](</admin/5. Manage Order /5.8/39.png>)\r
 \r
 10\\.	Use the Search Bar to quickly find a Payment Type by its name.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123513.png>)\r
+![](</admin/5. Manage Order /5.8/40.png>)\r
 \r
 11\\.	Use the Filter button to filter Payment Types by category or outlet.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123545.png>)\r
+![](</admin/5. Manage Order /5.8/41.png>)\r
 \r
 12\\.	To delete a Payment Type, click **Edit** on the Payment Type you want to remove. Click **Delete Payment Type**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123637.png>)\r
+![](</admin/5. Manage Order /5.8/42.png>)\r
 \r
 13\\.	Click **Save Changes** to confirm the deletion.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123718.png>)\r
+![](</admin/5. Manage Order /5.8/43.png>)\r
 \r
 14\\.	Return to the **POS system** and charge an order. You will see the payment type you created (e.g., **Card Debit**) available as a payment option.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-123832.png>)\r
+![](</admin/5. Manage Order /5.8/44.png>)\r
 \r
 **7.	Split Payment**\r
 \r
@@ -1887,33 +1953,33 @@ Use this when different customers want to pay for different items from the same 
 \r
 One customer pays for **Roti Canai,** while another customer pays for **Teh O**\r
 \r
-Steps:\r
+**Steps:**\r
 \r
 1\\.	Select **Split Payment** button.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-124157.png>)\r
+![](</admin/5. Manage Order /5.8/27a.png>)\r
 \r
 2\\.	Select **Split by Item**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-124253.png>)\r
+![](</admin/5. Manage Order /5.8/45.png>)\r
 \r
 3\\.	Select the items to be paid for (e.g. Select **NG Paprik Ayam** and Teh O) and press Charge to pay.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-124347.png>)\r
+![](</admin/5. Manage Order /5.8/28a.png>)\r
 \r
 4\\.	Select the payment type and complete the payment.\r
 \r
 **Note:** You can optionally add an **Adjustment** if needed.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-124651.png>)\r
+![](</admin/5. Manage Order /5.8/46.png>)\r
 \r
 5\\.	After the first payment is completed, **Continue Split Payment** will appear if there are items left to pay.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-124733.png>)\r
+![](</admin/5. Manage Order /5.8/47.png>)\r
 \r
 6\\.	Tap **Continue Split Payment** to pay for the remaining items and press Charge.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-124835.png>)\r
+![](</admin/5. Manage Order /5.8/29a.png>)\r
 \r
 7\\.	Repeat until all items have been paid.\r
 \r
@@ -1937,31 +2003,31 @@ You can:\r
 \r
 1\\.	Select **Split Payment.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-125637.png>)\r
+![](</admin/5. Manage Order /5.8/49.png>)\r
 \r
 2\\.	Select **Split by Amount.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-125909.png>)\r
+![](</admin/5. Manage Order /5.8/50.png>)\r
 \r
 3\\.	Enter or select the amount to be paid and press Charge.\r
 \r
 **Note :** Use **Quick Split** to divide the amount equally, such as by **2** or **3**.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-144700.png>)\r
+![](</admin/5. Manage Order /5.8/30a.png>)\r
 \r
 4\\.	Select the payment type and press Charge to complete the payment.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-144738.png>)\r
+![](</admin/5. Manage Order /5.8/51.png>)\r
 \r
 5\\.	If there is still an unpaid amount, **Continue Split Payment** will appear. Tap **Continue Split Payment** and complete the remaining payment.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-144834.png>)\r
+![](</admin/5. Manage Order /5.8/52.png>)\r
 \r
 6\\.	Enter the amount you want to pay for this transaction, then press **Charge**. Continue until the full amount has been paid.\r
 \r
 **Note:** In the **Payment History** section, the amount already paid will be displayed (e.g., **RM10 by Cash**). You can select the **Full** button to pay the remaining balance in the current transaction.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-144939.png>)\r
+![](</admin/5. Manage Order /5.8/53.png>)\r
 \r
 **C. Print Receipt**\r
 \r
@@ -1969,11 +2035,11 @@ The **Print** option allows you to choose whether to print the receipt.\r
 \r
 •	**ON** → Receipt will be printed.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-145158.png>)\r
+![](</admin/5. Manage Order /5.8/31a.png>)\r
 \r
 •	**OFF** → Receipt will not be printed.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-145251.png>)\r
+![](</admin/5. Manage Order /5.8/32a.png>)\r
 \r
 Toggle the **Print** button according to your preference.\r
 \r
@@ -1983,27 +2049,27 @@ After all payment details have been entered:\r
 \r
 1\\.	Tap **Charge** to complete the payment. For **cash payment**, the cash drawer will open automatically.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-145345.png>)\r
+![](</admin/5. Manage Order /5.8/33a.png>)\r
 \r
 2\\.	The system will display the **change** to be returned to the customer. **Payment Successfull** message will appear once the payment is completed.\r
 \r
 **Note:** You can optionally scan the **QR cod**e to receive a digital receipt for your order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-145504.png>)\r
+![](</admin/5. Manage Order /5.8/54.png>)\r
 \r
 After payment is successful, you can optionally:\r
 \r
 **•	Print the receipt.**\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-145555.png>)\r
+![](</admin/5. Manage Order /5.8/34a.png>)\r
 \r
 •	**Send the receipt by email** by pressing **Send Receipt to Email**. Enter your email address, then press **Send** to send the receipt to your email.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-145645.png>)\r
+![](</admin/5. Manage Order /5.8/35a.png>)\r
 \r
 •	You have successfully completed the payment. Press **New Sale** to start taking a new order.\r
 \r
-![](</admin/5. Manage Order /Screenshot-2026-09-21-145726.png>)\r
+![](</admin/5. Manage Order /5.8/56.png>)\r
 `,mr=`---\r
 title: 6. Manage Receipts\r
 section: USER GUIDELINES\r
@@ -2026,7 +2092,7 @@ You can view and manage all completed receipts from the **Receipt** section.\r
 \r
 1\\.	Press the Menu button.\r
 \r
-![](</admin/6. Manage Receipts/6.1/Picture1-6.1.png>)\r
+![](</admin/6. Manage Receipts/6.1/1.png>)\r
 \r
 2\\.	Select the Receipt tab.\r
 \r
@@ -2044,7 +2110,7 @@ You can view and manage all completed receipts from the **Receipt** section.\r
 \r
 Press the Filter button to filter receipts based on the following options:\r
 \r
-![](</admin/6. Manage Receipts/6.1/Picture5-6.1.png>)\r
+![](</admin/6. Manage Receipts/6.1/2.png>)\r
 \r
 **Date Range**\r
 \r
@@ -2082,7 +2148,7 @@ Press the Filter button to filter receipts based on the following options:\r
 \r
 **Note:** You can also search for a specific receipt using its Receipt ID. A unique **Receipt ID** is automatically generated and assigned to receipts.\r
 \r
-![](</admin/6. Manage Receipts/6.1/Picture12-6.1.png>)\r
+![](</admin/6. Manage Receipts/6.1/4.png>)\r
 \r
 **Receipt Options**\r
 \r
@@ -2092,7 +2158,7 @@ After selecting a receipt, you can optionally:\r
 \r
 1\\.	Tap Send Receipt to Email and enter your email address.\r
 \r
-![](</admin/6. Manage Receipts/6.1/Picture13-6.1.png>)\r
+![](</admin/6. Manage Receipts/6.1/5.png>)\r
 \r
 2\\.	The receipt will be sent to the email address provided.\r
 \r
@@ -2100,7 +2166,7 @@ After selecting a receipt, you can optionally:\r
 \r
 **Print Receipt** —  Optionally, you can print the receipt again by pressing the **Print Receipt** button.\r
 \r
-![](</admin/6. Manage Receipts/6.1/Picture16-6.1.png>)\r
+![](</admin/6. Manage Receipts/6.1/6.png>)\r
 `,gr=`---\r
 title: 6.3 Perform Refund\r
 section: USER GUIDELINES\r
@@ -2116,7 +2182,7 @@ The **Refund** function allows you to refund selected items from a completed rec
 \r
 1\\.	Press the **Menu** button.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Picture1-6.2.png>)\r
+![](</admin/6. Manage Receipts/6.3/15.png>)\r
 \r
 2\\.	Select **Refund**.\r
 \r
@@ -2171,7 +2237,7 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 \r
 3\\.	Press Export button to to export your receipt. You can export the receipt records in **CSV or Excel format.**\r
 \r
-![](</admin/6. Manage Receipts/6.4/Picture3-6.2.png>)\r
+![](</admin/6. Manage Receipts/6.2/7.png>)\r
 \r
 4\\.	Select the columns you want to include in the export (e.g., **Receipt No. and Order Type**), then press **Export**.\r
 \r
@@ -2179,7 +2245,7 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 \r
 5\\.	You will receive a notification once the export is complete. Press the **Notification** button to view the completed export.\r
 \r
-![](</admin/6. Manage Receipts/6.4/Picture5-6.2.png>)\r
+![](</admin/6. Manage Receipts/6.2/8.png>)\r
 \r
 6\\.	Select either **CSV or Excel** format to download the exported receipt records.\r
 \r
@@ -2187,7 +2253,7 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 \r
 7\\.	You can select a receipt to **view** its details.\r
 \r
-![](</admin/6. Manage Receipts/6.4/Picture7-6.2.png>)\r
+![](</admin/6. Manage Receipts/6.2/9.png>)\r
 \r
 8\\.	You can view the receipt details from the selected receipt.\r
 \r
@@ -2199,37 +2265,37 @@ Note:  Press the **Filter** icon to filter receipts based on your preferred crit
 \r
 10\\.	Enter the customer's **email address** and select **Send Receipt** to send the receipt to the customer's email.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153048.png>)\r
+![](</admin/6. Manage Receipts/6.2/10.png>)\r
 \r
 11\\.	Or, select **Send Invoice** to send the invoice to the customer's email.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153135.png>)\r
+![](</admin/6. Manage Receipts/6.2/11.png>)\r
 \r
 12\\.	Press **Preview Receipt** to view the receipt before sending.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153324.png>)\r
+![](</admin/6. Manage Receipts/6.2/12.png>)\r
 \r
 13\\.	You can now view the receipt details.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153407.png>)\r
+![](</admin/6. Manage Receipts/6.2/Pict.png>)\r
 \r
 14\\.	Press **Preview Invoice** to view the invoice.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153455.png>)\r
+![](</admin/6. Manage Receipts/6.2/13.png>)\r
 \r
 15\\.	You can now view the invoice details.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153534.png>)\r
+![](</admin/6. Manage Receipts/6.2/Picture2.png>)\r
 \r
-16\\.	You can also **cancel a receipt** when required. \r
+16\\.	You can also **cancel a receipt** when required.\r
 \r
 **Note:** Cancelling a receipt will not delete it from the system. The receipt will remain in the **Receipt List** with the **Type** labelled as **“Cancel”**.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153649.png>)\r
+![](</admin/6. Manage Receipts/6.2/14.png>)\r
 \r
 17\\.	Optionally, you can search for an **Invoice No.** using the search bar.\r
 \r
-![](</admin/6. Manage Receipts/6.2/Screenshot-2026-09-23-153729.png>)\r
+![](</admin/6. Manage Receipts/6.2/Picture3.png>)\r
 `,vr=`---\r
 title: 6.4 Change Payment Type\r
 section: USER GUIDELINES\r
@@ -2253,7 +2319,7 @@ In this situation, you can change the payment type on the receipt from **Cash** 
 \r
 1\\.	Press the **Menu** button.\r
 \r
-![](</admin/6. Manage Receipts/6.3/Picture1-6.3.png>)\r
+![](</admin/6. Manage Receipts/6.4/16.png>)\r
 \r
 2\\.	Select **Change Payment Type.**\r
 \r
@@ -2305,7 +2371,7 @@ Receipt settings can be configured from the Management Hub.\r
 \r
 6\\. Press **Save** to save and apply the changes.\r
 \r
-![](</admin/6. Manage Receipts/6.5/Picture6-6.5.png>)\r
+![](</admin/6. Manage Receipts/6.5/17.png>)\r
 `,br=`---\r
 title: 7. Settings\r
 section: USER GUIDELINES\r
@@ -2326,85 +2392,85 @@ Before connecting a printer, you need to create a **Department Printer** in Mana
 \r
 1\\.	Log in to **Management Hub**.\r
 \r
-Note: If you do not know how to access Management Hub, *click here to learn how to access Management Hub.*\r
+Note: If you do not know how to access Management Hub, *[click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-112439.png>)\r
+![](/admin/7.Settings/1.png)\r
 \r
 2\\.	Go to **Settings > Department Printers.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-112729.png>)\r
+![](/admin/7.Settings/2.png)\r
 \r
 3\\.	Click **New Department Printer** to create a new Department Printer.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-112827.png>)\r
+![](/admin/7.Settings/3.png)\r
 \r
 4\\.	Enter the **Department Printer Name** and select the **categories** that you want to print.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-112956.png>)\r
+![](/admin/7.Settings/4.png)\r
 \r
 5\\.	Check the information and click **Create** to save the Department Printer.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-113432.png>)\r
+![](/admin/7.Settings/5.png)\r
 \r
 6\\.	Go back to the **POS System** and go to **Settings > Printers.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-113550.png>)\r
+![](/admin/7.Settings/6.png)\r
 \r
 7\\.	Click the **+ (Plus)** button to add a new printer.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-114449.png>)\r
+![](/admin/7.Settings/7.png)\r
 \r
 8\\.	Select the **Connection Type** of your printer: **Bluetooth, Ethernet, or USB**. For a Bluetooth printer, enter the **Printer Name**, click **Scan for Printer**, and select your printer.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-114931.png>)\r
+![](/admin/7.Settings/8.png)\r
 \r
 9\\.	For an **Ethernet** printer, enter the **Printer Name, Printer Model, and Printer IP Address.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-115049.png>)\r
+![](/admin/7.Settings/9.png)\r
 \r
 10\\.	For a **USB** printer, enter the **Printer Name and Printer Model**, click Scan for Printer, and select your printer.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-120715.png>)\r
+![](/admin/7.Settings/10.png)\r
 \r
 11\\.	Select the **Paper Width**. You can choose **58mm** or **80mm**.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-121350.png>)\r
+![](/admin/7.Settings/11.png)\r
 \r
 12\\.	Choose whether to **enable or disable Print Receipt and Bills.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-121705.png>)\r
+![](/admin/7.Settings/12.png)\r
 \r
 13\\.	Choose whether to **enable or disable Automatically Print Receipt.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-121705.png>)\r
+![](/admin/7.Settings/13.png)\r
 \r
 14\\.	Choose whether to **enable or disable Print Orders.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-121908.png>)\r
+![](/admin/7.Settings/14.png)\r
 \r
 15\\.	If **Print Orders** is enabled, select the **Department Printer** that you created earlier.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-121958.png>)\r
+![](/admin/7.Settings/15.png)\r
 \r
 16\\.	Click **Print Test** to check if the printer is working correctly.If the test print is successful, click **Save** to connect the printer.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-123001.png>)\r
+![](/admin/7.Settings/16.png)\r
 \r
 17\\.	To check the print receipt queue, go to **Settings > Print Receipt Queue.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-123109.png>)\r
+![](/admin/7.Settings/17.png)\r
 \r
 18\\.	The print receipt queue is divided into **All, Success, Pending, Processing, and Failed**. Click a section to view the print queues under that section.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-123549.png>)\r
+![](/admin/7.Settings/18.png)\r
 \r
 19\\.	To delete a print queue, **select the print queue first**, then click **Bulk Delete.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-123757.png>)\r
+![](/admin/7.Settings/19.png)\r
 \r
 20\\.	To print a receipt again, **select the print queue first**, then click **Bulk Reprint.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-123929.png>)\r
+![](/admin/7.Settings/20.png)\r
 `,Sr=`---\r
 title: 7.2 Customer Display Settings\r
 section: USER GUIDELINES\r
@@ -2418,73 +2484,73 @@ You can set up the customer display from both **Management Hub** and the **POS S
 \r
 1\\.	Go to **Management Hub**.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-124455.png>)\r
+![](/admin/7.Settings/7.2/1.png)\r
 \r
 2\\.	Go to **Settings > Slideshows**. You will see a list of all slideshows that have been created.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-124547.png>)\r
+![](/admin/7.Settings/7.2/2.png)\r
 \r
 3\\.	Click **New Slideshow** to create a new slideshow.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-124638.png>)\r
+![](/admin/7.Settings/7.2/3.png)\r
 \r
 4\\.	Select the **Outlet** where you want to use the slideshow.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125301.png>)\r
+![](/admin/7.Settings/7.2/4.png)\r
 \r
 5\\.	Enter the **Title** for the slideshow.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125429.png>)\r
+![](/admin/7.Settings/7.2/5.png)\r
 \r
 6\\.	Enter a **Description.** This is optional.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125519.png>)\r
+![](/admin/7.Settings/7.2/6.png)\r
 \r
 7\\.	Enter a **Greetings** message for customers.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125619.png>)\r
+![](/admin/7.Settings/7.2/7.png)\r
 \r
 8\\.	Enter a **Feedback Description**. This is optional.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125714.png>)\r
+![](/admin/7.Settings/7.2/8.png)\r
 \r
 9\\.	Add a **Promotional Link** if you want to show a promotion.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125758.png>)\r
+![](/admin/7.Settings/7.2/9.png)\r
 \r
 10\\.	Add an **Image** if you want to show an image on the customer display.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125842.png>)\r
+![](/admin/7.Settings/7.2/10.png)\r
 \r
 11\\.	Add a **Payment Page Image** if you want to show an image on the payment page.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-125931.png>)\r
+![](/admin/7.Settings/7.2/11.png)\r
 \r
 12\\.	Check the information and save the slideshow.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-130002.png>)\r
+![](/admin/7.Settings/7.2/12.png)\r
 \r
-13\\.	Go to the **POS System**. \r
+13\\.	Go to the **POS System**.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143011.png>)\r
+![](/admin/7.Settings/7.2/13.png)\r
 \r
 14\\.	Go to **Settings > Customer Display.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143124.png>)\r
+![](/admin/7.Settings/7.2/14.png)\r
 \r
 15\\.	The POS System also allows you to set the **Title, Description, Greeting, Feedback Description, and Promotion Link.**\r
 \r
-**Note:** The POS System has fewer settings than Management Hub. \r
+**Note:** The POS System has fewer settings than Management Hub.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143219.png>)\r
+![](/admin/7.Settings/7.2/15.png)\r
 \r
-16\\.	Click **Save & Show Secondary Display** to save the settings and show the customer display. \r
+16\\.	Click **Save & Show Secondary Display** to save the settings and show the customer display.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143314.png>)\r
+![](/admin/7.Settings/7.2/16.png)\r
 \r
-17\\.	Click **Stop Display** if you want to stop showing the customer display. \r
+17\\.	Click **Stop Display** if you want to stop showing the customer display.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143415.png>)\r
+![](/admin/7.Settings/7.2/17.png)\r
 `,Cr=`---\r
 title: 7.3 Permissions\r
 section: USER GUIDELINES\r
@@ -2494,9 +2560,9 @@ parentTopic: 7. Settings\r
 language: en\r
 ---\r
 \r
-1\\.	Go to **Settings > Permission**. View the permissions that are granted in the POS System. The permissions are **view-only** and cannot be enabled or disabled from the POS System. To enable or disable permissions, you can manage them in **Management Hub.** \r
+1\\.	Go to **Settings > Permission**. View the permissions that are granted in the POS System. The permissions are **view-only** and cannot be enabled or disabled from the POS System. To enable or disable permissions, you can manage them in **Management Hub.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143609.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/1.png)\r
 `,wr=`---\r
 title: 7.4 System Configuration\r
 section: USER GUIDELINES\r
@@ -2506,49 +2572,49 @@ parentTopic: 7. Settings\r
 language: en\r
 ---\r
 \r
-1\\.	Go to **Settings > System Config.** \r
+1\\.	Go to **Settings > System Config.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143757.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/2.png)\r
 \r
-2\\.	You can view the system configuration and the **App Version** to check which version the POS System is using. \r
+2\\.	You can view the system configuration and the **App Version** to check which version the POS System is using.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143841.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/3.png)\r
 \r
-3\\.	**Main Device** – Enable or disable this option to set the device as the main POS device for the outlet. \r
+3\\.	**Main Device** – Enable or disable this option to set the device as the main POS device for the outlet.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-143926.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/4.png)\r
 \r
-4\\.	**Force Sync** – Click **Force Sync** to sync all data with the server. This will download all data, including images. \r
+4\\.	**Force Sync** – Click **Force Sync** to sync all data with the server. This will download all data, including images.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144017.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/5.png)\r
 \r
-5\\.	**Realtime Status** – Check whether the POS System is connected or not. \r
+5\\.	**Realtime Status** – Check whether the POS System is connected or not.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144055.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/6.png)\r
 \r
-6\\.	**Pending Changes to Cloud –** Check the last sync time and whether all data has been synced. You can also click **Start** or **Stop** to control the sync. \r
+6\\.	**Pending Changes to Cloud –** Check the last sync time and whether all data has been synced. You can also click **Start** or **Stop** to control the sync.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144148.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/7.png)\r
 \r
-7\\.	**Print Queue Monitoring** – Check if there are any pending print jobs. You can also **Start** or **Stop** print queue monitoring. \r
+7\\.	**Print Queue Monitoring** – Check if there are any pending print jobs. You can also **Start** or **Stop** print queue monitoring.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144247.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/8.png)\r
 \r
-8\\.	**Debug Mode** – Use this to record app logs to help find and diagnose issues. Click **Start Recording** to start recording. \r
+8\\.	**Debug Mode** – Use this to record app logs to help find and diagnose issues. Click **Start Recording** to start recording.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144343.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/9.png)\r
 \r
-9\\.	After recording, click **Stop & Report** to report a bug. Describe the issue in the provided box and click **Submit Report** to send the report. \r
+9\\.	After recording, click **Stop & Report** to report a bug. Describe the issue in the provided box and click **Submit Report** to send the report.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144429.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/10.png)\r
 \r
-10\\.	**Internet Speed** – Click **Test Speed** to check the internet speed. \r
+10\\.	**Internet Speed** – Click **Test Speed** to check the internet speed.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144511.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/11.png)\r
 \r
-11\\.	**Cleanup Data** – Click **Cleanup Data** to remove corrupted or leftover data. Your **orders, receipts, and settings will not be affected.** \r
+11\\.	**Cleanup Data** – Click **Cleanup Data** to remove corrupted or leftover data. Your **orders, receipts, and settings will not be affected.**\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-144614.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/12.png)\r
 `,Tr=`---\r
 title: 7.5 Features on Management Hub\r
 section: USER GUIDELINES\r
@@ -2558,41 +2624,41 @@ parentTopic: 7. Settings\r
 language: en\r
 ---\r
 \r
-Don’t know how to access Management Hub, *click here to learn how to access Management Hub*\r
+Don’t know how to access Management Hub, *[click here to learn how to access Management Hub](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
 \r
 1\\.	Go to Settings > Features. Here, you can turn different features on or off based on your business needs.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-145014.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/13\\(7.5\\).png)\r
 \r
 2\\.	**Time Clock**\r
 \r
 Turn on Time Clock to track staff clock-in and clock-out times and calculate their total working hours.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-145054.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/7.5.1w.png)\r
 \r
 3\\.	**Open Orders**\r
 \r
 Turn on Open Orders to allow staff to save and edit orders before completing the payment.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-145129.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/2w.png)\r
 \r
 4\\.	**Department Printers**\r
 \r
 Use Department Printers to send orders to different printers or displays based on the department, such as Kitchen, Beverages, and others.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-145210.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/3w.png)\r
 \r
 5\\.	**Order Options**\r
 \r
 Turn on Order Options to allow orders to be marked as Dine In, Online, or Delivery.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-145244.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/4w.png)\r
 \r
 6\\.	**Layout Management**\r
 \r
 Turn Layout Management on or off to control whether the layout management feature is available on the POS device.\r
 \r
-![](</admin/7. Settings/Screenshot-2026-09-22-145317.png>)\r
+![](/admin/7.Settings/7.3/7.4/7.5/5w.png)\r
 `,Er=`---\r
 title: 8. Inventory Management & Logs\r
 section: USER GUIDELINES\r
@@ -2613,23 +2679,23 @@ Inventory Management and Logs need to be set up in the **Management Hub.**\r
 \r
 Don’t know how to access **Management Hub** ?  [Click Here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)\r
 \r
-1\\.	Go to Inventory > Inventories to view your inventory items.\r
+1\\.	Go to **Inventory > Inventories** to view your inventory items.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-105805.png>)\r
+![](</admin/8.Invenory Management Logs/8.1/1.png>)\r
 \r
 2\\.	If an item does not appear in the inventory list, check whether **Inventory Tracking** is enabled for that item. Go to **Items** and select the item.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-105846.png>)\r
+![](</admin/8.Invenory Management Logs/8.1/8.0.1.png>)\r
 \r
 3\\.	Turn on the **Inventory Tracking** button (e.g. Coffee).\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-105917.png>)\r
+![](</admin/8.Invenory Management Logs/8.1/8.0.2.png>)\r
 \r
 4\\.	Return to **Inventory > Inventories**. The item will now appear in the inventory list.\r
 \r
 **Note**: If an item has **variants**, each variant will be listed separately in the inventory. For example, **Coffee with Large, Medium, and Small** variants will appear as separate items, with each variant having its own inventory quantity.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-110018.png>)\r
+![](</admin/8.Invenory Management Logs/8.1/8.0.3.png>)\r
 `,Or=`---\r
 title: 8.2 Suppliers\r
 section: USER GUIDELINES\r
@@ -2645,19 +2711,19 @@ Don’t know how to access Management Hub ?[ *Click Here to learn how to access 
 \r
 1\\.	Go to **Inventory > Suppliers**. This page will display all the registered suppliers.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-114354.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/1.png>)\r
 \r
 2\\.	Click **New Supplier** to create a new supplier.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-114502.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/8.1.1.png>)\r
 \r
 3\\.	Enter the supplier’s **Name** and **Business Registration Number.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-114550.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/2.png>)\r
 \r
 4\\.	Enter their **Email** and **Phone Number.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-114638.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/3.png>)\r
 \r
 5\\.	Select the **Settlement Type:**\r
 \r
@@ -2667,31 +2733,31 @@ o	**Credit**\r
 \r
 o	**N/A** if other types apply.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-114737.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/4.png>)\r
 \r
 6\\.	Optionally, enter the supplier’s **Address** and add any notes in the **Description** box.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-114825.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/5.png>)\r
 \r
 7\\.	Select the **Outlet** that the supplier supplies.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-114915.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/6.png>)\r
 \r
 8\\.	Check the details and click **Create.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115016.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/7.png>)\r
 \r
 9\\.	Your supplier has been successfully created.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115058.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/8.1.2.png>)\r
 \r
 10\\.	You can also use the **Search** button to search for a supplier by name.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115153.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/8.1.3.png>)\r
 \r
 11\\.	The **Column Adjustment** button allows you to choose which columns to display, such as **Name, Email, and Phone Number**. Click **Apply Columns** to save your selection.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115250.png>)\r
+![](</admin/8.Invenory Management Logs/8.2/8.1.4.png>)\r
 `,kr=`---\r
 title: 8.4 Inventory Adjustments\r
 section: USER GUIDELINES\r
@@ -2707,11 +2773,11 @@ Go to **Inventory > Inventories**. Here, you can view and manage all your invent
 \r
 1\\.	Select an item from the inventory list.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115522.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/1.png>)\r
 \r
 2\\.	Click the **Actions** button on the right.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115601.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.1.png>)\r
 \r
 3\\.	You will see 3 options:\r
 \r
@@ -2721,11 +2787,11 @@ Go to **Inventory > Inventories**. Here, you can view and manage all your invent
 \r
 **o	History**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115647.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.2.png>)\r
 \r
 4\\.	Select **Stock Details.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115728.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.3.png>)\r
 \r
 5\\.	A small tab will open on the same page, showing the quantity available at each outlet.\r
 \r
@@ -2735,7 +2801,7 @@ For example:\r
 \r
 •	GD CAFE – 21\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115811.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/2.png>)\r
 \r
 **Adjusting Stock by Item**\r
 \r
@@ -2743,7 +2809,7 @@ There are two ways to adjust stock. The first way is to adjust the stock directl
 \r
 1\\.	Click the **Adjust Stock** button for the item.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115903.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.4.png>)\r
 \r
 2\\.	Under **Stock Details**, select the **Adjustment Type:**\r
 \r
@@ -2753,61 +2819,61 @@ o	Stock In\r
 \r
 o	Stock Out\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-115958.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/3.png>)\r
 \r
 3\\.	The **Item Name** will be automatically filled in.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120041.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/4.png>)\r
 \r
 4\\.	Select the **Outlet.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120126.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/5.png>)\r
 \r
 5\\.	Select a predefined **Reason** for the adjustment, such as **Receiving Item.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120206.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/6.png>)\r
 \r
 6\\.	In the **Notes** box, you can add any additional notes if needed. This is **optional.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120256.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/7.png>)\r
 \r
 7\\.	Scroll down to the **Adjustment Details** section. Select a **Supplier** if needed. This is **optional.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120342.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/8.png>)\r
 \r
 8\\.	The **Measurement Type** will be automatically applied based on the item.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120701.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.5.png>)\r
 \r
 9\\.	The **Current Quantity** will be displayed.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120746.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.6.png>)\r
 \r
 10\\.	Enter the quantity in the quantity field (e.g. 10).\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120859.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/9.png>)\r
 \r
 11\\.	The **Quantity After Adjustment** will be calculated automatically based on the current quantity and the quantity entered.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-120951.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.7.png>)\r
 \r
 12\\.	Enter the **Unit Cost** if required.\r
 \r
 **Note:** Unit Cost can only be added for St**ock In** and **Stock Out**. Unit Cost cannot be set for **Stock Adjustment.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121243.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.8.png>)\r
 \r
 13\\.	The **Total Cost** will be calculated automatically based on the **Unit Cost** and the **Added Quantity.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121347.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.9.png>)\r
 \r
-14\\.	Check all the details and click Submit.\r
+14\\.	Check all the details and click **Submit.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121423.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.10.png>)\r
 \r
 15\\.	Your stock has been successfully updated.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121458.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.11.png>)\r
 \r
 **Adjusting Stock from the Inventory Dashboard**\r
 \r
@@ -2815,7 +2881,7 @@ You can also adjust stock directly from the main inventory dashboard.\r
 \r
 1\\.	Click the **Adjust Stock** button.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121619.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.12.png>)\r
 \r
 2\\.	Select the **Adjustment Type:**\r
 \r
@@ -2825,69 +2891,69 @@ o	Stock Out\r
 \r
 o	Stock Adjustment\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121704.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/10.png>)\r
 \r
 3\\.	Manually select the **Item** from the list.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121741.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/11.png>)\r
 \r
 4\\.	Select the **Outlet.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121829.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/12.png>)\r
 \r
 5\\.	Select the predefined Reason for the adjustment.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-121903.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/13.png>)\r
 \r
 6\\.	Add any additional information in the **Notes** box if needed. This is **optional**.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122000.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/14.png>)\r
 \r
 7\\.	Under **Adjustment Details**, select a **Supplier** if needed. This is optional.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122052.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/15.png>)\r
 \r
 8\\.	The **Measurement Type** will be automatically applied based on the item's criteria.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122135.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.13.png>)\r
 \r
 9\\.	The **Current Quantity** will be displayed.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122213.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.14.png>)\r
 \r
 10\\.	Enter the quantity in the **Quantity Added/Removed/Counted Quantity** section.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122300.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/16.png>)\r
 \r
 11\\.	The **Quantity After Adjustment** will be calculated and updated automatically.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122419.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/17.png>)\r
 \r
 12\\.	Enter the **Unit Cost** if required.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122516.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/18.png>)\r
 \r
 13\\.	The **Total Cost** will be calculated automatically based on the Unit Cost and total quantity.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-122618.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/19.png>)\r
 \r
 14\\.	Check all the details and click **Submit.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123027.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.15.png>)\r
 \r
 15\\.	Your stock has been successfully adjusted.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123100.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.16.png>)\r
 \r
 **Recalculate Stock**\r
 \r
 If there is a delay in the inventory quantity or the quantity does not match the actual stock, you can use the **Recalculate Stock** button.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123213.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.17.png>)\r
 \r
 Click **Recalculate Stock** to recalculate the stock quantities across all outlets simultaneously.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123306.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/20.png>)\r
 \r
 **Searching and Filtering Inventory**\r
 \r
@@ -2895,25 +2961,25 @@ You can use the **Search** button to search for an item by:\r
 \r
 •	Item Name\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123349.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.18.png>)\r
 \r
 •	Barcode\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123419.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.19.png>)\r
 \r
 •	SKU Code\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123522.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.20.png>)\r
 \r
 You can also use the **Filter** button to filter the inventory list by:\r
 \r
 •	Outlet\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123557.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/21.png>)\r
 \r
 •	Category\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123626.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/22.png>)\r
 \r
 **Customizing Columns**\r
 \r
@@ -2921,17 +2987,17 @@ The **Column Modifier** button allows you to choose which columns are displayed 
 \r
 1\\.	Click **Column Modifier.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123711.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.21.png>)\r
 \r
 2\\.	Select or deselect the columns you want to display and click **Apply Columns** to save your changes.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-123802.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.22.png>)\r
 \r
 3\\.	 You have successfully adjusted the columns.\r
 \r
 **Note:** Click Reset to return the columns to their default settings.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-124711.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/23.png>)\r
 \r
 **Inventory List and Page Navigation**\r
 \r
@@ -2943,11 +3009,11 @@ Scroll down to view the total inventory results.You can choose how many rows to 
 \r
 •	100\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-124759.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/24.png>)\r
 \r
 If there are multiple pages, use the **page numbers** at the bottom to navigate through the inventory list.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-25-124830.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/8.2.23.png>)\r
 `,Ar=`---\r
 title: 8.3 Inventory History\r
 section: USER GUIDELINES\r
@@ -2965,33 +3031,33 @@ There are **2 ways** to view Inventory History:\r
 \r
 1\\.	Go to **Inventory > Inventories.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-093135.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/1.png>)\r
 \r
 2\\.	Select an item and click **Actions.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-093237.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/8.3.1.png>)\r
 \r
 3\\.	Select **History** to view the item's history.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-093449.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/8.3.2.png>)\r
 \r
 4\\.	You will be redirected to the **Inventory History** page.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-093556.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/Picture1.png>)\r
 \r
 **2. From Inventory History**\r
 \r
 1\\.	Go to **Inventory > Inventory History**. This dashboard shows all inventory changes made to different items and outlets, including the details of each change.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-093709.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/3.png>)\r
 \r
 2\\.	Use the **Search** button to search by **Item, Barcode, or SKU.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-093818.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/8.3.3.png>)\r
 \r
 3\\.	Use the **Filter** button to filter the history based on the available criteria.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-093917.png>)\r
+![](</admin/8.Invenory Management Logs/8.4/4.png>)\r
 \r
 •	Transaction Type\r
 \r
@@ -3007,15 +3073,15 @@ There are **2 ways** to view Inventory History:\r
 \r
 Click **Apply Filters** to apply the selected filters or **Reset** to return to the default settings.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-094042.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/8.3.4.png>)\r
 \r
 You can also use **Column Adjustment** to choose which columns to display.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-094140.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/8.3.5.png>)\r
 \r
 &#x20;Use the **Per Page** option to select how many records to display (10, 50, or 100) and use the page numbers to navigate through the results.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-094251.png>)\r
+![](</admin/8.Invenory Management Logs/8.3/8.3.6.png>)\r
 `,jr=`---\r
 title: 8.5 Deleted Order\r
 section: USER GUIDELINES\r
@@ -3033,23 +3099,23 @@ If you do not know how to access Management Hub, ***[click here to learn how to 
 \r
 Note: If you do not know how to access Management Hub, ***click here to learn how to access management hub***\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-094624.png>)\r
+![](</admin/8.Invenory Management Logs/8.5/8.4(1).png>)\r
 \r
 2\\.	Go to **Logs > Deleted Order**.You can view a list of all deleted orders from the **Open Orders** list.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095213.png>)\r
+![](</admin/8.Invenory Management Logs/8.4(2).png>)\r
 \r
 3\\. Use the **Search Bar** to search for a deleted order by **Outlet, POS Device, Order Number, Item, or Staff.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095305.png>)\r
+![](</admin/8.Invenory Management Logs/8.5/8.4.1.png>)\r
 \r
 4\\. You can also click the **Filter** icon to filter the deleted orders by **POS Device, Outlet, Staff, Deleted From date, and Deleted Until date.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095424.png>)\r
+![](</admin/8.Invenory Management Logs/8.5/8.4.2.png>)\r
 \r
 5\\. After selecting the required filters, check the details and click Apply Filters to view the results.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095503.png>)\r
+![](</admin/8.Invenory Management Logs/8.5/8.4.3.png>)\r
 `,Mr=`---\r
 title: 8.6 Cash Drawer Logs\r
 section: USER GUIDELINES\r
@@ -3063,19 +3129,19 @@ You can use Cash Drawer Logs to view the cash drawer activity recorded in the sy
 \r
 1\\.	Go to **Management Hub > Logs > Cash Drawer Logs**.You can view a list of all **Cash Drawer Logs**.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095825.png>)\r
+![](</admin/8.Invenory Management Logs/8.6/1.png>)\r
 \r
 2\\. Use the **Search Bar** to search for a log by **POS Device, Staff Name, or Activity.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-095940.png>)\r
+![](</admin/8.Invenory Management Logs/8.6/8.5.1.png>)\r
 \r
 3\\.	You can also click the **Filter** icon to filter the logs by **POS Device, Date From, and Date Until.**\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-100033.png>)\r
+![](</admin/8.Invenory Management Logs/8.6/8.5.2.png>)\r
 \r
 4\\.	After selecting the required filters, check the details and click **Apply Filters** to view the results.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-100110.png>)\r
+![](</admin/8.Invenory Management Logs/8.6/8.5.3.png>)\r
 `,Nr=`---\r
 title: 8.7 Import History\r
 section: USER GUIDELINES\r
@@ -3089,37 +3155,37 @@ Import History allows you to check the files that were imported into the system,
 \r
 1\\.	Go to **Logs > Import History**. You can view a list of all imported files.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-102613.png>)\r
+![](</admin/8.Invenory Management Logs/8.7/2.png>)\r
 \r
 2\\. Use the Search Bar to search for an import.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-102646.png>)\r
+![](</admin/8.Invenory Management Logs/8.7/8.6.1.png>)\r
 \r
 3\\. Click the Filter button to filter the import history.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-102744.png>)\r
+![](</admin/8.Invenory Management Logs/8.7/8.6.2.png>)\r
 \r
 4\\. Filter the import history by **Import Type** and **Status**. You can enable or disable **Has Failures** to show or hide imports that have failed items. Check the selected filters and click **Apply Filters** to view the results.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-102849.png>)\r
+![](</admin/8.Invenory Management Logs/8.7/8.6.3.png>)\r
 \r
 5\\.	Click the **Columns** button, then tick the boxes for the columns you want to show. Columns that are not selected will not be shown in the list.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-102928.png>)\r
+![](</admin/8.Invenory Management Logs/8.7/3.png>)\r
 \r
 6\\.	The selected columns will appear in the import history list. You can click on the list for more detail.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-103017.png>)\r
+![](</admin/8.Invenory Management Logs/8.7/8.6.4.png>)\r
 \r
 7\\.	Here you can view the detail information import and you can click the download failed rows to download the detail.\r
 \r
-![](</admin/8. Inventory Management & Logs/Screenshot-2026-09-28-103258.png>)\r
-`,Pr=`---
-title: Release Note
-section: PROLOGUE
-order: 1
-language: en
----
+![](</admin/8.Invenory Management Logs/8.7/8.6.5.png>)\r
+`,Pr=`---\r
+title: Release Note\r
+section: PROLOGUE\r
+order: 1\r
+language: en\r
+---\r
 `,Fr=`---\r
 title: Upgrade Guide\r
 section: PROLOGUE\r
@@ -3155,25 +3221,25 @@ order: 1\r
 language: en\r
 ---\r
 \r
-`,Lr=`---
-version: 2.2.2
-releaseDate: "2026-09-24"
----
-
-**What's New:**
-
-* Items in each sales category now sorted A–Z.
-* Zoom and pan the Table Layout; smoother table dragging.
-* Expired discounts no longer applied.
-* Smoother menu and New Sale.
-
-**Bug Fix:**
-
-* Fixed stock resetting to 0 after restart.
-* Fixed order number stuck "pending" on waiter devices.
-* Fixed refund receipt not printing.
-* Fixed duplicate and false cancel kitchen tickets.
-* Fixed receipt logo printing blank.
+`,Lr=`---\r
+version: 2.2.2\r
+releaseDate: "2026-09-24"\r
+---\r
+\r
+**What's New:**\r
+\r
+* Items in each sales category now sorted A–Z.\r
+* Zoom and pan the Table Layout; smoother table dragging.\r
+* Expired discounts no longer applied.\r
+* Smoother menu and New Sale.\r
+\r
+**Bug Fix:**\r
+\r
+* Fixed stock resetting to 0 after restart.\r
+* Fixed order number stuck "pending" on waiter devices.\r
+* Fixed refund receipt not printing.\r
+* Fixed duplicate and false cancel kitchen tickets.\r
+* Fixed receipt logo printing blank.\r
 `,Rr={};function zr(e){let t=Rr[e];if(t)return t;t=Rr[e]=[];for(let e=0;e<128;e++){let n=String.fromCharCode(e);t.push(n)}for(let n=0;n<e.length;n++){let r=e.charCodeAt(n);t[r]=`%`+(`0`+r.toString(16).toUpperCase()).slice(-2)}return t}function Br(e,t){typeof t!=`string`&&(t=Br.defaultChars);let n=zr(t);return e.replace(/(%[a-f0-9]{2})+/gi,function(e){let t=``;for(let r=0,i=e.length;r<i;r+=3){let a=parseInt(e.slice(r+1,r+3),16);if(a<128){t+=n[a];continue}if((a&224)==192&&r+3<i){let n=parseInt(e.slice(r+4,r+6),16);if((n&192)==128){let e=a<<6&1984|n&63;t+=e<128?`��`:String.fromCharCode(e),r+=3;continue}}if((a&240)==224&&r+6<i){let n=parseInt(e.slice(r+4,r+6),16),i=parseInt(e.slice(r+7,r+9),16);if((n&192)==128&&(i&192)==128){let e=a<<12&61440|n<<6&4032|i&63;t+=e<2048||e>=55296&&e<=57343?`���`:String.fromCharCode(e),r+=6;continue}}if((a&248)==240&&r+9<i){let n=parseInt(e.slice(r+4,r+6),16),i=parseInt(e.slice(r+7,r+9),16),o=parseInt(e.slice(r+10,r+12),16);if((n&192)==128&&(i&192)==128&&(o&192)==128){let e=a<<18&1835008|n<<12&258048|i<<6&4032|o&63;e<65536||e>1114111?t+=`����`:(e-=65536,t+=String.fromCharCode(55296+(e>>10),56320+(e&1023))),r+=9;continue}}t+=`�`}return t})}Br.defaultChars=`;/?:@&=+$,#`,Br.componentChars=``;var Vr={};function Hr(e){let t=Vr[e];if(t)return t;t=Vr[e]=[];for(let e=0;e<128;e++){let n=String.fromCharCode(e);/^[0-9a-z]$/i.test(n)?t.push(n):t.push(`%`+(`0`+e.toString(16).toUpperCase()).slice(-2))}for(let n=0;n<e.length;n++)t[e.charCodeAt(n)]=e[n];return t}function Ur(e,t,n){typeof t!=`string`&&(n=t,t=Ur.defaultChars),n===void 0&&(n=!0);let r=Hr(t),i=``;for(let t=0,a=e.length;t<a;t++){let o=e.charCodeAt(t);if(n&&o===37&&t+2<a&&/^[0-9a-f]{2}$/i.test(e.slice(t+1,t+3))){i+=e.slice(t,t+3),t+=2;continue}if(o<128){i+=r[o];continue}if(o>=55296&&o<=57343){if(o>=55296&&o<=56319&&t+1<a){let n=e.charCodeAt(t+1);if(n>=56320&&n<=57343){i+=encodeURIComponent(e[t]+e[t+1]),t++;continue}}i+=`%EF%BF%BD`;continue}i+=encodeURIComponent(e[t])}return i}Ur.defaultChars=`;/?:@&=+$,-_.!~*'()#`,Ur.componentChars=`-_.!~*'()`;function Wr(e){let t=``;return t+=e.protocol||``,t+=e.slashes?`//`:``,t+=e.auth?e.auth+`@`:``,e.hostname&&e.hostname.indexOf(`:`)!==-1?t+=`[`+e.hostname+`]`:t+=e.hostname||``,t+=e.port?`:`+e.port:``,t+=e.pathname||``,t+=e.search||``,t+=e.hash||``,t}function Gr(){this.protocol=null,this.slashes=null,this.auth=null,this.port=null,this.hostname=null,this.hash=null,this.search=null,this.pathname=null}var Kr=/^([a-z0-9.+-]+:)/i,qr=/:[0-9]*$/,Jr=/^(\/\/?(?!\/)[^\?\s]*)(\?[^\s]*)?$/,Yr=[`%`,`/`,`?`,`;`,`#`,`'`,`{`,`}`,`|`,`\\`,`^`,"`",`<`,`>`,`"`,"`",` `,`\r`,`
 `,`	`],Xr=[`/`,`?`,`#`],Zr=255,Qr=/^[+a-z0-9A-Z_-]{0,63}$/,$r=/^([+a-z0-9A-Z_-]{0,63})(.*)$/,ei={javascript:!0,"javascript:":!0},ti={http:!0,https:!0,ftp:!0,gopher:!0,file:!0,"http:":!0,"https:":!0,"ftp:":!0,"gopher:":!0,"file:":!0};function ni(e,t){if(e&&e instanceof Gr)return e;let n=new Gr;return n.parse(e,t),n}Gr.prototype.parse=function(e,t){let n,r,i,a=e;if(a=a.trim(),!t&&e.split(`#`).length===1){let e=Jr.exec(a);if(e)return this.pathname=e[1],e[2]&&(this.search=e[2]),this}let o=Kr.exec(a);if(o&&(o=o[0],n=o.toLowerCase(),this.protocol=o,a=a.substr(o.length)),(t||o||a.match(/^\/\/[^@\/]+@[^@\/]+/))&&(i=a.substr(0,2)===`//`,i&&!(o&&ei[o])&&(a=a.substr(2),this.slashes=!0)),!ei[o]&&(i||o&&!ti[o])){let e=-1;for(let t=0;t<Xr.length;t++)r=a.indexOf(Xr[t]),r!==-1&&(e===-1||r<e)&&(e=r);let t,n;n=e===-1?a.lastIndexOf(`@`):a.lastIndexOf(`@`,e),n!==-1&&(t=a.slice(0,n),a=a.slice(n+1),this.auth=t),e=-1;for(let t=0;t<Yr.length;t++)r=a.indexOf(Yr[t]),r!==-1&&(e===-1||r<e)&&(e=r);e===-1&&(e=a.length),a[e-1]===`:`&&e--;let i=a.slice(0,e);a=a.slice(e),this.parseHost(i),this.hostname=this.hostname||``;let o=this.hostname[0]===`[`&&this.hostname[this.hostname.length-1]===`]`;if(!o){let e=this.hostname.split(/\./);for(let t=0,n=e.length;t<n;t++){let n=e[t];if(n&&!n.match(Qr)){let r=``;for(let e=0,t=n.length;e<t;e++)n.charCodeAt(e)>127?r+=`x`:r+=n[e];if(!r.match(Qr)){let r=e.slice(0,t),i=e.slice(t+1),o=n.match($r);o&&(r.push(o[1]),i.unshift(o[2])),i.length&&(a=i.join(`.`)+a),this.hostname=r.join(`.`);break}}}}this.hostname.length>Zr&&(this.hostname=``),o&&(this.hostname=this.hostname.substr(1,this.hostname.length-2))}let s=a.indexOf(`#`);s!==-1&&(this.hash=a.substr(s),a=a.slice(0,s));let c=a.indexOf(`?`);return c!==-1&&(this.search=a.substr(c),a=a.slice(0,c)),a&&(this.pathname=a),ti[n]&&this.hostname&&!this.pathname&&(this.pathname=``),this},Gr.prototype.parseHost=function(e){let t=qr.exec(e);t&&(t=t[0],t!==`:`&&(this.port=t.substr(1)),e=e.substr(0,e.length-t.length)),e&&(this.hostname=e)};var ri=s({decode:()=>Br,encode:()=>Ur,format:()=>Wr,parse:()=>ni}),ii=/[\0-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF]/,ai=/[\0-\x1F\x7F-\x9F]/,oi=/[\xAD\u0600-\u0605\u061C\u06DD\u070F\u0890\u0891\u08E2\u180E\u200B-\u200F\u202A-\u202E\u2060-\u2064\u2066-\u206F\uFEFF\uFFF9-\uFFFB]|\uD804[\uDCBD\uDCCD]|\uD80D[\uDC30-\uDC3F]|\uD82F[\uDCA0-\uDCA3]|\uD834[\uDD73-\uDD7A]|\uDB40[\uDC01\uDC20-\uDC7F]/,si=/[!-#%-\*,-\/:;\?@\[-\]_\{\}\xA1\xA7\xAB\xB6\xB7\xBB\xBF\u037E\u0387\u055A-\u055F\u0589\u058A\u05BE\u05C0\u05C3\u05C6\u05F3\u05F4\u0609\u060A\u060C\u060D\u061B\u061D-\u061F\u066A-\u066D\u06D4\u0700-\u070D\u07F7-\u07F9\u0830-\u083E\u085E\u0964\u0965\u0970\u09FD\u0A76\u0AF0\u0C77\u0C84\u0DF4\u0E4F\u0E5A\u0E5B\u0F04-\u0F12\u0F14\u0F3A-\u0F3D\u0F85\u0FD0-\u0FD4\u0FD9\u0FDA\u104A-\u104F\u10FB\u1360-\u1368\u1400\u166E\u169B\u169C\u16EB-\u16ED\u1735\u1736\u17D4-\u17D6\u17D8-\u17DA\u1800-\u180A\u1944\u1945\u1A1E\u1A1F\u1AA0-\u1AA6\u1AA8-\u1AAD\u1B5A-\u1B60\u1B7D\u1B7E\u1BFC-\u1BFF\u1C3B-\u1C3F\u1C7E\u1C7F\u1CC0-\u1CC7\u1CD3\u2010-\u2027\u2030-\u2043\u2045-\u2051\u2053-\u205E\u207D\u207E\u208D\u208E\u2308-\u230B\u2329\u232A\u2768-\u2775\u27C5\u27C6\u27E6-\u27EF\u2983-\u2998\u29D8-\u29DB\u29FC\u29FD\u2CF9-\u2CFC\u2CFE\u2CFF\u2D70\u2E00-\u2E2E\u2E30-\u2E4F\u2E52-\u2E5D\u3001-\u3003\u3008-\u3011\u3014-\u301F\u3030\u303D\u30A0\u30FB\uA4FE\uA4FF\uA60D-\uA60F\uA673\uA67E\uA6F2-\uA6F7\uA874-\uA877\uA8CE\uA8CF\uA8F8-\uA8FA\uA8FC\uA92E\uA92F\uA95F\uA9C1-\uA9CD\uA9DE\uA9DF\uAA5C-\uAA5F\uAADE\uAADF\uAAF0\uAAF1\uABEB\uFD3E\uFD3F\uFE10-\uFE19\uFE30-\uFE52\uFE54-\uFE61\uFE63\uFE68\uFE6A\uFE6B\uFF01-\uFF03\uFF05-\uFF0A\uFF0C-\uFF0F\uFF1A\uFF1B\uFF1F\uFF20\uFF3B-\uFF3D\uFF3F\uFF5B\uFF5D\uFF5F-\uFF65]|\uD800[\uDD00-\uDD02\uDF9F\uDFD0]|\uD801\uDD6F|\uD802[\uDC57\uDD1F\uDD3F\uDE50-\uDE58\uDE7F\uDEF0-\uDEF6\uDF39-\uDF3F\uDF99-\uDF9C]|\uD803[\uDEAD\uDF55-\uDF59\uDF86-\uDF89]|\uD804[\uDC47-\uDC4D\uDCBB\uDCBC\uDCBE-\uDCC1\uDD40-\uDD43\uDD74\uDD75\uDDC5-\uDDC8\uDDCD\uDDDB\uDDDD-\uDDDF\uDE38-\uDE3D\uDEA9]|\uD805[\uDC4B-\uDC4F\uDC5A\uDC5B\uDC5D\uDCC6\uDDC1-\uDDD7\uDE41-\uDE43\uDE60-\uDE6C\uDEB9\uDF3C-\uDF3E]|\uD806[\uDC3B\uDD44-\uDD46\uDDE2\uDE3F-\uDE46\uDE9A-\uDE9C\uDE9E-\uDEA2\uDF00-\uDF09]|\uD807[\uDC41-\uDC45\uDC70\uDC71\uDEF7\uDEF8\uDF43-\uDF4F\uDFFF]|\uD809[\uDC70-\uDC74]|\uD80B[\uDFF1\uDFF2]|\uD81A[\uDE6E\uDE6F\uDEF5\uDF37-\uDF3B\uDF44]|\uD81B[\uDE97-\uDE9A\uDFE2]|\uD82F\uDC9F|\uD836[\uDE87-\uDE8B]|\uD83A[\uDD5E\uDD5F]/,ci=/[\$\+<->\^`\|~\xA2-\xA6\xA8\xA9\xAC\xAE-\xB1\xB4\xB8\xD7\xF7\u02C2-\u02C5\u02D2-\u02DF\u02E5-\u02EB\u02ED\u02EF-\u02FF\u0375\u0384\u0385\u03F6\u0482\u058D-\u058F\u0606-\u0608\u060B\u060E\u060F\u06DE\u06E9\u06FD\u06FE\u07F6\u07FE\u07FF\u0888\u09F2\u09F3\u09FA\u09FB\u0AF1\u0B70\u0BF3-\u0BFA\u0C7F\u0D4F\u0D79\u0E3F\u0F01-\u0F03\u0F13\u0F15-\u0F17\u0F1A-\u0F1F\u0F34\u0F36\u0F38\u0FBE-\u0FC5\u0FC7-\u0FCC\u0FCE\u0FCF\u0FD5-\u0FD8\u109E\u109F\u1390-\u1399\u166D\u17DB\u1940\u19DE-\u19FF\u1B61-\u1B6A\u1B74-\u1B7C\u1FBD\u1FBF-\u1FC1\u1FCD-\u1FCF\u1FDD-\u1FDF\u1FED-\u1FEF\u1FFD\u1FFE\u2044\u2052\u207A-\u207C\u208A-\u208C\u20A0-\u20C0\u2100\u2101\u2103-\u2106\u2108\u2109\u2114\u2116-\u2118\u211E-\u2123\u2125\u2127\u2129\u212E\u213A\u213B\u2140-\u2144\u214A-\u214D\u214F\u218A\u218B\u2190-\u2307\u230C-\u2328\u232B-\u2426\u2440-\u244A\u249C-\u24E9\u2500-\u2767\u2794-\u27C4\u27C7-\u27E5\u27F0-\u2982\u2999-\u29D7\u29DC-\u29FB\u29FE-\u2B73\u2B76-\u2B95\u2B97-\u2BFF\u2CE5-\u2CEA\u2E50\u2E51\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u2FF0-\u2FFF\u3004\u3012\u3013\u3020\u3036\u3037\u303E\u303F\u309B\u309C\u3190\u3191\u3196-\u319F\u31C0-\u31E3\u31EF\u3200-\u321E\u322A-\u3247\u3250\u3260-\u327F\u328A-\u32B0\u32C0-\u33FF\u4DC0-\u4DFF\uA490-\uA4C6\uA700-\uA716\uA720\uA721\uA789\uA78A\uA828-\uA82B\uA836-\uA839\uAA77-\uAA79\uAB5B\uAB6A\uAB6B\uFB29\uFBB2-\uFBC2\uFD40-\uFD4F\uFDCF\uFDFC-\uFDFF\uFE62\uFE64-\uFE66\uFE69\uFF04\uFF0B\uFF1C-\uFF1E\uFF3E\uFF40\uFF5C\uFF5E\uFFE0-\uFFE6\uFFE8-\uFFEE\uFFFC\uFFFD]|\uD800[\uDD37-\uDD3F\uDD79-\uDD89\uDD8C-\uDD8E\uDD90-\uDD9C\uDDA0\uDDD0-\uDDFC]|\uD802[\uDC77\uDC78\uDEC8]|\uD805\uDF3F|\uD807[\uDFD5-\uDFF1]|\uD81A[\uDF3C-\uDF3F\uDF45]|\uD82F\uDC9C|\uD833[\uDF50-\uDFC3]|\uD834[\uDC00-\uDCF5\uDD00-\uDD26\uDD29-\uDD64\uDD6A-\uDD6C\uDD83\uDD84\uDD8C-\uDDA9\uDDAE-\uDDEA\uDE00-\uDE41\uDE45\uDF00-\uDF56]|\uD835[\uDEC1\uDEDB\uDEFB\uDF15\uDF35\uDF4F\uDF6F\uDF89\uDFA9\uDFC3]|\uD836[\uDC00-\uDDFF\uDE37-\uDE3A\uDE6D-\uDE74\uDE76-\uDE83\uDE85\uDE86]|\uD838[\uDD4F\uDEFF]|\uD83B[\uDCAC\uDCB0\uDD2E\uDEF0\uDEF1]|\uD83C[\uDC00-\uDC2B\uDC30-\uDC93\uDCA0-\uDCAE\uDCB1-\uDCBF\uDCC1-\uDCCF\uDCD1-\uDCF5\uDD0D-\uDDAD\uDDE6-\uDE02\uDE10-\uDE3B\uDE40-\uDE48\uDE50\uDE51\uDE60-\uDE65\uDF00-\uDFFF]|\uD83D[\uDC00-\uDED7\uDEDC-\uDEEC\uDEF0-\uDEFC\uDF00-\uDF76\uDF7B-\uDFD9\uDFE0-\uDFEB\uDFF0]|\uD83E[\uDC00-\uDC0B\uDC10-\uDC47\uDC50-\uDC59\uDC60-\uDC87\uDC90-\uDCAD\uDCB0\uDCB1\uDD00-\uDE53\uDE60-\uDE6D\uDE70-\uDE7C\uDE80-\uDE88\uDE90-\uDEBD\uDEBF-\uDEC5\uDECE-\uDEDB\uDEE0-\uDEE8\uDEF0-\uDEF8\uDF00-\uDF92\uDF94-\uDFCA]/,li=/[ \xA0\u1680\u2000-\u200A\u2028\u2029\u202F\u205F\u3000]/,ui=s({Any:()=>ii,Cc:()=>ai,Cf:()=>oi,P:()=>si,S:()=>ci,Z:()=>li}),di=new Uint16Array(`ᵁ<Õıʊҝջאٵ۞ޢߖࠏ੊ઑඡ๭༉༦჊ረዡᐕᒝᓃᓟᔥ\0\0\0\0\0\0ᕫᛍᦍᰒᷝ὾⁠↰⊍⏀⏻⑂⠤⤒ⴈ⹈⿎〖㊺㘹㞬㣾㨨㩱㫠㬮ࠀEMabcfglmnoprstu\\bfms¦³¹ÈÏlig耻Æ䃆P耻&䀦cute耻Á䃁reve;䄂Āiyx}rc耻Â䃂;䐐r;쀀𝔄rave耻À䃀pha;䎑acr;䄀d;橓Āgp¡on;䄄f;쀀𝔸plyFunction;恡ing耻Å䃅Ācs¾Ãr;쀀𝒜ign;扔ilde耻Ã䃃ml耻Ä䃄ЀaceforsuåûþėĜĢħĪĀcrêòkslash;或Ŷöø;櫧ed;挆y;䐑ƀcrtąċĔause;戵noullis;愬a;䎒r;쀀𝔅pf;쀀𝔹eve;䋘còēmpeq;扎܀HOacdefhilorsuōőŖƀƞƢƵƷƺǜȕɳɸɾcy;䐧PY耻©䂩ƀcpyŝŢźute;䄆Ā;iŧŨ拒talDifferentialD;慅leys;愭ȀaeioƉƎƔƘron;䄌dil耻Ç䃇rc;䄈nint;戰ot;䄊ĀdnƧƭilla;䂸terDot;䂷òſi;䎧rcleȀDMPTǇǋǑǖot;抙inus;抖lus;投imes;抗oĀcsǢǸkwiseContourIntegral;戲eCurlyĀDQȃȏoubleQuote;思uote;怙ȀlnpuȞȨɇɕonĀ;eȥȦ户;橴ƀgitȯȶȺruent;扡nt;戯ourIntegral;戮ĀfrɌɎ;愂oduct;成nterClockwiseContourIntegral;戳oss;樯cr;쀀𝒞pĀ;Cʄʅ拓ap;才րDJSZacefiosʠʬʰʴʸˋ˗ˡ˦̳ҍĀ;oŹʥtrahd;椑cy;䐂cy;䐅cy;䐏ƀgrsʿ˄ˇger;怡r;憡hv;櫤Āayː˕ron;䄎;䐔lĀ;t˝˞戇a;䎔r;쀀𝔇Āaf˫̧Ācm˰̢riticalȀADGT̖̜̀̆cute;䂴oŴ̋̍;䋙bleAcute;䋝rave;䁠ilde;䋜ond;拄ferentialD;慆Ѱ̽\0\0\0͔͂\0Ѕf;쀀𝔻ƀ;DE͈͉͍䂨ot;惜qual;扐blèCDLRUVͣͲ΂ϏϢϸontourIntegraìȹoɴ͹\0\0ͻ»͉nArrow;懓Āeo·ΤftƀARTΐΖΡrrow;懐ightArrow;懔eåˊngĀLRΫτeftĀARγιrrow;柸ightArrow;柺ightArrow;柹ightĀATϘϞrrow;懒ee;抨pɁϩ\0\0ϯrrow;懑ownArrow;懕erticalBar;戥ǹABLRTaВЪаўѿͼrrowƀ;BUНОТ憓ar;椓pArrow;懵reve;䌑eft˒к\0ц\0ѐightVector;楐eeVector;楞ectorĀ;Bљњ憽ar;楖ightǔѧ\0ѱeeVector;楟ectorĀ;BѺѻ懁ar;楗eeĀ;A҆҇护rrow;憧ĀctҒҗr;쀀𝒟rok;䄐ࠀNTacdfglmopqstuxҽӀӄӋӞӢӧӮӵԡԯԶՒ՝ՠեG;䅊H耻Ð䃐cute耻É䃉ƀaiyӒӗӜron;䄚rc耻Ê䃊;䐭ot;䄖r;쀀𝔈rave耻È䃈ement;戈ĀapӺӾcr;䄒tyɓԆ\0\0ԒmallSquare;旻erySmallSquare;斫ĀgpԦԪon;䄘f;쀀𝔼silon;䎕uĀaiԼՉlĀ;TՂՃ橵ilde;扂librium;懌Āci՗՚r;愰m;橳a;䎗ml耻Ë䃋Āipժկsts;戃onentialE;慇ʀcfiosօֈ֍ֲ׌y;䐤r;쀀𝔉lledɓ֗\0\0֣mallSquare;旼erySmallSquare;斪Ͱֺ\0ֿ\0\0ׄf;쀀𝔽All;戀riertrf;愱cò׋؀JTabcdfgorstר׬ׯ׺؀ؒؖ؛؝أ٬ٲcy;䐃耻>䀾mmaĀ;d׷׸䎓;䏜reve;䄞ƀeiy؇،ؐdil;䄢rc;䄜;䐓ot;䄠r;쀀𝔊;拙pf;쀀𝔾eater̀EFGLSTصلَٖٛ٦qualĀ;Lؾؿ扥ess;招ullEqual;执reater;檢ess;扷lantEqual;橾ilde;扳cr;쀀𝒢;扫ЀAacfiosuڅڋږڛڞڪھۊRDcy;䐪Āctڐڔek;䋇;䁞irc;䄤r;愌lbertSpace;愋ǰگ\0ڲf;愍izontalLine;攀Āctۃۅòکrok;䄦mpńېۘownHumðįqual;扏܀EJOacdfgmnostuۺ۾܃܇܎ܚܞܡܨ݄ݸދޏޕcy;䐕lig;䄲cy;䐁cute耻Í䃍Āiyܓܘrc耻Î䃎;䐘ot;䄰r;愑rave耻Ì䃌ƀ;apܠܯܿĀcgܴܷr;䄪inaryI;慈lieóϝǴ݉\0ݢĀ;eݍݎ戬Āgrݓݘral;戫section;拂isibleĀCTݬݲomma;恣imes;恢ƀgptݿރވon;䄮f;쀀𝕀a;䎙cr;愐ilde;䄨ǫޚ\0ޞcy;䐆l耻Ï䃏ʀcfosuެ޷޼߂ߐĀiyޱ޵rc;䄴;䐙r;쀀𝔍pf;쀀𝕁ǣ߇\0ߌr;쀀𝒥rcy;䐈kcy;䐄΀HJacfosߤߨ߽߬߱ࠂࠈcy;䐥cy;䐌ppa;䎚Āey߶߻dil;䄶;䐚r;쀀𝔎pf;쀀𝕂cr;쀀𝒦րJTaceflmostࠥࠩࠬࡐࡣ঳সে্਷ੇcy;䐉耻<䀼ʀcmnpr࠷࠼ࡁࡄࡍute;䄹bda;䎛g;柪lacetrf;愒r;憞ƀaeyࡗ࡜ࡡron;䄽dil;䄻;䐛Āfsࡨ॰tԀACDFRTUVarࡾࢩࢱࣦ࣠ࣼयज़ΐ४Ānrࢃ࢏gleBracket;柨rowƀ;BR࢙࢚࢞憐ar;懤ightArrow;懆eiling;挈oǵࢷ\0ࣃbleBracket;柦nǔࣈ\0࣒eeVector;楡ectorĀ;Bࣛࣜ懃ar;楙loor;挊ightĀAV࣯ࣵrrow;憔ector;楎Āerँगeƀ;AVउऊऐ抣rrow;憤ector;楚iangleƀ;BEतथऩ抲ar;槏qual;抴pƀDTVषूौownVector;楑eeVector;楠ectorĀ;Bॖॗ憿ar;楘ectorĀ;B॥०憼ar;楒ightáΜs̀EFGLSTॾঋকঝঢভqualGreater;拚ullEqual;扦reater;扶ess;檡lantEqual;橽ilde;扲r;쀀𝔏Ā;eঽা拘ftarrow;懚idot;䄿ƀnpw৔ਖਛgȀLRlr৞৷ਂਐeftĀAR০৬rrow;柵ightArrow;柷ightArrow;柶eftĀarγਊightáοightáϊf;쀀𝕃erĀLRਢਬeftArrow;憙ightArrow;憘ƀchtਾੀੂòࡌ;憰rok;䅁;扪Ѐacefiosuਗ਼੝੠੷੼અઋ઎p;椅y;䐜Ādl੥੯iumSpace;恟lintrf;愳r;쀀𝔐nusPlus;戓pf;쀀𝕄cò੶;䎜ҀJacefostuણધભીଔଙඑ඗ඞcy;䐊cute;䅃ƀaey઴હાron;䅇dil;䅅;䐝ƀgswે૰଎ativeƀMTV૓૟૨ediumSpace;怋hiĀcn૦૘ë૙eryThiî૙tedĀGL૸ଆreaterGreateòٳessLesóੈLine;䀊r;쀀𝔑ȀBnptଢନଷ଺reak;恠BreakingSpace;䂠f;愕ڀ;CDEGHLNPRSTV୕ୖ୪୼஡௫ఄ౞಄ದ೘ൡඅ櫬Āou୛୤ngruent;扢pCap;扭oubleVerticalBar;戦ƀlqxஃஊ஛ement;戉ualĀ;Tஒஓ扠ilde;쀀≂̸ists;戄reater΀;EFGLSTஶஷ஽௉௓௘௥扯qual;扱ullEqual;쀀≧̸reater;쀀≫̸ess;批lantEqual;쀀⩾̸ilde;扵umpń௲௽ownHump;쀀≎̸qual;쀀≏̸eĀfsఊధtTriangleƀ;BEచఛడ拪ar;쀀⧏̸qual;括s̀;EGLSTవశ఼ౄోౘ扮qual;扰reater;扸ess;쀀≪̸lantEqual;쀀⩽̸ilde;扴estedĀGL౨౹reaterGreater;쀀⪢̸essLess;쀀⪡̸recedesƀ;ESಒಓಛ技qual;쀀⪯̸lantEqual;拠ĀeiಫಹverseElement;戌ghtTriangleƀ;BEೋೌ೒拫ar;쀀⧐̸qual;拭ĀquೝഌuareSuĀbp೨೹setĀ;E೰ೳ쀀⊏̸qual;拢ersetĀ;Eഃആ쀀⊐̸qual;拣ƀbcpഓതൎsetĀ;Eഛഞ쀀⊂⃒qual;抈ceedsȀ;ESTലള഻െ抁qual;쀀⪰̸lantEqual;拡ilde;쀀≿̸ersetĀ;E൘൛쀀⊃⃒qual;抉ildeȀ;EFT൮൯൵ൿ扁qual;扄ullEqual;扇ilde;扉erticalBar;戤cr;쀀𝒩ilde耻Ñ䃑;䎝܀Eacdfgmoprstuvලෂ෉෕ෛ෠෧෼ขภยา฿ไlig;䅒cute耻Ó䃓Āiy෎ීrc耻Ô䃔;䐞blac;䅐r;쀀𝔒rave耻Ò䃒ƀaei෮ෲ෶cr;䅌ga;䎩cron;䎟pf;쀀𝕆enCurlyĀDQฎบoubleQuote;怜uote;怘;橔Āclวฬr;쀀𝒪ash耻Ø䃘iŬื฼de耻Õ䃕es;樷ml耻Ö䃖erĀBP๋๠Āar๐๓r;怾acĀek๚๜;揞et;掴arenthesis;揜Ҁacfhilors๿ງຊຏຒດຝະ໼rtialD;戂y;䐟r;쀀𝔓i;䎦;䎠usMinus;䂱Āipຢອncareplanåڝf;愙Ȁ;eio຺ູ໠໤檻cedesȀ;EST່້໏໚扺qual;檯lantEqual;扼ilde;找me;怳Ādp໩໮uct;戏ortionĀ;aȥ໹l;戝Āci༁༆r;쀀𝒫;䎨ȀUfos༑༖༛༟OT耻"䀢r;쀀𝔔pf;愚cr;쀀𝒬؀BEacefhiorsu༾གྷཇའཱིྦྷྪྭ႖ႩႴႾarr;椐G耻®䂮ƀcnrཎནབute;䅔g;柫rĀ;tཛྷཝ憠l;椖ƀaeyཧཬཱron;䅘dil;䅖;䐠Ā;vླྀཹ愜erseĀEUྂྙĀlq྇ྎement;戋uilibrium;懋pEquilibrium;楯r»ཹo;䎡ghtЀACDFTUVa࿁࿫࿳ဢဨၛႇϘĀnr࿆࿒gleBracket;柩rowƀ;BL࿜࿝࿡憒ar;懥eftArrow;懄eiling;按oǵ࿹\0စbleBracket;柧nǔည\0နeeVector;楝ectorĀ;Bဝသ懂ar;楕loor;挋Āerိ၃eƀ;AVဵံြ抢rrow;憦ector;楛iangleƀ;BEၐၑၕ抳ar;槐qual;抵pƀDTVၣၮၸownVector;楏eeVector;楜ectorĀ;Bႂႃ憾ar;楔ectorĀ;B႑႒懀ar;楓Āpuႛ႞f;愝ndImplies;楰ightarrow;懛ĀchႹႼr;愛;憱leDelayed;槴ڀHOacfhimoqstuფჱჷჽᄙᄞᅑᅖᅡᅧᆵᆻᆿĀCcჩხHcy;䐩y;䐨FTcy;䐬cute;䅚ʀ;aeiyᄈᄉᄎᄓᄗ檼ron;䅠dil;䅞rc;䅜;䐡r;쀀𝔖ortȀDLRUᄪᄴᄾᅉownArrow»ОeftArrow»࢚ightArrow»࿝pArrow;憑gma;䎣allCircle;战pf;쀀𝕊ɲᅭ\0\0ᅰt;戚areȀ;ISUᅻᅼᆉᆯ斡ntersection;抓uĀbpᆏᆞsetĀ;Eᆗᆘ抏qual;抑ersetĀ;Eᆨᆩ抐qual;抒nion;抔cr;쀀𝒮ar;拆ȀbcmpᇈᇛሉላĀ;sᇍᇎ拐etĀ;Eᇍᇕqual;抆ĀchᇠህeedsȀ;ESTᇭᇮᇴᇿ扻qual;檰lantEqual;扽ilde;承Tháྌ;我ƀ;esሒሓሣ拑rsetĀ;Eሜም抃qual;抇et»ሓրHRSacfhiorsሾቄ቉ቕ቞ቱቶኟዂወዑORN耻Þ䃞ADE;愢ĀHc቎ቒcy;䐋y;䐦Ābuቚቜ;䀉;䎤ƀaeyብቪቯron;䅤dil;䅢;䐢r;쀀𝔗Āeiቻ኉ǲኀ\0ኇefore;戴a;䎘Ācn኎ኘkSpace;쀀  Space;怉ldeȀ;EFTካኬኲኼ戼qual;扃ullEqual;扅ilde;扈pf;쀀𝕋ipleDot;惛Āctዖዛr;쀀𝒯rok;䅦ૡዷጎጚጦ\0ጬጱ\0\0\0\0\0ጸጽ፷ᎅ\0᏿ᐄᐊᐐĀcrዻጁute耻Ú䃚rĀ;oጇገ憟cir;楉rǣጓ\0጖y;䐎ve;䅬Āiyጞጣrc耻Û䃛;䐣blac;䅰r;쀀𝔘rave耻Ù䃙acr;䅪Ādiፁ፩erĀBPፈ፝Āarፍፐr;䁟acĀekፗፙ;揟et;掵arenthesis;揝onĀ;P፰፱拃lus;抎Āgp፻፿on;䅲f;쀀𝕌ЀADETadps᎕ᎮᎸᏄϨᏒᏗᏳrrowƀ;BDᅐᎠᎤar;椒ownArrow;懅ownArrow;憕quilibrium;楮eeĀ;AᏋᏌ报rrow;憥ownáϳerĀLRᏞᏨeftArrow;憖ightArrow;憗iĀ;lᏹᏺ䏒on;䎥ing;䅮cr;쀀𝒰ilde;䅨ml耻Ü䃜ҀDbcdefosvᐧᐬᐰᐳᐾᒅᒊᒐᒖash;披ar;櫫y;䐒ashĀ;lᐻᐼ抩;櫦Āerᑃᑅ;拁ƀbtyᑌᑐᑺar;怖Ā;iᑏᑕcalȀBLSTᑡᑥᑪᑴar;戣ine;䁼eparator;杘ilde;所ThinSpace;怊r;쀀𝔙pf;쀀𝕍cr;쀀𝒱dash;抪ʀcefosᒧᒬᒱᒶᒼirc;䅴dge;拀r;쀀𝔚pf;쀀𝕎cr;쀀𝒲Ȁfiosᓋᓐᓒᓘr;쀀𝔛;䎞pf;쀀𝕏cr;쀀𝒳ҀAIUacfosuᓱᓵᓹᓽᔄᔏᔔᔚᔠcy;䐯cy;䐇cy;䐮cute耻Ý䃝Āiyᔉᔍrc;䅶;䐫r;쀀𝔜pf;쀀𝕐cr;쀀𝒴ml;䅸ЀHacdefosᔵᔹᔿᕋᕏᕝᕠᕤcy;䐖cute;䅹Āayᕄᕉron;䅽;䐗ot;䅻ǲᕔ\0ᕛoWidtè૙a;䎖r;愨pf;愤cr;쀀𝒵௡ᖃᖊᖐ\0ᖰᖶᖿ\0\0\0\0ᗆᗛᗫᙟ᙭\0ᚕ᚛ᚲᚹ\0ᚾcute耻á䃡reve;䄃̀;Ediuyᖜᖝᖡᖣᖨᖭ戾;쀀∾̳;房rc耻â䃢te肻´̆;䐰lig耻æ䃦Ā;r²ᖺ;쀀𝔞rave耻à䃠ĀepᗊᗖĀfpᗏᗔsym;愵èᗓha;䎱ĀapᗟcĀclᗤᗧr;䄁g;樿ɤᗰ\0\0ᘊʀ;adsvᗺᗻᗿᘁᘇ戧nd;橕;橜lope;橘;橚΀;elmrszᘘᘙᘛᘞᘿᙏᙙ戠;榤e»ᘙsdĀ;aᘥᘦ戡ѡᘰᘲᘴᘶᘸᘺᘼᘾ;榨;榩;榪;榫;榬;榭;榮;榯tĀ;vᙅᙆ戟bĀ;dᙌᙍ抾;榝Āptᙔᙗh;戢»¹arr;捼Āgpᙣᙧon;䄅f;쀀𝕒΀;Eaeiop዁ᙻᙽᚂᚄᚇᚊ;橰cir;橯;扊d;手s;䀧roxĀ;e዁ᚒñᚃing耻å䃥ƀctyᚡᚦᚨr;쀀𝒶;䀪mpĀ;e዁ᚯñʈilde耻ã䃣ml耻ä䃤Āciᛂᛈoninôɲnt;樑ࠀNabcdefiklnoprsu᛭ᛱᜰ᜼ᝃᝈ᝸᝽០៦ᠹᡐᜍ᤽᥈ᥰot;櫭Ācrᛶ᜞kȀcepsᜀᜅᜍᜓong;扌psilon;䏶rime;怵imĀ;e᜚᜛戽q;拍Ŷᜢᜦee;抽edĀ;gᜬᜭ挅e»ᜭrkĀ;t፜᜷brk;掶Āoyᜁᝁ;䐱quo;怞ʀcmprtᝓ᝛ᝡᝤᝨausĀ;eĊĉptyv;榰séᜌnoõēƀahwᝯ᝱ᝳ;䎲;愶een;扬r;쀀𝔟g΀costuvwឍឝឳេ៕៛៞ƀaiuបពរðݠrc;旯p»፱ƀdptឤឨឭot;樀lus;樁imes;樂ɱឹ\0\0ើcup;樆ar;昅riangleĀdu៍្own;施p;斳plus;樄eåᑄåᒭarow;植ƀako៭ᠦᠵĀcn៲ᠣkƀlst៺֫᠂ozenge;槫riangleȀ;dlr᠒᠓᠘᠝斴own;斾eft;旂ight;斸k;搣Ʊᠫ\0ᠳƲᠯ\0ᠱ;斒;斑4;斓ck;斈ĀeoᠾᡍĀ;qᡃᡆ쀀=⃥uiv;쀀≡⃥t;挐Ȁptwxᡙᡞᡧᡬf;쀀𝕓Ā;tᏋᡣom»Ꮜtie;拈؀DHUVbdhmptuvᢅᢖᢪᢻᣗᣛᣬ᣿ᤅᤊᤐᤡȀLRlrᢎᢐᢒᢔ;敗;敔;敖;敓ʀ;DUduᢡᢢᢤᢦᢨ敐;敦;敩;敤;敧ȀLRlrᢳᢵᢷᢹ;敝;敚;敜;教΀;HLRhlrᣊᣋᣍᣏᣑᣓᣕ救;敬;散;敠;敫;敢;敟ox;槉ȀLRlrᣤᣦᣨᣪ;敕;敒;攐;攌ʀ;DUduڽ᣷᣹᣻᣽;敥;敨;攬;攴inus;抟lus;択imes;抠ȀLRlrᤙᤛᤝ᤟;敛;敘;攘;攔΀;HLRhlrᤰᤱᤳᤵᤷ᤻᤹攂;敪;敡;敞;攼;攤;攜Āevģ᥂bar耻¦䂦Ȁceioᥑᥖᥚᥠr;쀀𝒷mi;恏mĀ;e᜚᜜lƀ;bhᥨᥩᥫ䁜;槅sub;柈Ŭᥴ᥾lĀ;e᥹᥺怢t»᥺pƀ;Eeįᦅᦇ;檮Ā;qۜۛೡᦧ\0᧨ᨑᨕᨲ\0ᨷᩐ\0\0᪴\0\0᫁\0\0ᬡᬮ᭍᭒\0᯽\0ᰌƀcpr᦭ᦲ᧝ute;䄇̀;abcdsᦿᧀᧄ᧊᧕᧙戩nd;橄rcup;橉Āau᧏᧒p;橋p;橇ot;橀;쀀∩︀Āeo᧢᧥t;恁îړȀaeiu᧰᧻ᨁᨅǰ᧵\0᧸s;橍on;䄍dil耻ç䃧rc;䄉psĀ;sᨌᨍ橌m;橐ot;䄋ƀdmnᨛᨠᨦil肻¸ƭptyv;榲t脀¢;eᨭᨮ䂢räƲr;쀀𝔠ƀceiᨽᩀᩍy;䑇ckĀ;mᩇᩈ朓ark»ᩈ;䏇r΀;Ecefms᩟᩠ᩢᩫ᪤᪪᪮旋;槃ƀ;elᩩᩪᩭ䋆q;扗eɡᩴ\0\0᪈rrowĀlr᩼᪁eft;憺ight;憻ʀRSacd᪒᪔᪖᪚᪟»ཇ;擈st;抛irc;抚ash;抝nint;樐id;櫯cir;槂ubsĀ;u᪻᪼晣it»᪼ˬ᫇᫔᫺\0ᬊonĀ;eᫍᫎ䀺Ā;qÇÆɭ᫙\0\0᫢aĀ;t᫞᫟䀬;䁀ƀ;fl᫨᫩᫫戁îᅠeĀmx᫱᫶ent»᫩eóɍǧ᫾\0ᬇĀ;dኻᬂot;橭nôɆƀfryᬐᬔᬗ;쀀𝕔oäɔ脀©;sŕᬝr;愗Āaoᬥᬩrr;憵ss;朗Ācuᬲᬷr;쀀𝒸Ābpᬼ᭄Ā;eᭁᭂ櫏;櫑Ā;eᭉᭊ櫐;櫒dot;拯΀delprvw᭠᭬᭷ᮂᮬᯔ᯹arrĀlr᭨᭪;椸;椵ɰ᭲\0\0᭵r;拞c;拟arrĀ;p᭿ᮀ憶;椽̀;bcdosᮏᮐᮖᮡᮥᮨ截rcap;橈Āauᮛᮞp;橆p;橊ot;抍r;橅;쀀∪︀Ȁalrv᮵ᮿᯞᯣrrĀ;mᮼᮽ憷;椼yƀevwᯇᯔᯘqɰᯎ\0\0ᯒreã᭳uã᭵ee;拎edge;拏en耻¤䂤earrowĀlrᯮ᯳eft»ᮀight»ᮽeäᯝĀciᰁᰇoninôǷnt;戱lcty;挭ঀAHabcdefhijlorstuwz᰸᰻᰿ᱝᱩᱵᲊᲞᲬᲷ᳻᳿ᴍᵻᶑᶫᶻ᷆᷍rò΁ar;楥Ȁglrs᱈ᱍ᱒᱔ger;怠eth;愸òᄳhĀ;vᱚᱛ怐»ऊūᱡᱧarow;椏aã̕Āayᱮᱳron;䄏;䐴ƀ;ao̲ᱼᲄĀgrʿᲁr;懊tseq;橷ƀglmᲑᲔᲘ耻°䂰ta;䎴ptyv;榱ĀirᲣᲨsht;楿;쀀𝔡arĀlrᲳᲵ»ࣜ»သʀaegsv᳂͸᳖᳜᳠mƀ;oș᳊᳔ndĀ;ș᳑uit;晦amma;䏝in;拲ƀ;io᳧᳨᳸䃷de脀÷;o᳧ᳰntimes;拇nø᳷cy;䑒cɯᴆ\0\0ᴊrn;挞op;挍ʀlptuwᴘᴝᴢᵉᵕlar;䀤f;쀀𝕕ʀ;emps̋ᴭᴷᴽᵂqĀ;d͒ᴳot;扑inus;戸lus;戔quare;抡blebarwedgåúnƀadhᄮᵝᵧownarrowóᲃarpoonĀlrᵲᵶefôᲴighôᲶŢᵿᶅkaro÷གɯᶊ\0\0ᶎrn;挟op;挌ƀcotᶘᶣᶦĀryᶝᶡ;쀀𝒹;䑕l;槶rok;䄑Ādrᶰᶴot;拱iĀ;fᶺ᠖斿Āah᷀᷃ròЩaòྦangle;榦Āci᷒ᷕy;䑟grarr;柿ऀDacdefglmnopqrstuxḁḉḙḸոḼṉṡṾấắẽỡἪἷὄ὎὚ĀDoḆᴴoôᲉĀcsḎḔute耻é䃩ter;橮ȀaioyḢḧḱḶron;䄛rĀ;cḭḮ扖耻ê䃪lon;払;䑍ot;䄗ĀDrṁṅot;扒;쀀𝔢ƀ;rsṐṑṗ檚ave耻è䃨Ā;dṜṝ檖ot;檘Ȁ;ilsṪṫṲṴ檙nters;揧;愓Ā;dṹṺ檕ot;檗ƀapsẅẉẗcr;䄓tyƀ;svẒẓẕ戅et»ẓpĀ1;ẝẤĳạả;怄;怅怃ĀgsẪẬ;䅋p;怂ĀgpẴẸon;䄙f;쀀𝕖ƀalsỄỎỒrĀ;sỊị拕l;槣us;橱iƀ;lvỚớở䎵on»ớ;䏵ȀcsuvỪỳἋἣĀioữḱrc»Ḯɩỹ\0\0ỻíՈantĀglἂἆtr»ṝess»Ṻƀaeiἒ἖Ἒls;䀽st;扟vĀ;DȵἠD;橸parsl;槥ĀDaἯἳot;打rr;楱ƀcdiἾὁỸr;愯oô͒ĀahὉὋ;䎷耻ð䃰Āmrὓὗl耻ë䃫o;悬ƀcipὡὤὧl;䀡sôծĀeoὬὴctatioîՙnentialåչৡᾒ\0ᾞ\0ᾡᾧ\0\0ῆῌ\0ΐ\0ῦῪ \0 ⁚llingdotseñṄy;䑄male;晀ƀilrᾭᾳ῁lig;耀ﬃɩᾹ\0\0᾽g;耀ﬀig;耀ﬄ;쀀𝔣lig;耀ﬁlig;쀀fjƀaltῙ῜ῡt;晭ig;耀ﬂns;斱of;䆒ǰ΅\0ῳf;쀀𝕗ĀakֿῷĀ;vῼ´拔;櫙artint;樍Āao‌⁕Ācs‑⁒α‚‰‸⁅⁈\0⁐β•‥‧‪‬\0‮耻½䂽;慓耻¼䂼;慕;慙;慛Ƴ‴\0‶;慔;慖ʴ‾⁁\0\0⁃耻¾䂾;慗;慜5;慘ƶ⁌\0⁎;慚;慝8;慞l;恄wn;挢cr;쀀𝒻ࢀEabcdefgijlnorstv₂₉₟₥₰₴⃰⃵⃺⃿℃ℒℸ̗ℾ⅒↞Ā;lٍ₇;檌ƀcmpₐₕ₝ute;䇵maĀ;dₜ᳚䎳;檆reve;䄟Āiy₪₮rc;䄝;䐳ot;䄡Ȁ;lqsؾق₽⃉ƀ;qsؾٌ⃄lanô٥Ȁ;cdl٥⃒⃥⃕c;檩otĀ;o⃜⃝檀Ā;l⃢⃣檂;檄Ā;e⃪⃭쀀⋛︀s;檔r;쀀𝔤Ā;gٳ؛mel;愷cy;䑓Ȁ;Eajٚℌℎℐ;檒;檥;檤ȀEaesℛℝ℩ℴ;扩pĀ;p℣ℤ檊rox»ℤĀ;q℮ℯ檈Ā;q℮ℛim;拧pf;쀀𝕘Āci⅃ⅆr;愊mƀ;el٫ⅎ⅐;檎;檐茀>;cdlqr׮ⅠⅪⅮⅳⅹĀciⅥⅧ;檧r;橺ot;拗Par;榕uest;橼ʀadelsↄⅪ←ٖ↛ǰ↉\0↎proø₞r;楸qĀlqؿ↖lesó₈ií٫Āen↣↭rtneqq;쀀≩︀Å↪ԀAabcefkosy⇄⇇⇱⇵⇺∘∝∯≨≽ròΠȀilmr⇐⇔⇗⇛rsðᒄf»․ilôکĀdr⇠⇤cy;䑊ƀ;cwࣴ⇫⇯ir;楈;憭ar;意irc;䄥ƀalr∁∎∓rtsĀ;u∉∊晥it»∊lip;怦con;抹r;쀀𝔥sĀew∣∩arow;椥arow;椦ʀamopr∺∾≃≞≣rr;懿tht;戻kĀlr≉≓eftarrow;憩ightarrow;憪f;쀀𝕙bar;怕ƀclt≯≴≸r;쀀𝒽asè⇴rok;䄧Ābp⊂⊇ull;恃hen»ᱛૡ⊣\0⊪\0⊸⋅⋎\0⋕⋳\0\0⋸⌢⍧⍢⍿\0⎆⎪⎴cute耻í䃭ƀ;iyݱ⊰⊵rc耻î䃮;䐸Ācx⊼⊿y;䐵cl耻¡䂡ĀfrΟ⋉;쀀𝔦rave耻ì䃬Ȁ;inoܾ⋝⋩⋮Āin⋢⋦nt;樌t;戭fin;槜ta;愩lig;䄳ƀaop⋾⌚⌝ƀcgt⌅⌈⌗r;䄫ƀelpܟ⌏⌓inåގarôܠh;䄱f;抷ed;䆵ʀ;cfotӴ⌬⌱⌽⍁are;愅inĀ;t⌸⌹戞ie;槝doô⌙ʀ;celpݗ⍌⍐⍛⍡al;抺Āgr⍕⍙eróᕣã⍍arhk;樗rod;樼Ȁcgpt⍯⍲⍶⍻y;䑑on;䄯f;쀀𝕚a;䎹uest耻¿䂿Āci⎊⎏r;쀀𝒾nʀ;EdsvӴ⎛⎝⎡ӳ;拹ot;拵Ā;v⎦⎧拴;拳Ā;iݷ⎮lde;䄩ǫ⎸\0⎼cy;䑖l耻ï䃯̀cfmosu⏌⏗⏜⏡⏧⏵Āiy⏑⏕rc;䄵;䐹r;쀀𝔧ath;䈷pf;쀀𝕛ǣ⏬\0⏱r;쀀𝒿rcy;䑘kcy;䑔Ѐacfghjos␋␖␢␧␭␱␵␻ppaĀ;v␓␔䎺;䏰Āey␛␠dil;䄷;䐺r;쀀𝔨reen;䄸cy;䑅cy;䑜pf;쀀𝕜cr;쀀𝓀஀ABEHabcdefghjlmnoprstuv⑰⒁⒆⒍⒑┎┽╚▀♎♞♥♹♽⚚⚲⛘❝❨➋⟀⠁⠒ƀart⑷⑺⑼rò৆òΕail;椛arr;椎Ā;gঔ⒋;檋ar;楢ॣ⒥\0⒪\0⒱\0\0\0\0\0⒵Ⓔ\0ⓆⓈⓍ\0⓹ute;䄺mptyv;榴raîࡌbda;䎻gƀ;dlࢎⓁⓃ;榑åࢎ;檅uo耻«䂫rЀ;bfhlpst࢙ⓞⓦⓩ⓫⓮⓱⓵Ā;f࢝ⓣs;椟s;椝ë≒p;憫l;椹im;楳l;憢ƀ;ae⓿─┄檫il;椙Ā;s┉┊檭;쀀⪭︀ƀabr┕┙┝rr;椌rk;杲Āak┢┬cĀek┨┪;䁻;䁛Āes┱┳;榋lĀdu┹┻;榏;榍Ȁaeuy╆╋╖╘ron;䄾Ādi═╔il;䄼ìࢰâ┩;䐻Ȁcqrs╣╦╭╽a;椶uoĀ;rนᝆĀdu╲╷har;楧shar;楋h;憲ʀ;fgqs▋▌উ◳◿扤tʀahlrt▘▤▷◂◨rrowĀ;t࢙□aé⓶arpoonĀdu▯▴own»њp»०eftarrows;懇ightƀahs◍◖◞rrowĀ;sࣴࢧarpoonó྘quigarro÷⇰hreetimes;拋ƀ;qs▋ও◺lanôবʀ;cdgsব☊☍☝☨c;檨otĀ;o☔☕橿Ā;r☚☛檁;檃Ā;e☢☥쀀⋚︀s;檓ʀadegs☳☹☽♉♋pproøⓆot;拖qĀgq♃♅ôউgtò⒌ôছiíলƀilr♕࣡♚sht;楼;쀀𝔩Ā;Eজ♣;檑š♩♶rĀdu▲♮Ā;l॥♳;楪lk;斄cy;䑙ʀ;achtੈ⚈⚋⚑⚖rò◁orneòᴈard;楫ri;旺Āio⚟⚤dot;䅀ustĀ;a⚬⚭掰che»⚭ȀEaes⚻⚽⛉⛔;扨pĀ;p⛃⛄檉rox»⛄Ā;q⛎⛏檇Ā;q⛎⚻im;拦Ѐabnoptwz⛩⛴⛷✚✯❁❇❐Ānr⛮⛱g;柬r;懽rëࣁgƀlmr⛿✍✔eftĀar০✇ightá৲apsto;柼ightá৽parrowĀlr✥✩efô⓭ight;憬ƀafl✶✹✽r;榅;쀀𝕝us;樭imes;樴š❋❏st;戗áፎƀ;ef❗❘᠀旊nge»❘arĀ;l❤❥䀨t;榓ʀachmt❳❶❼➅➇ròࢨorneòᶌarĀ;d྘➃;業;怎ri;抿̀achiqt➘➝ੀ➢➮➻quo;怹r;쀀𝓁mƀ;egল➪➬;檍;檏Ābu┪➳oĀ;rฟ➹;怚rok;䅂萀<;cdhilqrࠫ⟒☹⟜⟠⟥⟪⟰Āci⟗⟙;檦r;橹reå◲mes;拉arr;楶uest;橻ĀPi⟵⟹ar;榖ƀ;ef⠀भ᠛旃rĀdu⠇⠍shar;楊har;楦Āen⠗⠡rtneqq;쀀≨︀Å⠞܀Dacdefhilnopsu⡀⡅⢂⢎⢓⢠⢥⢨⣚⣢⣤ઃ⣳⤂Dot;戺Ȁclpr⡎⡒⡣⡽r耻¯䂯Āet⡗⡙;時Ā;e⡞⡟朠se»⡟Ā;sျ⡨toȀ;dluျ⡳⡷⡻owîҌefôएðᏑker;斮Āoy⢇⢌mma;権;䐼ash;怔asuredangle»ᘦr;쀀𝔪o;愧ƀcdn⢯⢴⣉ro耻µ䂵Ȁ;acdᑤ⢽⣀⣄sôᚧir;櫰ot肻·Ƶusƀ;bd⣒ᤃ⣓戒Ā;uᴼ⣘;横ţ⣞⣡p;櫛ò−ðઁĀdp⣩⣮els;抧f;쀀𝕞Āct⣸⣽r;쀀𝓂pos»ᖝƀ;lm⤉⤊⤍䎼timap;抸ఀGLRVabcdefghijlmoprstuvw⥂⥓⥾⦉⦘⧚⧩⨕⨚⩘⩝⪃⪕⪤⪨⬄⬇⭄⭿⮮ⰴⱧⱼ⳩Āgt⥇⥋;쀀⋙̸Ā;v⥐௏쀀≫⃒ƀelt⥚⥲⥶ftĀar⥡⥧rrow;懍ightarrow;懎;쀀⋘̸Ā;v⥻ే쀀≪⃒ightarrow;懏ĀDd⦎⦓ash;抯ash;抮ʀbcnpt⦣⦧⦬⦱⧌la»˞ute;䅄g;쀀∠⃒ʀ;Eiop඄⦼⧀⧅⧈;쀀⩰̸d;쀀≋̸s;䅉roø඄urĀ;a⧓⧔普lĀ;s⧓ସǳ⧟\0⧣p肻\xA0ଷmpĀ;e௹ఀʀaeouy⧴⧾⨃⨐⨓ǰ⧹\0⧻;橃on;䅈dil;䅆ngĀ;dൾ⨊ot;쀀⩭̸p;橂;䐽ash;怓΀;Aadqsxஒ⨩⨭⨻⩁⩅⩐rr;懗rĀhr⨳⨶k;椤Ā;oᏲᏰot;쀀≐̸uiöୣĀei⩊⩎ar;椨í஘istĀ;s஠டr;쀀𝔫ȀEest௅⩦⩹⩼ƀ;qs஼⩭௡ƀ;qs஼௅⩴lanô௢ií௪Ā;rஶ⪁»ஷƀAap⪊⪍⪑rò⥱rr;憮ar;櫲ƀ;svྍ⪜ྌĀ;d⪡⪢拼;拺cy;䑚΀AEadest⪷⪺⪾⫂⫅⫶⫹rò⥦;쀀≦̸rr;憚r;急Ȁ;fqs఻⫎⫣⫯tĀar⫔⫙rro÷⫁ightarro÷⪐ƀ;qs఻⪺⫪lanôౕĀ;sౕ⫴»శiíౝĀ;rవ⫾iĀ;eచథiäඐĀpt⬌⬑f;쀀𝕟膀¬;in⬙⬚⬶䂬nȀ;Edvஉ⬤⬨⬮;쀀⋹̸ot;쀀⋵̸ǡஉ⬳⬵;拷;拶iĀ;vಸ⬼ǡಸ⭁⭃;拾;拽ƀaor⭋⭣⭩rȀ;ast୻⭕⭚⭟lleì୻l;쀀⫽⃥;쀀∂̸lint;樔ƀ;ceಒ⭰⭳uåಥĀ;cಘ⭸Ā;eಒ⭽ñಘȀAait⮈⮋⮝⮧rò⦈rrƀ;cw⮔⮕⮙憛;쀀⤳̸;쀀↝̸ghtarrow»⮕riĀ;eೋೖ΀chimpqu⮽⯍⯙⬄୸⯤⯯Ȁ;cerല⯆ഷ⯉uå൅;쀀𝓃ortɭ⬅\0\0⯖ará⭖mĀ;e൮⯟Ā;q൴൳suĀbp⯫⯭å೸åഋƀbcp⯶ⰑⰙȀ;Ees⯿ⰀഢⰄ抄;쀀⫅̸etĀ;eഛⰋqĀ;qണⰀcĀ;eലⰗñസȀ;EesⰢⰣൟⰧ抅;쀀⫆̸etĀ;e൘ⰮqĀ;qൠⰣȀgilrⰽⰿⱅⱇìௗlde耻ñ䃱çృiangleĀlrⱒⱜeftĀ;eచⱚñదightĀ;eೋⱥñ೗Ā;mⱬⱭ䎽ƀ;esⱴⱵⱹ䀣ro;愖p;怇ҀDHadgilrsⲏⲔⲙⲞⲣⲰⲶⳓⳣash;抭arr;椄p;쀀≍⃒ash;抬ĀetⲨⲬ;쀀≥⃒;쀀>⃒nfin;槞ƀAetⲽⳁⳅrr;椂;쀀≤⃒Ā;rⳊⳍ쀀<⃒ie;쀀⊴⃒ĀAtⳘⳜrr;椃rie;쀀⊵⃒im;쀀∼⃒ƀAan⳰⳴ⴂrr;懖rĀhr⳺⳽k;椣Ā;oᏧᏥear;椧ቓ᪕\0\0\0\0\0\0\0\0\0\0\0\0\0ⴭ\0ⴸⵈⵠⵥ⵲ⶄᬇ\0\0ⶍⶫ\0ⷈⷎ\0ⷜ⸙⸫⸾⹃Ācsⴱ᪗ute耻ó䃳ĀiyⴼⵅrĀ;c᪞ⵂ耻ô䃴;䐾ʀabios᪠ⵒⵗǈⵚlac;䅑v;樸old;榼lig;䅓Ācr⵩⵭ir;榿;쀀𝔬ͯ⵹\0\0⵼\0ⶂn;䋛ave耻ò䃲;槁Ābmⶈ෴ar;榵Ȁacitⶕ⶘ⶥⶨrò᪀Āir⶝ⶠr;榾oss;榻nå๒;槀ƀaeiⶱⶵⶹcr;䅍ga;䏉ƀcdnⷀⷅǍron;䎿;榶pf;쀀𝕠ƀaelⷔ⷗ǒr;榷rp;榹΀;adiosvⷪⷫⷮ⸈⸍⸐⸖戨rò᪆Ȁ;efmⷷⷸ⸂⸅橝rĀ;oⷾⷿ愴f»ⷿ耻ª䂪耻º䂺gof;抶r;橖lope;橗;橛ƀclo⸟⸡⸧ò⸁ash耻ø䃸l;折iŬⸯ⸴de耻õ䃵esĀ;aǛ⸺s;樶ml耻ö䃶bar;挽ૡ⹞\0⹽\0⺀⺝\0⺢⺹\0\0⻋ຜ\0⼓\0\0⼫⾼\0⿈rȀ;astЃ⹧⹲຅脀¶;l⹭⹮䂶leìЃɩ⹸\0\0⹻m;櫳;櫽y;䐿rʀcimpt⺋⺏⺓ᡥ⺗nt;䀥od;䀮il;怰enk;怱r;쀀𝔭ƀimo⺨⺰⺴Ā;v⺭⺮䏆;䏕maô੶ne;明ƀ;tv⺿⻀⻈䏀chfork»´;䏖Āau⻏⻟nĀck⻕⻝kĀ;h⇴⻛;愎ö⇴sҀ;abcdemst⻳⻴ᤈ⻹⻽⼄⼆⼊⼎䀫cir;樣ir;樢Āouᵀ⼂;樥;橲n肻±ຝim;樦wo;樧ƀipu⼙⼠⼥ntint;樕f;쀀𝕡nd耻£䂣Ԁ;Eaceinosu່⼿⽁⽄⽇⾁⾉⾒⽾⾶;檳p;檷uå໙Ā;c໎⽌̀;acens່⽙⽟⽦⽨⽾pproø⽃urlyeñ໙ñ໎ƀaes⽯⽶⽺pprox;檹qq;檵im;拨iíໟmeĀ;s⾈ຮ怲ƀEas⽸⾐⽺ð⽵ƀdfp໬⾙⾯ƀals⾠⾥⾪lar;挮ine;挒urf;挓Ā;t໻⾴ï໻rel;抰Āci⿀⿅r;쀀𝓅;䏈ncsp;怈̀fiopsu⿚⋢⿟⿥⿫⿱r;쀀𝔮pf;쀀𝕢rime;恗cr;쀀𝓆ƀaeo⿸〉〓tĀei⿾々rnionóڰnt;樖stĀ;e【】䀿ñἙô༔઀ABHabcdefhilmnoprstux぀けさすムㄎㄫㅇㅢㅲㆎ㈆㈕㈤㈩㉘㉮㉲㊐㊰㊷ƀartぇおがròႳòϝail;検aròᱥar;楤΀cdenqrtとふへみわゔヌĀeuねぱ;쀀∽̱te;䅕iãᅮmptyv;榳gȀ;del࿑らるろ;榒;榥å࿑uo耻»䂻rր;abcfhlpstw࿜ガクシスゼゾダッデナp;極Ā;f࿠ゴs;椠;椳s;椞ë≝ð✮l;楅im;楴l;憣;憝Āaiパフil;椚oĀ;nホボ戶aló༞ƀabrョリヮrò៥rk;杳ĀakンヽcĀekヹ・;䁽;䁝Āes㄂㄄;榌lĀduㄊㄌ;榎;榐Ȁaeuyㄗㄜㄧㄩron;䅙Ādiㄡㄥil;䅗ì࿲âヺ;䑀Ȁclqsㄴㄷㄽㅄa;椷dhar;楩uoĀ;rȎȍh;憳ƀacgㅎㅟངlȀ;ipsླྀㅘㅛႜnåႻarôྩt;断ƀilrㅩဣㅮsht;楽;쀀𝔯ĀaoㅷㆆrĀduㅽㅿ»ѻĀ;l႑ㆄ;楬Ā;vㆋㆌ䏁;䏱ƀgns㆕ㇹㇼht̀ahlrstㆤㆰ㇂㇘㇤㇮rrowĀ;t࿜ㆭaéトarpoonĀduㆻㆿowîㅾp»႒eftĀah㇊㇐rrowó࿪arpoonóՑightarrows;應quigarro÷ニhreetimes;拌g;䋚ingdotseñἲƀahm㈍㈐㈓rò࿪aòՑ;怏oustĀ;a㈞㈟掱che»㈟mid;櫮Ȁabpt㈲㈽㉀㉒Ānr㈷㈺g;柭r;懾rëဃƀafl㉇㉊㉎r;榆;쀀𝕣us;樮imes;樵Āap㉝㉧rĀ;g㉣㉤䀩t;榔olint;樒arò㇣Ȁachq㉻㊀Ⴜ㊅quo;怺r;쀀𝓇Ābu・㊊oĀ;rȔȓƀhir㊗㊛㊠reåㇸmes;拊iȀ;efl㊪ၙᠡ㊫方tri;槎luhar;楨;愞ൡ㋕㋛㋟㌬㌸㍱\0㍺㎤\0\0㏬㏰\0㐨㑈㑚㒭㒱㓊㓱\0㘖\0\0㘳cute;䅛quï➺Ԁ;Eaceinpsyᇭ㋳㋵㋿㌂㌋㌏㌟㌦㌩;檴ǰ㋺\0㋼;檸on;䅡uåᇾĀ;dᇳ㌇il;䅟rc;䅝ƀEas㌖㌘㌛;檶p;檺im;择olint;樓iíሄ;䑁otƀ;be㌴ᵇ㌵担;橦΀Aacmstx㍆㍊㍗㍛㍞㍣㍭rr;懘rĀhr㍐㍒ë∨Ā;oਸ਼਴t耻§䂧i;䀻war;椩mĀin㍩ðnuóñt;朶rĀ;o㍶⁕쀀𝔰Ȁacoy㎂㎆㎑㎠rp;景Āhy㎋㎏cy;䑉;䑈rtɭ㎙\0\0㎜iäᑤaraì⹯耻­䂭Āgm㎨㎴maƀ;fv㎱㎲㎲䏃;䏂Ѐ;deglnprካ㏅㏉㏎㏖㏞㏡㏦ot;橪Ā;q኱ኰĀ;E㏓㏔檞;檠Ā;E㏛㏜檝;檟e;扆lus;樤arr;楲aròᄽȀaeit㏸㐈㐏㐗Āls㏽㐄lsetmé㍪hp;樳parsl;槤Ādlᑣ㐔e;挣Ā;e㐜㐝檪Ā;s㐢㐣檬;쀀⪬︀ƀflp㐮㐳㑂tcy;䑌Ā;b㐸㐹䀯Ā;a㐾㐿槄r;挿f;쀀𝕤aĀdr㑍ЂesĀ;u㑔㑕晠it»㑕ƀcsu㑠㑹㒟Āau㑥㑯pĀ;sᆈ㑫;쀀⊓︀pĀ;sᆴ㑵;쀀⊔︀uĀbp㑿㒏ƀ;esᆗᆜ㒆etĀ;eᆗ㒍ñᆝƀ;esᆨᆭ㒖etĀ;eᆨ㒝ñᆮƀ;afᅻ㒦ְrť㒫ֱ»ᅼaròᅈȀcemt㒹㒾㓂㓅r;쀀𝓈tmîñiì㐕aræᆾĀar㓎㓕rĀ;f㓔ឿ昆Āan㓚㓭ightĀep㓣㓪psiloîỠhé⺯s»⡒ʀbcmnp㓻㕞ሉ㖋㖎Ҁ;Edemnprs㔎㔏㔑㔕㔞㔣㔬㔱㔶抂;櫅ot;檽Ā;dᇚ㔚ot;櫃ult;櫁ĀEe㔨㔪;櫋;把lus;檿arr;楹ƀeiu㔽㕒㕕tƀ;en㔎㕅㕋qĀ;qᇚ㔏eqĀ;q㔫㔨m;櫇Ābp㕚㕜;櫕;櫓c̀;acensᇭ㕬㕲㕹㕻㌦pproø㋺urlyeñᇾñᇳƀaes㖂㖈㌛pproø㌚qñ㌗g;晪ڀ123;Edehlmnps㖩㖬㖯ሜ㖲㖴㗀㗉㗕㗚㗟㗨㗭耻¹䂹耻²䂲耻³䂳;櫆Āos㖹㖼t;檾ub;櫘Ā;dሢ㗅ot;櫄sĀou㗏㗒l;柉b;櫗arr;楻ult;櫂ĀEe㗤㗦;櫌;抋lus;櫀ƀeiu㗴㘉㘌tƀ;enሜ㗼㘂qĀ;qሢ㖲eqĀ;q㗧㗤m;櫈Ābp㘑㘓;櫔;櫖ƀAan㘜㘠㘭rr;懙rĀhr㘦㘨ë∮Ā;oਫ਩war;椪lig耻ß䃟௡㙑㙝㙠ዎ㙳㙹\0㙾㛂\0\0\0\0\0㛛㜃\0㜉㝬\0\0\0㞇ɲ㙖\0\0㙛get;挖;䏄rë๟ƀaey㙦㙫㙰ron;䅥dil;䅣;䑂lrec;挕r;쀀𝔱Ȁeiko㚆㚝㚵㚼ǲ㚋\0㚑eĀ4fኄኁaƀ;sv㚘㚙㚛䎸ym;䏑Ācn㚢㚲kĀas㚨㚮pproø዁im»ኬsðኞĀas㚺㚮ð዁rn耻þ䃾Ǭ̟㛆⋧es膀×;bd㛏㛐㛘䃗Ā;aᤏ㛕r;樱;樰ƀeps㛡㛣㜀á⩍Ȁ;bcf҆㛬㛰㛴ot;挶ir;櫱Ā;o㛹㛼쀀𝕥rk;櫚á㍢rime;怴ƀaip㜏㜒㝤dåቈ΀adempst㜡㝍㝀㝑㝗㝜㝟ngleʀ;dlqr㜰㜱㜶㝀㝂斵own»ᶻeftĀ;e⠀㜾ñम;扜ightĀ;e㊪㝋ñၚot;旬inus;樺lus;樹b;槍ime;樻ezium;揢ƀcht㝲㝽㞁Āry㝷㝻;쀀𝓉;䑆cy;䑛rok;䅧Āio㞋㞎xô᝷headĀlr㞗㞠eftarro÷ࡏightarrow»ཝऀAHabcdfghlmoprstuw㟐㟓㟗㟤㟰㟼㠎㠜㠣㠴㡑㡝㡫㢩㣌㣒㣪㣶ròϭar;楣Ācr㟜㟢ute耻ú䃺òᅐrǣ㟪\0㟭y;䑞ve;䅭Āiy㟵㟺rc耻û䃻;䑃ƀabh㠃㠆㠋ròᎭlac;䅱aòᏃĀir㠓㠘sht;楾;쀀𝔲rave耻ù䃹š㠧㠱rĀlr㠬㠮»ॗ»ႃlk;斀Āct㠹㡍ɯ㠿\0\0㡊rnĀ;e㡅㡆挜r»㡆op;挏ri;旸Āal㡖㡚cr;䅫肻¨͉Āgp㡢㡦on;䅳f;쀀𝕦̀adhlsuᅋ㡸㡽፲㢑㢠ownáᎳarpoonĀlr㢈㢌efô㠭ighô㠯iƀ;hl㢙㢚㢜䏅»ᏺon»㢚parrows;懈ƀcit㢰㣄㣈ɯ㢶\0\0㣁rnĀ;e㢼㢽挝r»㢽op;挎ng;䅯ri;旹cr;쀀𝓊ƀdir㣙㣝㣢ot;拰lde;䅩iĀ;f㜰㣨»᠓Āam㣯㣲rò㢨l耻ü䃼angle;榧ހABDacdeflnoprsz㤜㤟㤩㤭㦵㦸㦽㧟㧤㧨㧳㧹㧽㨁㨠ròϷarĀ;v㤦㤧櫨;櫩asèϡĀnr㤲㤷grt;榜΀eknprst㓣㥆㥋㥒㥝㥤㦖appá␕othinçẖƀhir㓫⻈㥙opô⾵Ā;hᎷ㥢ïㆍĀiu㥩㥭gmá㎳Ābp㥲㦄setneqĀ;q㥽㦀쀀⊊︀;쀀⫋︀setneqĀ;q㦏㦒쀀⊋︀;쀀⫌︀Āhr㦛㦟etá㚜iangleĀlr㦪㦯eft»थight»ၑy;䐲ash»ံƀelr㧄㧒㧗ƀ;beⷪ㧋㧏ar;抻q;扚lip;拮Ābt㧜ᑨaòᑩr;쀀𝔳tré㦮suĀbp㧯㧱»ജ»൙pf;쀀𝕧roð໻tré㦴Ācu㨆㨋r;쀀𝓋Ābp㨐㨘nĀEe㦀㨖»㥾nĀEe㦒㨞»㦐igzag;榚΀cefoprs㨶㨻㩖㩛㩔㩡㩪irc;䅵Ādi㩀㩑Ābg㩅㩉ar;機eĀ;qᗺ㩏;扙erp;愘r;쀀𝔴pf;쀀𝕨Ā;eᑹ㩦atèᑹcr;쀀𝓌ૣណ㪇\0㪋\0㪐㪛\0\0㪝㪨㪫㪯\0\0㫃㫎\0㫘ៜ៟tré៑r;쀀𝔵ĀAa㪔㪗ròσrò৶;䎾ĀAa㪡㪤ròθrò৫að✓is;拻ƀdptឤ㪵㪾Āfl㪺ឩ;쀀𝕩imåឲĀAa㫇㫊ròώròਁĀcq㫒ីr;쀀𝓍Āpt៖㫜ré។Ѐacefiosu㫰㫽㬈㬌㬑㬕㬛㬡cĀuy㫶㫻te耻ý䃽;䑏Āiy㬂㬆rc;䅷;䑋n耻¥䂥r;쀀𝔶cy;䑗pf;쀀𝕪cr;쀀𝓎Ācm㬦㬩y;䑎l耻ÿ䃿Ԁacdefhiosw㭂㭈㭔㭘㭤㭩㭭㭴㭺㮀cute;䅺Āay㭍㭒ron;䅾;䐷ot;䅼Āet㭝㭡træᕟa;䎶r;쀀𝔷cy;䐶grarr;懝pf;쀀𝕫cr;쀀𝓏Ājn㮅㮇;怍j;怌`.split(``).map(e=>e.charCodeAt(0))),fi=new Uint16Array(`Ȁaglq	\x1Bɭ\0\0p;䀦os;䀧t;䀾t;䀼uot;䀢`.split(``).map(e=>e.charCodeAt(0))),pi=new Map([[0,65533],[128,8364],[130,8218],[131,402],[132,8222],[133,8230],[134,8224],[135,8225],[136,710],[137,8240],[138,352],[139,8249],[140,338],[142,381],[145,8216],[146,8217],[147,8220],[148,8221],[149,8226],[150,8211],[151,8212],[152,732],[153,8482],[154,353],[155,8250],[156,339],[158,382],[159,376]]),mi=String.fromCodePoint??function(e){let t=``;return e>65535&&(e-=65536,t+=String.fromCharCode(e>>>10&1023|55296),e=56320|e&1023),t+=String.fromCharCode(e),t};function hi(e){return e>=55296&&e<=57343||e>1114111?65533:pi.get(e)??e}var gi;(function(e){e[e.NUM=35]=`NUM`,e[e.SEMI=59]=`SEMI`,e[e.EQUALS=61]=`EQUALS`,e[e.ZERO=48]=`ZERO`,e[e.NINE=57]=`NINE`,e[e.LOWER_A=97]=`LOWER_A`,e[e.LOWER_F=102]=`LOWER_F`,e[e.LOWER_X=120]=`LOWER_X`,e[e.LOWER_Z=122]=`LOWER_Z`,e[e.UPPER_A=65]=`UPPER_A`,e[e.UPPER_F=70]=`UPPER_F`,e[e.UPPER_Z=90]=`UPPER_Z`})(gi||={});var _i=32,vi;(function(e){e[e.VALUE_LENGTH=49152]=`VALUE_LENGTH`,e[e.BRANCH_LENGTH=16256]=`BRANCH_LENGTH`,e[e.JUMP_TABLE=127]=`JUMP_TABLE`})(vi||={});function yi(e){return e>=gi.ZERO&&e<=gi.NINE}function bi(e){return e>=gi.UPPER_A&&e<=gi.UPPER_F||e>=gi.LOWER_A&&e<=gi.LOWER_F}function xi(e){return e>=gi.UPPER_A&&e<=gi.UPPER_Z||e>=gi.LOWER_A&&e<=gi.LOWER_Z||yi(e)}function Si(e){return e===gi.EQUALS||xi(e)}var Ci;(function(e){e[e.EntityStart=0]=`EntityStart`,e[e.NumericStart=1]=`NumericStart`,e[e.NumericDecimal=2]=`NumericDecimal`,e[e.NumericHex=3]=`NumericHex`,e[e.NamedEntity=4]=`NamedEntity`})(Ci||={});var wi;(function(e){e[e.Legacy=0]=`Legacy`,e[e.Strict=1]=`Strict`,e[e.Attribute=2]=`Attribute`})(wi||={});var Ti=class{constructor(e,t,n){this.decodeTree=e,this.emitCodePoint=t,this.errors=n,this.state=Ci.EntityStart,this.consumed=1,this.result=0,this.treeIndex=0,this.excess=1,this.decodeMode=wi.Strict}startEntity(e){this.decodeMode=e,this.state=Ci.EntityStart,this.result=0,this.treeIndex=0,this.excess=1,this.consumed=1}write(e,t){switch(this.state){case Ci.EntityStart:return e.charCodeAt(t)===gi.NUM?(this.state=Ci.NumericStart,this.consumed+=1,this.stateNumericStart(e,t+1)):(this.state=Ci.NamedEntity,this.stateNamedEntity(e,t));case Ci.NumericStart:return this.stateNumericStart(e,t);case Ci.NumericDecimal:return this.stateNumericDecimal(e,t);case Ci.NumericHex:return this.stateNumericHex(e,t);case Ci.NamedEntity:return this.stateNamedEntity(e,t)}}stateNumericStart(e,t){return t>=e.length?-1:(e.charCodeAt(t)|_i)===gi.LOWER_X?(this.state=Ci.NumericHex,this.consumed+=1,this.stateNumericHex(e,t+1)):(this.state=Ci.NumericDecimal,this.stateNumericDecimal(e,t))}addToNumericResult(e,t,n,r){if(t!==n){let i=n-t;this.result=this.result*r**+i+parseInt(e.substr(t,i),r),this.consumed+=i}}stateNumericHex(e,t){let n=t;for(;t<e.length;){let r=e.charCodeAt(t);if(yi(r)||bi(r))t+=1;else return this.addToNumericResult(e,n,t,16),this.emitNumericEntity(r,3)}return this.addToNumericResult(e,n,t,16),-1}stateNumericDecimal(e,t){let n=t;for(;t<e.length;){let r=e.charCodeAt(t);if(yi(r))t+=1;else return this.addToNumericResult(e,n,t,10),this.emitNumericEntity(r,2)}return this.addToNumericResult(e,n,t,10),-1}emitNumericEntity(e,t){var n;if(this.consumed<=t)return(n=this.errors)==null||n.absenceOfDigitsInNumericCharacterReference(this.consumed),0;if(e===gi.SEMI)this.consumed+=1;else if(this.decodeMode===wi.Strict)return 0;return this.emitCodePoint(hi(this.result),this.consumed),this.errors&&(e!==gi.SEMI&&this.errors.missingSemicolonAfterCharacterReference(),this.errors.validateNumericCharacterReference(this.result)),this.consumed}stateNamedEntity(e,t){let{decodeTree:n}=this,r=n[this.treeIndex],i=(r&vi.VALUE_LENGTH)>>14;for(;t<e.length;t++,this.excess++){let a=e.charCodeAt(t);if(this.treeIndex=Di(n,r,this.treeIndex+Math.max(1,i),a),this.treeIndex<0)return this.result===0||this.decodeMode===wi.Attribute&&(i===0||Si(a))?0:this.emitNotTerminatedNamedEntity();if(r=n[this.treeIndex],i=(r&vi.VALUE_LENGTH)>>14,i!==0){if(a===gi.SEMI)return this.emitNamedEntityData(this.treeIndex,i,this.consumed+this.excess);this.decodeMode!==wi.Strict&&(this.result=this.treeIndex,this.consumed+=this.excess,this.excess=0)}}return-1}emitNotTerminatedNamedEntity(){var e;let{result:t,decodeTree:n}=this,r=(n[t]&vi.VALUE_LENGTH)>>14;return this.emitNamedEntityData(t,r,this.consumed),(e=this.errors)==null||e.missingSemicolonAfterCharacterReference(),this.consumed}emitNamedEntityData(e,t,n){let{decodeTree:r}=this;return this.emitCodePoint(t===1?r[e]&~vi.VALUE_LENGTH:r[e+1],n),t===3&&this.emitCodePoint(r[e+2],n),n}end(){var e;switch(this.state){case Ci.NamedEntity:return this.result!==0&&(this.decodeMode!==wi.Attribute||this.result===this.treeIndex)?this.emitNotTerminatedNamedEntity():0;case Ci.NumericDecimal:return this.emitNumericEntity(0,2);case Ci.NumericHex:return this.emitNumericEntity(0,3);case Ci.NumericStart:return(e=this.errors)==null||e.absenceOfDigitsInNumericCharacterReference(this.consumed),0;case Ci.EntityStart:return 0}}};function Ei(e){let t=``,n=new Ti(e,e=>t+=mi(e));return function(e,r){let i=0,a=0;for(;(a=e.indexOf(`&`,a))>=0;){t+=e.slice(i,a),n.startEntity(r);let o=n.write(e,a+1);if(o<0){i=a+n.end();break}i=a+o,a=o===0?i+1:i}let o=t+e.slice(i);return t=``,o}}function Di(e,t,n,r){let i=(t&vi.BRANCH_LENGTH)>>7,a=t&vi.JUMP_TABLE;if(i===0)return a!==0&&r===a?n:-1;if(a){let t=r-a;return t<0||t>=i?-1:e[n+t]-1}let o=n,s=o+i-1;for(;o<=s;){let t=o+s>>>1,n=e[t];if(n<r)o=t+1;else if(n>r)s=t-1;else return e[t+i]}return-1}var Oi=Ei(di);Ei(fi);function ki(e,t=wi.Legacy){return Oi(e,t)}function Ai(e){return Oi(e,wi.Strict)}var ji=s({arrayReplaceAt:()=>Li,asciiTrim:()=>ia,assign:()=>Ii,escapeHtml:()=>Yi,escapeRE:()=>Zi,fromCodePoint:()=>Ri,has:()=>Fi,isMdAsciiPunct:()=>ta,isPunctChar:()=>$i,isPunctCharCode:()=>ea,isSpace:()=>L,isString:()=>Ni,isValidEntityCode:()=>I,isWhiteSpace:()=>Qi,lib:()=>aa,normalizeReference:()=>na,unescapeAll:()=>Wi,unescapeMd:()=>Ui});function Mi(e){return Object.prototype.toString.call(e)}function Ni(e){return Mi(e)===`[object String]`}var Pi=Object.prototype.hasOwnProperty;function Fi(e,t){return Pi.call(e,t)}function Ii(e){return Array.prototype.slice.call(arguments,1).forEach(function(t){if(t){if(typeof t!=`object`)throw TypeError(t+`must be object`);Object.keys(t).forEach(function(n){e[n]=t[n]})}}),e}function Li(e,t,n){return[].concat(e.slice(0,t),n,e.slice(t+1))}function I(e){return!(e>=55296&&e<=57343||e>=64976&&e<=65007||(e&65535)==65535||(e&65535)==65534||e>=0&&e<=8||e===11||e>=14&&e<=31||e>=127&&e<=159||e>1114111)}function Ri(e){if(e>65535){e-=65536;let t=55296+(e>>10),n=56320+(e&1023);return String.fromCharCode(t,n)}return String.fromCharCode(e)}var zi=/\\([!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~])/g,Bi=RegExp(zi.source+`|&([a-z#][a-z0-9]{1,31});`,`gi`),Vi=/^#((?:x[a-f0-9]{1,8}|[0-9]{1,8}))$/i;function Hi(e,t){if(t.charCodeAt(0)===35&&Vi.test(t)){let n=t[1].toLowerCase()===`x`?parseInt(t.slice(2),16):parseInt(t.slice(1),10);return I(n)?Ri(n):e}let n=ki(e);return n===e?e:n}function Ui(e){return e.indexOf(`\\`)<0?e:e.replace(zi,`$1`)}function Wi(e){return e.indexOf(`\\`)<0&&e.indexOf(`&`)<0?e:e.replace(Bi,function(e,t,n){return t||Hi(e,n)})}var Gi=/[&<>"]/,Ki=/[&<>"]/g,qi={"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`};function Ji(e){return qi[e]}function Yi(e){return Gi.test(e)?e.replace(Ki,Ji):e}var Xi=/[.?*+^$[\]\\(){}|-]/g;function Zi(e){return e.replace(Xi,`\\$&`)}function L(e){switch(e){case 9:case 32:return!0}return!1}function Qi(e){if(e>=8192&&e<=8202)return!0;switch(e){case 9:case 10:case 11:case 12:case 13:case 32:case 160:case 5760:case 8239:case 8287:case 12288:return!0}return!1}function $i(e){return si.test(e)||ci.test(e)}function ea(e){return $i(Ri(e))}function ta(e){switch(e){case 33:case 34:case 35:case 36:case 37:case 38:case 39:case 40:case 41:case 42:case 43:case 44:case 45:case 46:case 47:case 58:case 59:case 60:case 61:case 62:case 63:case 64:case 91:case 92:case 93:case 94:case 95:case 96:case 123:case 124:case 125:case 126:return!0;default:return!1}}function na(e){return e=e.trim().replace(/\s+/g,` `),e.toLowerCase().toUpperCase()}function ra(e){return e===32||e===9||e===10||e===13}function ia(e){let t=0;for(;t<e.length&&ra(e.charCodeAt(t));t++);let n=e.length-1;for(;n>=t&&ra(e.charCodeAt(n));n--);return e.slice(t,n+1)}var aa={mdurl:ri,ucmicro:ui};function oa(e,t,n){let r,i,a,o,s=e.posMax,c=e.pos;for(e.pos=t+1,r=1;e.pos<s;){if(a=e.src.charCodeAt(e.pos),a===93&&(r--,r===0)){i=!0;break}if(o=e.pos,e.md.inline.skipToken(e),a===91){if(o===e.pos-1)r++;else if(n)return e.pos=c,-1}}let l=-1;return i&&(l=e.pos),e.pos=c,l}function sa(e,t,n){let r,i=t,a={ok:!1,pos:0,str:``};if(e.charCodeAt(i)===60){for(i++;i<n;){if(r=e.charCodeAt(i),r===10||r===60)return a;if(r===62)return a.pos=i+1,a.str=Wi(e.slice(t+1,i)),a.ok=!0,a;if(r===92&&i+1<n){i+=2;continue}i++}return a}let o=0;for(;i<n&&(r=e.charCodeAt(i),!(r===32||r<32||r===127));){if(r===92&&i+1<n){if(e.charCodeAt(i+1)===32){i++;continue}i+=2;continue}if(r===40&&(o++,o>32))return a;if(r===41){if(o===0)break;o--}i++}return t===i||o!==0?a:(a.str=Wi(e.slice(t,i)),a.pos=i,a.ok=!0,a)}function ca(e,t,n,r){let i,a=t,o={ok:!1,can_continue:!1,pos:0,str:``,marker:0};if(r)o.str=r.str,o.marker=r.marker;else{if(a>=n)return o;let r=e.charCodeAt(a);if(r!==34&&r!==39&&r!==40)return o;t++,a++,r===40&&(r=41),o.marker=r}for(;a<n;){if(i=e.charCodeAt(a),i===o.marker)return o.pos=a+1,o.str+=Wi(e.slice(t,a)),o.ok=!0,o;if(i===40&&o.marker===41)return o;i===92&&a+1<n&&a++,a++}return o.can_continue=!0,o.str+=Wi(e.slice(t,a)),o}var la=s({parseLinkDestination:()=>sa,parseLinkLabel:()=>oa,parseLinkTitle:()=>ca}),ua={};ua.code_inline=function(e,t,n,r,i){let a=e[t];return`<code`+i.renderAttrs(a)+`>`+Yi(a.content)+`</code>`},ua.code_block=function(e,t,n,r,i){let a=e[t];return`<pre`+i.renderAttrs(a)+`><code>`+Yi(e[t].content)+`</code></pre>
 `},ua.fence=function(e,t,n,r,i){let a=e[t],o=a.info?Wi(a.info).trim():``,s=``,c=``;if(o){let e=o.split(/(\s+)/g);s=e[0],c=e.slice(2).join(``)}let l;if(l=n.highlight&&n.highlight(a.content,s,c)||Yi(a.content),l.indexOf(`<pre`)===0)return l+`
