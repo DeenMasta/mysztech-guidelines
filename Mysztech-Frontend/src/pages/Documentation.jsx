@@ -1,12 +1,14 @@
 import { useEffect, useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { guidelines, renderGuidelineMarkdown } from '../data/guidelines';
+import { guidelines, releaseNotes, renderGuidelineMarkdown } from '../data/guidelines';
 
 import Troubleshooting from './Troubleshooting';
 import PageLayout from '../components/PageLayout';
 import ImageLightbox from '../components/ImageLightbox';
 
 import { Typography, CircularProgress, Box } from '@mui/material';
+
+const RELEASE_NOTES_ARTICLE_ID = 'Release-Note';
 
 // Fungsi bantuan untuk mengekstrak teks sebenar dari struktur AST (TinaCMS Rich Text)
 const extractTextFromAst = (node) => {
@@ -36,6 +38,7 @@ const Documentation = () => {
 
   const [searchParams, setSearchParams] = useSearchParams();
   const articleId = searchParams.get('id');
+  const releaseVersion = searchParams.get('version');
 
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [language, setLanguage] = useState('en');
@@ -43,7 +46,7 @@ const Documentation = () => {
 
   useEffect(() => {
     const savedLang = localStorage.getItem('mysztech_lang');
-    if (savedLang) setLanguage(savedLang);
+    if (savedLang === 'ms' || savedLang === 'en') setLanguage(savedLang);
     const savedTheme = localStorage.getItem('mysztech_theme');
     if (savedTheme === 'light') {
       setIsDarkMode(false);
@@ -57,6 +60,16 @@ const Documentation = () => {
     const newLang = language === 'en' ? 'ms' : 'en';
     setLanguage(newLang);
     localStorage.setItem('mysztech_lang', newLang);
+
+    // Google Translate uses this cookie to translate the complete rendered page,
+    // including documentation loaded from Markdown.
+    if (newLang === 'ms') {
+      document.cookie = 'googtrans=/en/ms; path=/; SameSite=Lax';
+    } else {
+      document.cookie = 'googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax';
+    }
+
+    window.location.reload();
   };
 
   const toggleTheme = () => {
@@ -96,10 +109,18 @@ const Documentation = () => {
   const searchResults = useMemo(() => {
     if (searchTerm.trim().length < 2) return [];
     const lowerQuery = searchTerm.toLowerCase();
-    
+    const searchableArticles = [
+      ...articles.filter((item) => item._sys.filename !== RELEASE_NOTES_ARTICLE_ID),
+      ...releaseNotes.map((releaseNote) => ({
+        ...releaseNote,
+        title: `Release Note ${releaseNote.version}`,
+        _sys: { filename: RELEASE_NOTES_ARTICLE_ID },
+        releaseVersion: releaseNote.version,
+      })),
+    ];
     const results = [];
     
-    articles.forEach(item => {
+    searchableArticles.forEach(item => {
       let isMatch = false;
       let snippet = language === 'ms' ? 'Panduan MYSZTECH' : 'MYSZTECH Guidelines';
       let matchType = 'article';
@@ -130,9 +151,12 @@ const Documentation = () => {
 
       if (isMatch) {
         results.push({
-          id: item._sys.filename,
+          id: item.releaseVersion
+            ? `${item._sys.filename}-${item.releaseVersion}`
+            : item._sys.filename,
           type: matchType,
           articleId: item._sys.filename,
+          releaseVersion: item.releaseVersion,
           title: item.title,
           snippet: snippet
         });
@@ -153,7 +177,9 @@ const Documentation = () => {
   };
 
   const handleSearchResultClick = (result) => {
-    setSearchParams({ id: result.articleId });
+    setSearchParams(result.releaseVersion
+      ? { id: result.articleId, version: result.releaseVersion }
+      : { id: result.articleId });
   };
 
   const handleContentImageClick = (event) => {
@@ -177,10 +203,48 @@ const Documentation = () => {
   }
 
   const isTroubleshootActive = articleId === 'troubleshooting_page';
+  const isReleaseNotesPage = articleId === RELEASE_NOTES_ARTICLE_ID;
+  const selectedRelease = isReleaseNotesPage
+    ? (releaseVersion
+      ? releaseNotes.find((releaseNote) => releaseNote.version === releaseVersion)
+      : releaseNotes[0])
+    : null;
+  const isUnknownReleaseVersion = isReleaseNotesPage && Boolean(releaseVersion) && !selectedRelease;
+
+  const selectRelease = (version) => {
+    setSearchParams({ id: RELEASE_NOTES_ARTICLE_ID, version });
+  };
+
+  const formatReleaseDate = (date) => new Intl.DateTimeFormat(
+    language === 'ms' ? 'ms-MY' : 'en-GB',
+    { day: 'numeric', month: 'long', year: 'numeric' },
+  ).format(new Date(`${date}T00:00:00`));
+
+  const renderArticleBody = (body) => (
+    <Box
+      className="tina-content"
+      onClick={handleContentImageClick}
+      sx={{
+        '& img': {
+          maxWidth: '100%',
+          height: 'auto',
+          borderRadius: '8px',
+          my: 3,
+          display: 'block',
+          border: `1px solid ${theme.border}`,
+          cursor: 'zoom-in',
+          transition: 'opacity 0.2s ease',
+          '&:hover': { opacity: 0.88 },
+        }
+      }}
+    >
+      <Box dangerouslySetInnerHTML={{ __html: renderGuidelineMarkdown(body) }} />
+    </Box>
+  );
   
   // Cari artikel yang sedang dipilih berdasarkan nama fail (_sys.filename)
   let selectedArticle = null;
-  if (!isTroubleshootActive) {
+  if (!isTroubleshootActive && !isReleaseNotesPage) {
     selectedArticle = articles.find(item => item._sys.filename === articleId) || articles[0];
   }
 
@@ -204,6 +268,49 @@ const Documentation = () => {
         <Box sx={{ animation: 'fadeIn 0.3s ease-in-out' }}>
           <Troubleshooting isDarkMode={isDarkMode} language={language} />
         </Box>
+      ) : isReleaseNotesPage ? (
+        <Box>
+          <Typography variant="h2" sx={{ fontFamily: "'Sora', sans-serif", color: theme.textMain, fontWeight: '700', mb: 2, letterSpacing: '-1px', fontSize: { xs: '32px', md: '42px' }, maxWidth: '850px' }}>
+            Release Note
+          </Typography>
+
+          {isUnknownReleaseVersion || releaseNotes.length === 0 ? (
+            <Typography sx={{ color: theme.textMuted, mb: 4, fontFamily: "'Inter', sans-serif" }}>
+              {releaseNotes.length === 0
+                ? 'No release notes are available yet.'
+                : `Release version ${releaseVersion} is unavailable. Choose a version from the archive below.`}
+            </Typography>
+          ) : (
+            <Box sx={{ color: theme.textBody, fontFamily: "'Inter', sans-serif", lineHeight: 1.8 }}>
+              <Typography sx={{ color: theme.textMain, fontWeight: 700, fontSize: '20px', mb: 0.5 }}>
+                Version {selectedRelease.version}
+              </Typography>
+              <Typography sx={{ color: theme.textMuted, mb: 4 }}>
+                Released {formatReleaseDate(selectedRelease.releaseDate)}
+              </Typography>
+              {renderArticleBody(selectedRelease.body)}
+            </Box>
+          )}
+
+          {releaseNotes.length > 0 && (
+            <Box sx={{ mt: 6, pt: 4, borderTop: `1px solid ${theme.border}`, maxWidth: '850px' }}>
+              <Typography sx={{ color: theme.textMain, fontFamily: "'Sora', sans-serif", fontWeight: 700, fontSize: '22px', mb: 2 }}>
+                Release archive
+              </Typography>
+              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+                {releaseNotes.map((releaseNote) => {
+                  const isSelected = selectedRelease?.version === releaseNote.version;
+                  return (
+                    <Box key={releaseNote.version} component="button" type="button" onClick={() => selectRelease(releaseNote.version)} sx={{ textAlign: 'left', cursor: 'pointer', width: '100%', bgcolor: isSelected ? theme.cardHover : theme.cardBg, color: theme.textMain, border: `1px solid ${isSelected ? theme.accent : theme.border}`, borderRadius: '8px', px: 2, py: 1.5, fontFamily: "'Inter', sans-serif", '&:hover': { borderColor: theme.accent } }}>
+                      <Box component="span" sx={{ fontWeight: 700 }}>Version {releaseNote.version}</Box>
+                      <Box component="span" sx={{ color: theme.textMuted, ml: 1.5 }}>{formatReleaseDate(releaseNote.releaseDate)}</Box>
+                    </Box>
+                  );
+                })}
+              </Box>
+            </Box>
+          )}
+        </Box>
       ) : selectedArticle ? (
         <Box>
           <Typography variant="h2" sx={{ fontFamily: "'Sora', sans-serif", color: theme.textMain, fontWeight: '700', mb: 4, letterSpacing: '-1px', fontSize: { xs: '32px', md: '42px' }, maxWidth: '850px' }}>
@@ -212,27 +319,7 @@ const Documentation = () => {
           
           <Box sx={{ color: theme.textBody, fontFamily: "'Inter', sans-serif", lineHeight: 1.8 }}>
             {selectedArticle.body ? (
-              <Box 
-                className="tina-content"
-                onClick={handleContentImageClick}
-                sx={{
-                  '& img': {
-                    maxWidth: '100%',
-                    height: 'auto',
-                    borderRadius: '8px',
-                    my: 3,               
-                    display: 'block',
-                    border: `1px solid ${theme.border}`,
-                    cursor: 'zoom-in',
-                    transition: 'opacity 0.2s ease',
-                    '&:hover': { opacity: 0.88 },
-                  }
-                }}
-              >
-                <Box
-                  dangerouslySetInnerHTML={{ __html: renderGuidelineMarkdown(selectedArticle.body) }}
-                />
-              </Box>
+              renderArticleBody(selectedArticle.body)
             ) : (
               <Typography sx={{ color: theme.textMuted, fontStyle: 'italic' }}>Tiada isi kandungan.</Typography>
             )}
