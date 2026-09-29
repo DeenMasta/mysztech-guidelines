@@ -104,6 +104,39 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "releaseNotes",
+        label: "Release Notes",
+        path: "content/release-notes",
+        ui: {
+          filename: {
+            slugify: (values) => values.version,
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            name: "version",
+            label: "Version",
+            description: "Use semantic versioning, for example 2.2.3.",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "string",
+            name: "releaseDate",
+            label: "Release Date",
+            description: "Use the YYYY-MM-DD format, for example 2026-09-29.",
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Release Notes",
+            isBody: true,
+          },
+        ],
+      },
     ],
   },
 });
