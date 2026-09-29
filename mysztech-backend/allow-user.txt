@@ -1,1 +1,0 @@
-New-NetFirewallRule -DisplayName "Strapi & Frontend LAN Access" -Direction Inbound -LocalPort 1337,5173 -Protocol TCP -Action Allow -Profile Private
