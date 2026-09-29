@@ -230,6 +230,7 @@ const Documentation = () => {
           height: 'auto',
           borderRadius: '8px',
           my: 3,
+          mx: 'auto',
           display: 'block',
           border: `1px solid ${theme.border}`,
           cursor: 'zoom-in',
