@@ -13,7 +13,7 @@ Customers can be managed from both the **POS device** and the **Management Hub.*
 
 1\.	Click the **Customer icon** and then select the customer from the list. This ensures the order is linked to the correct customer profile in the POS system.
 
-![](</admin/5. Manage Order /5.2/1.png>)
+![](</admin/5. ManageOrders/5.2/1.png>)
 
 2\.	If the customer is not listed, click the **Add** button, then type in their **name** and **phone number**. Once done, click the Save button at the top right to store the new customer in the system.
 

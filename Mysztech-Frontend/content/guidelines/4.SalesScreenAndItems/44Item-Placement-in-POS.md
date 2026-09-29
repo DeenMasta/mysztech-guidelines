@@ -1,5 +1,5 @@
 ---
-title: "4.4\tItem Placement in POS"
+title: "4.4 Item Placement in POS"
 section: USER GUIDELINES
 order: 4.4
 isSubTopic: true
