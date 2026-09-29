@@ -9,6 +9,27 @@
   display: flex;
   flex-direction: column;
   background-color: var(--global-sidebar-bg, inherit);
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-border-hover, #3f3f46) var(--global-sidebar-bg, #111111);
+}
+
+/* Keep the scrollbar aligned with the active light/dark theme. */
+.doc-sidebar-nav::-webkit-scrollbar {
+  width: 12px;
+}
+
+.doc-sidebar-nav::-webkit-scrollbar-track {
+  background: var(--global-sidebar-bg, #111111);
+}
+
+.doc-sidebar-nav::-webkit-scrollbar-thumb {
+  background: var(--global-border-hover, #3f3f46);
+  border: 3px solid var(--global-sidebar-bg, #111111);
+  border-radius: 999px;
+}
+
+.doc-sidebar-nav::-webkit-scrollbar-thumb:hover {
+  background: var(--global-accent, #f97316);
 }
 
 /* Tajuk Besar Kumpulan (Prologue, User Guidelines, Support) */
