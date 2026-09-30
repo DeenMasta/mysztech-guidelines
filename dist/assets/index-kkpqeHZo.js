@@ -1025,43 +1025,43 @@ language: en\r
 \r
 1\\.	If the order method is set by Table, click the Table Layout button at the bottom to open the table selection screen. This allows you to assign the order to a specific table before proceeding.\r
 \r
-![](</admin/5. Manage Order /5.3/123.png>)\r
+![](</admin/5. ManageOrders/5.3/123.png>)\r
 \r
 2\\.	Select the table where you want to assign the order.\r
 \r
-![](</admin/5. Manage Order /5.3/1.png>)\r
+![](</admin/5. ManageOrders/5.3/1.png>)\r
 \r
 3\\.	Enter a name and add a comment if needed.  tap **Assign Order** and select the order you want to assign to assign an existing order to this table.\r
 \r
-![](</admin/5. Manage Order /5.3/2.png>)\r
+![](</admin/5. ManageOrders/5.3/2.png>)\r
 \r
 4\\.	Search for the order you want to assign to the table, then tap **Assign** to assign the order to the table.\r
 \r
-![](</admin/5. Manage Order /5.3/3.png>)\r
+![](</admin/5. ManageOrders/5.3/3.png>)\r
 \r
 5\\.	The order has been assigned to the table. Tap the table to view the order.\r
 \r
-![](</admin/5. Manage Order /5.3/4.png>)\r
+![](</admin/5. ManageOrders/5.3/4.png>)\r
 \r
 **B.	Create a New Order for a Table**\r
 \r
 1\\.	Select the table (e.g., **T4**).\r
 \r
-![](</admin/5. Manage Order /5.3/5.png>)\r
+![](</admin/5. ManageOrders/5.3/5.png>)\r
 \r
 2\\.	You can add a comment if needed, then tap **Save Order** to continue taking the customer's order.\r
 \r
-![](</admin/5. Manage Order /5.3/6.png>)\r
+![](</admin/5. ManageOrders/5.3/6.png>)\r
 \r
 3\\.	You will be returned to the **Order Layout** page, where all items and categories are displayed. You can take the customer's order simply by pressing an item and pressing **Save** if prompted.\r
 \r
-![](</admin/5. Manage Order /5.3/7.png>)\r
+![](</admin/5. ManageOrders/5.3/7.png>)\r
 \r
 **Reminder:** When adding an item with a **Variant** and **Modifier**, you must select **one Variant** (e.g., **HOT** or **COLD**).\r
 \r
 **Modifier** is optional, and you can select more than one Modifier if needed. Once done, tap **Save** to continue.\r
 \r
-![](</admin/5. Manage Order /5.3/8.png>)\r
+![](</admin/5. ManageOrders/5.3/8.png>)\r
 \r
 4\\.	After taking the order, tap the **Save** button to save the order.\r
 \r
@@ -1073,21 +1073,21 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /5.3/9.png>)\r
+![](</admin/5. ManageOrders/5.3/9.png>)\r
 \r
 5\\.	You have successfully created an order for the table. To verify the order, go to the **Table Layout** and tap the table.\r
 \r
-![](</admin/5. Manage Order /5.3/10.png>)\r
+![](</admin/5. ManageOrders/5.3/10.png>)\r
 \r
 \\>	If the Order Method is set to Custom Order :\r
 \r
 1\\.	Take the order as usual, then tap the **Save** button at the bottom of the screen to save the order.\r
 \r
-![](</admin/5. Manage Order /5.3/11.png>)\r
+![](</admin/5. ManageOrders/5.3/11.png>)\r
 \r
 2\\.	Tap the **Pencil** button to create a **Custom Order**\r
 \r
-![](</admin/5. Manage Order /5.3/7z.png>)\r
+![](</admin/5. ManageOrders/5.3/7z.png>)\r
 \r
 3\\.	You can add a **Comment** if needed (optional), then tap **Save** to save the order.\r
 \r
@@ -1099,11 +1099,11 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /5.3/12.png>)\r
+![](</admin/5. ManageOrders/5.3/12.png>)\r
 \r
 4\\.	 This is the order you have just created.\r
 \r
-![](</admin/5. Manage Order /5.3/13.png>)\r
+![](</admin/5. ManageOrders/5.3/13.png>)\r
 \r
 \\>	If the Order Method is set to Order Number :\r
 \r
@@ -1115,39 +1115,39 @@ Open Order Setup – **Management Hub**\r
 \r
 1\\.	Go to Outlets and select Open Orders.\r
 \r
-![](</admin/5. Manage Order /5.3/14.png>)\r
+![](</admin/5. ManageOrders/5.3/14.png>)\r
 \r
 2\\.	Select the Outlet where you want to manage the Open Orders (e.g. GD Café). Make sure the Active button is toggled on to enable Open Orders.\r
 \r
-![](</admin/5. Manage Order /5.3/15.png>)\r
+![](</admin/5. ManageOrders/5.3/15.png>)\r
 \r
 3\\.	You will see the list of existing Open Orders if any have already been created.  **Press New Open Order** to create a new Open Order.\r
 \r
-![](</admin/5. Manage Order /5.3/8z.png>)\r
+![](</admin/5. ManageOrders/5.3/8z.png>)\r
 \r
 4\\.	Enter a **name** for the Open Order (e.g., 101). In the Remark section, you can enter the NFC Card Number if you are using NFC Order Cards, or the Barcode of the Order Card if you are using Barcode Order Cards.\r
 \r
-![](</admin/5. Manage Order /5.3/16.png>)\r
+![](</admin/5. ManageOrders/5.3/16.png>)\r
 \r
 5\\.	After entering the required information, press Create to save the Open Order.\r
 \r
-![](</admin/5. Manage Order /5.3/9z.png>)\r
+![](</admin/5. ManageOrders/5.3/9z.png>)\r
 \r
 6\\.	To edit an existing Open Order, select the Open Order and press Edit. Make the required changes and press Save Changes.\r
 \r
-![](</admin/5. Manage Order /5.3/17.png>)\r
+![](</admin/5. ManageOrders/5.3/17.png>)\r
 \r
 7\\.	To delete an Open Order, select the Open Order and press Delete button.\r
 \r
-![](</admin/5. Manage Order /5.3/18.png>)\r
+![](</admin/5. ManageOrders/5.3/18.png>)\r
 \r
 8\\.	You can use the Search bar to quickly find a specific Open Order.\r
 \r
-![](</admin/5. Manage Order /5.3/19.png>)\r
+![](</admin/5. ManageOrders/5.3/19.png>)\r
 \r
 9\\.	To change the order of the Open Orders, press the **Reordering button** and drag and drop the Open Order numbers into your preferred order (e.g., 101, 102, 103).\r
 \r
-![](</admin/5. Manage Order /5.3/10z.png>)\r
+![](</admin/5. ManageOrders/5.3/10z.png>)\r
 \r
 Open Order – **POS Device**\r
 \r
@@ -1155,11 +1155,11 @@ Open Order – **POS Device**\r
 \r
 The system will display the available Order Numbers for you to choose from.\r
 \r
-![](</admin/5. Manage Order /5.3/11z.png>)\r
+![](</admin/5. ManageOrders/5.3/11z.png>)\r
 \r
 2\\.	Select an available **Order Number** (e.g., **104**) to save the order.\r
 \r
-![](</admin/5. Manage Order /5.3/20.png>)\r
+![](</admin/5. ManageOrders/5.3/20.png>)\r
 \r
 **Note:** When you tap **Save**, the order will be submitted and sent to the printer assigned to each item's department.\r
 \r
@@ -1171,7 +1171,7 @@ For example:\r
 \r
 3\\.	The order has been saved to **Order No. 104**. To verify the order, tap **Open Order**. You will see Order No. 104 with the assigned items.\r
 \r
-![](</admin/5. Manage Order /5.3/21.png>)\r
+![](</admin/5. ManageOrders/5.3/21.png>)\r
 `,sr=`---
 title: 5.1 Order Options
 section: USER GUIDELINES
@@ -1237,23 +1237,23 @@ Customers can be managed from both the **POS device** and the **Management Hub.*
 
 2\\.	If the customer is not listed, click the **Add** button, then type in their **name** and **phone number**. Once done, click the Save button at the top right to store the new customer in the system.
 
-![](</admin/5. Manage Order /5.2/2.png>)
+![](</admin/5. ManageOrders/5.2/2.png>)
 
 3\\.	You have added the customer. You can now verify the customer’s name in the list and proceed to select them to continue with the order.
 
-![](</admin/5. Manage Order /5.2/3.png>)
+![](</admin/5. ManageOrders/5.2/3.png>)
 
 4\\.	Select the **Add to Order** button to continue with choosing a customer. If you need to edit the customer’s information, press the **Edit** button (pencil like icon) to make changes.
 
-![](</admin/5. Manage Order /5.2/4.png>)
+![](</admin/5. ManageOrders/5.2/4.png>)
 
 5\\.	You have selected a customer to take orders. You can now continue taking orders as usual within the POS system.
 
-![](</admin/5. Manage Order /5.2/5.png>)
+![](</admin/5. ManageOrders/5.2/5.png>)
 
 6\\.	If you want to remove the customer, click the **Customer icon** and then select the **Remove From Order** button. This will detach the customer from the current order so you can proceed without linking it to their profile.
 
-![](</admin/5. Manage Order /5.2/6.png>)
+![](</admin/5. ManageOrders/5.2/6.png>)
 
 \\>	Add Customer from **Management Hub:**
 
@@ -1263,33 +1263,33 @@ The Management Hub provides additional options for managing customer records, in
 
 1\\.	Go to the **Customer** section in the Management Hub. You will see the list of customers created in the system.
 
-![](</admin/5. Manage Order /5.2/7.png>)
+![](</admin/5. ManageOrders/5.2/7.png>)
 
 2\\.	Press **New Customer** to create a new customer and enter the required customer information.
 
-![](</admin/5. Manage Order /5.2/2z.png>)
+![](</admin/5. ManageOrders/5.2/2z.png>)
 
 3\\.	Enter the customer's **Name** (required). The remaining fields are optional. Press **Create** to save changes.
 
 **Note:** You can note their **Phone Number** for better customer tracking.
 
-![](</admin/5. Manage Order /5.2/8.png>)
+![](</admin/5. ManageOrders/5.2/8.png>)
 
 4\\.	You have successfully created a **Customer.** Select a customer from the list to **view** their customer details.
 
-![](</admin/5. Manage Order /5.2/3z.png>)
+![](</admin/5. ManageOrders/5.2/3z.png>)
 
 5\\.	To export customer records, select the required customer records or columns and press **Export**. Choose the available file format to download the customer data.
 
-![](</admin/5. Manage Order /5.2/4z.png>)
+![](</admin/5. ManageOrders/5.2/4z.png>)
 
 6\\.	To update the customer's information, select the customer and press **Edit**. Make the necessary changes and save them.
 
-![](</admin/5. Manage Order /5.2/9.png>)
+![](</admin/5. ManageOrders/5.2/9.png>)
 
 8\\.	The customer (e.g., Adam) has been successfully deleted. You will no longer see Adam in the customer list.
 
-![](</admin/5. Manage Order /5.2/10.png>)
+![](</admin/5. ManageOrders/5.2/10.png>)
 `,lr=`---\r
 title: 5.4 Update Order\r
 section: USER GUIDELINES\r
@@ -1309,15 +1309,15 @@ To edit an order using the table:\r
 \r
 1\\.	Tap the table where you saved the order, then tap **Edit Order** to update the order.\r
 \r
-![](</admin/5. Manage Order /5.4/1.png>)\r
+![](</admin/5. ManageOrders/5.4/1.png>)\r
 \r
 2\\.	You will be returned to the **Order Layout** page. You can now make any changes to the order. Once you are done, tap **Save** to save the changes.\r
 \r
-![](</admin/5. Manage Order /5.4/2.png>)\r
+![](</admin/5. ManageOrders/5.4/2.png>)\r
 \r
 **Example:** If the customer changes Teh Hot Kurang Manis to Teh Cold and wants it served in a bowl (Mangkuk), tap Teh Hot, select Cold, enter "Mangkuk" in the Comment section, then tap Save.\r
 \r
-![](</admin/5. Manage Order /5.4/3.png>)\r
+![](</admin/5. ManageOrders/5.4/3.png>)\r
 \r
 3\\.	You will see that the Teh item has been updated with the changes you made. Tap the **Save** button at the bottom to save the changes to the table.\r
 \r
@@ -1329,11 +1329,11 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /5.4/4.png>)\r
+![](</admin/5. ManageOrders/5.4/4.png>)\r
 \r
 4\\.	You have successfully updated the order by table. You can see the changes on the **Table Layout** page.\r
 \r
-![](</admin/5. Manage Order /5.4/5.png>)\r
+![](</admin/5. ManageOrders/5.4/5.png>)\r
 \r
 **B. Update Order through Open Order**\r
 \r
@@ -1341,19 +1341,19 @@ To edit an order using Open Order:\r
 \r
 1\\.	Tap **Open Order.**\r
 \r
-![](</admin/5. Manage Order /5.4/6.png>)\r
+![](</admin/5. ManageOrders/5.4/6.png>)\r
 \r
 2\\.	Select the order you want to edit. If you are not sure which order to select, check the **Comment** you added when creating the order (e.g., "**Make it Faster**").\r
 \r
-![](</admin/5. Manage Order /5.4/7.png>)\r
+![](</admin/5. ManageOrders/5.4/7.png>)\r
 \r
 3\\.	Make the changes to the order.\r
 \r
-![](</admin/5. Manage Order /5.4/8.png>)\r
+![](</admin/5. ManageOrders/5.4/8.png>)\r
 \r
 **Example:** If the customer changes **Teh Hot** to **Teh Cold** and wants it served in a bowl (Mangkuk), tap **Teh Hot**, select **Cold**, enter **"Mangkuk"** in the **Comment** section, then tap Save.\r
 \r
-![](</admin/5. Manage Order /5.4/9.png>)\r
+![](</admin/5. ManageOrders/5.4/9.png>)\r
 \r
 4\\.	You will see that the Teh item has been updated with the changes you made. Tap the **Save** button at the bottom to save the changes.\r
 \r
@@ -1365,11 +1365,11 @@ For example:\r
 \r
 **•	Teh → Beverages Printer**\r
 \r
-![](</admin/5. Manage Order /5.4/10.png>)\r
+![](</admin/5. ManageOrders/5.4/10.png>)\r
 \r
 5\\.	You have successfully updated the order through **Open Order**.\r
 \r
-![](</admin/5. Manage Order /5.4/11.png>)\r
+![](</admin/5. ManageOrders/5.4/11.png>)\r
 `,ur=`---\r
 title: 5.5 Submit Order\r
 section: USER GUIDELINES\r
@@ -1407,21 +1407,21 @@ This allows each department to receive only the items they need to prepare.\r
 \r
 1\\.	Take the customer's order.\r
 \r
-![](</admin/5. Manage Order /5.5/1.png>)\r
+![](</admin/5. ManageOrders/5.5/1.png>)\r
 \r
 2\\.	Tap **Save** button.\r
 \r
-![](</admin/5. Manage Order /5.5/1a.png>)\r
+![](</admin/5. ManageOrders/5.5/1a.png>)\r
 \r
 3\\.	You can choose to create an order using an **Order Number** or a **Custom Order**.\r
 \r
 **Order Number:** Tap any available order number to save the order under that order number (e.g. Order Number 101).\r
 \r
-![](</admin/5. Manage Order /5.5/2.png>)\r
+![](</admin/5. ManageOrders/5.5/2.png>)\r
 \r
 **Custom Order:** Press the **Edit** button (pencil icon) to create a custom order and press Save.\r
 \r
-![](</admin/5. Manage Order /5.5/2a.png>)\r
+![](</admin/5. ManageOrders/5.5/2a.png>)\r
 \r
 **Note:** Each item is sent to its assigned department printer. The **Kitchen** receives the food items.The **Beverages** department receives the drink items. The order will only be printed to a department if the item has been assigned to a printer for that department.\r
 `,dr=`---\r
@@ -1447,29 +1447,29 @@ For example, **Customer A** wants to pay for **Customer B’s** order as well. I
 \r
 1\\.	Go to **Open Order**.\r
 \r
-![](</admin/5. Manage Order /5.6/3a.png>)\r
+![](</admin/5. ManageOrders/5.6/3a.png>)\r
 \r
 2\\.	Select the square checkbox to the left of the **Order Number** you want to move. Do not click the order number itself, as that will only open the order.\r
 \r
 **Example:** To move **Order No. 102** to **Order No. 101**, select the checkbox to the left of **Order No. 102** first.\r
 \r
-![](</admin/5. Manage Order /5.6/1.png>)\r
+![](</admin/5. ManageOrders/5.6/1.png>)\r
 \r
 3\\.	Tap **Move** at the top (right-arrow button) to move the selected order.\r
 \r
-![](</admin/5. Manage Order /5.6/4a.png>)\r
+![](</admin/5. ManageOrders/5.6/4a.png>)\r
 \r
 4\\.	Select the **Order Number** you want to move the selected order to (e.g., **Order No. 101**).\r
 \r
-![](</admin/5. Manage Order /5.6/2.png>)\r
+![](</admin/5. ManageOrders/5.6/2.png>)\r
 \r
 5\\.	Tap **Confirm** to move **Order No. 102** to **Order No. 10**1 and proceed.\r
 \r
-![](</admin/5. Manage Order /5.6/3.png>)\r
+![](</admin/5. ManageOrders/5.6/3.png>)\r
 \r
 6\\.	You have successfully moved the order to another order. To verify, go to **Open Order** and tap the order number you moved it to (e.g., **Order No. 101**).\r
 \r
-![](</admin/5. Manage Order /5.6/4.png>)\r
+![](</admin/5. ManageOrders/5.6/4.png>)\r
 `,fr=`---\r
 title: 5.7 Delete Order\r
 section: USER GUIDELINES\r
@@ -1487,43 +1487,43 @@ Use this when you want to completely delete an order that has already been taken
 \r
 1\\.	Go to **Open Order.**\r
 \r
-![](</admin/5. Manage Order /5.7/5a.png>)\r
+![](</admin/5. ManageOrders/5.7/5a.png>)\r
 \r
 2\\.	Select the **square box** next to the order you want to delete.\r
 \r
-![](</admin/5. Manage Order /5.7/1.png>)\r
+![](</admin/5. ManageOrders/5.7/1.png>)\r
 \r
 3\\.	Tap the **Delete** icon at the top.\r
 \r
-![](</admin/5. Manage Order /5.7/6a.png>)\r
+![](</admin/5. ManageOrders/5.7/6a.png>)\r
 \r
 4\\.	After that, tap **Confirm** to remove the order from the active order list.\r
 \r
 Note : When deleting an order, tick **Print Void Receipt** if you want the kitchen printer to print a cancellation notice. This lets the kitchen staff know that the order has been cancelled and should not be prepared.\r
 \r
-![](</admin/5. Manage Order /5.7/2.png>)\r
+![](</admin/5. ManageOrders/5.7/2.png>)\r
 \r
 5\\.	The order has been removed from the **Active Order List**. Notice that **Order No. 101** is no longer displayed.\r
 \r
-![](</admin/5. Manage Order /5.7/3.png>)\r
+![](</admin/5. ManageOrders/5.7/3.png>)\r
 \r
 **Another way to delete an order:**\r
 \r
 1\\.	Go to **Open Order** and select the order you want to delete (e.g. Order No.101).\r
 \r
-![](</admin/5. Manage Order /5.7/4.png>)\r
+![](</admin/5. ManageOrders/5.7/4.png>)\r
 \r
 2\\.	Tap the **3-dot menu** at the top.\r
 \r
-![](</admin/5. Manage Order /5.7/7a.png>)\r
+![](</admin/5. ManageOrders/5.7/7a.png>)\r
 \r
 3\\.	Select **Void Order**.\r
 \r
-![](</admin/5. Manage Order /5.7/5.png>)\r
+![](</admin/5. ManageOrders/5.7/5.png>)\r
 \r
 4\\.	Tap **Void** to confirm.\r
 \r
-![](</admin/5. Manage Order /5.7/6.png>)\r
+![](</admin/5. ManageOrders/5.7/6.png>)\r
 \r
 **B. Remove an Item from an Order**\r
 \r
@@ -1533,15 +1533,15 @@ Use this when you only want to remove one item from an order.\r
 \r
 1\\.	Swipe the item to the **right**.\r
 \r
-![](</admin/5. Manage Order /5.7/7.png>)\r
+![](</admin/5. ManageOrders/5.7/7.png>)\r
 \r
 2\\.	The item will be removed from the order.\r
 \r
-![](</admin/5. Manage Order /5.7/8.png>)\r
+![](</admin/5. ManageOrders/5.7/8.png>)\r
 \r
 3\\.	Tap **Save** to save the changes.\r
 \r
-![](</admin/5. Manage Order /5.7/8a.png>)\r
+![](</admin/5. ManageOrders/5.7/8a.png>)\r
 \r
 **C. Close an Order Without Making Changes**\r
 \r
@@ -1553,19 +1553,19 @@ Use this when you accidentally open an order from **Open Order** and do not make
 \r
 1\\.	Tap the **3-dot menu** at the top.\r
 \r
-![](</admin/5. Manage Order /5.7/9a.png>)\r
+![](</admin/5. ManageOrders/5.7/9a.png>)\r
 \r
 2\\.	Tap **Close Order.**\r
 \r
-![](</admin/5. Manage Order /5.7/9.png>)\r
+![](</admin/5. ManageOrders/5.7/9.png>)\r
 \r
 3\\.	Tap **Close** to close the order.\r
 \r
-![](</admin/5. Manage Order /5.7/10.png>)\r
+![](</admin/5. ManageOrders/5.7/10.png>)\r
 \r
 4\\.	You have successfully closed the order. You can verify that the order is still available in the **Open Order List.**\r
 \r
-![](</admin/5. Manage Order /5.7/11.png>)\r
+![](</admin/5. ManageOrders/5.7/11.png>)\r
 \r
 **D. Remove an Order from a Table**\r
 \r
@@ -1577,19 +1577,19 @@ Note: Removing an order from a table does **not** delete the order. It only remo
 \r
 1\\.	Go to **Table Layout.**\r
 \r
-![](</admin/5. Manage Order /5.7/10a.png>)\r
+![](</admin/5. ManageOrders/5.7/10a.png>)\r
 \r
 2\\.	Select the table with the order (e.g. T3).\r
 \r
-![](</admin/5. Manage Order /5.7/12.png>)\r
+![](</admin/5. ManageOrders/5.7/12.png>)\r
 \r
 3\\.	Tap **Unlink button** at the top, beside **Close button.**\r
 \r
-![](</admin/5. Manage Order /5.7/11a.png>)\r
+![](</admin/5. ManageOrders/5.7/11a.png>)\r
 \r
 4\\.	The order has been removed from the table (e.g., T3).\r
 \r
-![](</admin/5. Manage Order /5.7/13.png>)\r
+![](</admin/5. ManageOrders/5.7/13.png>)\r
 \r
 You can verify the order by going to **Open Order.**\r
 `,pr=`---\r
@@ -1615,15 +1615,15 @@ This is useful for shops that use a **"Pay First, Eat Later"** system.\r
 \r
 1\\.	Take the customer's order.\r
 \r
-![](</admin/5. Manage Order /5.8/1.png>)\r
+![](</admin/5. ManageOrders/5.8/1.png>)\r
 \r
 2\\.	Tap **Charge** at the bottom.\r
 \r
-![](</admin/5. Manage Order /5.8/12a.png>)\r
+![](</admin/5. ManageOrders/5.8/12a.png>)\r
 \r
 3\\.	You will be taken to the **Payment** page.\r
 \r
-![](</admin/5. Manage Order /5.8/2.png>)\r
+![](</admin/5. ManageOrders/5.8/2.png>)\r
 \r
 **B. Charge an Order from Open Order**\r
 \r
@@ -1633,19 +1633,19 @@ Use this method when the order has already been saved.\r
 \r
 1\\.	Go to **Open Order.**\r
 \r
-![](</admin/5. Manage Order /5.8/3.png>)\r
+![](</admin/5. ManageOrders/5.8/3.png>)\r
 \r
 2\\.	Select the order you want to charge.\r
 \r
-![](</admin/5. Manage Order /5.8/4.png>)\r
+![](</admin/5. ManageOrders/5.8/4.png>)\r
 \r
 3\\.	Open the order and Tap **Charge.**\r
 \r
-![](</admin/5. Manage Order /5.8/13a.png>)\r
+![](</admin/5. ManageOrders/5.8/13a.png>)\r
 \r
 4\\.	You will be taken to the **Payment** page.\r
 \r
-![](</admin/5. Manage Order /5.8/5.png>)\r
+![](</admin/5. ManageOrders/5.8/5.png>)\r
 \r
 **C. Charge an Order by Table**\r
 \r
@@ -1655,19 +1655,19 @@ Use this method when the shop takes orders by table and collects payment by tabl
 \r
 1\\.	Go to **Table Layout.**\r
 \r
-![](</admin/5. Manage Order /5.8/14a.png>)\r
+![](</admin/5. ManageOrders/5.8/14a.png>)\r
 \r
 2\\.	Select the table that needs to make payment (e.g. T3).\r
 \r
-![](</admin/5. Manage Order /5.8/6.png>)\r
+![](</admin/5. ManageOrders/5.8/6.png>)\r
 \r
 3\\.	Tap **Charge.**\r
 \r
-![](</admin/5. Manage Order /5.8/7.png>)\r
+![](</admin/5. ManageOrders/5.8/7.png>)\r
 \r
 4\\.	You will be taken to the **Payment** page.\r
 \r
-![](</admin/5. Manage Order /5.8/8.png>)\r
+![](</admin/5. ManageOrders/5.8/8.png>)\r
 \r
 **Payment Page**\r
 \r
@@ -1677,11 +1677,11 @@ After tapping **Charge,** you will be taken to the **Payment** page. You can use
 \r
 •	For **cash payment,** you can enter the amount received from the customer manually. You can also use the preset amount buttons on the side, such as **RM5, RM10,** or **RM50**, to enter the amount quickly.\r
 \r
-![](</admin/5. Manage Order /5.8/15a.png>)\r
+![](</admin/5. ManageOrders/5.8/15a.png>)\r
 \r
 •	If the customer gives the exact amount, tap Exact Amount.\r
 \r
-![](</admin/5. Manage Order /5.8/16a.png>)\r
+![](</admin/5. ManageOrders/5.8/16a.png>)\r
 \r
 **2. Select Payment Type**\r
 \r
@@ -1689,13 +1689,13 @@ Select the payment method used by the customer.\r
 \r
 Available payment types may include: CASH, QR, TOUCH N GO, ONLINE BANKING\r
 \r
-![](</admin/5. Manage Order /5.8/9.png>)\r
+![](</admin/5. ManageOrders/5.8/9.png>)\r
 \r
 **3. Adjustment**\r
 \r
 •	The **Adjustment** option allows you to give a discount to the order.\r
 \r
-![](</admin/5. Manage Order /5.8/17a.png>)\r
+![](</admin/5. ManageOrders/5.8/17a.png>)\r
 \r
 You can apply a discount by **Value** or **Percentage.**\r
 \r
@@ -1705,29 +1705,29 @@ You can apply a discount by **Value** or **Percentage.**\r
 \r
 **Note:** The adjustment is set to **Value** by default. The toggle is **OFF** for Value and **ON** for Percentage.\r
 \r
-![](</admin/5. Manage Order /5.8/18a.png>)\r
+![](</admin/5. ManageOrders/5.8/18a.png>)\r
 \r
 2\\.	Enter the adjustment amount (e.g., **RM2**) press Save.\r
 \r
-![](</admin/5. Manage Order /5.8/10.png>)\r
+![](</admin/5. ManageOrders/5.8/10.png>)\r
 \r
 3\\.	The adjustment will be deducted from the total amount.\r
 \r
-![](</admin/5. Manage Order /5.8/19a.png>)\r
+![](</admin/5. ManageOrders/5.8/19a.png>)\r
 \r
 **Adjustment by Percentage**\r
 \r
 1\\.	Select **Percentage.**\r
 \r
-![](</admin/5. Manage Order /5.8/20a.png>)\r
+![](</admin/5. ManageOrders/5.8/20a.png>)\r
 \r
 2\\.	Enter the adjustment percentage (e.g. 10%) and press Save.\r
 \r
-![](</admin/5. Manage Order /5.8/11.png>)\r
+![](</admin/5. ManageOrders/5.8/11.png>)\r
 \r
 3\\.	The system will calculate the adjustment based on the receipt total and deduct it from the amount due.\r
 \r
-![](</admin/5. Manage Order /5.8/21a.png>)\r
+![](</admin/5. ManageOrders/5.8/21a.png>)\r
 \r
 **4.	Discount Creation**\r
 \r
@@ -1737,15 +1737,15 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 1\\.	Scroll down to the **Discount** section.\r
 \r
-![](</admin/5. Manage Order /5.8/12.png>)\r
+![](</admin/5. ManageOrders/5.8/12.png>)\r
 \r
 2\\.	Press the **New Discount** button to create a new discount.\r
 \r
-![](</admin/5. Manage Order /5.8/13.png>)\r
+![](</admin/5. ManageOrders/5.8/13.png>)\r
 \r
 3\\.	Enter a name for the discount (e.g., **Opening Promotion**).\r
 \r
-![](</admin/5. Manage Order /5.8/14.png>)\r
+![](</admin/5. ManageOrders/5.8/14.png>)\r
 \r
 4\\.	Under **Apply**, select how the discount should be applied (e.g. **Apply discount to selected categories**).\r
 \r
@@ -1757,7 +1757,7 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 **•	Don't apply**\r
 \r
-![](</admin/5. Manage Order /5.8/15.png>)\r
+![](</admin/5. ManageOrders/5.8/15.png>)\r
 \r
 5\\.	Under **Type**, select either **Percentage** or **Amount**. Enter the discount value based on the selected type:\r
 \r
@@ -1765,15 +1765,15 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 •	**Amount:** Enter the discount amount.\r
 \r
-![](</admin/5. Manage Order /5.8/16.png>)\r
+![](</admin/5. ManageOrders/5.8/16.png>)\r
 \r
 6\\.	Under **Valid From – Valid To**, select the **Start Date** and **End Date** for the discount.\r
 \r
-![](</admin/5. Manage Order /5.8/17.png>)\r
+![](</admin/5. ManageOrders/5.8/17.png>)\r
 \r
 7\\.	Select the **Outlet(s)** where the discount will be available.\r
 \r
-![](</admin/5. Manage Order /5.8/18.png>)\r
+![](</admin/5. ManageOrders/5.8/18.png>)\r
 \r
 8\\.	Scroll down to view the available selection list:\r
 \r
@@ -1783,23 +1783,23 @@ Don't know how to access Management Hub? *[Click here to learn how to access Man
 \r
 •	If you selected **Apply discount to the whole order** or **Don't apply**, no item or category list will be displayed.\r
 \r
-![](</admin/5. Manage Order /5.8/19.png>)\r
+![](</admin/5. ManageOrders/5.8/19.png>)\r
 \r
 9\\.	Select the items or categories you want the discount to apply to (e.g., **Teh O or Beverages**).\r
 \r
-![](</admin/5. Manage Order /5.8/20.png>)\r
+![](</admin/5. ManageOrders/5.8/20.png>)\r
 \r
 10\\.	After confirming all the discount settings, press **Create**.\r
 \r
-![](</admin/5. Manage Order /5.8/22a.png>)\r
+![](</admin/5. ManageOrders/5.8/22a.png>)\r
 \r
 11\\.	The newly created discount will now be displayed in the **Discount** section.\r
 \r
-![](</admin/5. Manage Order /5.8/21.png>)\r
+![](</admin/5. ManageOrders/5.8/21.png>)\r
 \r
 12\\.	Return to the **POS system** and charge an order. The discount will automatically appear when the order meets the discount conditions.\r
 \r
-![](</admin/5. Manage Order /5.8/23a.png>)\r
+![](</admin/5. ManageOrders/5.8/23a.png>)\r
 \r
 **5.	Tax Creation**\r
 \r
@@ -1809,15 +1809,15 @@ Don't know how to access Management Hub?\r
 \r
 1\\.	Go to Settings and select Tax. You will see a list of all taxes that have been created in the system, if any.\r
 \r
-![](</admin/5. Manage Order /5.8/22.png>)\r
+![](</admin/5. ManageOrders/5.8/22.png>)\r
 \r
 2\\.	Press New Tax to create a new tax.\r
 \r
-![](</admin/5. Manage Order /5.8/24a.png>)\r
+![](</admin/5. ManageOrders/5.8/24a.png>)\r
 \r
 3\\.	Enter a Tax Name and Tax Rate (e.g., 6%).\r
 \r
-![](</admin/5. Manage Order /5.8/23.png>)\r
+![](</admin/5. ManageOrders/5.8/23.png>)\r
 \r
 4\\.	Select the **Tax Type:** **Added** or **Included.**\r
 \r
@@ -1827,7 +1827,7 @@ Don't know how to access Management Hub?\r
 \r
 **Note – Included:** The tax is already included in the displayed item price. For example, an item priced at **RM10.00** with 6% tax remains **RM10.00**, with approximately **RM0.57** representing the tax portion.\r
 \r
-![](</admin/5. Manage Order /5.8/24.png>)\r
+![](</admin/5. ManageOrders/5.8/24.png>)\r
 \r
 5\\.	Under Apply, select how the tax should be applied:\r
 \r
@@ -1839,35 +1839,35 @@ o	Apply tax to selected categories\r
 \r
 o	Don't apply\r
 \r
-![](</admin/5. Manage Order /5.8/25.png>)\r
+![](</admin/5. ManageOrders/5.8/25.png>)\r
 \r
 **Note:** If you select Apply tax to selected items or Apply tax to selected categories, you can select the specific items or categories that the tax should apply to.\r
 \r
 6\\.	Under Tax Application Depends on Order Option, select Yes or No depending on whether the tax application should vary based on the selected Order Option.\r
 \r
-![](</admin/5. Manage Order /5.8/26.png>)\r
+![](</admin/5. ManageOrders/5.8/26.png>)\r
 \r
 7\\.	Select the Outlet(s) where the tax should be applied.\r
 \r
-![](</admin/5. Manage Order /5.8/27.png>)\r
+![](</admin/5. ManageOrders/5.8/27.png>)\r
 \r
 8\\.	Scroll down to the **Items/Categories to Select** section and the **Order Option to Select** section.  Select the items/categories and order options that you preferred.\r
 \r
-![](</admin/5. Manage Order /5.8/28.png>)![](</admin/5. Manage Order /5.8/29.png>)\r
+![](</admin/5. ManageOrders/5.8/28.png>)![](</admin/5. ManageOrders/5.8/29.png>)\r
 \r
 **Note:** These sections will be displayed if you select **Apply tax to selected items/categories** or choose **Yes** for **Tax Application Depends on Order Option.**\r
 \r
 9\\.	Review all the tax settings and confirm that the information is correct.  Create to save the tax.\r
 \r
-![](</admin/5. Manage Order /5.8/25a.png>)\r
+![](</admin/5. ManageOrders/5.8/25a.png>)\r
 \r
 10\\.	The new tax will now be created and applied according to the settings you have configured.\r
 \r
-![](</admin/5. Manage Order /5.8/30.png>)\r
+![](</admin/5. ManageOrders/5.8/30.png>)\r
 \r
 11\\.	Return to the POS system and charge an order. The tax will be automatically applied when the order meets the tax conditions you have configured.\r
 \r
-![](</admin/5. Manage Order /5.8/26a.png>)\r
+![](</admin/5. ManageOrders/5.8/26a.png>)\r
 \r
 **6.	Payment Type Creation**\r
 \r
@@ -1877,15 +1877,15 @@ If you do not know how to **Hub**. access Management Hub,\r
 \r
 1\\.	Go to **Settings**.\r
 \r
-![](</admin/5. Manage Order /5.8/31.png>)\r
+![](</admin/5. ManageOrders/5.8/31.png>)\r
 \r
 2\\.	Select **Payment Types**. You will see a list of all Payment Types that have been created, if already have created.\r
 \r
-![](</admin/5. Manage Order /5.8/32.png>)\r
+![](</admin/5. ManageOrders/5.8/32.png>)\r
 \r
 3\\.	Click **New Payment Type** to create a new Payment Type.\r
 \r
-![](</admin/5. Manage Order /5.8/33.png>)\r
+![](</admin/5. ManageOrders/5.8/33.png>)\r
 \r
 4\\.	Select the Payment Type:\r
 \r
@@ -1895,47 +1895,47 @@ o	**Cheque** – for cheque payments.\r
 \r
 o	**Other** – for other payment methods such as cash, online transfer, or QR payment.\r
 \r
-![](</admin/5. Manage Order /5.8/34.png>)\r
+![](</admin/5. ManageOrders/5.8/34.png>)\r
 \r
 5\\.	Enter the **Payment Type Name**. For example, Cash, Online Transfer, or QR Payment.\r
 \r
-![](</admin/5. Manage Order /5.8/35.png>)\r
+![](</admin/5. ManageOrders/5.8/35.png>)\r
 \r
 6\\.	Select **Yes** or **No** for **Auto Rounding**.\r
 \r
-![](</admin/5. Manage Order /5.8/36.png>)\r
+![](</admin/5. ManageOrders/5.8/36.png>)\r
 \r
 7\\.	Select the **Outlet** where the Payment Type will be used. Check that all the information is correct. Click **Create** to save the Payment Type.\r
 \r
-![](</admin/5. Manage Order /5.8/37.png>)\r
+![](</admin/5. ManageOrders/5.8/37.png>)\r
 \r
 8\\.	The new Payment Type will now appear in the Payment Types dashboard.\r
 \r
-![](</admin/5. Manage Order /5.8/38.png>)\r
+![](</admin/5. ManageOrders/5.8/38.png>)\r
 \r
 9\\.	From the dashboard, you can **enable or disable Auto Rounding** for a Payment Type.\r
 \r
-![](</admin/5. Manage Order /5.8/39.png>)\r
+![](</admin/5. ManageOrders/5.8/39.png>)\r
 \r
 10\\.	Use the Search Bar to quickly find a Payment Type by its name.\r
 \r
-![](</admin/5. Manage Order /5.8/40.png>)\r
+![](</admin/5. ManageOrders/5.8/40.png>)\r
 \r
 11\\.	Use the Filter button to filter Payment Types by category or outlet.\r
 \r
-![](</admin/5. Manage Order /5.8/41.png>)\r
+![](</admin/5. ManageOrders/5.8/41.png>)\r
 \r
 12\\.	To delete a Payment Type, click **Edit** on the Payment Type you want to remove. Click **Delete Payment Type**.\r
 \r
-![](</admin/5. Manage Order /5.8/42.png>)\r
+![](</admin/5. ManageOrders/5.8/42.png>)\r
 \r
 13\\.	Click **Save Changes** to confirm the deletion.\r
 \r
-![](</admin/5. Manage Order /5.8/43.png>)\r
+![](</admin/5. ManageOrders/5.8/43.png>)\r
 \r
 14\\.	Return to the **POS system** and charge an order. You will see the payment type you created (e.g., **Card Debit**) available as a payment option.\r
 \r
-![](</admin/5. Manage Order /5.8/44.png>)\r
+![](</admin/5. ManageOrders/5.8/44.png>)\r
 \r
 **7.	Split Payment**\r
 \r
@@ -1955,29 +1955,29 @@ One customer pays for **Roti Canai,** while another customer pays for **Teh O**\
 \r
 1\\.	Select **Split Payment** button.\r
 \r
-![](</admin/5. Manage Order /5.8/27a.png>)\r
+![](</admin/5. ManageOrders/5.8/27a.png>)\r
 \r
 2\\.	Select **Split by Item**.\r
 \r
-![](</admin/5. Manage Order /5.8/45.png>)\r
+![](</admin/5. ManageOrders/5.8/45.png>)\r
 \r
 3\\.	Select the items to be paid for (e.g. Select **NG Paprik Ayam** and Teh O) and press Charge to pay.\r
 \r
-![](</admin/5. Manage Order /5.8/28a.png>)\r
+![](</admin/5. ManageOrders/5.8/28a.png>)\r
 \r
 4\\.	Select the payment type and complete the payment.\r
 \r
 **Note:** You can optionally add an **Adjustment** if needed.\r
 \r
-![](</admin/5. Manage Order /5.8/46.png>)\r
+![](</admin/5. ManageOrders/5.8/46.png>)\r
 \r
 5\\.	After the first payment is completed, **Continue Split Payment** will appear if there are items left to pay.\r
 \r
-![](</admin/5. Manage Order /5.8/47.png>)\r
+![](</admin/5. ManageOrders/5.8/47.png>)\r
 \r
 6\\.	Tap **Continue Split Payment** to pay for the remaining items and press Charge.\r
 \r
-![](</admin/5. Manage Order /5.8/29a.png>)\r
+![](</admin/5. ManageOrders/5.8/29a.png>)\r
 \r
 7\\.	Repeat until all items have been paid.\r
 \r
@@ -2001,31 +2001,31 @@ You can:\r
 \r
 1\\.	Select **Split Payment.**\r
 \r
-![](</admin/5. Manage Order /5.8/49.png>)\r
+![](</admin/5. ManageOrders/5.8/49.png>)\r
 \r
 2\\.	Select **Split by Amount.**\r
 \r
-![](</admin/5. Manage Order /5.8/50.png>)\r
+![](</admin/5. ManageOrders/5.8/50.png>)\r
 \r
 3\\.	Enter or select the amount to be paid and press Charge.\r
 \r
 **Note :** Use **Quick Split** to divide the amount equally, such as by **2** or **3**.\r
 \r
-![](</admin/5. Manage Order /5.8/30a.png>)\r
+![](</admin/5. ManageOrders/5.8/30a.png>)\r
 \r
 4\\.	Select the payment type and press Charge to complete the payment.\r
 \r
-![](</admin/5. Manage Order /5.8/51.png>)\r
+![](</admin/5. ManageOrders/5.8/51.png>)\r
 \r
 5\\.	If there is still an unpaid amount, **Continue Split Payment** will appear. Tap **Continue Split Payment** and complete the remaining payment.\r
 \r
-![](</admin/5. Manage Order /5.8/52.png>)\r
+![](</admin/5. ManageOrders/5.8/52.png>)\r
 \r
 6\\.	Enter the amount you want to pay for this transaction, then press **Charge**. Continue until the full amount has been paid.\r
 \r
 **Note:** In the **Payment History** section, the amount already paid will be displayed (e.g., **RM10 by Cash**). You can select the **Full** button to pay the remaining balance in the current transaction.\r
 \r
-![](</admin/5. Manage Order /5.8/53.png>)\r
+![](</admin/5. ManageOrders/5.8/53.png>)\r
 \r
 **C. Print Receipt**\r
 \r
@@ -2033,11 +2033,11 @@ The **Print** option allows you to choose whether to print the receipt.\r
 \r
 •	**ON** → Receipt will be printed.\r
 \r
-![](</admin/5. Manage Order /5.8/31a.png>)\r
+![](</admin/5. ManageOrders/5.8/31a.png>)\r
 \r
 •	**OFF** → Receipt will not be printed.\r
 \r
-![](</admin/5. Manage Order /5.8/32a.png>)\r
+![](</admin/5. ManageOrders/5.8/32a.png>)\r
 \r
 Toggle the **Print** button according to your preference.\r
 \r
@@ -2047,27 +2047,27 @@ After all payment details have been entered:\r
 \r
 1\\.	Tap **Charge** to complete the payment. For **cash payment**, the cash drawer will open automatically.\r
 \r
-![](</admin/5. Manage Order /5.8/33a.png>)\r
+![](</admin/5. ManageOrders/5.8/33a.png>)\r
 \r
 2\\.	The system will display the **change** to be returned to the customer. **Payment Successfull** message will appear once the payment is completed.\r
 \r
 **Note:** You can optionally scan the **QR cod**e to receive a digital receipt for your order.\r
 \r
-![](</admin/5. Manage Order /5.8/54.png>)\r
+![](</admin/5. ManageOrders/5.8/54.png>)\r
 \r
 After payment is successful, you can optionally:\r
 \r
 **•	Print the receipt.**\r
 \r
-![](</admin/5. Manage Order /5.8/34a.png>)\r
+![](</admin/5. ManageOrders/5.8/34a.png>)\r
 \r
 •	**Send the receipt by email** by pressing **Send Receipt to Email**. Enter your email address, then press **Send** to send the receipt to your email.\r
 \r
-![](</admin/5. Manage Order /5.8/35a.png>)\r
+![](</admin/5. ManageOrders/5.8/35a.png>)\r
 \r
 •	You have successfully completed the payment. Press **New Sale** to start taking a new order.\r
 \r
-![](</admin/5. Manage Order /5.8/56.png>)\r
+![](</admin/5. ManageOrders/5.8/56.png>)\r
 `,mr=`---\r
 title: 6. Manage Receipts\r
 section: USER GUIDELINES\r

@@ -17,23 +17,23 @@ Customers can be managed from both the **POS device** and the **Management Hub.*
 
 2\.	If the customer is not listed, click the **Add** button, then type in their **name** and **phone number**. Once done, click the Save button at the top right to store the new customer in the system.
 
-![](</admin/5. Manage Order /5.2/2.png>)
+![](</admin/5. ManageOrders/5.2/2.png>)
 
 3\.	You have added the customer. You can now verify the customer’s name in the list and proceed to select them to continue with the order.
 
-![](</admin/5. Manage Order /5.2/3.png>)
+![](</admin/5. ManageOrders/5.2/3b.png>)
 
 4\.	Select the **Add to Order** button to continue with choosing a customer. If you need to edit the customer’s information, press the **Edit** button (pencil like icon) to make changes.
 
-![](</admin/5. Manage Order /5.2/4.png>)
+![](</admin/5. ManageOrders/5.2/6.png>)
 
 5\.	You have selected a customer to take orders. You can now continue taking orders as usual within the POS system.
 
-![](</admin/5. Manage Order /5.2/5.png>)
+![](</admin/5. ManageOrders/5.2/5b.png>)
 
 6\.	If you want to remove the customer, click the **Customer icon** and then select the **Remove From Order** button. This will detach the customer from the current order so you can proceed without linking it to their profile.
 
-![](</admin/5. Manage Order /5.2/6.png>)
+![](</admin/5. ManageOrders/5.2/6.png>)
 
 \>	Add Customer from **Management Hub:**
 
@@ -43,30 +43,34 @@ The Management Hub provides additional options for managing customer records, in
 
 1\.	Go to the **Customer** section in the Management Hub. You will see the list of customers created in the system.
 
-![](</admin/5. Manage Order /5.2/7.png>)
+![](</admin/5. ManageOrders/5.2/7.png>)
 
 2\.	Press **New Customer** to create a new customer and enter the required customer information.
 
-![](</admin/5. Manage Order /5.2/2z.png>)
+![](</admin/5. ManageOrders/5.2/2z.png>)
 
 3\.	Enter the customer's **Name** (required). The remaining fields are optional. Press **Create** to save changes.
 
 **Note:** You can note their **Phone Number** for better customer tracking.
 
-![](</admin/5. Manage Order /5.2/8.png>)
+![](</admin/5. ManageOrders/5.2/8.png>)
 
 4\.	You have successfully created a **Customer.** Select a customer from the list to **view** their customer details.
 
-![](</admin/5. Manage Order /5.2/3z.png>)
+![](</admin/5. ManageOrders/5.2/3z.png>)
 
 5\.	To export customer records, select the required customer records or columns and press **Export**. Choose the available file format to download the customer data.
 
-![](</admin/5. Manage Order /5.2/4z.png>)
+![](</admin/5. ManageOrders/5.2/4z.png>)
 
 6\.	To update the customer's information, select the customer and press **Edit**. Make the necessary changes and save them.
 
-![](</admin/5. Manage Order /5.2/9.png>)
+![](</admin/5. ManageOrders/5.2/5.png>)
+
+7\.	To remove a customer from the system, select the customer and press Delete. Confirm the deletion when prompted.
+
+![](</admin/5. ManageOrders/5.2/9.png>)
 
 8\.	The customer (e.g., Adam) has been successfully deleted. You will no longer see Adam in the customer list.
 
-![](</admin/5. Manage Order /5.2/10.png>)
+![](</admin/5. ManageOrders/5.2/10.png>)

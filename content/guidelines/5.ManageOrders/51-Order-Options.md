@@ -15,11 +15,11 @@ Before selecting an **Order Option** on the POS system, you must first create th
 
 1\.	Go to the **Outlet** section in the Management Hub and go to  **Order Options.**
 
-![](</admin/5. ManageOrders/5.1/1.png>)
+![](</admin/5. ManageOrders/5.1/5.1(1).png>)
 
 2\.	Select the **Outlet** where you want to create the order option (e.g. GD Cafe).
 
-![](</admin/5. ManageOrders/5.1/5.1(1).png>)
+![](</admin/5. ManageOrders/5.1/5.1(2).png>)
 
 3\.	You will see the existing order options for the selected outlet, if any have already been created.
 
@@ -27,15 +27,15 @@ Before selecting an **Order Option** on the POS system, you must first create th
 
 4\.	Press **New Order Option** to create a new order option.
 
-![](</admin/5. ManageOrders/5.1/5.1(4).png>)
+![](</admin/5. ManageOrders/5.1/1.png>)
 
 5\.	Enter the name of the order option (e.g., **Dine In** or **Take Away**) and press **Create**.
 
-![](</admin/5. ManageOrders/5.1/5.1(5).png>)
+![](</admin/5. ManageOrders/5.1/5.1(4).png>)
 
 6\.	The new order option has now been created successfully and will be available for selection on the POS system.
 
-![](</admin/5. ManageOrders/5.1/5.1(6).png>)
+![](</admin/5. ManageOrders/5.1/5.1(5).png>)
 
 Before creating an order, select the Order Type and Order Method. The manual lists these service options:
 
@@ -44,3 +44,5 @@ Before creating an order, select the Order Type and Order Method. The manual lis
 •	Takeaway — customer takes the order away.
 
 •	Pickup — customer collects the order.
+
+![](</admin/5. ManageOrders/5.1/5.1(6).png>)

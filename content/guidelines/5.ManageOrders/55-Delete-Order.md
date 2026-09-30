@@ -35,20 +35,20 @@ This allows each department to receive only the items they need to prepare.
 
 1\.	Take the customer's order.
 
-![](</admin/5. Manage Order /5.5/1.png>)
+![](</admin/5. ManageOrders/5.4/1.png>)
 
 2\.	Tap **Save** button.
 
-![](</admin/5. Manage Order /5.5/1a.png>)
+![](</admin/5. ManageOrders/5.5/1a.png>)
 
 3\.	You can choose to create an order using an **Order Number** or a **Custom Order**.
 
 **Order Number:** Tap any available order number to save the order under that order number (e.g. Order Number 101).
 
-![](</admin/5. Manage Order /5.5/2.png>)
+![](</admin/5. ManageOrders/5.5/2.png>)
 
 **Custom Order:** Press the **Edit** button (pencil icon) to create a custom order and press Save.
 
-![](</admin/5. Manage Order /5.5/2a.png>)
+![](</admin/5. ManageOrders/5.5/2a.png>)
 
 **Note:** Each item is sent to its assigned department printer. The **Kitchen** receives the food items.The **Beverages** department receives the drink items. The order will only be printed to a department if the item has been assigned to a printer for that department.

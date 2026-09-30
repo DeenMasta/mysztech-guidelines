@@ -15,43 +15,43 @@ language: en
 
 1\.	If the order method is set by Table, click the Table Layout button at the bottom to open the table selection screen. This allows you to assign the order to a specific table before proceeding.
 
-![](</admin/5. Manage Order /5.3/123.png>)
+![](</admin/5. ManageOrders/5.3/123.png>)
 
 2\.	Select the table where you want to assign the order.
 
-![](</admin/5. Manage Order /5.3/1.png>)
+![](</admin/5. ManageOrders/5.3/1.png>)
 
 3\.	Enter a name and add a comment if needed.  tap **Assign Order** and select the order you want to assign to assign an existing order to this table.
 
-![](</admin/5. Manage Order /5.3/2.png>)
+![](</admin/5. ManageOrders/5.3/2.png>)
 
 4\.	Search for the order you want to assign to the table, then tap **Assign** to assign the order to the table.
 
-![](</admin/5. Manage Order /5.3/3.png>)
+![](</admin/5. ManageOrders/5.3/3.png>)
 
 5\.	The order has been assigned to the table. Tap the table to view the order.
 
-![](</admin/5. Manage Order /5.3/4.png>)
+![](</admin/5. ManageOrders/5.3/4.png>)
 
 **B.	Create a New Order for a Table**
 
 1\.	Select the table (e.g., **T4**).
 
-![](</admin/5. Manage Order /5.3/5.png>)
+![](</admin/5. ManageOrders/5.3/5.png>)
 
 2\.	You can add a comment if needed, then tap **Save Order** to continue taking the customer's order.
 
-![](</admin/5. Manage Order /5.3/6.png>)
+![](</admin/5. ManageOrders/5.3/6.png>)
 
 3\.	You will be returned to the **Order Layout** page, where all items and categories are displayed. You can take the customer's order simply by pressing an item and pressing **Save** if prompted.
 
-![](</admin/5. Manage Order /5.3/7.png>)
+![](</admin/5. ManageOrders/5.3/7.png>)
 
 **Reminder:** When adding an item with a **Variant** and **Modifier**, you must select **one Variant** (e.g., **HOT** or **COLD**).
 
 **Modifier** is optional, and you can select more than one Modifier if needed. Once done, tap **Save** to continue.
 
-![](</admin/5. Manage Order /5.3/8.png>)
+![](</admin/5. ManageOrders/5.3/8.png>)
 
 4\.	After taking the order, tap the **Save** button to save the order.
 
@@ -63,21 +63,21 @@ For example:
 
 **•	Teh → Beverages Printer**
 
-![](</admin/5. Manage Order /5.3/9.png>)
+![](</admin/5. ManageOrders/5.3/9.png>)
 
 5\.	You have successfully created an order for the table. To verify the order, go to the **Table Layout** and tap the table.
 
-![](</admin/5. Manage Order /5.3/10.png>)
+![](</admin/5. ManageOrders/5.3/10.png>)
 
 \>	If the Order Method is set to Custom Order :
 
 1\.	Take the order as usual, then tap the **Save** button at the bottom of the screen to save the order.
 
-![](</admin/5. Manage Order /5.3/11.png>)
+![](</admin/5. ManageOrders/5.3/11.png>)
 
 2\.	Tap the **Pencil** button to create a **Custom Order**
 
-![](</admin/5. Manage Order /5.3/7z.png>)
+![](</admin/5. ManageOrders/5.3/7z.png>)
 
 3\.	You can add a **Comment** if needed (optional), then tap **Save** to save the order.
 
@@ -89,11 +89,11 @@ For example:
 
 **•	Teh → Beverages Printer**
 
-![](</admin/5. Manage Order /5.3/12.png>)
+![](</admin/5. ManageOrders/5.3/12.png>)
 
 4\.	 This is the order you have just created.
 
-![](</admin/5. Manage Order /5.3/13.png>)
+![](</admin/5. ManageOrders/5.3/13.png>)
 
 \>	If the Order Method is set to Order Number :
 
@@ -105,39 +105,39 @@ Open Order Setup – **Management Hub**
 
 1\.	Go to Outlets and select Open Orders.
 
-![](</admin/5. Manage Order /5.3/14.png>)
+![](</admin/5. ManageOrders/5.3/14.png>)
 
 2\.	Select the Outlet where you want to manage the Open Orders (e.g. GD Café). Make sure the Active button is toggled on to enable Open Orders.
 
-![](</admin/5. Manage Order /5.3/15.png>)
+![](</admin/5. ManageOrders/5.3/15.png>)
 
 3\.	You will see the list of existing Open Orders if any have already been created.  **Press New Open Order** to create a new Open Order.
 
-![](</admin/5. Manage Order /5.3/8z.png>)
+![](</admin/5. ManageOrders/5.3/8z.png>)
 
 4\.	Enter a **name** for the Open Order (e.g., 101). In the Remark section, you can enter the NFC Card Number if you are using NFC Order Cards, or the Barcode of the Order Card if you are using Barcode Order Cards.
 
-![](</admin/5. Manage Order /5.3/16.png>)
+![](</admin/5. ManageOrders/5.3/16.png>)
 
 5\.	After entering the required information, press Create to save the Open Order.
 
-![](</admin/5. Manage Order /5.3/9z.png>)
+![](</admin/5. ManageOrders/5.3/9z.png>)
 
 6\.	To edit an existing Open Order, select the Open Order and press Edit. Make the required changes and press Save Changes.
 
-![](</admin/5. Manage Order /5.3/17.png>)
+![](</admin/5. ManageOrders/5.3/17.png>)
 
 7\.	To delete an Open Order, select the Open Order and press Delete button.
 
-![](</admin/5. Manage Order /5.3/18.png>)
+![](</admin/5. ManageOrders/5.3/18.png>)
 
 8\.	You can use the Search bar to quickly find a specific Open Order.
 
-![](</admin/5. Manage Order /5.3/19.png>)
+![](</admin/5. ManageOrders/5.3/19.png>)
 
 9\.	To change the order of the Open Orders, press the **Reordering button** and drag and drop the Open Order numbers into your preferred order (e.g., 101, 102, 103).
 
-![](</admin/5. Manage Order /5.3/10z.png>)
+![](</admin/5. ManageOrders/5.3/10z.png>)
 
 Open Order – **POS Device**
 
@@ -145,11 +145,11 @@ Open Order – **POS Device**
 
 The system will display the available Order Numbers for you to choose from.
 
-![](</admin/5. Manage Order /5.3/11z.png>)
+![](</admin/5. ManageOrders/5.3/11z.png>)
 
 2\.	Select an available **Order Number** (e.g., **104**) to save the order.
 
-![](</admin/5. Manage Order /5.3/20.png>)
+![](</admin/5. ManageOrders/5.3/20.png>)
 
 **Note:** When you tap **Save**, the order will be submitted and sent to the printer assigned to each item's department.
 
@@ -161,4 +161,4 @@ For example:
 
 3\.	The order has been saved to **Order No. 104**. To verify the order, tap **Open Order**. You will see Order No. 104 with the assigned items.
 
-![](</admin/5. Manage Order /5.3/21.png>)
+![](</admin/5. ManageOrders/5.3/21.png>)

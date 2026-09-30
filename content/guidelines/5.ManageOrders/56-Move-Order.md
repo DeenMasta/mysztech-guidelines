@@ -21,26 +21,26 @@ For example, **Customer A** wants to pay for **Customer B’s** order as well. I
 
 1\.	Go to **Open Order**.
 
-![](</admin/5. Manage Order /5.6/3a.png>)
+![](</admin/5. ManageOrders/5.6/3a.png>)
 
 2\.	Select the square checkbox to the left of the **Order Number** you want to move. Do not click the order number itself, as that will only open the order.
 
 **Example:** To move **Order No. 102** to **Order No. 101**, select the checkbox to the left of **Order No. 102** first.
 
-![](</admin/5. Manage Order /5.6/1.png>)
+![](</admin/5. ManageOrders/5.6/1.png>)
 
 3\.	Tap **Move** at the top (right-arrow button) to move the selected order.
 
-![](</admin/5. Manage Order /5.6/4a.png>)
+![](</admin/5. ManageOrders/5.6/4a.png>)
 
 4\.	Select the **Order Number** you want to move the selected order to (e.g., **Order No. 101**).
 
-![](</admin/5. Manage Order /5.6/2.png>)
+![](</admin/5. ManageOrders/5.6/2.png>)
 
 5\.	Tap **Confirm** to move **Order No. 102** to **Order No. 10**1 and proceed.
 
-![](</admin/5. Manage Order /5.6/3.png>)
+![](</admin/5. ManageOrders/5.6/3.png>)
 
 6\.	You have successfully moved the order to another order. To verify, go to **Open Order** and tap the order number you moved it to (e.g., **Order No. 101**).
 
-![](</admin/5. Manage Order /5.6/4.png>)
+![](</admin/5. ManageOrders/5.6/4.png>)
