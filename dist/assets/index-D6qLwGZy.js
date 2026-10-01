@@ -1172,124 +1172,130 @@ For example:\r
 3\\.	The order has been saved to **Order No. 104**. To verify the order, tap **Open Order**. You will see Order No. 104 with the assigned items.\r
 \r
 ![](</admin/5. ManageOrders/5.3/21.png>)\r
-`,sr=`---
-title: 5.1 Order Options
-section: USER GUIDELINES
-order: 5.1
-isSubTopic: true
-parentTopic: 5. Manage Orders
-language: en
----
-
-Before selecting an **Order Option** on the POS system, you must first create the available order options in the **Management Hub.**
-
-**Don't know how to access Management Hub?** *[Click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*
-
-**Create Order Options in Management Hub**
-
-1\\.	Go to the **Outlet** section in the Management Hub and go to  **Order Options.**
-
-![](</admin/5. ManageOrders/5.1/1.png>)
-
-2\\.	Select the **Outlet** where you want to create the order option (e.g. GD Cafe).
-
-![](</admin/5. ManageOrders/5.1/5.1(1).png>)
-
-3\\.	You will see the existing order options for the selected outlet, if any have already been created.
-
-![](</admin/5. ManageOrders/5.1/5.1(3).png>)
-
-4\\.	Press **New Order Option** to create a new order option.
-
-![](</admin/5. ManageOrders/5.1/5.1(4).png>)
-
-5\\.	Enter the name of the order option (e.g., **Dine In** or **Take Away**) and press **Create**.
-
-![](</admin/5. ManageOrders/5.1/5.1(5).png>)
-
-6\\.	The new order option has now been created successfully and will be available for selection on the POS system.
-
-![](</admin/5. ManageOrders/5.1/5.1(6).png>)
-
-Before creating an order, select the Order Type and Order Method. The manual lists these service options:
-
-•	Dine-In — customer eats at the outlet.
-
-•	Takeaway — customer takes the order away.
-
-•	Pickup — customer collects the order.
-`,cr=`---
-title: 5.2 Customer Orders
-section: USER GUIDELINES
-order: 5.2
-isSubTopic: true
-parentTopic: 5. Manage Orders
-language: en
----
-
-Customers can be managed from both the **POS device** and the **Management Hub.**
-
-\\>Add Customer from **Pos Device**:
-
-1\\.	Click the **Customer icon** and then select the customer from the list. This ensures the order is linked to the correct customer profile in the POS system.
-
-![](</admin/5. ManageOrders/5.2/1.png>)
-
-2\\.	If the customer is not listed, click the **Add** button, then type in their **name** and **phone number**. Once done, click the Save button at the top right to store the new customer in the system.
-
-![](</admin/5. ManageOrders/5.2/2.png>)
-
-3\\.	You have added the customer. You can now verify the customer’s name in the list and proceed to select them to continue with the order.
-
-![](</admin/5. ManageOrders/5.2/3.png>)
-
-4\\.	Select the **Add to Order** button to continue with choosing a customer. If you need to edit the customer’s information, press the **Edit** button (pencil like icon) to make changes.
-
-![](</admin/5. ManageOrders/5.2/4.png>)
-
-5\\.	You have selected a customer to take orders. You can now continue taking orders as usual within the POS system.
-
-![](</admin/5. ManageOrders/5.2/5.png>)
-
-6\\.	If you want to remove the customer, click the **Customer icon** and then select the **Remove From Order** button. This will detach the customer from the current order so you can proceed without linking it to their profile.
-
-![](</admin/5. ManageOrders/5.2/6.png>)
-
-\\>	Add Customer from **Management Hub:**
-
-The Management Hub provides additional options for managing customer records, including **creating, viewing, editing, exporting, and deleting customers.**
-
-**Don't know how to access Management Hub?** *[Click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*
-
-1\\.	Go to the **Customer** section in the Management Hub. You will see the list of customers created in the system.
-
-![](</admin/5. ManageOrders/5.2/7.png>)
-
-2\\.	Press **New Customer** to create a new customer and enter the required customer information.
-
-![](</admin/5. ManageOrders/5.2/2z.png>)
-
-3\\.	Enter the customer's **Name** (required). The remaining fields are optional. Press **Create** to save changes.
-
-**Note:** You can note their **Phone Number** for better customer tracking.
-
-![](</admin/5. ManageOrders/5.2/8.png>)
-
-4\\.	You have successfully created a **Customer.** Select a customer from the list to **view** their customer details.
-
-![](</admin/5. ManageOrders/5.2/3z.png>)
-
-5\\.	To export customer records, select the required customer records or columns and press **Export**. Choose the available file format to download the customer data.
-
-![](</admin/5. ManageOrders/5.2/4z.png>)
-
-6\\.	To update the customer's information, select the customer and press **Edit**. Make the necessary changes and save them.
-
-![](</admin/5. ManageOrders/5.2/9.png>)
-
-8\\.	The customer (e.g., Adam) has been successfully deleted. You will no longer see Adam in the customer list.
-
-![](</admin/5. ManageOrders/5.2/10.png>)
+`,sr=`---\r
+title: 5.1 Order Options\r
+section: USER GUIDELINES\r
+order: 5.1\r
+isSubTopic: true\r
+parentTopic: 5. Manage Orders\r
+language: en\r
+---\r
+\r
+Before selecting an **Order Option** on the POS system, you must first create the available order options in the **Management Hub.**\r
+\r
+**Don't know how to access Management Hub?** *[Click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
+\r
+**Create Order Options in Management Hub**\r
+\r
+1\\.	Go to the **Outlet** section in the Management Hub and go to  **Order Options.**\r
+\r
+![](</admin/5. ManageOrders/5.1/5.1(1).png>)\r
+\r
+2\\.	Select the **Outlet** where you want to create the order option (e.g. GD Cafe).\r
+\r
+![](</admin/5. ManageOrders/5.1/5.1(2).png>)\r
+\r
+3\\.	You will see the existing order options for the selected outlet, if any have already been created.\r
+\r
+![](</admin/5. ManageOrders/5.1/5.1(3).png>)\r
+\r
+4\\.	Press **New Order Option** to create a new order option.\r
+\r
+![](</admin/5. ManageOrders/5.1/1.png>)\r
+\r
+5\\.	Enter the name of the order option (e.g., **Dine In** or **Take Away**) and press **Create**.\r
+\r
+![](</admin/5. ManageOrders/5.1/5.1(4).png>)\r
+\r
+6\\.	The new order option has now been created successfully and will be available for selection on the POS system.\r
+\r
+![](</admin/5. ManageOrders/5.1/5.1(5).png>)\r
+\r
+Before creating an order, select the Order Type and Order Method. The manual lists these service options:\r
+\r
+•	Dine-In — customer eats at the outlet.\r
+\r
+•	Takeaway — customer takes the order away.\r
+\r
+•	Pickup — customer collects the order.\r
+\r
+![](</admin/5. ManageOrders/5.1/5.1(6).png>)\r
+`,cr=`---\r
+title: 5.2 Customer Orders\r
+section: USER GUIDELINES\r
+order: 5.2\r
+isSubTopic: true\r
+parentTopic: 5. Manage Orders\r
+language: en\r
+---\r
+\r
+Customers can be managed from both the **POS device** and the **Management Hub.**\r
+\r
+\\>Add Customer from **Pos Device**:\r
+\r
+1\\.	Click the **Customer icon** and then select the customer from the list. This ensures the order is linked to the correct customer profile in the POS system.\r
+\r
+![](</admin/5. ManageOrders/5.2/1.png>)\r
+\r
+2\\.	If the customer is not listed, click the **Add** button, then type in their **name** and **phone number**. Once done, click the Save button at the top right to store the new customer in the system.\r
+\r
+![](</admin/5. ManageOrders/5.2/2.png>)\r
+\r
+3\\.	You have added the customer. You can now verify the customer’s name in the list and proceed to select them to continue with the order.\r
+\r
+![](</admin/5. ManageOrders/5.2/3b.png>)\r
+\r
+4\\.	Select the **Add to Order** button to continue with choosing a customer. If you need to edit the customer’s information, press the **Edit** button (pencil like icon) to make changes.\r
+\r
+![](</admin/5. ManageOrders/5.2/6.png>)\r
+\r
+5\\.	You have selected a customer to take orders. You can now continue taking orders as usual within the POS system.\r
+\r
+![](</admin/5. ManageOrders/5.2/5b.png>)\r
+\r
+6\\.	If you want to remove the customer, click the **Customer icon** and then select the **Remove From Order** button. This will detach the customer from the current order so you can proceed without linking it to their profile.\r
+\r
+![](</admin/5. ManageOrders/5.2/6.png>)\r
+\r
+\\>	Add Customer from **Management Hub:**\r
+\r
+The Management Hub provides additional options for managing customer records, including **creating, viewing, editing, exporting, and deleting customers.**\r
+\r
+**Don't know how to access Management Hub?** *[Click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
+\r
+1\\.	Go to the **Customer** section in the Management Hub. You will see the list of customers created in the system.\r
+\r
+![](</admin/5. ManageOrders/5.2/7.png>)\r
+\r
+2\\.	Press **New Customer** to create a new customer and enter the required customer information.\r
+\r
+![](</admin/5. ManageOrders/5.2/2z.png>)\r
+\r
+3\\.	Enter the customer's **Name** (required). The remaining fields are optional. Press **Create** to save changes.\r
+\r
+**Note:** You can note their **Phone Number** for better customer tracking.\r
+\r
+![](</admin/5. ManageOrders/5.2/8.png>)\r
+\r
+4\\.	You have successfully created a **Customer.** Select a customer from the list to **view** their customer details.\r
+\r
+![](</admin/5. ManageOrders/5.2/3z.png>)\r
+\r
+5\\.	To export customer records, select the required customer records or columns and press **Export**. Choose the available file format to download the customer data.\r
+\r
+![](</admin/5. ManageOrders/5.2/4z.png>)\r
+\r
+6\\.	To update the customer's information, select the customer and press **Edit**. Make the necessary changes and save them.\r
+\r
+![](</admin/5. ManageOrders/5.2/5.png>)\r
+\r
+7\\.	To remove a customer from the system, select the customer and press Delete. Confirm the deletion when prompted.\r
+\r
+![](</admin/5. ManageOrders/5.2/9.png>)\r
+\r
+8\\.	The customer (e.g., Adam) has been successfully deleted. You will no longer see Adam in the customer list.\r
+\r
+![](</admin/5. ManageOrders/5.2/10.png>)\r
 `,lr=`---\r
 title: 5.4 Update Order\r
 section: USER GUIDELINES\r
@@ -1309,11 +1315,11 @@ To edit an order using the table:\r
 \r
 1\\.	Tap the table where you saved the order, then tap **Edit Order** to update the order.\r
 \r
-![](</admin/5. ManageOrders/5.4/1.png>)\r
+![](</admin/5. ManageOrders/5.4/5.png>)\r
 \r
 2\\.	You will be returned to the **Order Layout** page. You can now make any changes to the order. Once you are done, tap **Save** to save the changes.\r
 \r
-![](</admin/5. ManageOrders/5.4/2.png>)\r
+![](</admin/5. ManageOrders/5.4/4.png>)\r
 \r
 **Example:** If the customer changes Teh Hot Kurang Manis to Teh Cold and wants it served in a bowl (Mangkuk), tap Teh Hot, select Cold, enter "Mangkuk" in the Comment section, then tap Save.\r
 \r
@@ -1407,7 +1413,7 @@ This allows each department to receive only the items they need to prepare.\r
 \r
 1\\.	Take the customer's order.\r
 \r
-![](</admin/5. ManageOrders/5.5/1.png>)\r
+![](</admin/5. ManageOrders/5.4/1.png>)\r
 \r
 2\\.	Tap **Save** button.\r
 \r
@@ -1853,7 +1859,9 @@ o	Don't apply\r
 \r
 8\\.	Scroll down to the **Items/Categories to Select** section and the **Order Option to Select** section.  Select the items/categories and order options that you preferred.\r
 \r
-![](</admin/5. ManageOrders/5.8/28.png>)![](</admin/5. ManageOrders/5.8/29.png>)\r
+![](</admin/5. ManageOrders/5.8/28.png>)\r
+\r
+![](</admin/5. ManageOrders/5.8/29.png>)\r
 \r
 **Note:** These sections will be displayed if you select **Apply tax to selected items/categories** or choose **Yes** for **Tax Application Depends on Order Option.**\r
 \r
@@ -2027,7 +2035,7 @@ You can:\r
 \r
 ![](</admin/5. ManageOrders/5.8/53.png>)\r
 \r
-**C. Print Receipt**\r
+**5. Print Receipt**\r
 \r
 The **Print** option allows you to choose whether to print the receipt.\r
 \r
