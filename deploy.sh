@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PROJECT_DIR="/home/u662735286/domains/guide.mysztechnology.com/public_html/Mysztech-Frontend"
+PROJECT_DIR="/home/u662735286/domains/guide.mysztechnology.com/public_html"
 PUBLIC_DIR="/home/u662735286/domains/guide.mysztechnology.com/public_html"
 
 cd "$PROJECT_DIR"
