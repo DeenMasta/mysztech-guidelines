@@ -28,6 +28,7 @@ const Sidebar = ({ language, onMobileClose }) => {
   const userGuidelines = panduan.filter(item => item.section === "USER GUIDELINES");
   const topikUtama = userGuidelines.filter(item => !item.isSubTopic);
   const subTopik = userGuidelines.filter(item => item.isSubTopic);
+  const support = panduan.filter(item => item.section === "SUPPORT");
 
   return (
     <Box component="nav" className="doc-sidebar-nav">
@@ -166,7 +167,7 @@ const Sidebar = ({ language, onMobileClose }) => {
         {/* ======================================= */}
         {/* SUPPORT / TROUBLESHOOTING */}
         {/* ======================================= */}
-        {/* <Typography className="sidebar-heading sidebar-mt">
+        <Typography className="sidebar-heading sidebar-mt">
           {language === 'ms' ? 'Sokongan' : 'Support'}
         </Typography>
 
@@ -190,7 +191,7 @@ const Sidebar = ({ language, onMobileClose }) => {
               </Typography>
             </Link>
           )}
-        </Box> */}
+        </Box>
 
       </Box>
     </Box>

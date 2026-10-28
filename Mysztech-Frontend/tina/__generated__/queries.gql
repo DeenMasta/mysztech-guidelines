@@ -1,0 +1,109 @@
+query guidelines($relativePath: String!) {
+  guidelines(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        hasReferences
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...GuidelinesParts
+  }
+}
+
+query guidelinesConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: GuidelinesFilter) {
+  guidelinesConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    pageInfo {
+      hasPreviousPage
+      hasNextPage
+      startCursor
+      endCursor
+    }
+    totalCount
+    edges {
+      cursor
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            hasReferences
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...GuidelinesParts
+      }
+    }
+  }
+}
+
+query releaseNotes($relativePath: String!) {
+  releaseNotes(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        hasReferences
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...ReleaseNotesParts
+  }
+}
+
+query releaseNotesConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: ReleaseNotesFilter) {
+  releaseNotesConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    pageInfo {
+      hasPreviousPage
+      hasNextPage
+      startCursor
+      endCursor
+    }
+    totalCount
+    edges {
+      cursor
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            hasReferences
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...ReleaseNotesParts
+      }
+    }
+  }
+}

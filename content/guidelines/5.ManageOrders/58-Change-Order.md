@@ -1,5 +1,5 @@
 ---
-title: 5.8 Change Order
+title: 5.8 Charge Order
 section: USER GUIDELINES
 order: 5.8
 isSubTopic: true

@@ -55,25 +55,25 @@ Note: If you do not know how to access Management Hub, *[click here to learn how
 
 ![](/admin/7.Settings/11.png)
 
-12\.	Choose whether to **enable or disable Print Receipt and Bills.**
+12\. Turn on the Cash Drawer button if the printer is connected to a cash drawer.
 
-![](/admin/7.Settings/12.png)
+![](/admin/7.Settings/7.1new/no12.png)
 
-13\.	Choose whether to **enable or disable Automatically Print Receipt.**
+13\. Choose whether to **enable or disable Print Receipt and Bills.**
 
-![](/admin/7.Settings/13.png)
+![](/admin/7.Settings/7.1new/no13.png)
 
-14\.	Choose whether to **enable or disable Print Orders.**
+14\. Choose whether to **enable or disable Automatically Print Receipt.**
 
-![](/admin/7.Settings/14.png)
+![](/admin/7.Settings/7.1new/no14.png)
 
-15\.	If **Print Orders** is enabled, select the **Department Printer** that you created earlier.
+15\. Choose whether to **enable or disable Print Orders.**
 
-![](/admin/7.Settings/15.png)
+![](/admin/7.Settings/7.1new/no15.png)
 
-16\.	Click **Print Test** to check if the printer is working correctly.If the test print is successful, click **Save** to connect the printer.
+16\. If Print Orders is enabled, select the Department Printer that you created earlier. 
 
-![](/admin/7.Settings/16.png)
+![](/admin/7.Settings/7.1new/no16.png)
 
 17\.	To check the print receipt queue, go to **Settings > Print Receipt Queue.**
 

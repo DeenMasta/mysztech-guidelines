@@ -1,0 +1,17 @@
+fragment GuidelinesParts on Guidelines {
+  __typename
+  title
+  section
+  order
+  isSubTopic
+  parentTopic
+  language
+  body
+}
+
+fragment ReleaseNotesParts on ReleaseNotes {
+  __typename
+  version
+  releaseDate
+  body
+}
