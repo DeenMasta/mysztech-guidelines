@@ -321,172 +321,172 @@ Use these steps when opening the POS application for the first time or when sign
 16\\.	Wait for **“Syncing Data”** to reach 100%. Once it disappears, you can start making sales.\r
 \r
 ![](</admin/1. Login & Open Shift/1.2(17).jpg>)\r
-`,Bn=`---
-title: 1.1 Printer and Cash Drawer
-section: SUPPORT
-order: 1.1
-isSubTopic: true
-parentTopic: 1.Troubleshooting
-language: en
----
-
-If the printer or cash drawer is not working properly, follow the steps for the printer connection type you are using.
-
-**Bluetooth Printer:**
-
-1\\.	Make sure the **printer is powered on** and has enough **paper roll**.
-
-2\\.	On the **POS System**, click the **Menu** icon at the top left.
-
-3\\.	Go to **Settings > Printers**.
-
-4\\.	Find and select the **Bluetooth printer** from the list of connected printers.
-
-5\\.	Click **Scan for Device** and select your printer. (Note: Check your printer mac address by doing self-test, Turn off the printer. Press and hold the **FEED** button, then turn on the printer.Release the **FEED** button when the printer starts printing.)
-
-6\\.	Make sure the **Paper Width** is correct. Select **58mm** or **80mm.**
-
-7\\.	Enable the **Cash Drawer** toggle if you are using a cash drawer.
-
-8\\.	Make sure **Print Receipt and Bills** is enabled.
-
-9\\.	Click **Print Test** to check if the printer and cash drawer are working correctly.
-
-10\\.	If the test is successful, click **Save.**
-
-**Ethernet (LAN) Printer:**
-
-1\\.	Make sure the printer is powered on and has enough **paper roll.**
-
-2\\.	Make sure the printer and router are connected using a **LAN cable** and connected to the **2.4G network**.
-
-3\\.	On the **POS System**, click the **Menu** icon at the top left.
-
-4\\.	Go to **Settings > Printers**.
-
-5\\.	Find and select the **Ethernet printer** from the list of connected printers.
-
-6\\.	Make sure the **Connection Type** is set to Ethernet.
-
-7\\.	Check that the **Printer IP Address** is correct.
-
-8\\.	Make sure the **Paper Width** is correct. Select **58mm or 80mm.**
-
-9\\. Enable the **Cash Drawer** toggle if you are using a cash drawer.
-
-10\\. Make sure **Print Receipt** **and Bills** is enabled.
-
-11\\. Click **Print Test** to check if the printer and cash drawer are working correctly.
-
-12\\. If the test is successful, click **Save**.
-
-**USB Printer**
-
-1\\.	Make sure the **POS device is powered on**, then turn on the printer.
-
-2\\.	Make sure the printer has enough **paper roll**.
-
-3\\.	A pop-up will appear on the POS device asking for permission to use the printer. Click Allow.
-
-4\\.	If the pop-up does not appear, **turn the printer off and on again**, then check for the pop-up.
-
-5\\.	On the **POS System**, click the **Menu** icon at the top left.
-
-6\\.	Go to **Settings > Printers**.
-
-7\\.	Find and select the **USB printer** from the list of connected printers.
-
-8\\.	Make sure the **Paper Width** is correct. Select 58mm or 80mm.
-
-9\\.	Enable the Cash Drawer toggle if you are using a cash drawer.
-
-10\\.	Make sure **Print Receipt and Bills** is enabled.
-
-11\\.	Click **Print** Test to check if the printer and cash drawer are working correctly.
-
-12\\.	If the test is successful, click **Save.**
-`,Vn=`---
-title: 1.2 Close Staff's Previous Shift
-section: SUPPORT
-order: 1.2
-isSubTopic: true
-parentTopic: 1.Troubleshooting
-language: en
----
-
-If a staff member cannot log in because their previous shift was not close, you can close shift from Management Hub.
-
-1\\.	Go to **Management Hub > Dashboard > Shift.**
-
-2\\.	Find the staff member who cannot log in.
-
-3\\.	Click **view icon** for the staff member.
-
-4\\.	A **Shift report** pop-up will appear.
-
-5\\.	Click close **shift button**.
-
-6\\.	A pop-up actual cash amount will appear, and you will need to enter the cash amount and click **close shift button**.
-
-7\\.	The staff member can now log in to the **POS System**.
-`,Hn=`---
-title: 1.3 Customer Display Stuck
-section: SUPPORT
-order: 1.3
-isSubTopic: true
-parentTopic: 1.Troubleshooting
-language: en
----
-
-If the **Customer Display** is stuck or not responding, follow these steps (This can only be done if the roles have access to change the settings):
-
-1\\.	Go to **Settings > Customer Display**.
-
-2\\.	Click **Stop Display**.
-
-3\\.	Go to **Customer Display** and start the display again.
-`,Un=`---
-title: 1.4 POS Device Not Showing Up
-section: SUPPORT
-order: 1.4
-isSubTopic: true
-parentTopic: 1.Troubleshooting
-language: en
----
-
-If the POS device does not show up, follow these steps:
-
-1\\.	Log in to **Management Hub**.
-
-2\\.	Go to **Dashboard > Shifts**.
-
-3\\.	Find the shift related to the POS device and click the **eye icon** to view the shift details.
-
-4\\.	Click **Close Shift** to close the shift.
-
-5\\.	Go to **Settings > POS Devices**.
-
-6\\.	Find the POS device and click **Edit**.
-
-7\\.	Disable the **Activated** button.
-
-8\\.	Click **Save Changes** to save the settings.
-`,Wn=`---
-title: 1.5 POS Device Lagging
-section: SUPPORT
-order: 1.5
-isSubTopic: true
-parentTopic: 1.Troubleshooting
-language: en
----
-
-If the **POS device is lagging or responding slowly**, follow these steps:
-
-1\\.	Restart the **POS device**.
-
-2\\.	Wait for the device to turn on completely.
-
-3\\.	Open the POS System again and check if the device is working properly.
+`,Bn=`---\r
+title: 1.1 Printer and Cash Drawer\r
+section: SUPPORT\r
+order: 1.1\r
+isSubTopic: true\r
+parentTopic: 1.Troubleshooting\r
+language: en\r
+---\r
+\r
+If the printer or cash drawer is not working properly, follow the steps for the printer connection type you are using.\r
+\r
+**Bluetooth Printer:**\r
+\r
+1\\.	Make sure the **printer is powered on** and has enough **paper roll**.\r
+\r
+2\\.	On the **POS System**, click the **Menu** icon at the top left.\r
+\r
+3\\.	Go to **Settings > Printers**.\r
+\r
+4\\.	Find and select the **Bluetooth printer** from the list of connected printers.\r
+\r
+5\\.	Click **Scan for Device** and select your printer. (Note: Check your printer mac address by doing self-test, Turn off the printer. Press and hold the **FEED** button, then turn on the printer.Release the **FEED** button when the printer starts printing.)\r
+\r
+6\\.	Make sure the **Paper Width** is correct. Select **58mm** or **80mm.**\r
+\r
+7\\.	Enable the **Cash Drawer** toggle if you are using a cash drawer.\r
+\r
+8\\.	Make sure **Print Receipt and Bills** is enabled.\r
+\r
+9\\.	Click **Print Test** to check if the printer and cash drawer are working correctly.\r
+\r
+10\\.	If the test is successful, click **Save.**\r
+\r
+**Ethernet (LAN) Printer:**\r
+\r
+1\\.	Make sure the printer is powered on and has enough **paper roll.**\r
+\r
+2\\.	Make sure the printer and router are connected using a **LAN cable** and connected to the **2.4G network**.\r
+\r
+3\\.	On the **POS System**, click the **Menu** icon at the top left.\r
+\r
+4\\.	Go to **Settings > Printers**.\r
+\r
+5\\.	Find and select the **Ethernet printer** from the list of connected printers.\r
+\r
+6\\.	Make sure the **Connection Type** is set to Ethernet.\r
+\r
+7\\.	Check that the **Printer IP Address** is correct.\r
+\r
+8\\.	Make sure the **Paper Width** is correct. Select **58mm or 80mm.**\r
+\r
+9\\. Enable the **Cash Drawer** toggle if you are using a cash drawer.\r
+\r
+10\\. Make sure **Print Receipt** **and Bills** is enabled.\r
+\r
+11\\. Click **Print Test** to check if the printer and cash drawer are working correctly.\r
+\r
+12\\. If the test is successful, click **Save**.\r
+\r
+**USB Printer**\r
+\r
+1\\.	Make sure the **POS device is powered on**, then turn on the printer.\r
+\r
+2\\.	Make sure the printer has enough **paper roll**.\r
+\r
+3\\.	A pop-up will appear on the POS device asking for permission to use the printer. Click Allow.\r
+\r
+4\\.	If the pop-up does not appear, **turn the printer off and on again**, then check for the pop-up.\r
+\r
+5\\.	On the **POS System**, click the **Menu** icon at the top left.\r
+\r
+6\\.	Go to **Settings > Printers**.\r
+\r
+7\\.	Find and select the **USB printer** from the list of connected printers.\r
+\r
+8\\.	Make sure the **Paper Width** is correct. Select 58mm or 80mm.\r
+\r
+9\\.	Enable the Cash Drawer toggle if you are using a cash drawer.\r
+\r
+10\\.	Make sure **Print Receipt and Bills** is enabled.\r
+\r
+11\\.	Click **Print** Test to check if the printer and cash drawer are working correctly.\r
+\r
+12\\.	If the test is successful, click **Save.**\r
+`,Vn=`---\r
+title: 1.2 Close Staff's Previous Shift\r
+section: SUPPORT\r
+order: 1.2\r
+isSubTopic: true\r
+parentTopic: 1.Troubleshooting\r
+language: en\r
+---\r
+\r
+If a staff member cannot log in because their previous shift was not close, you can close shift from Management Hub.\r
+\r
+1\\.	Go to **Management Hub > Dashboard > Shift.**\r
+\r
+2\\.	Find the staff member who cannot log in.\r
+\r
+3\\.	Click **view icon** for the staff member.\r
+\r
+4\\.	A **Shift report** pop-up will appear.\r
+\r
+5\\.	Click close **shift button**.\r
+\r
+6\\.	A pop-up actual cash amount will appear, and you will need to enter the cash amount and click **close shift button**.\r
+\r
+7\\.	The staff member can now log in to the **POS System**.\r
+`,Hn=`---\r
+title: 1.3 Customer Display Stuck\r
+section: SUPPORT\r
+order: 1.3\r
+isSubTopic: true\r
+parentTopic: 1.Troubleshooting\r
+language: en\r
+---\r
+\r
+If the **Customer Display** is stuck or not responding, follow these steps (This can only be done if the roles have access to change the settings):\r
+\r
+1\\.	Go to **Settings > Customer Display**.\r
+\r
+2\\.	Click **Stop Display**.\r
+\r
+3\\.	Go to **Customer Display** and start the display again.\r
+`,Un=`---\r
+title: 1.4 POS Device Not Showing Up\r
+section: SUPPORT\r
+order: 1.4\r
+isSubTopic: true\r
+parentTopic: 1.Troubleshooting\r
+language: en\r
+---\r
+\r
+If the POS device does not show up, follow these steps:\r
+\r
+1\\.	Log in to **Management Hub**.\r
+\r
+2\\.	Go to **Dashboard > Shifts**.\r
+\r
+3\\.	Find the shift related to the POS device and click the **eye icon** to view the shift details.\r
+\r
+4\\.	Click **Close Shift** to close the shift.\r
+\r
+5\\.	Go to **Settings > POS Devices**.\r
+\r
+6\\.	Find the POS device and click **Edit**.\r
+\r
+7\\.	Disable the **Activated** button.\r
+\r
+8\\.	Click **Save Changes** to save the settings.\r
+`,Wn=`---\r
+title: 1.5 POS Device Lagging\r
+section: SUPPORT\r
+order: 1.5\r
+isSubTopic: true\r
+parentTopic: 1.Troubleshooting\r
+language: en\r
+---\r
+\r
+If the **POS device is lagging or responding slowly**, follow these steps:\r
+\r
+1\\.	Restart the **POS device**.\r
+\r
+2\\.	Wait for the device to turn on completely.\r
+\r
+3\\.	Open the POS System again and check if the device is working properly.\r
 `,Gn=`---\r
 title: 2. Logout & Close Shift\r
 section: USER GUIDELINES\r
@@ -892,107 +892,107 @@ language: en\r
 4\\. You have successfully created a category. Check the category list to verify that the new category has been created.\r
 \r
 ![](</admin/4. Sales Screen and Items/4.2/Picture4-4.2.jpg>)\r
-`,ir=`---
-title: 4.3  Items Creation
-section: USER GUIDELINES
-order: 4.3
-isSubTopic: true
-parentTopic: 4. Sales Screen and Items
-language: en
----
-
-Items can be added to the system in two ways: manually or by importing an Excel file.
-
-**A. Manual Item Creation.**
-
-1\\.	This section shows the item list. To create a new item, click the New Item button at the top right.
-
-![](</admin/4. Sales Screen and Items/4.3/Picture1-4.3.png>)
-
-2\\.	On this page, you can add an item by typing its name in the Name box.
-
-![](</admin/4. Sales Screen and Items/4.3/Picture2-4.3.png>)
-
-3\\.	After adding a name (e.g., TEH O), you can choose a category and description if you want, then select “Sold by Item” for fixed price or “Measurement” for price by weight/volume, enter the item’s price, or leave the price empty if the item has variants. 
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no3.png>)
-
-4\\.	After entering the item name, turn on "Enable Outlet-Specific Pricing" if you want to set different prices for the item at different outlets.
-
-Note: This feature is useful for businesses with multiple branches, allowing you to set different prices for the same item at each outlet without creating duplicate items.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no4baru.png>)
-
-**Skip this step and jump to step 7 if your item has no variants.**
-
-Two Ways to Add Variants (on Item Creation Page)
-
-* **Option A – Use Predefined Variants**
-
-👉 Select from the list of variants that were already created earlier (e.g., Size = Small, Medium, Large). Best when you want consistency across many items.
-
-*[Click Here to Create Predefined Variants](http://localhost:5173/docs?id=How-to-Add-Predefined-Variant)*
-
-* **Option B – Create New Variants for This Item**
-
-👉 Add variant options directly in the Variants section below (e.g., TEH O = Hot, Cold). Best when the variant is unique to this item.
-
-**Continue on this page and add variant options directly under the Variants section**
-
-&#x20;5\\. If the item is linked to a weighing scale, enter the SKU code in the SKU field. If the item has a barcode, enter the barcode number in the Barcode field.
-
-**Note:** Enter the SKU code in 5 digits to match the PLU code. For example, if the PLU code is 1, the SKU code should be 00001.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no5.png>)
-
-6\\. Turn on the "Enable Inventory Tracking" button if you want to track the stock quantity of this item.
-
-**Note:** If this option is not enabled, you will not be able to add or manage stock for this item.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no6.png>)
-
-7\\. The Low Stock Threshold field allows you to set a minimum stock quantity for an item. When the remaining stock reaches or falls below this quantity, a reminder will appear during the purchasing process to notify you to restock the item.
-
-**Example:** If you set the Low Stock Threshold to 3, a reminder will appear when the item's remaining stock reaches 3 units or fewer.
-
-**Note:** You can dismiss the reminder and proceed to payment if you wish to continue without restocking.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no7.png>)
-
-8\\.	Scroll down to the Variants section and turn on the button to enable variants (variants mean different versions of the same item, like Hot or Cold)
-
-**Skip this step and jump to step 7 if your item has no variants.**
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no8.png>)
-
-9\\.	In the Outlet section, select the outlet where you want this item to be available and displayed.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no9.png>)
-
-10\\. After selecting the outlets, a new section will appear below. Enter the selling price for the item at each selected outlet. You can set different prices for different outlets according to your business needs.
-
-**Note:** You can set different prices for the same item at each outlet without creating duplicate items.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no10.png>)
-
-11\\. You can set an image or choose a shape and color that you prefer in the **Representation on POS** section. This is the visual appearance that will show up in the POS system for the item, so pick the style that best represents it.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no11.png>)
-
-12\\. To set an image for the item, enable the Use Image button in the Representation on POS section, then either select an image from your files or drag and drop it into the field. Remember, the supported file formats are PNG, JPEG, and JPG. This image will be the visual shown in the POS system for the item.
-
-**Skip this step if you don’t want to use images and prefer shapes instead.**
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no12.png>)
-
-13\\. To set shapes and color, select a shape such as Square, Circle, or Triangle, then choose the color you prefer. After confirming your choice, click the Create button at the top to finalize and create the item.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no13.png>)
-
-14\\.	You have successfully created an item.
-
-![](</admin/4. Sales Screen and Items/4.3 baru/no14.png>)\\
-Click the link below to create a modifier. *[Click Here to Create Predefined Modifiers](http://localhost:5173/docs?id=How-to-add-Predefined-Modifiers)*
+`,ir=`---\r
+title: 4.3  Items Creation\r
+section: USER GUIDELINES\r
+order: 4.3\r
+isSubTopic: true\r
+parentTopic: 4. Sales Screen and Items\r
+language: en\r
+---\r
+\r
+Items can be added to the system in two ways: manually or by importing an Excel file.\r
+\r
+**A. Manual Item Creation.**\r
+\r
+1\\.	This section shows the item list. To create a new item, click the New Item button at the top right.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3/Picture1-4.3.png>)\r
+\r
+2\\.	On this page, you can add an item by typing its name in the Name box.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3/Picture2-4.3.png>)\r
+\r
+3\\.	After adding a name (e.g., TEH O), you can choose a category and description if you want, then select “Sold by Item” for fixed price or “Measurement” for price by weight/volume, enter the item’s price, or leave the price empty if the item has variants. \r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no3.png>)\r
+\r
+4\\.	After entering the item name, turn on "Enable Outlet-Specific Pricing" if you want to set different prices for the item at different outlets.\r
+\r
+Note: This feature is useful for businesses with multiple branches, allowing you to set different prices for the same item at each outlet without creating duplicate items.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no4baru.png>)\r
+\r
+**Skip this step and jump to step 7 if your item has no variants.**\r
+\r
+Two Ways to Add Variants (on Item Creation Page)\r
+\r
+* **Option A – Use Predefined Variants**\r
+\r
+👉 Select from the list of variants that were already created earlier (e.g., Size = Small, Medium, Large). Best when you want consistency across many items.\r
+\r
+*[Click Here to Create Predefined Variants](http://localhost:5173/docs?id=How-to-Add-Predefined-Variant)*\r
+\r
+* **Option B – Create New Variants for This Item**\r
+\r
+👉 Add variant options directly in the Variants section below (e.g., TEH O = Hot, Cold). Best when the variant is unique to this item.\r
+\r
+**Continue on this page and add variant options directly under the Variants section**\r
+\r
+&#x20;5\\. If the item is linked to a weighing scale, enter the SKU code in the SKU field. If the item has a barcode, enter the barcode number in the Barcode field.\r
+\r
+**Note:** Enter the SKU code in 5 digits to match the PLU code. For example, if the PLU code is 1, the SKU code should be 00001.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no5.png>)\r
+\r
+6\\. Turn on the "Enable Inventory Tracking" button if you want to track the stock quantity of this item.\r
+\r
+**Note:** If this option is not enabled, you will not be able to add or manage stock for this item.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no6.png>)\r
+\r
+7\\. The Low Stock Threshold field allows you to set a minimum stock quantity for an item. When the remaining stock reaches or falls below this quantity, a reminder will appear during the purchasing process to notify you to restock the item.\r
+\r
+**Example:** If you set the Low Stock Threshold to 3, a reminder will appear when the item's remaining stock reaches 3 units or fewer.\r
+\r
+**Note:** You can dismiss the reminder and proceed to payment if you wish to continue without restocking.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no7.png>)\r
+\r
+8\\.	Scroll down to the Variants section and turn on the button to enable variants (variants mean different versions of the same item, like Hot or Cold)\r
+\r
+**Skip this step and jump to step 7 if your item has no variants.**\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no8.png>)\r
+\r
+9\\.	In the Outlet section, select the outlet where you want this item to be available and displayed.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no9.png>)\r
+\r
+10\\. After selecting the outlets, a new section will appear below. Enter the selling price for the item at each selected outlet. You can set different prices for different outlets according to your business needs.\r
+\r
+**Note:** You can set different prices for the same item at each outlet without creating duplicate items.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no10.png>)\r
+\r
+11\\. You can set an image or choose a shape and color that you prefer in the **Representation on POS** section. This is the visual appearance that will show up in the POS system for the item, so pick the style that best represents it.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no11.png>)\r
+\r
+12\\. To set an image for the item, enable the Use Image button in the Representation on POS section, then either select an image from your files or drag and drop it into the field. Remember, the supported file formats are PNG, JPEG, and JPG. This image will be the visual shown in the POS system for the item.\r
+\r
+**Skip this step if you don’t want to use images and prefer shapes instead.**\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no12.png>)\r
+\r
+13\\. To set shapes and color, select a shape such as Square, Circle, or Triangle, then choose the color you prefer. After confirming your choice, click the Create button at the top to finalize and create the item.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no13.png>)\r
+\r
+14\\.	You have successfully created an item.\r
+\r
+![](</admin/4. Sales Screen and Items/4.3 baru/no14.png>)\\\r
+Click the link below to create a modifier. *[Click Here to Create Predefined Modifiers](http://localhost:5173/docs?id=How-to-add-Predefined-Modifiers)*\r
 `,ar=`---\r
 title: "4.4 Item Placement in POS"\r
 section: USER GUIDELINES\r
@@ -1805,484 +1805,484 @@ Note: Removing an order from a table does **not** delete the order. It only remo
 ![](</admin/5. ManageOrders/5.7/13.png>)\r
 \r
 You can verify the order by going to **Open Order.**\r
-`,_r=`---
-title: 5.8 Charge Order
-section: USER GUIDELINES
-order: 5.8
-isSubTopic: true
-parentTopic: 5. Manage Orders
-language: en
----
-
-The **Charge Order** function is used to proceed to the **Payment** page and complete payment for an order.
-
-There are **3 ways** to proceed to the Payment page, depending on the **order type.**
-
-**A. Charge a New Order**
-
-Use this method when the order has just been taken and has **not been saved yet.**
-
-This is useful for shops that use a **"Pay First, Eat Later"** system.
-
-**Steps:**
-
-1\\.	Take the customer's order.
-
-![](</admin/5. ManageOrders/5.8/1.png>)
-
-2\\.	Tap **Charge** at the bottom.
-
-![](</admin/5. ManageOrders/5.8/12a.png>)
-
-3\\.	You will be taken to the **Payment** page.
-
-![](</admin/5. ManageOrders/5.8/2.png>)
-
-**B. Charge an Order from Open Order**
-
-Use this method when the order has already been saved.
-
-**Steps:**
-
-1\\.	Go to **Open Order.**
-
-![](</admin/5. ManageOrders/5.8/3.png>)
-
-2\\.	Select the order you want to charge.
-
-![](</admin/5. ManageOrders/5.8/4.png>)
-
-3\\.	Open the order and Tap **Charge.**
-
-![](</admin/5. ManageOrders/5.8/13a.png>)
-
-4\\.	You will be taken to the **Payment** page.
-
-![](</admin/5. ManageOrders/5.8/5.png>)
-
-**C. Charge an Order by Table**
-
-Use this method when the shop takes orders by table and collects payment by table.
-
-**Steps:**
-
-1\\.	Go to **Table Layout.**
-
-![](</admin/5. ManageOrders/5.8/14a.png>)
-
-2\\.	Select the table that needs to make payment (e.g. T3).
-
-![](</admin/5. ManageOrders/5.8/6.png>)
-
-3\\.	Tap **Charge.**
-
-![](</admin/5. ManageOrders/5.8/7.png>)
-
-4\\.	You will be taken to the **Payment** page.
-
-![](</admin/5. ManageOrders/5.8/8.png>)
-
-**Payment Page**
-
-After tapping **Charge,** you will be taken to the **Payment** page. You can use the following options to complete the payment.
-
-**1. Enter Received Cash**
-
-•	For **cash payment,** you can enter the amount received from the customer manually. You can also use the preset amount buttons on the side, such as **RM5, RM10,** or **RM50**, to enter the amount quickly.
-
-![](</admin/5. ManageOrders/5.8/15a.png>)
-
-•	If the customer gives the exact amount, tap Exact Amount.
-
-![](</admin/5. ManageOrders/5.8/16a.png>)
-
-**2. Select Payment Type**
-
-Select the payment method used by the customer.
-
-Available payment types may include: CASH, QR, TOUCH N GO, ONLINE BANKING
-
-![](</admin/5. ManageOrders/5.8/9.png>)
-
-**3. Adjustment**
-
-•	The **Adjustment** option allows you to give a discount to the order.
-
-![](</admin/5. ManageOrders/5.8/17a.png>)
-
-You can apply a discount by **Value** or **Percentage.**
-
-**Adjustment by Value**
-
-1\\.	Select **Value.**
-
-**Note:** The adjustment is set to **Value** by default. The toggle is **OFF** for Value and **ON** for Percentage.
-
-![](</admin/5. ManageOrders/5.8/18a.png>)
-
-2\\.	Enter the adjustment amount (e.g., **RM2**) press Save.
-
-![](</admin/5. ManageOrders/5.8/10.png>)
-
-3\\.	The adjustment will be deducted from the total amount.
-
-![](</admin/5. ManageOrders/5.8/19a.png>)
-
-**Adjustment by Percentage**
-
-1\\.	Select **Percentage.**
-
-![](</admin/5. ManageOrders/5.8/20a.png>)
-
-2\\.	Enter the adjustment percentage (e.g. 10%) and press Save.
-
-![](</admin/5. ManageOrders/5.8/11.png>)
-
-3\\.	The system will calculate the adjustment based on the receipt total and deduct it from the amount due.
-
-![](</admin/5. ManageOrders/5.8/21a.png>)
-
-**4.	Discount Creation**
-
-Discount settings must be created and configured in the Backoffice. Once the discount has been set up in the Backoffice, it will automatically be displayed in the POS system when applicable. Discount creation and configuration cannot be done directly from the POS system.
-
-Don't know how to access Management Hub? *[Click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*
-
-1\\.	Scroll down to the **Discount** section.
-
-![](</admin/5. ManageOrders/5.8/12.png>)
-
-2\\.	Press the **New Discount** button to create a new discount.
-
-![](</admin/5. ManageOrders/5.8/13.png>)
-
-3\\.	Enter a name for the discount (e.g., **Opening Promotion**).
-
-![](</admin/5. ManageOrders/5.8/14.png>)
-
-4\\.	Under **Apply**, select how the discount should be applied (e.g. **Apply discount to selected categories**).
-
-•	**Apply discount to the whole order**
-
-**•	Apply discount to selected items**
-
-**•	Apply discount to selected categories**
-
-**•	Don't apply**
-
-![](</admin/5. ManageOrders/5.8/15.png>)
-
-5\\.	Under **Type**, select either **Percentage** or **Amount**. Enter the discount value based on the selected type:
-
-•	**Percentage:** Enter the discount percentage.
-
-•	**Amount:** Enter the discount amount.
-
-![](</admin/5. ManageOrders/5.8/16.png>)
-
-6\\.	Under **Valid From – Valid To**, select the **Start Date** and **End Date** for the discount.
-
-![](</admin/5. ManageOrders/5.8/17.png>)
-
-7\\.	Select the **Outlet(s)** where the discount will be available.
-
-![](</admin/5. ManageOrders/5.8/18.png>)
-
-8\\.	Scroll down to view the available selection list:
-
-•	If you selected **Apply discount to selected items**, the **Items List** will be displayed.
-
-•	If you selected **Apply discount to selected categories**, the **Category List** will be displayed.
-
-•	If you selected **Apply discount to the whole order** or **Don't apply**, no item or category list will be displayed.
-
-![](</admin/5. ManageOrders/5.8/19.png>)
-
-9\\.	Select the items or categories you want the discount to apply to (e.g., **Teh O or Beverages**).
-
-![](</admin/5. ManageOrders/5.8/20.png>)
-
-10\\.	After confirming all the discount settings, press **Create**.
-
-![](</admin/5. ManageOrders/5.8/22a.png>)
-
-11\\.	The newly created discount will now be displayed in the **Discount** section.
-
-![](</admin/5. ManageOrders/5.8/21.png>)
-
-12\\.	Return to the **POS system** and charge an order. The discount will automatically appear when the order meets the discount conditions.
-
-![](</admin/5. ManageOrders/5.8/23a.png>)
-
-**5.	Tax Creation**
-
-Tax cannot be added while charging an order or processing a payment on the POS device. Tax creation and configuration must be done separately in the Management Hub.
-
-Don't know how to access Management Hub?
-
-1\\.	Go to Settings and select Tax. You will see a list of all taxes that have been created in the system, if any.
-
-![](</admin/5. ManageOrders/5.8/22.png>)
-
-2\\.	Press New Tax to create a new tax.
-
-![](</admin/5. ManageOrders/5.8/24a.png>)
-
-3\\.	Enter a Tax Name and Tax Rate (e.g., 6%).
-
-![](</admin/5. ManageOrders/5.8/23.png>)
-
-4\\.	Select the **Tax Type:** **Added** or **Included.**
-
-**Note:** The main difference is that **Added** increases the final price, while **Included** keeps the displayed price unchanged and calculates the tax portion from within the price.
-
-**Note – Added:** The tax is added on top of the item's original price. For example, an item priced at **RM10.00** with 6% tax will have a final price of **RM10.60.**
-
-**Note – Included:** The tax is already included in the displayed item price. For example, an item priced at **RM10.00** with 6% tax remains **RM10.00**, with approximately **RM0.57** representing the tax portion.
-
-![](</admin/5. ManageOrders/5.8/24.png>)
-
-5\\.	Under Apply, select how the tax should be applied:
-
-o	Apply tax to all new and existing items
-
-o	Apply tax to selected items
-
-o	Apply tax to selected categories
-
-o	Don't apply
-
-![](</admin/5. ManageOrders/5.8/25.png>)
-
-**Note:** If you select Apply tax to selected items or Apply tax to selected categories, you can select the specific items or categories that the tax should apply to.
-
-6\\.	Under Tax Application Depends on Order Option, select Yes or No depending on whether the tax application should vary based on the selected Order Option.
-
-![](</admin/5. ManageOrders/5.8/26.png>)
-
-7\\.	Select the Outlet(s) where the tax should be applied.
-
-![](</admin/5. ManageOrders/5.8/27.png>)
-
-8\\.	Scroll down to the **Items/Categories to Select** section and the **Order Option to Select** section.  Select the items/categories and order options that you preferred.
-
-![](</admin/5. ManageOrders/5.8/28.png>)
-
-![](</admin/5. ManageOrders/5.8/29.png>)
-
-**Note:** These sections will be displayed if you select **Apply tax to selected items/categories** or choose **Yes** for **Tax Application Depends on Order Option.**
-
-9\\.	Review all the tax settings and confirm that the information is correct.  Create to save the tax.
-
-![](</admin/5. ManageOrders/5.8/25a.png>)
-
-10\\.	The new tax will now be created and applied according to the settings you have configured.
-
-![](</admin/5. ManageOrders/5.8/30.png>)
-
-11\\.	Return to the POS system and charge an order. The tax will be automatically applied when the order meets the tax conditions you have configured.
-
-![](</admin/5. ManageOrders/5.8/26a.png>)
-
-**6.	Payment Type Creation**
-
-Before making a payment, you need to create a **Payment Type** in Management Hub. The Payment Type will then be available for selection when making a payment in POS System.
-
-If you do not know how to **Hub**. access Management Hub,
-
-1\\.	Go to **Settings**.
-
-![](</admin/5. ManageOrders/5.8/31.png>)
-
-2\\.	Select **Payment Types**. You will see a list of all Payment Types that have been created, if already have created.
-
-![](</admin/5. ManageOrders/5.8/32.png>)
-
-3\\.	Click **New Payment Type** to create a new Payment Type.
-
-![](</admin/5. ManageOrders/5.8/33.png>)
-
-4\\.	Select the Payment Type:
-
-o	**Card** – for card payments.
-
-o	**Cheque** – for cheque payments.
-
-o	**Other** – for other payment methods such as cash, online transfer, or QR payment.
-
-![](</admin/5. ManageOrders/5.8/34.png>)
-
-5\\.	Enter the **Payment Type Name**. For example, Cash, Online Transfer, or QR Payment.
-
-![](</admin/5. ManageOrders/5.8/35.png>)
-
-6\\.	Select **Yes** or **No** for **Auto Rounding**.
-
-![](</admin/5. ManageOrders/5.8/36.png>)
-
-7\\.	Select the **Outlet** where the Payment Type will be used. Check that all the information is correct. Click **Create** to save the Payment Type.
-
-![](</admin/5. ManageOrders/5.8/37.png>)
-
-8\\.	The new Payment Type will now appear in the Payment Types dashboard.
-
-![](</admin/5. ManageOrders/5.8/38.png>)
-
-9\\.	From the dashboard, you can **enable or disable Auto Rounding** for a Payment Type.
-
-![](</admin/5. ManageOrders/5.8/39.png>)
-
-10\\.	Use the Search Bar to quickly find a Payment Type by its name.
-
-![](</admin/5. ManageOrders/5.8/40.png>)
-
-11\\.	Use the Filter button to filter Payment Types by category or outlet.
-
-![](</admin/5. ManageOrders/5.8/41.png>)
-
-12\\.	To delete a Payment Type, click **Edit** on the Payment Type you want to remove. Click **Delete Payment Type**.
-
-![](</admin/5. ManageOrders/5.8/42.png>)
-
-13\\.	Click **Save Changes** to confirm the deletion.
-
-![](</admin/5. ManageOrders/5.8/43.png>)
-
-14\\.	Return to the **POS system** and charge an order. You will see the payment type you created (e.g., **Card Debit**) available as a payment option.
-
-![](</admin/5. ManageOrders/5.8/44.png>)
-
-**7.	Split Payment**
-
-**Split Payment** allows a customer to pay for an order using different payments or to divide the order between multiple people.
-
-There are two ways to split a payment:
-
-**A. Split by Item**
-
-Use this when different customers want to pay for different items from the same order.
-
-**Example:**
-
-One customer pays for **Roti Canai,** while another customer pays for **Teh O**
-
-**Steps:**
-
-1\\.	Select **Split Payment** button.
-
-![](</admin/5. ManageOrders/5.8/27a.png>)
-
-2\\.	Select **Split by Item**.
-
-![](</admin/5. ManageOrders/5.8/45.png>)
-
-3\\.	Select the items to be paid for (e.g. Select **NG Paprik Ayam** and Teh O) and press Charge to pay.
-
-![](</admin/5. ManageOrders/5.8/28a.png>)
-
-4\\.	Select the payment type and complete the payment.
-
-**Note:** You can optionally add an **Adjustment** if needed.
-
-![](</admin/5. ManageOrders/5.8/46.png>)
-
-5\\.	After the first payment is completed, **Continue Split Payment** will appear if there are items left to pay.
-
-![](</admin/5. ManageOrders/5.8/47.png>)
-
-6\\.	Tap **Continue Split Payment** to pay for the remaining items and press Charge.
-
-![](</admin/5. ManageOrders/5.8/29a.png>)
-
-7\\.	Repeat until all items have been paid.
-
-![](/admin/Screenshot-2026-09-21-144351.png)
-
-**B. Split by Amount**
-
-Use this when the total amount is shared between different payments.
-
-**Example:**
-
-The total is **RM20.** The customer wants to pay **RM10 by Cash** and **RM10 by QR.**
-
-You can:
-
-•	Use **Quick Split** to divide the amount equally, such as by **2** or **3**.
-
-•	Enter the amount manually.
-
-**Steps:**
-
-1\\.	Select **Split Payment.**
-
-![](</admin/5. ManageOrders/5.8/49.png>)
-
-2\\.	Select **Split by Amount.**
-
-![](</admin/5. ManageOrders/5.8/50.png>)
-
-3\\.	Enter or select the amount to be paid and press Charge.
-
-**Note :** Use **Quick Split** to divide the amount equally, such as by **2** or **3**.
-
-![](</admin/5. ManageOrders/5.8/30a.png>)
-
-4\\.	Select the payment type and press Charge to complete the payment.
-
-![](</admin/5. ManageOrders/5.8/51.png>)
-
-5\\.	If there is still an unpaid amount, **Continue Split Payment** will appear. Tap **Continue Split Payment** and complete the remaining payment.
-
-![](</admin/5. ManageOrders/5.8/52.png>)
-
-6\\.	Enter the amount you want to pay for this transaction, then press **Charge**. Continue until the full amount has been paid.
-
-**Note:** In the **Payment History** section, the amount already paid will be displayed (e.g., **RM10 by Cash**). You can select the **Full** button to pay the remaining balance in the current transaction.
-
-![](</admin/5. ManageOrders/5.8/53.png>)
-
-**5. Print Receipt**
-
-The **Print** option allows you to choose whether to print the receipt.
-
-•	**ON** → Receipt will be printed.
-
-![](</admin/5. ManageOrders/5.8/31a.png>)
-
-•	**OFF** → Receipt will not be printed.
-
-![](</admin/5. ManageOrders/5.8/32a.png>)
-
-Toggle the **Print** button according to your preference.
-
-**Completing the Payment**
-
-After all payment details have been entered:
-
-1\\.	Tap **Charge** to complete the payment. For **cash payment**, the cash drawer will open automatically.
-
-![](</admin/5. ManageOrders/5.8/33a.png>)
-
-2\\.	The system will display the **change** to be returned to the customer. **Payment Successfull** message will appear once the payment is completed.
-
-**Note:** You can optionally scan the **QR cod**e to receive a digital receipt for your order.
-
-![](</admin/5. ManageOrders/5.8/54.png>)
-
-After payment is successful, you can optionally:
-
-**•	Print the receipt.**
-
-![](</admin/5. ManageOrders/5.8/34a.png>)
-
-•	**Send the receipt by email** by pressing **Send Receipt to Email**. Enter your email address, then press **Send** to send the receipt to your email.
-
-![](</admin/5. ManageOrders/5.8/35a.png>)
-
-•	You have successfully completed the payment. Press **New Sale** to start taking a new order.
-
-![](</admin/5. ManageOrders/5.8/56.png>)
+`,_r=`---\r
+title: 5.8 Charge Order\r
+section: USER GUIDELINES\r
+order: 5.8\r
+isSubTopic: true\r
+parentTopic: 5. Manage Orders\r
+language: en\r
+---\r
+\r
+The **Charge Order** function is used to proceed to the **Payment** page and complete payment for an order.\r
+\r
+There are **3 ways** to proceed to the Payment page, depending on the **order type.**\r
+\r
+**A. Charge a New Order**\r
+\r
+Use this method when the order has just been taken and has **not been saved yet.**\r
+\r
+This is useful for shops that use a **"Pay First, Eat Later"** system.\r
+\r
+**Steps:**\r
+\r
+1\\.	Take the customer's order.\r
+\r
+![](</admin/5. ManageOrders/5.8/1.png>)\r
+\r
+2\\.	Tap **Charge** at the bottom.\r
+\r
+![](</admin/5. ManageOrders/5.8/12a.png>)\r
+\r
+3\\.	You will be taken to the **Payment** page.\r
+\r
+![](</admin/5. ManageOrders/5.8/2.png>)\r
+\r
+**B. Charge an Order from Open Order**\r
+\r
+Use this method when the order has already been saved.\r
+\r
+**Steps:**\r
+\r
+1\\.	Go to **Open Order.**\r
+\r
+![](</admin/5. ManageOrders/5.8/3.png>)\r
+\r
+2\\.	Select the order you want to charge.\r
+\r
+![](</admin/5. ManageOrders/5.8/4.png>)\r
+\r
+3\\.	Open the order and Tap **Charge.**\r
+\r
+![](</admin/5. ManageOrders/5.8/13a.png>)\r
+\r
+4\\.	You will be taken to the **Payment** page.\r
+\r
+![](</admin/5. ManageOrders/5.8/5.png>)\r
+\r
+**C. Charge an Order by Table**\r
+\r
+Use this method when the shop takes orders by table and collects payment by table.\r
+\r
+**Steps:**\r
+\r
+1\\.	Go to **Table Layout.**\r
+\r
+![](</admin/5. ManageOrders/5.8/14a.png>)\r
+\r
+2\\.	Select the table that needs to make payment (e.g. T3).\r
+\r
+![](</admin/5. ManageOrders/5.8/6.png>)\r
+\r
+3\\.	Tap **Charge.**\r
+\r
+![](</admin/5. ManageOrders/5.8/7.png>)\r
+\r
+4\\.	You will be taken to the **Payment** page.\r
+\r
+![](</admin/5. ManageOrders/5.8/8.png>)\r
+\r
+**Payment Page**\r
+\r
+After tapping **Charge,** you will be taken to the **Payment** page. You can use the following options to complete the payment.\r
+\r
+**1. Enter Received Cash**\r
+\r
+•	For **cash payment,** you can enter the amount received from the customer manually. You can also use the preset amount buttons on the side, such as **RM5, RM10,** or **RM50**, to enter the amount quickly.\r
+\r
+![](</admin/5. ManageOrders/5.8/15a.png>)\r
+\r
+•	If the customer gives the exact amount, tap Exact Amount.\r
+\r
+![](</admin/5. ManageOrders/5.8/16a.png>)\r
+\r
+**2. Select Payment Type**\r
+\r
+Select the payment method used by the customer.\r
+\r
+Available payment types may include: CASH, QR, TOUCH N GO, ONLINE BANKING\r
+\r
+![](</admin/5. ManageOrders/5.8/9.png>)\r
+\r
+**3. Adjustment**\r
+\r
+•	The **Adjustment** option allows you to give a discount to the order.\r
+\r
+![](</admin/5. ManageOrders/5.8/17a.png>)\r
+\r
+You can apply a discount by **Value** or **Percentage.**\r
+\r
+**Adjustment by Value**\r
+\r
+1\\.	Select **Value.**\r
+\r
+**Note:** The adjustment is set to **Value** by default. The toggle is **OFF** for Value and **ON** for Percentage.\r
+\r
+![](</admin/5. ManageOrders/5.8/18a.png>)\r
+\r
+2\\.	Enter the adjustment amount (e.g., **RM2**) press Save.\r
+\r
+![](</admin/5. ManageOrders/5.8/10.png>)\r
+\r
+3\\.	The adjustment will be deducted from the total amount.\r
+\r
+![](</admin/5. ManageOrders/5.8/19a.png>)\r
+\r
+**Adjustment by Percentage**\r
+\r
+1\\.	Select **Percentage.**\r
+\r
+![](</admin/5. ManageOrders/5.8/20a.png>)\r
+\r
+2\\.	Enter the adjustment percentage (e.g. 10%) and press Save.\r
+\r
+![](</admin/5. ManageOrders/5.8/11.png>)\r
+\r
+3\\.	The system will calculate the adjustment based on the receipt total and deduct it from the amount due.\r
+\r
+![](</admin/5. ManageOrders/5.8/21a.png>)\r
+\r
+**4.	Discount Creation**\r
+\r
+Discount settings must be created and configured in the Backoffice. Once the discount has been set up in the Backoffice, it will automatically be displayed in the POS system when applicable. Discount creation and configuration cannot be done directly from the POS system.\r
+\r
+Don't know how to access Management Hub? *[Click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
+\r
+1\\.	Scroll down to the **Discount** section.\r
+\r
+![](</admin/5. ManageOrders/5.8/12.png>)\r
+\r
+2\\.	Press the **New Discount** button to create a new discount.\r
+\r
+![](</admin/5. ManageOrders/5.8/13.png>)\r
+\r
+3\\.	Enter a name for the discount (e.g., **Opening Promotion**).\r
+\r
+![](</admin/5. ManageOrders/5.8/14.png>)\r
+\r
+4\\.	Under **Apply**, select how the discount should be applied (e.g. **Apply discount to selected categories**).\r
+\r
+•	**Apply discount to the whole order**\r
+\r
+**•	Apply discount to selected items**\r
+\r
+**•	Apply discount to selected categories**\r
+\r
+**•	Don't apply**\r
+\r
+![](</admin/5. ManageOrders/5.8/15.png>)\r
+\r
+5\\.	Under **Type**, select either **Percentage** or **Amount**. Enter the discount value based on the selected type:\r
+\r
+•	**Percentage:** Enter the discount percentage.\r
+\r
+•	**Amount:** Enter the discount amount.\r
+\r
+![](</admin/5. ManageOrders/5.8/16.png>)\r
+\r
+6\\.	Under **Valid From – Valid To**, select the **Start Date** and **End Date** for the discount.\r
+\r
+![](</admin/5. ManageOrders/5.8/17.png>)\r
+\r
+7\\.	Select the **Outlet(s)** where the discount will be available.\r
+\r
+![](</admin/5. ManageOrders/5.8/18.png>)\r
+\r
+8\\.	Scroll down to view the available selection list:\r
+\r
+•	If you selected **Apply discount to selected items**, the **Items List** will be displayed.\r
+\r
+•	If you selected **Apply discount to selected categories**, the **Category List** will be displayed.\r
+\r
+•	If you selected **Apply discount to the whole order** or **Don't apply**, no item or category list will be displayed.\r
+\r
+![](</admin/5. ManageOrders/5.8/19.png>)\r
+\r
+9\\.	Select the items or categories you want the discount to apply to (e.g., **Teh O or Beverages**).\r
+\r
+![](</admin/5. ManageOrders/5.8/20.png>)\r
+\r
+10\\.	After confirming all the discount settings, press **Create**.\r
+\r
+![](</admin/5. ManageOrders/5.8/22a.png>)\r
+\r
+11\\.	The newly created discount will now be displayed in the **Discount** section.\r
+\r
+![](</admin/5. ManageOrders/5.8/21.png>)\r
+\r
+12\\.	Return to the **POS system** and charge an order. The discount will automatically appear when the order meets the discount conditions.\r
+\r
+![](</admin/5. ManageOrders/5.8/23a.png>)\r
+\r
+**5.	Tax Creation**\r
+\r
+Tax cannot be added while charging an order or processing a payment on the POS device. Tax creation and configuration must be done separately in the Management Hub.\r
+\r
+Don't know how to access Management Hub?\r
+\r
+1\\.	Go to Settings and select Tax. You will see a list of all taxes that have been created in the system, if any.\r
+\r
+![](</admin/5. ManageOrders/5.8/22.png>)\r
+\r
+2\\.	Press New Tax to create a new tax.\r
+\r
+![](</admin/5. ManageOrders/5.8/24a.png>)\r
+\r
+3\\.	Enter a Tax Name and Tax Rate (e.g., 6%).\r
+\r
+![](</admin/5. ManageOrders/5.8/23.png>)\r
+\r
+4\\.	Select the **Tax Type:** **Added** or **Included.**\r
+\r
+**Note:** The main difference is that **Added** increases the final price, while **Included** keeps the displayed price unchanged and calculates the tax portion from within the price.\r
+\r
+**Note – Added:** The tax is added on top of the item's original price. For example, an item priced at **RM10.00** with 6% tax will have a final price of **RM10.60.**\r
+\r
+**Note – Included:** The tax is already included in the displayed item price. For example, an item priced at **RM10.00** with 6% tax remains **RM10.00**, with approximately **RM0.57** representing the tax portion.\r
+\r
+![](</admin/5. ManageOrders/5.8/24.png>)\r
+\r
+5\\.	Under Apply, select how the tax should be applied:\r
+\r
+o	Apply tax to all new and existing items\r
+\r
+o	Apply tax to selected items\r
+\r
+o	Apply tax to selected categories\r
+\r
+o	Don't apply\r
+\r
+![](</admin/5. ManageOrders/5.8/25.png>)\r
+\r
+**Note:** If you select Apply tax to selected items or Apply tax to selected categories, you can select the specific items or categories that the tax should apply to.\r
+\r
+6\\.	Under Tax Application Depends on Order Option, select Yes or No depending on whether the tax application should vary based on the selected Order Option.\r
+\r
+![](</admin/5. ManageOrders/5.8/26.png>)\r
+\r
+7\\.	Select the Outlet(s) where the tax should be applied.\r
+\r
+![](</admin/5. ManageOrders/5.8/27.png>)\r
+\r
+8\\.	Scroll down to the **Items/Categories to Select** section and the **Order Option to Select** section.  Select the items/categories and order options that you preferred.\r
+\r
+![](</admin/5. ManageOrders/5.8/28.png>)\r
+\r
+![](</admin/5. ManageOrders/5.8/29.png>)\r
+\r
+**Note:** These sections will be displayed if you select **Apply tax to selected items/categories** or choose **Yes** for **Tax Application Depends on Order Option.**\r
+\r
+9\\.	Review all the tax settings and confirm that the information is correct.  Create to save the tax.\r
+\r
+![](</admin/5. ManageOrders/5.8/25a.png>)\r
+\r
+10\\.	The new tax will now be created and applied according to the settings you have configured.\r
+\r
+![](</admin/5. ManageOrders/5.8/30.png>)\r
+\r
+11\\.	Return to the POS system and charge an order. The tax will be automatically applied when the order meets the tax conditions you have configured.\r
+\r
+![](</admin/5. ManageOrders/5.8/26a.png>)\r
+\r
+**6.	Payment Type Creation**\r
+\r
+Before making a payment, you need to create a **Payment Type** in Management Hub. The Payment Type will then be available for selection when making a payment in POS System.\r
+\r
+If you do not know how to **Hub**. access Management Hub,\r
+\r
+1\\.	Go to **Settings**.\r
+\r
+![](</admin/5. ManageOrders/5.8/31.png>)\r
+\r
+2\\.	Select **Payment Types**. You will see a list of all Payment Types that have been created, if already have created.\r
+\r
+![](</admin/5. ManageOrders/5.8/32.png>)\r
+\r
+3\\.	Click **New Payment Type** to create a new Payment Type.\r
+\r
+![](</admin/5. ManageOrders/5.8/33.png>)\r
+\r
+4\\.	Select the Payment Type:\r
+\r
+o	**Card** – for card payments.\r
+\r
+o	**Cheque** – for cheque payments.\r
+\r
+o	**Other** – for other payment methods such as cash, online transfer, or QR payment.\r
+\r
+![](</admin/5. ManageOrders/5.8/34.png>)\r
+\r
+5\\.	Enter the **Payment Type Name**. For example, Cash, Online Transfer, or QR Payment.\r
+\r
+![](</admin/5. ManageOrders/5.8/35.png>)\r
+\r
+6\\.	Select **Yes** or **No** for **Auto Rounding**.\r
+\r
+![](</admin/5. ManageOrders/5.8/36.png>)\r
+\r
+7\\.	Select the **Outlet** where the Payment Type will be used. Check that all the information is correct. Click **Create** to save the Payment Type.\r
+\r
+![](</admin/5. ManageOrders/5.8/37.png>)\r
+\r
+8\\.	The new Payment Type will now appear in the Payment Types dashboard.\r
+\r
+![](</admin/5. ManageOrders/5.8/38.png>)\r
+\r
+9\\.	From the dashboard, you can **enable or disable Auto Rounding** for a Payment Type.\r
+\r
+![](</admin/5. ManageOrders/5.8/39.png>)\r
+\r
+10\\.	Use the Search Bar to quickly find a Payment Type by its name.\r
+\r
+![](</admin/5. ManageOrders/5.8/40.png>)\r
+\r
+11\\.	Use the Filter button to filter Payment Types by category or outlet.\r
+\r
+![](</admin/5. ManageOrders/5.8/41.png>)\r
+\r
+12\\.	To delete a Payment Type, click **Edit** on the Payment Type you want to remove. Click **Delete Payment Type**.\r
+\r
+![](</admin/5. ManageOrders/5.8/42.png>)\r
+\r
+13\\.	Click **Save Changes** to confirm the deletion.\r
+\r
+![](</admin/5. ManageOrders/5.8/43.png>)\r
+\r
+14\\.	Return to the **POS system** and charge an order. You will see the payment type you created (e.g., **Card Debit**) available as a payment option.\r
+\r
+![](</admin/5. ManageOrders/5.8/44.png>)\r
+\r
+**7.	Split Payment**\r
+\r
+**Split Payment** allows a customer to pay for an order using different payments or to divide the order between multiple people.\r
+\r
+There are two ways to split a payment:\r
+\r
+**A. Split by Item**\r
+\r
+Use this when different customers want to pay for different items from the same order.\r
+\r
+**Example:**\r
+\r
+One customer pays for **Roti Canai,** while another customer pays for **Teh O**\r
+\r
+**Steps:**\r
+\r
+1\\.	Select **Split Payment** button.\r
+\r
+![](</admin/5. ManageOrders/5.8/27a.png>)\r
+\r
+2\\.	Select **Split by Item**.\r
+\r
+![](</admin/5. ManageOrders/5.8/45.png>)\r
+\r
+3\\.	Select the items to be paid for (e.g. Select **NG Paprik Ayam** and Teh O) and press Charge to pay.\r
+\r
+![](</admin/5. ManageOrders/5.8/28a.png>)\r
+\r
+4\\.	Select the payment type and complete the payment.\r
+\r
+**Note:** You can optionally add an **Adjustment** if needed.\r
+\r
+![](</admin/5. ManageOrders/5.8/46.png>)\r
+\r
+5\\.	After the first payment is completed, **Continue Split Payment** will appear if there are items left to pay.\r
+\r
+![](</admin/5. ManageOrders/5.8/47.png>)\r
+\r
+6\\.	Tap **Continue Split Payment** to pay for the remaining items and press Charge.\r
+\r
+![](</admin/5. ManageOrders/5.8/29a.png>)\r
+\r
+7\\.	Repeat until all items have been paid.\r
+\r
+![](/admin/Screenshot-2026-09-21-144351.png)\r
+\r
+**B. Split by Amount**\r
+\r
+Use this when the total amount is shared between different payments.\r
+\r
+**Example:**\r
+\r
+The total is **RM20.** The customer wants to pay **RM10 by Cash** and **RM10 by QR.**\r
+\r
+You can:\r
+\r
+•	Use **Quick Split** to divide the amount equally, such as by **2** or **3**.\r
+\r
+•	Enter the amount manually.\r
+\r
+**Steps:**\r
+\r
+1\\.	Select **Split Payment.**\r
+\r
+![](</admin/5. ManageOrders/5.8/49.png>)\r
+\r
+2\\.	Select **Split by Amount.**\r
+\r
+![](</admin/5. ManageOrders/5.8/50.png>)\r
+\r
+3\\.	Enter or select the amount to be paid and press Charge.\r
+\r
+**Note :** Use **Quick Split** to divide the amount equally, such as by **2** or **3**.\r
+\r
+![](</admin/5. ManageOrders/5.8/30a.png>)\r
+\r
+4\\.	Select the payment type and press Charge to complete the payment.\r
+\r
+![](</admin/5. ManageOrders/5.8/51.png>)\r
+\r
+5\\.	If there is still an unpaid amount, **Continue Split Payment** will appear. Tap **Continue Split Payment** and complete the remaining payment.\r
+\r
+![](</admin/5. ManageOrders/5.8/52.png>)\r
+\r
+6\\.	Enter the amount you want to pay for this transaction, then press **Charge**. Continue until the full amount has been paid.\r
+\r
+**Note:** In the **Payment History** section, the amount already paid will be displayed (e.g., **RM10 by Cash**). You can select the **Full** button to pay the remaining balance in the current transaction.\r
+\r
+![](</admin/5. ManageOrders/5.8/53.png>)\r
+\r
+**5. Print Receipt**\r
+\r
+The **Print** option allows you to choose whether to print the receipt.\r
+\r
+•	**ON** → Receipt will be printed.\r
+\r
+![](</admin/5. ManageOrders/5.8/31a.png>)\r
+\r
+•	**OFF** → Receipt will not be printed.\r
+\r
+![](</admin/5. ManageOrders/5.8/32a.png>)\r
+\r
+Toggle the **Print** button according to your preference.\r
+\r
+**Completing the Payment**\r
+\r
+After all payment details have been entered:\r
+\r
+1\\.	Tap **Charge** to complete the payment. For **cash payment**, the cash drawer will open automatically.\r
+\r
+![](</admin/5. ManageOrders/5.8/33a.png>)\r
+\r
+2\\.	The system will display the **change** to be returned to the customer. **Payment Successfull** message will appear once the payment is completed.\r
+\r
+**Note:** You can optionally scan the **QR cod**e to receive a digital receipt for your order.\r
+\r
+![](</admin/5. ManageOrders/5.8/54.png>)\r
+\r
+After payment is successful, you can optionally:\r
+\r
+**•	Print the receipt.**\r
+\r
+![](</admin/5. ManageOrders/5.8/34a.png>)\r
+\r
+•	**Send the receipt by email** by pressing **Send Receipt to Email**. Enter your email address, then press **Send** to send the receipt to your email.\r
+\r
+![](</admin/5. ManageOrders/5.8/35a.png>)\r
+\r
+•	You have successfully completed the payment. Press **New Sale** to start taking a new order.\r
+\r
+![](</admin/5. ManageOrders/5.8/56.png>)\r
 `,vr=`---\r
 title: 6. Manage Receipts\r
 section: USER GUIDELINES\r
@@ -2592,98 +2592,98 @@ order: 7\r
 language: en\r
 ---\r
 \r
-`,Tr=`---
-title: 7.1 Printers Settings
-section: USER GUIDELINES
-order: 7.1
-isSubTopic: true
-parentTopic: 7. Settings
-language: en
----
-
-Before connecting a printer, you need to create a **Department Printer** in Management Hub. The Department Printer is used to select where the order should be printed.
-
-1\\.	Log in to **Management Hub**.
-
-Note: If you do not know how to access Management Hub, *[click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*
-
-![](/admin/7.Settings/1.png)
-
-2\\.	Go to **Settings > Department Printers.**
-
-![](/admin/7.Settings/2.png)
-
-3\\.	Click **New Department Printer** to create a new Department Printer.
-
-![](/admin/7.Settings/3.png)
-
-4\\.	Enter the **Department Printer Name** and select the **categories** that you want to print.
-
-![](/admin/7.Settings/4.png)
-
-5\\.	Check the information and click **Create** to save the Department Printer.
-
-![](/admin/7.Settings/5.png)
-
-6\\.	Go back to the **POS System** and go to **Settings > Printers.**
-
-![](/admin/7.Settings/6.png)
-
-7\\.	Click the **+ (Plus)** button to add a new printer.
-
-![](/admin/7.Settings/7.png)
-
-8\\.	Select the **Connection Type** of your printer: **Bluetooth, Ethernet, or USB**. For a Bluetooth printer, enter the **Printer Name**, click **Scan for Printer**, and select your printer.
-
-![](/admin/7.Settings/8.png)
-
-9\\.	For an **Ethernet** printer, enter the **Printer Name, Printer Model, and Printer IP Address.**
-
-![](/admin/7.Settings/9.png)
-
-10\\.	For a **USB** printer, enter the **Printer Name and Printer Model**, click Scan for Printer, and select your printer.
-
-![](/admin/7.Settings/10.png)
-
-11\\.	Select the **Paper Width**. You can choose **58mm** or **80mm**.
-
-![](/admin/7.Settings/11.png)
-
-12\\. Turn on the Cash Drawer button if the printer is connected to a cash drawer.
-
-![](/admin/7.Settings/7.1new/no12.png)
-
-13\\. Choose whether to **enable or disable Print Receipt and Bills.**
-
-![](/admin/7.Settings/7.1new/no13.png)
-
-14\\. Choose whether to **enable or disable Automatically Print Receipt.**
-
-![](/admin/7.Settings/7.1new/no14.png)
-
-15\\. Choose whether to **enable or disable Print Orders.**
-
-![](/admin/7.Settings/7.1new/no15.png)
-
-16\\. If Print Orders is enabled, select the Department Printer that you created earlier. 
-
-![](/admin/7.Settings/7.1new/no16.png)
-
-17\\.	To check the print receipt queue, go to **Settings > Print Receipt Queue.**
-
-![](/admin/7.Settings/17.png)
-
-18\\.	The print receipt queue is divided into **All, Success, Pending, Processing, and Failed**. Click a section to view the print queues under that section.
-
-![](/admin/7.Settings/18.png)
-
-19\\.	To delete a print queue, **select the print queue first**, then click **Bulk Delete.**
-
-![](/admin/7.Settings/19.png)
-
-20\\.	To print a receipt again, **select the print queue first**, then click **Bulk Reprint.**
-
-![](/admin/7.Settings/20.png)
+`,Tr=`---\r
+title: 7.1 Printers Settings\r
+section: USER GUIDELINES\r
+order: 7.1\r
+isSubTopic: true\r
+parentTopic: 7. Settings\r
+language: en\r
+---\r
+\r
+Before connecting a printer, you need to create a **Department Printer** in Management Hub. The Department Printer is used to select where the order should be printed.\r
+\r
+1\\.	Log in to **Management Hub**.\r
+\r
+Note: If you do not know how to access Management Hub, *[click here to learn how to access Management Hub.](http://localhost:5173/docs?id=How-to-access-Management-Hub)*\r
+\r
+![](/admin/7.Settings/1.png)\r
+\r
+2\\.	Go to **Settings > Department Printers.**\r
+\r
+![](/admin/7.Settings/2.png)\r
+\r
+3\\.	Click **New Department Printer** to create a new Department Printer.\r
+\r
+![](/admin/7.Settings/3.png)\r
+\r
+4\\.	Enter the **Department Printer Name** and select the **categories** that you want to print.\r
+\r
+![](/admin/7.Settings/4.png)\r
+\r
+5\\.	Check the information and click **Create** to save the Department Printer.\r
+\r
+![](/admin/7.Settings/5.png)\r
+\r
+6\\.	Go back to the **POS System** and go to **Settings > Printers.**\r
+\r
+![](/admin/7.Settings/6.png)\r
+\r
+7\\.	Click the **+ (Plus)** button to add a new printer.\r
+\r
+![](/admin/7.Settings/7.png)\r
+\r
+8\\.	Select the **Connection Type** of your printer: **Bluetooth, Ethernet, or USB**. For a Bluetooth printer, enter the **Printer Name**, click **Scan for Printer**, and select your printer.\r
+\r
+![](/admin/7.Settings/8.png)\r
+\r
+9\\.	For an **Ethernet** printer, enter the **Printer Name, Printer Model, and Printer IP Address.**\r
+\r
+![](/admin/7.Settings/9.png)\r
+\r
+10\\.	For a **USB** printer, enter the **Printer Name and Printer Model**, click Scan for Printer, and select your printer.\r
+\r
+![](/admin/7.Settings/10.png)\r
+\r
+11\\.	Select the **Paper Width**. You can choose **58mm** or **80mm**.\r
+\r
+![](/admin/7.Settings/11.png)\r
+\r
+12\\. Turn on the Cash Drawer button if the printer is connected to a cash drawer.\r
+\r
+![](/admin/7.Settings/7.1new/no12.png)\r
+\r
+13\\. Choose whether to **enable or disable Print Receipt and Bills.**\r
+\r
+![](/admin/7.Settings/7.1new/no13.png)\r
+\r
+14\\. Choose whether to **enable or disable Automatically Print Receipt.**\r
+\r
+![](/admin/7.Settings/7.1new/no14.png)\r
+\r
+15\\. Choose whether to **enable or disable Print Orders.**\r
+\r
+![](/admin/7.Settings/7.1new/no15.png)\r
+\r
+16\\. If Print Orders is enabled, select the Department Printer that you created earlier. \r
+\r
+![](/admin/7.Settings/7.1new/no16.png)\r
+\r
+17\\.	To check the print receipt queue, go to **Settings > Print Receipt Queue.**\r
+\r
+![](/admin/7.Settings/17.png)\r
+\r
+18\\.	The print receipt queue is divided into **All, Success, Pending, Processing, and Failed**. Click a section to view the print queues under that section.\r
+\r
+![](/admin/7.Settings/18.png)\r
+\r
+19\\.	To delete a print queue, **select the print queue first**, then click **Bulk Delete.**\r
+\r
+![](/admin/7.Settings/19.png)\r
+\r
+20\\.	To print a receipt again, **select the print queue first**, then click **Bulk Reprint.**\r
+\r
+![](/admin/7.Settings/20.png)\r
 `,Er=`---\r
 title: 7.2 Customer Display Settings\r
 section: USER GUIDELINES\r
@@ -3446,97 +3446,97 @@ releaseDate: "2026-09-24"\r
 * Fixed refund receipt not printing.\r
 * Fixed duplicate and false cancel kitchen tickets.\r
 * Fixed receipt logo printing blank.\r
-`,Vr=`---
-version: 2.2.3
-releaseDate: '2026-09-25'
----
-
-**What's new:**
-
-\\- Allow negative stock
-
-\\- Improve load items performance
-`,Hr=`---
-version: 2.2.4
-releaseDate: '2026-09-26'
----
-
-**What's new:**
-
-\\- Sell even when stock is insufficient
-
-\\- Low-stock warning after an order
-
-\\- Cash drawer toggle moved to top of Printer Options
-
-\\- Faster item picker
-
-\\- Fixed refund PIN dialog and blank refund screen
-`,Ur=`---
-version: 2.2.5
-releaseDate: '2026-10-07'
----
-
-**What's new:**
-
-\\- Improved kitchen printer processing after payment
-
-\\- Fixed Wi-Fi printer and cash drawer issues during settlement
-
-\\- Added a Digital Receipt button after settlement, allowing users to request and display the receipt QR code when needed.
-`,Wr=`---
-version: 2.2.6
-releaseDate: '2026-10-09'
----
-
-**What's new:**
-
-* Fix open orders sometimes showing an incorrect total or missing items when reopened
-`,Gr=`---
-version: 2.2.7
-releaseDate: '2026-10-16'
----
-
-**What's new:**
-
-\\- customers can scan their Digital Receipt QR code directly from the customer display
-
-\\- improved the customer display when starting a new sale or continuing a split payment
-
-\\- fixed an issue where the rounded payment total could appear incorrectly when showing the payment QR code
-`,Kr=`---
-version: 2.3.0
-releaseDate: '2026-10-26'
----
-
-**What's new:**\\
-\\
-\\- added support for item prices that can be different at each outlet
-
-\\- added portrait mode, so you can now use the app on vertically held screens
-
-\\- updated sales, payments, shifts, settings, receipts, and open orders for portrait mode
-
-\\- improved the app's reliability when syncing updates or handling connection issues
-
-\\- added smoother screen changes and small visual improvements throughout the app
-`,qr=`---
-version: 2.3.1
-releaseDate: '2026-10-26'
----
-
-**What's new:**
-
-\\- Portrait mode is now available, so you can use the app on vertically held screens.
-
-\\- Sales, payments, shifts, settings, receipts, and open orders have been updated for portrait mode.
-
-\\- Items can now have different prices at each outlet.
-
-\\- Improved reliability, smoother navigation, and small visual improvements.
+`,Vr=`---\r
+version: 2.2.3\r
+releaseDate: '2026-09-25'\r
+---\r
+\r
+**What's new:**\r
+\r
+\\- Allow negative stock\r
+\r
+\\- Improve load items performance\r
+`,Hr=`---\r
+version: 2.2.4\r
+releaseDate: '2026-09-26'\r
+---\r
+\r
+**What's new:**\r
+\r
+\\- Sell even when stock is insufficient\r
+\r
+\\- Low-stock warning after an order\r
+\r
+\\- Cash drawer toggle moved to top of Printer Options\r
+\r
+\\- Faster item picker\r
+\r
+\\- Fixed refund PIN dialog and blank refund screen\r
+`,Ur=`---\r
+version: 2.2.5\r
+releaseDate: '2026-10-07'\r
+---\r
+\r
+**What's new:**\r
+\r
+\\- Improved kitchen printer processing after payment\r
+\r
+\\- Fixed Wi-Fi printer and cash drawer issues during settlement\r
+\r
+\\- Added a Digital Receipt button after settlement, allowing users to request and display the receipt QR code when needed.\r
+`,Wr=`---\r
+version: 2.2.6\r
+releaseDate: '2026-10-09'\r
+---\r
+\r
+**What's new:**\r
+\r
+* Fix open orders sometimes showing an incorrect total or missing items when reopened\r
+`,Gr=`---\r
+version: 2.2.7\r
+releaseDate: '2026-10-16'\r
+---\r
+\r
+**What's new:**\r
+\r
+\\- customers can scan their Digital Receipt QR code directly from the customer display\r
+\r
+\\- improved the customer display when starting a new sale or continuing a split payment\r
+\r
+\\- fixed an issue where the rounded payment total could appear incorrectly when showing the payment QR code\r
+`,Kr=`---\r
+version: 2.3.0\r
+releaseDate: '2026-10-26'\r
+---\r
+\r
+**What's new:**\\\r
+\\\r
+\\- added support for item prices that can be different at each outlet\r
+\r
+\\- added portrait mode, so you can now use the app on vertically held screens\r
+\r
+\\- updated sales, payments, shifts, settings, receipts, and open orders for portrait mode\r
+\r
+\\- improved the app's reliability when syncing updates or handling connection issues\r
+\r
+\\- added smoother screen changes and small visual improvements throughout the app\r
+`,qr=`---\r
+version: 2.3.1\r
+releaseDate: '2026-10-26'\r
+---\r
+\r
+**What's new:**\r
+\r
+\\- Portrait mode is now available, so you can use the app on vertically held screens.\r
+\r
+\\- Sales, payments, shifts, settings, receipts, and open orders have been updated for portrait mode.\r
+\r
+\\- Items can now have different prices at each outlet.\r
+\r
+\\- Improved reliability, smoother navigation, and small visual improvements.\r
 `,Jr=`---
 version: 2.3.2
-releaseDate: '2026-09-27'
+releaseDate: '2026-10-28'
 ---
 
 **What's new:**
@@ -3571,7 +3571,7 @@ releaseDate: '2026-09-27'
 `);return e===-1?``:t.stack.slice(e+1)})();try{if(!e.stack)e.stack=n;else if(n){let t=n.indexOf(`
 `),r=t===-1?-1:n.indexOf(`
 `,t+1),i=r===-1?``:n.slice(r+1);String(e.stack).endsWith(i)||(e.stack+=`
-`+n)}}catch{}}throw e}}_request(e,t){typeof e==`string`?(t||={},t.url=e):t=e||{},t=rd(this.defaults,t);let{transitional:n,paramsSerializer:r,headers:i}=t;n!==void 0&&Ud.assertOptions(n,{silentJSONParsing:Wd.transitional(Wd.boolean),forcedJSONParsing:Wd.transitional(Wd.boolean),clarifyTimeoutError:Wd.transitional(Wd.boolean),legacyInterceptorReqResOrdering:Wd.transitional(Wd.boolean),advertiseZstdAcceptEncoding:Wd.transitional(Wd.boolean),validateStatusUndefinedResolves:Wd.transitional(Wd.boolean)},!1),r!=null&&(V.isFunction(r)?t.paramsSerializer={serialize:r}:Ud.assertOptions(r,{encode:Wd.function,serialize:Wd.function},!0)),t.allowAbsoluteUrls!==void 0||(this.defaults.allowAbsoluteUrls===void 0?t.allowAbsoluteUrls=!0:t.allowAbsoluteUrls=this.defaults.allowAbsoluteUrls),Ud.assertOptions(t,{baseUrl:Wd.spelling(`baseURL`),withXsrfToken:Wd.spelling(`withXSRFToken`)},!0),t.method=(t.method||this.defaults.method||`get`).toLowerCase();let a=i&&V.merge(i.common,i[t.method]);i&&V.forEach([`delete`,`get`,`head`,`post`,`put`,`patch`,`query`,`common`],e=>{delete i[e]}),t.headers=Zl.concat(a,i);let o=[],s=!0;this.interceptors.request.forEach(function(e){if(typeof e.runWhen==`function`&&e.runWhen(t)===!1)return;s&&=e.synchronous;let n=t.transitional||hu;n&&n.legacyInterceptorReqResOrdering?o.unshift(e.fulfilled,e.rejected):o.push(e.fulfilled,e.rejected)});let c=[];this.interceptors.response.forEach(function(e){c.push(e.fulfilled,e.rejected)});let l,u=0,d;if(!s){let e=[zd.bind(this),void 0];for(e.unshift(...o),e.push(...c),d=e.length,l=Promise.resolve(t);u<d;)l=l.then(e[u++],e[u++]);return l}d=o.length;let f=t;for(;u<d;){let e=o[u++],t=o[u++];try{f=e?e(f):f}catch(e){if(!t){l=Promise.reject(e);break}try{let n=t.call(this,e);V.isThenable(n)&&(l=Promise.resolve(n).then(()=>zd.call(this,f)))}catch(e){l=Promise.reject(e)}break}}if(!l)try{l=zd.call(this,f)}catch(e){l=Promise.reject(e)}for(u=0,d=c.length;u<d;)l=l.then(c[u++],c[u++]);return l}getUri(e){return e=rd(this.defaults,e),pu(ed(e.baseURL,e.url,e.allowAbsoluteUrls,e),e.params,e.paramsSerializer)}};V.forEach([`delete`,`get`,`head`,`options`],function(e){Gd.prototype[e]=function(t,n){return this.request(rd(n||{},{method:e,url:t,data:n&&V.hasOwnProp(n,`data`)?n.data:void 0}))}}),V.forEach([`post`,`put`,`patch`,`query`],function(e){function t(t){return function(n,r,i){return this.request(rd(i||{},{method:e,headers:t?{"Content-Type":`multipart/form-data`}:{},url:n,data:r}))}}Gd.prototype[e]=t(),e!==`query`&&(Gd.prototype[e+`Form`]=t(!0))});var Kd=class e{constructor(e){if(typeof e!=`function`)throw TypeError(`executor must be a function.`);let t;this.promise=new Promise(function(e){t=e});let n=this;this.promise.then(e=>{if(!n._listeners)return;let t=n._listeners.length;for(;t-->0;)n._listeners[t](e);n._listeners=null}),this.promise.then=e=>{let t,r=new Promise(e=>{n.subscribe(e),t=e}).then(e);return r.cancel=function(){n.unsubscribe(t)},r},e(function(e,r,i){n.reason||(n.reason=new Fu(e,r,i),t(n.reason))})}throwIfRequested(){if(this.reason)throw this.reason}subscribe(e){if(this.reason){e(this.reason);return}this._listeners?this._listeners.push(e):this._listeners=[e]}unsubscribe(e){if(!this._listeners)return;let t=this._listeners.indexOf(e);t!==-1&&this._listeners.splice(t,1)}toAbortSignal(){let e=new AbortController,t=t=>{e.abort(t)};return this.subscribe(t),e.signal.unsubscribe=()=>this.unsubscribe(t),e.signal}static source(){let t;return{token:new e(function(e){t=e}),cancel:t}}};function qd(e){return function(t){return e.apply(null,t)}}function Jd(e){return V.isObject(e)&&e.isAxiosError===!0}var Yd={Continue:100,SwitchingProtocols:101,Processing:102,EarlyHints:103,Ok:200,Created:201,Accepted:202,NonAuthoritativeInformation:203,NoContent:204,ResetContent:205,PartialContent:206,MultiStatus:207,AlreadyReported:208,ImUsed:226,MultipleChoices:300,MovedPermanently:301,Found:302,SeeOther:303,NotModified:304,UseProxy:305,Unused:306,TemporaryRedirect:307,PermanentRedirect:308,BadRequest:400,Unauthorized:401,PaymentRequired:402,Forbidden:403,NotFound:404,MethodNotAllowed:405,NotAcceptable:406,ProxyAuthenticationRequired:407,RequestTimeout:408,Conflict:409,Gone:410,LengthRequired:411,PreconditionFailed:412,PayloadTooLarge:413,UriTooLong:414,UnsupportedMediaType:415,RangeNotSatisfiable:416,ExpectationFailed:417,ImATeapot:418,MisdirectedRequest:421,UnprocessableEntity:422,Locked:423,FailedDependency:424,TooEarly:425,UpgradeRequired:426,PreconditionRequired:428,TooManyRequests:429,RequestHeaderFieldsTooLarge:431,UnavailableForLegalReasons:451,InternalServerError:500,NotImplemented:501,BadGateway:502,ServiceUnavailable:503,GatewayTimeout:504,HttpVersionNotSupported:505,VariantAlsoNegotiates:506,InsufficientStorage:507,LoopDetected:508,NotExtended:510,NetworkAuthenticationRequired:511,WebServerReturnsAnUnknownError:520,WebServerIsDown:521,ConnectionTimedOut:522,OriginIsUnreachable:523,TimeoutOccurred:524,SslHandshakeFailed:525,InvalidSslCertificate:526};Object.entries(Yd).forEach(([e,t])=>{Yd[t]=e});function Xd(e){let t=new Gd(e),n=gc(Gd.prototype.request,t);return V.extend(n,Gd.prototype,t,{allOwnKeys:!0}),V.extend(n,t,null,{allOwnKeys:!0}),n.create=function(t){return Xd(rd(e,t))},n}var Zd=Xd(Mu);Zd.Axios=Gd,Zd.CanceledError=Fu,Zd.CancelToken=Kd,Zd.isCancel=Pu,Zd.VERSION=wd,Zd.toFormData=cu,Zd.AxiosError=G,Zd.Cancel=Zd.CanceledError,Zd.all=function(e){return Promise.all(e)},Zd.spread=qd,Zd.isAxiosError=Jd,Zd.mergeConfig=rd,Zd.AxiosHeaders=Zl,Zd.formToJSON=e=>ku(V.isHTMLForm(e)?new FormData(e):e),Zd.getAdapter=Ld.getAdapter,Zd.HttpStatusCode=Yd,Zd.default=Zd;var Qd=Zd.create({baseURL:void 0}),$d=(e=`en`)=>Qd.get(`/what-to-dos?locale=${e}&populate=*`),ef=(e=`en`)=>Qd.get(`/what-not-to-dos?locale=${e}&populate=*`),tf={black:`#000`,white:`#fff`},nf={50:`#ffebee`,100:`#ffcdd2`,200:`#ef9a9a`,300:`#e57373`,400:`#ef5350`,500:`#f44336`,600:`#e53935`,700:`#d32f2f`,800:`#c62828`,900:`#b71c1c`,A100:`#ff8a80`,A200:`#ff5252`,A400:`#ff1744`,A700:`#d50000`},rf={50:`#f3e5f5`,100:`#e1bee7`,200:`#ce93d8`,300:`#ba68c8`,400:`#ab47bc`,500:`#9c27b0`,600:`#8e24aa`,700:`#7b1fa2`,800:`#6a1b9a`,900:`#4a148c`,A100:`#ea80fc`,A200:`#e040fb`,A400:`#d500f9`,A700:`#aa00ff`},af={50:`#e3f2fd`,100:`#bbdefb`,200:`#90caf9`,300:`#64b5f6`,400:`#42a5f5`,500:`#2196f3`,600:`#1e88e5`,700:`#1976d2`,800:`#1565c0`,900:`#0d47a1`,A100:`#82b1ff`,A200:`#448aff`,A400:`#2979ff`,A700:`#2962ff`},of={50:`#e1f5fe`,100:`#b3e5fc`,200:`#81d4fa`,300:`#4fc3f7`,400:`#29b6f6`,500:`#03a9f4`,600:`#039be5`,700:`#0288d1`,800:`#0277bd`,900:`#01579b`,A100:`#80d8ff`,A200:`#40c4ff`,A400:`#00b0ff`,A700:`#0091ea`},sf={50:`#e8f5e9`,100:`#c8e6c9`,200:`#a5d6a7`,300:`#81c784`,400:`#66bb6a`,500:`#4caf50`,600:`#43a047`,700:`#388e3c`,800:`#2e7d32`,900:`#1b5e20`,A100:`#b9f6ca`,A200:`#69f0ae`,A400:`#00e676`,A700:`#00c853`},cf={50:`#fff3e0`,100:`#ffe0b2`,200:`#ffcc80`,300:`#ffb74d`,400:`#ffa726`,500:`#ff9800`,600:`#fb8c00`,700:`#f57c00`,800:`#ef6c00`,900:`#e65100`,A100:`#ffd180`,A200:`#ffab40`,A400:`#ff9100`,A700:`#ff6d00`},lf={50:`#fafafa`,100:`#f5f5f5`,200:`#eeeeee`,300:`#e0e0e0`,400:`#bdbdbd`,500:`#9e9e9e`,600:`#757575`,700:`#616161`,800:`#424242`,900:`#212121`,A100:`#f5f5f5`,A200:`#eeeeee`,A400:`#bdbdbd`,A700:`#616161`};function uf(e,...t){let n=new URL(`https://mui.com/production-error/?code=${e}`);return t.forEach(e=>n.searchParams.append(`args[]`,e)),`Minified MUI error #${e}; visit ${n} for the full message.`}var df=`$$material`;function ff(){return ff=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},ff.apply(null,arguments)}function pf(e){if(e.sheet)return e.sheet;for(var t=0;t<document.styleSheets.length;t++)if(document.styleSheets[t].ownerNode===e)return document.styleSheets[t]}function mf(e){var t=document.createElement(`style`);return t.setAttribute(`data-emotion`,e.key),e.nonce!==void 0&&t.setAttribute(`nonce`,e.nonce),t.appendChild(document.createTextNode(``)),t.setAttribute(`data-s`,``),t}var hf=function(){function e(e){var t=this;this._insertTag=function(e){var n=t.tags.length===0?t.insertionPoint?t.insertionPoint.nextSibling:t.prepend?t.container.firstChild:t.before:t.tags[t.tags.length-1].nextSibling;t.container.insertBefore(e,n),t.tags.push(e)},this.isSpeedy=e.speedy===void 0||e.speedy,this.tags=[],this.ctr=0,this.nonce=e.nonce,this.key=e.key,this.container=e.container,this.prepend=e.prepend,this.insertionPoint=e.insertionPoint,this.before=null}var t=e.prototype;return t.hydrate=function(e){e.forEach(this._insertTag)},t.insert=function(e){this.ctr%(this.isSpeedy?65e3:1)==0&&this._insertTag(mf(this));var t=this.tags[this.tags.length-1];if(this.isSpeedy){var n=pf(t);try{n.insertRule(e,n.cssRules.length)}catch{}}else t.appendChild(document.createTextNode(e));this.ctr++},t.flush=function(){this.tags.forEach(function(e){return e.parentNode?.removeChild(e)}),this.tags=[],this.ctr=0},e}(),gf=`-ms-`,_f=`-moz-`,q=`-webkit-`,vf=`comm`,yf=`rule`,bf=`decl`,xf=`@import`,Sf=`@keyframes`,Cf=`@layer`,wf=Math.abs,Tf=String.fromCharCode,Ef=Object.assign;function Df(e,t){return Mf(e,0)^45?(((t<<2^Mf(e,0))<<2^Mf(e,1))<<2^Mf(e,2))<<2^Mf(e,3):0}function Of(e){return e.trim()}function kf(e,t){return(e=t.exec(e))?e[0]:e}function Af(e,t,n){return e.replace(t,n)}function jf(e,t){return e.indexOf(t)}function Mf(e,t){return e.charCodeAt(t)|0}function Nf(e,t,n){return e.slice(t,n)}function Pf(e){return e.length}function Ff(e){return e.length}function If(e,t){return t.push(e),e}function Lf(e,t){return e.map(t).join(``)}var Rf=1,zf=1,Bf=0,Vf=0,Hf=0,Uf=``;function Wf(e,t,n,r,i,a,o){return{value:e,root:t,parent:n,type:r,props:i,children:a,line:Rf,column:zf,length:o,return:``}}function Gf(e,t){return Ef(Wf(``,null,null,``,null,null,0),e,{length:-e.length},t)}function Kf(){return Hf}function qf(){return Hf=Vf>0?Mf(Uf,--Vf):0,zf--,Hf===10&&(zf=1,Rf--),Hf}function Jf(){return Hf=Vf<Bf?Mf(Uf,Vf++):0,zf++,Hf===10&&(zf=1,Rf++),Hf}function Yf(){return Mf(Uf,Vf)}function Xf(){return Vf}function Zf(e,t){return Nf(Uf,e,t)}function Qf(e){switch(e){case 0:case 9:case 10:case 13:case 32:return 5;case 33:case 43:case 44:case 47:case 62:case 64:case 126:case 59:case 123:case 125:return 4;case 58:return 3;case 34:case 39:case 40:case 91:return 2;case 41:case 93:return 1}return 0}function $f(e){return Rf=zf=1,Bf=Pf(Uf=e),Vf=0,[]}function ep(e){return Uf=``,e}function tp(e){return Of(Zf(Vf-1,ip(e===91?e+2:e===40?e+1:e)))}function np(e){for(;(Hf=Yf())&&Hf<33;)Jf();return Qf(e)>2||Qf(Hf)>3?``:` `}function rp(e,t){for(;--t&&Jf()&&!(Hf<48||Hf>102||Hf>57&&Hf<65||Hf>70&&Hf<97););return Zf(e,Xf()+(t<6&&Yf()==32&&Jf()==32))}function ip(e){for(;Jf();)switch(Hf){case e:return Vf;case 34:case 39:e!==34&&e!==39&&ip(Hf);break;case 40:e===41&&ip(e);break;case 92:Jf();break}return Vf}function ap(e,t){for(;Jf()&&e+Hf!==57&&(e+Hf!==84||Yf()!==47););return`/*`+Zf(t,Vf-1)+`*`+Tf(e===47?e:Jf())}function op(e){for(;!Qf(Yf());)Jf();return Zf(e,Vf)}function sp(e){return ep(cp(``,null,null,null,[``],e=$f(e),0,[0],e))}function cp(e,t,n,r,i,a,o,s,c){for(var l=0,u=0,d=o,f=0,p=0,m=0,h=1,g=1,_=1,v=0,y=``,b=i,x=a,S=r,C=y;g;)switch(m=v,v=Jf()){case 40:if(m!=108&&Mf(C,d-1)==58){jf(C+=Af(tp(v),`&`,`&\f`),`&\f`)!=-1&&(_=-1);break}case 34:case 39:case 91:C+=tp(v);break;case 9:case 10:case 13:case 32:C+=np(m);break;case 92:C+=rp(Xf()-1,7);continue;case 47:switch(Yf()){case 42:case 47:If(up(ap(Jf(),Xf()),t,n),c);break;default:C+=`/`}break;case 123*h:s[l++]=Pf(C)*_;case 125*h:case 59:case 0:switch(v){case 0:case 125:g=0;case 59+u:_==-1&&(C=Af(C,/\f/g,``)),p>0&&Pf(C)-d&&If(p>32?dp(C+`;`,r,n,d-1):dp(Af(C,` `,``)+`;`,r,n,d-2),c);break;case 59:C+=`;`;default:if(If(S=lp(C,t,n,l,u,i,s,y,b=[],x=[],d),a),v===123){if(u===0)cp(C,t,S,S,b,a,d,s,x);else switch(f===99&&Mf(C,3)===110?100:f){case 100:case 108:case 109:case 115:cp(e,S,S,r&&If(lp(e,S,S,0,0,i,s,y,i,b=[],d),x),i,x,d,s,r?b:x);break;default:cp(C,S,S,S,[``],x,0,s,x)}}}l=u=p=0,h=_=1,y=C=``,d=o;break;case 58:d=1+Pf(C),p=m;default:if(h<1){if(v==123)--h;else if(v==125&&h++==0&&qf()==125)continue}switch(C+=Tf(v),v*h){case 38:_=u>0?1:(C+=`\f`,-1);break;case 44:s[l++]=(Pf(C)-1)*_,_=1;break;case 64:Yf()===45&&(C+=tp(Jf())),f=Yf(),u=d=Pf(y=C+=op(Xf())),v++;break;case 45:m===45&&Pf(C)==2&&(h=0)}}return a}function lp(e,t,n,r,i,a,o,s,c,l,u){for(var d=i-1,f=i===0?a:[``],p=Ff(f),m=0,h=0,g=0;m<r;++m)for(var _=0,v=Nf(e,d+1,d=wf(h=o[m])),y=e;_<p;++_)(y=Of(h>0?f[_]+` `+v:Af(v,/&\f/g,f[_])))&&(c[g++]=y);return Wf(e,t,n,i===0?yf:s,c,l,u)}function up(e,t,n){return Wf(e,t,n,vf,Tf(Kf()),Nf(e,2,-2),0)}function dp(e,t,n,r){return Wf(e,t,n,bf,Nf(e,0,r),Nf(e,r+1,-1),r)}function fp(e,t){for(var n=``,r=Ff(e),i=0;i<r;i++)n+=t(e[i],i,e,t)||``;return n}function pp(e,t,n,r){switch(e.type){case Cf:if(e.children.length)break;case xf:case bf:return e.return=e.return||e.value;case vf:return``;case Sf:return e.return=e.value+`{`+fp(e.children,r)+`}`;case yf:e.value=e.props.join(`,`)}return Pf(n=fp(e.children,r))?e.return=e.value+`{`+n+`}`:``}function mp(e){var t=Ff(e);return function(n,r,i,a){for(var o=``,s=0;s<t;s++)o+=e[s](n,r,i,a)||``;return o}}function hp(e){return function(t){t.root||(t=t.return)&&e(t)}}function gp(e){var t=Object.create(null);return function(n){return t[n]===void 0&&(t[n]=e(n)),t[n]}}var _p=function(e,t,n){for(var r=0,i=0;r=i,i=Yf(),r===38&&i===12&&(t[n]=1),!Qf(i);)Jf();return Zf(e,Vf)},vp=function(e,t){var n=-1,r=44;do switch(Qf(r)){case 0:r===38&&Yf()===12&&(t[n]=1),e[n]+=_p(Vf-1,t,n);break;case 2:e[n]+=tp(r);break;case 4:if(r===44){e[++n]=Yf()===58?`&\f`:``,t[n]=e[n].length;break}default:e[n]+=Tf(r)}while(r=Jf());return e},yp=function(e,t){return ep(vp($f(e),t))},bp=new WeakMap,xp=function(e){if(!(e.type!==`rule`||!e.parent||e.length<1)){for(var t=e.value,n=e.parent,r=e.column===n.column&&e.line===n.line;n.type!==`rule`;)if(n=n.parent,!n)return;if(!(e.props.length===1&&t.charCodeAt(0)!==58&&!bp.get(n))&&!r){bp.set(e,!0);for(var i=[],a=yp(t,i),o=n.props,s=0,c=0;s<a.length;s++)for(var l=0;l<o.length;l++,c++)e.props[c]=i[s]?a[s].replace(/&\f/g,o[l]):o[l]+` `+a[s]}}},Sp=function(e){if(e.type===`decl`){var t=e.value;t.charCodeAt(0)===108&&t.charCodeAt(2)===98&&(e.return=``,e.value=``)}};function Cp(e,t){switch(Df(e,t)){case 5103:return q+`print-`+e+e;case 5737:case 4201:case 3177:case 3433:case 1641:case 4457:case 2921:case 5572:case 6356:case 5844:case 3191:case 6645:case 3005:case 6391:case 5879:case 5623:case 6135:case 4599:case 4855:case 4215:case 6389:case 5109:case 5365:case 5621:case 3829:return q+e+e;case 5349:case 4246:case 4810:case 6968:case 2756:return q+e+_f+e+gf+e+e;case 6828:case 4268:return q+e+gf+e+e;case 6165:return q+e+gf+`flex-`+e+e;case 5187:return q+e+Af(e,/(\w+).+(:[^]+)/,q+`box-$1$2`+gf+`flex-$1$2`)+e;case 5443:return q+e+gf+`flex-item-`+Af(e,/flex-|-self/,``)+e;case 4675:return q+e+gf+`flex-line-pack`+Af(e,/align-content|flex-|-self/,``)+e;case 5548:return q+e+gf+Af(e,`shrink`,`negative`)+e;case 5292:return q+e+gf+Af(e,`basis`,`preferred-size`)+e;case 6060:return q+`box-`+Af(e,`-grow`,``)+q+e+gf+Af(e,`grow`,`positive`)+e;case 4554:return q+Af(e,/([^-])(transform)/g,`$1`+q+`$2`)+e;case 6187:return Af(Af(Af(e,/(zoom-|grab)/,q+`$1`),/(image-set)/,q+`$1`),e,``)+e;case 5495:case 3959:return Af(e,/(image-set\([^]*)/,q+"$1$`$1");case 4968:return Af(Af(e,/(.+:)(flex-)?(.*)/,q+`box-pack:$3`+gf+`flex-pack:$3`),/s.+-b[^;]+/,`justify`)+q+e+e;case 4095:case 3583:case 4068:case 2532:return Af(e,/(.+)-inline(.+)/,q+`$1$2`)+e;case 8116:case 7059:case 5753:case 5535:case 5445:case 5701:case 4933:case 4677:case 5533:case 5789:case 5021:case 4765:if(Pf(e)-1-t>6)switch(Mf(e,t+1)){case 109:if(Mf(e,t+4)!==45)break;case 102:return Af(e,/(.+:)(.+)-([^]+)/,`$1`+q+`$2-$3$1`+_f+(Mf(e,t+3)==108?`$3`:`$2-$3`))+e;case 115:return~jf(e,`stretch`)?Cp(Af(e,`stretch`,`fill-available`),t)+e:e}break;case 4949:if(Mf(e,t+1)!==115)break;case 6444:switch(Mf(e,Pf(e)-3-(~jf(e,`!important`)&&10))){case 107:return Af(e,`:`,`:`+q)+e;case 101:return Af(e,/(.+:)([^;!]+)(;|!.+)?/,`$1`+q+(Mf(e,14)===45?`inline-`:``)+`box$3$1`+q+`$2$3$1`+gf+`$2box$3`)+e}break;case 5936:switch(Mf(e,t+11)){case 114:return q+e+gf+Af(e,/[svh]\w+-[tblr]{2}/,`tb`)+e;case 108:return q+e+gf+Af(e,/[svh]\w+-[tblr]{2}/,`tb-rl`)+e;case 45:return q+e+gf+Af(e,/[svh]\w+-[tblr]{2}/,`lr`)+e}return q+e+gf+e+e}return e}var wp=[function(e,t,n,r){if(e.length>-1&&!e.return)switch(e.type){case bf:e.return=Cp(e.value,e.length);break;case Sf:return fp([Gf(e,{value:Af(e.value,`@`,`@`+q)})],r);case yf:if(e.length)return Lf(e.props,function(t){switch(kf(t,/(::plac\w+|:read-\w+)/)){case`:read-only`:case`:read-write`:return fp([Gf(e,{props:[Af(t,/:(read-\w+)/,`:`+_f+`$1`)]})],r);case`::placeholder`:return fp([Gf(e,{props:[Af(t,/:(plac\w+)/,`:`+q+`input-$1`)]}),Gf(e,{props:[Af(t,/:(plac\w+)/,`:`+_f+`$1`)]}),Gf(e,{props:[Af(t,/:(plac\w+)/,gf+`input-$1`)]})],r)}return``})}}],Tp=function(e){var t=e.key;if(t===`css`){var n=document.querySelectorAll(`style[data-emotion]:not([data-s])`);Array.prototype.forEach.call(n,function(e){e.getAttribute(`data-emotion`).indexOf(` `)!==-1&&(document.head.appendChild(e),e.setAttribute(`data-s`,``))})}var r=e.stylisPlugins||wp,i={},a,o=[];a=e.container||document.head,Array.prototype.forEach.call(document.querySelectorAll(`style[data-emotion^="`+t+` "]`),function(e){for(var t=e.getAttribute(`data-emotion`).split(` `),n=1;n<t.length;n++)i[t[n]]=!0;o.push(e)});var s,c=[xp,Sp],l,u=[pp,hp(function(e){l.insert(e)})],d=mp(c.concat(r,u)),f=function(e){return fp(sp(e),d)};s=function(e,t,n,r){l=n,f(e?e+`{`+t.styles+`}`:t.styles),r&&(p.inserted[t.name]=!0)};var p={key:t,sheet:new hf({key:t,container:a,nonce:e.nonce,speedy:e.speedy,prepend:e.prepend,insertionPoint:e.insertionPoint}),nonce:e.nonce,inserted:i,registered:{},insert:s};return p.sheet.hydrate(o),p},Ep=o((e=>{var t=typeof Symbol==`function`&&Symbol.for,n=t?Symbol.for(`react.element`):60103,r=t?Symbol.for(`react.portal`):60106,i=t?Symbol.for(`react.fragment`):60107,a=t?Symbol.for(`react.strict_mode`):60108,o=t?Symbol.for(`react.profiler`):60114,s=t?Symbol.for(`react.provider`):60109,c=t?Symbol.for(`react.context`):60110,l=t?Symbol.for(`react.async_mode`):60111,u=t?Symbol.for(`react.concurrent_mode`):60111,d=t?Symbol.for(`react.forward_ref`):60112,f=t?Symbol.for(`react.suspense`):60113,p=t?Symbol.for(`react.suspense_list`):60120,m=t?Symbol.for(`react.memo`):60115,h=t?Symbol.for(`react.lazy`):60116,g=t?Symbol.for(`react.block`):60121,_=t?Symbol.for(`react.fundamental`):60117,v=t?Symbol.for(`react.responder`):60118,y=t?Symbol.for(`react.scope`):60119;function b(e){if(typeof e==`object`&&e){var t=e.$$typeof;switch(t){case n:switch(e=e.type,e){case l:case u:case i:case o:case a:case f:return e;default:switch(e&&=e.$$typeof,e){case c:case d:case h:case m:case s:return e;default:return t}}case r:return t}}}function x(e){return b(e)===u}e.AsyncMode=l,e.ConcurrentMode=u,e.ContextConsumer=c,e.ContextProvider=s,e.Element=n,e.ForwardRef=d,e.Fragment=i,e.Lazy=h,e.Memo=m,e.Portal=r,e.Profiler=o,e.StrictMode=a,e.Suspense=f,e.isAsyncMode=function(e){return x(e)||b(e)===l},e.isConcurrentMode=x,e.isContextConsumer=function(e){return b(e)===c},e.isContextProvider=function(e){return b(e)===s},e.isElement=function(e){return typeof e==`object`&&!!e&&e.$$typeof===n},e.isForwardRef=function(e){return b(e)===d},e.isFragment=function(e){return b(e)===i},e.isLazy=function(e){return b(e)===h},e.isMemo=function(e){return b(e)===m},e.isPortal=function(e){return b(e)===r},e.isProfiler=function(e){return b(e)===o},e.isStrictMode=function(e){return b(e)===a},e.isSuspense=function(e){return b(e)===f},e.isValidElementType=function(e){return typeof e==`string`||typeof e==`function`||e===i||e===u||e===o||e===a||e===f||e===p||typeof e==`object`&&!!e&&(e.$$typeof===h||e.$$typeof===m||e.$$typeof===s||e.$$typeof===c||e.$$typeof===d||e.$$typeof===_||e.$$typeof===v||e.$$typeof===y||e.$$typeof===g)},e.typeOf=b})),Dp=o(((e,t)=>{t.exports=Ep()})),Op=o(((e,t)=>{var n=Dp(),r={childContextTypes:!0,contextType:!0,contextTypes:!0,defaultProps:!0,displayName:!0,getDefaultProps:!0,getDerivedStateFromError:!0,getDerivedStateFromProps:!0,mixins:!0,propTypes:!0,type:!0},i={name:!0,length:!0,prototype:!0,caller:!0,callee:!0,arguments:!0,arity:!0},a={$$typeof:!0,render:!0,defaultProps:!0,displayName:!0,propTypes:!0},o={$$typeof:!0,compare:!0,defaultProps:!0,displayName:!0,propTypes:!0,type:!0},s={};s[n.ForwardRef]=a,s[n.Memo]=o;function c(e){return n.isMemo(e)?o:s[e.$$typeof]||r}var l=Object.defineProperty,u=Object.getOwnPropertyNames,d=Object.getOwnPropertySymbols,f=Object.getOwnPropertyDescriptor,p=Object.getPrototypeOf,m=Object.prototype;function h(e,t,n){if(typeof t!=`string`){if(m){var r=p(t);r&&r!==m&&h(e,r,n)}var a=u(t);d&&(a=a.concat(d(t)));for(var o=c(e),s=c(t),g=0;g<a.length;++g){var _=a[g];if(!i[_]&&!(n&&n[_])&&!(s&&s[_])&&!(o&&o[_])){var v=f(t,_);try{l(e,_,v)}catch{}}}}return e}t.exports=h}));function kp(e,t,n){var r=``;return n.split(` `).forEach(function(n){e[n]===void 0?n&&(r+=n+` `):t.push(e[n]+`;`)}),r}var Ap=function(e,t,n){var r=e.key+`-`+t.name;n===!1&&e.registered[r]===void 0&&(e.registered[r]=t.styles)},jp=function(e,t,n){Ap(e,t,n);var r=e.key+`-`+t.name;if(e.inserted[t.name]===void 0){var i=t;do e.insert(t===i?`.`+r:``,i,e.sheet,!0),i=i.next;while(i!==void 0)}};function Mp(e){for(var t=0,n,r=0,i=e.length;i>=4;++r,i-=4)n=e.charCodeAt(r)&255|(e.charCodeAt(++r)&255)<<8|(e.charCodeAt(++r)&255)<<16|(e.charCodeAt(++r)&255)<<24,n=(n&65535)*1540483477+((n>>>16)*59797<<16),n^=n>>>24,t=(n&65535)*1540483477+((n>>>16)*59797<<16)^(t&65535)*1540483477+((t>>>16)*59797<<16);switch(i){case 3:t^=(e.charCodeAt(r+2)&255)<<16;case 2:t^=(e.charCodeAt(r+1)&255)<<8;case 1:t^=e.charCodeAt(r)&255,t=(t&65535)*1540483477+((t>>>16)*59797<<16)}return t^=t>>>13,t=(t&65535)*1540483477+((t>>>16)*59797<<16),((t^t>>>15)>>>0).toString(36)}var Np={animationIterationCount:1,aspectRatio:1,borderImageOutset:1,borderImageSlice:1,borderImageWidth:1,boxFlex:1,boxFlexGroup:1,boxOrdinalGroup:1,columnCount:1,columns:1,flex:1,flexGrow:1,flexPositive:1,flexShrink:1,flexNegative:1,flexOrder:1,gridRow:1,gridRowEnd:1,gridRowSpan:1,gridRowStart:1,gridColumn:1,gridColumnEnd:1,gridColumnSpan:1,gridColumnStart:1,msGridRow:1,msGridRowSpan:1,msGridColumn:1,msGridColumnSpan:1,fontWeight:1,lineHeight:1,opacity:1,order:1,orphans:1,scale:1,tabSize:1,widows:1,zIndex:1,zoom:1,WebkitLineClamp:1,fillOpacity:1,floodOpacity:1,stopOpacity:1,strokeDasharray:1,strokeDashoffset:1,strokeMiterlimit:1,strokeOpacity:1,strokeWidth:1},Pp=/[A-Z]|^ms/g,Fp=/_EMO_([^_]+?)_([^]*?)_EMO_/g,Ip=function(e){return e.charCodeAt(1)===45},Lp=function(e){return e!=null&&typeof e!=`boolean`},Rp=gp(function(e){return Ip(e)?e:e.replace(Pp,`-$&`).toLowerCase()}),zp=function(e,t){switch(e){case`animation`:case`animationName`:if(typeof t==`string`)return t.replace(Fp,function(e,t,n){return Up={name:t,styles:n,next:Up},t})}return Np[e]!==1&&!Ip(e)&&typeof t==`number`&&t!==0?t+`px`:t};function Bp(e,t,n){if(n==null)return``;var r=n;if(r.__emotion_styles!==void 0)return r;switch(typeof n){case`boolean`:return``;case`object`:var i=n;if(i.anim===1)return Up={name:i.name,styles:i.styles,next:Up},i.name;var a=n;if(a.styles!==void 0){var o=a.next;if(o!==void 0)for(;o!==void 0;)Up={name:o.name,styles:o.styles,next:Up},o=o.next;return a.styles+`;`}return Vp(e,t,n);case`function`:if(e!==void 0){var s=Up,c=n(e);return Up=s,Bp(e,t,c)}}var l=n;if(t==null)return l;var u=t[l];return u===void 0?l:u}function Vp(e,t,n){var r=``;if(Array.isArray(n))for(var i=0;i<n.length;i++)r+=Bp(e,t,n[i])+`;`;else for(var a in n){var o=n[a];if(typeof o!=`object`){var s=o;t!=null&&t[s]!==void 0?r+=a+`{`+t[s]+`}`:Lp(s)&&(r+=Rp(a)+`:`+zp(a,s)+`;`)}else if(Array.isArray(o)&&typeof o[0]==`string`&&(t==null||t[o[0]]===void 0))for(var c=0;c<o.length;c++)Lp(o[c])&&(r+=Rp(a)+`:`+zp(a,o[c])+`;`);else{var l=Bp(e,t,o);switch(a){case`animation`:case`animationName`:r+=Rp(a)+`:`+l+`;`;break;default:r+=a+`{`+l+`}`}}}return r}var Hp=/label:\s*([^\s;{]+)\s*(;|$)/g,Up;function Wp(e,t,n){if(e.length===1&&typeof e[0]==`object`&&e[0]!==null&&e[0].styles!==void 0)return e[0];var r=!0,i=``;Up=void 0;var a=e[0];a==null||a.raw===void 0?(r=!1,i+=Bp(n,t,a)):i+=a[0];for(var o=1;o<e.length;o++)i+=Bp(n,t,e[o]),r&&(i+=a[o]);Hp.lastIndex=0;for(var s=``,c;(c=Hp.exec(i))!==null;)s+=`-`+c[1];return{name:Mp(i)+s,styles:i,next:Up}}var Gp=function(e){return e()},Kp=v.useInsertionEffect?v.useInsertionEffect:!1,qp=Kp||Gp,Jp=Kp||v.useLayoutEffect,Yp=v.createContext(typeof HTMLElement<`u`?Tp({key:`css`}):null);Yp.Provider;var Xp=function(e){return(0,v.forwardRef)(function(t,n){return e(t,(0,v.useContext)(Yp),n)})},Zp=v.createContext({}),Qp={}.hasOwnProperty,$p=`__EMOTION_TYPE_PLEASE_DO_NOT_USE__`,em=function(e,t){var n={};for(var r in t)Qp.call(t,r)&&(n[r]=t[r]);return n[$p]=e,n},tm=function(e){var t=e.cache,n=e.serialized,r=e.isStringTag;return Ap(t,n,r),qp(function(){return jp(t,n,r)}),null},nm=Xp(function(e,t,n){var r=e.css;typeof r==`string`&&t.registered[r]!==void 0&&(r=t.registered[r]);var i=e[$p],a=[r],o=``;typeof e.className==`string`?o=kp(t.registered,a,e.className):e.className!=null&&(o=e.className+` `);var s=Wp(a,void 0,v.useContext(Zp));o+=t.key+`-`+s.name;var c={};for(var l in e)Qp.call(e,l)&&l!==`css`&&l!==$p&&(c[l]=e[l]);return c.className=o,n&&(c.ref=n),v.createElement(v.Fragment,null,v.createElement(tm,{cache:t,serialized:s,isStringTag:typeof i==`string`}),v.createElement(i,c))});Op();var rm=function(e,t){var n=arguments;if(t==null||!Qp.call(t,`css`))return v.createElement.apply(void 0,n);var r=n.length,i=Array(r);i[0]=nm,i[1]=em(e,t);for(var a=2;a<r;a++)i[a]=n[a];return v.createElement.apply(null,i)};(function(e){var t;t||=e.JSX||={}})(rm||={});var im=Xp(function(e,t){var n=e.styles,r=Wp([n],void 0,v.useContext(Zp)),i=v.useRef();return Jp(function(){var e=t.key+`-global`,n=new t.sheet.constructor({key:e,nonce:t.sheet.nonce,container:t.sheet.container,speedy:t.sheet.isSpeedy}),a=!1,o=document.querySelector(`style[data-emotion="`+e+` `+r.name+`"]`);return t.sheet.tags.length&&(n.before=t.sheet.tags[0]),o!==null&&(a=!0,o.setAttribute(`data-emotion`,e),n.hydrate([o])),i.current=[n,a],function(){n.flush()}},[t]),Jp(function(){var e=i.current,n=e[0];if(e[1]){e[1]=!1;return}r.next!==void 0&&jp(t,r.next,!0),n.tags.length&&(n.before=n.tags[n.tags.length-1].nextElementSibling,n.flush()),t.insert(``,r,n,!1)},[t,r.name]),null});function am(){return Wp([...arguments])}function om(){var e=am.apply(void 0,arguments),t=`animation-`+e.name;return{name:t,styles:`@keyframes `+t+`{`+e.styles+`}`,anim:1,toString:function(){return`_EMO_`+this.name+`_`+this.styles+`_EMO_`}}}var sm=/^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|abbr|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|decoding|default|defer|dir|disabled|disablePictureInPicture|disableRemotePlayback|download|draggable|encType|enterKeyHint|fetchpriority|fetchPriority|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loading|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|popover|popoverTarget|popoverTargetAction|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|translate|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|incremental|fallback|inert|itemProp|itemScope|itemType|itemID|itemRef|on|option|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/,cm=gp(function(e){return sm.test(e)||e.charCodeAt(0)===111&&e.charCodeAt(1)===110&&e.charCodeAt(2)<91}),lm=function(e){return e!==`theme`},um=function(e){return typeof e==`string`&&e.charCodeAt(0)>96?cm:lm},dm=function(e,t,n){var r;if(t){var i=t.shouldForwardProp;r=e.__emotion_forwardProp&&i?function(t){return e.__emotion_forwardProp(t)&&i(t)}:i}return typeof r!=`function`&&n&&(r=e.__emotion_forwardProp),r},fm=function(e){var t=e.cache,n=e.serialized,r=e.isStringTag;return Ap(t,n,r),qp(function(){return jp(t,n,r)}),null},pm=function e(t,n){var r=t.__emotion_real===t,i=r&&t.__emotion_base||t,a,o;n!==void 0&&(a=n.label,o=n.target);var s=dm(t,n,r),c=s||um(i),l=!c(`as`);return function(){var u=arguments,d=r&&t.__emotion_styles!==void 0?t.__emotion_styles.slice(0):[];if(a!==void 0&&d.push(`label:`+a+`;`),u[0]==null||u[0].raw===void 0)d.push.apply(d,u);else{var f=u[0];d.push(f[0]);for(var p=u.length,m=1;m<p;m++)d.push(u[m],f[m])}var h=Xp(function(e,t,n){var r=l&&e.as||i,a=``,u=[],f=e;if(e.theme==null){for(var p in f={},e)f[p]=e[p];f.theme=v.useContext(Zp)}typeof e.className==`string`?a=kp(t.registered,u,e.className):e.className!=null&&(a=e.className+` `);var m=Wp(d.concat(u),t.registered,f);a+=t.key+`-`+m.name,o!==void 0&&(a+=` `+o);var h=l&&s===void 0?um(r):c,g={};for(var _ in e)l&&_===`as`||h(_)&&(g[_]=e[_]);return g.className=a,n&&(g.ref=n),v.createElement(v.Fragment,null,v.createElement(fm,{cache:t,serialized:m,isStringTag:typeof r==`string`}),v.createElement(r,g))});return h.displayName=a===void 0?`Styled(`+(typeof i==`string`?i:i.displayName||i.name||`Component`)+`)`:a,h.defaultProps=t.defaultProps,h.__emotion_real=h,h.__emotion_base=i,h.__emotion_styles=d,h.__emotion_forwardProp=s,Object.defineProperty(h,"toString",{value:function(){return`.`+o}}),h.withComponent=function(t,r){return e(t,ff({},n,r,{shouldForwardProp:dm(h,r,!0)})).apply(void 0,d)},h}},mm=`a.abbr.address.area.article.aside.audio.b.base.bdi.bdo.big.blockquote.body.br.button.canvas.caption.cite.code.col.colgroup.data.datalist.dd.del.details.dfn.dialog.div.dl.dt.em.embed.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.head.header.hgroup.hr.html.i.iframe.img.input.ins.kbd.keygen.label.legend.li.link.main.map.mark.marquee.menu.menuitem.meta.meter.nav.noscript.object.ol.optgroup.option.output.p.param.picture.pre.progress.q.rp.rt.ruby.s.samp.script.section.select.small.source.span.strong.style.sub.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.title.tr.track.u.ul.var.video.wbr.circle.clipPath.defs.ellipse.foreignObject.g.image.line.linearGradient.mask.path.pattern.polygon.polyline.radialGradient.rect.stop.svg.text.tspan`.split(`.`),hm=pm.bind(null);mm.forEach(function(e){hm[e]=hm(e)});var gm=o((e=>{var t=Symbol.for(`react.transitional.element`);function n(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.jsx=n,e.jsxs=n})),J=o(((e,t)=>{t.exports=gm()}))();function _m(e){return e==null||Object.keys(e).length===0}function vm(e){let{styles:t,defaultTheme:n={}}=e;return(0,J.jsx)(im,{styles:typeof t==`function`?e=>t(_m(e)?n:e):t})}function ym(e,t){return hm(e,t)}function bm(e,t){Array.isArray(e.__emotion_styles)&&(e.__emotion_styles=t(e.__emotion_styles))}var xm=[];function Sm(e){return xm[0]=e,Wp(xm)}var Cm=o((e=>{var t=Symbol.for(`react.fragment`),n=Symbol.for(`react.strict_mode`),r=Symbol.for(`react.profiler`),i=Symbol.for(`react.consumer`),a=Symbol.for(`react.context`),o=Symbol.for(`react.forward_ref`),s=Symbol.for(`react.suspense`),c=Symbol.for(`react.suspense_list`),l=Symbol.for(`react.memo`),u=Symbol.for(`react.lazy`),d=Symbol.for(`react.client.reference`);e.isValidElementType=function(e){return!!(typeof e==`string`||typeof e==`function`||e===t||e===r||e===n||e===s||e===c||typeof e==`object`&&e&&(e.$$typeof===u||e.$$typeof===l||e.$$typeof===a||e.$$typeof===i||e.$$typeof===o||e.$$typeof===d||e.getModuleId!==void 0))}})),wm=o(((e,t)=>{t.exports=Cm()}))();function Tm(e){if(typeof e!=`object`||!e)return!1;let t=Object.getPrototypeOf(e);return(t===null||t===Object.prototype||Object.getPrototypeOf(t)===null)&&!(Symbol.toStringTag in e)&&!(Symbol.iterator in e)}function Em(e){if(v.isValidElement(e)||(0,wm.isValidElementType)(e)||!Tm(e))return e;let t={};return Object.keys(e).forEach(n=>{t[n]=Em(e[n])}),t}function Dm(e,t,n={clone:!0}){let r=n.clone?{...e}:e;return Tm(e)&&Tm(t)&&Object.keys(t).forEach(i=>{v.isValidElement(t[i])||(0,wm.isValidElementType)(t[i])?r[i]=t[i]:Tm(t[i])&&Object.prototype.hasOwnProperty.call(e,i)&&Tm(e[i])?r[i]=Dm(e[i],t[i],n):n.clone?r[i]=Tm(t[i])?Em(t[i]):t[i]:r[i]=t[i]}),r}var Om=e=>{let t=Object.keys(e).map(t=>({key:t,val:e[t]}))||[];return t.sort((e,t)=>e.val-t.val),t.reduce((e,t)=>({...e,[t.key]:t.val}),{})};function km(e){let{values:t={xs:0,sm:600,md:900,lg:1200,xl:1536},unit:n=`px`,step:r=5,...i}=e,a=Om(t),o=Object.keys(a);function s(e){return`@media (min-width:${typeof t[e]==`number`?t[e]:e}${n})`}function c(e){return`@media (max-width:${(typeof t[e]==`number`?t[e]:e)-r/100}${n})`}function l(e,i){let a=o.indexOf(i);return`@media (min-width:${typeof t[e]==`number`?t[e]:e}${n}) and (max-width:${(a!==-1&&typeof t[o[a]]==`number`?t[o[a]]:i)-r/100}${n})`}function u(e){return o.indexOf(e)+1<o.length?l(e,o[o.indexOf(e)+1]):s(e)}function d(e){let t=o.indexOf(e);return t===0?s(o[1]):t===o.length-1?c(o[t]):l(e,o[o.indexOf(e)+1]).replace(`@media`,`@media not all and`)}let f=[];for(let e=0;e<o.length;e+=1)f.push(s(o[e]));return{keys:o,values:a,up:s,down:c,between:l,only:u,not:d,unit:n,internal_mediaKeys:f,...i}}var Am=/min-width:\s*([0-9.]+)/;function jm(e,t){if(!e.containerQueries||!Mm(t))return t;let n=[];for(let e in t)e.startsWith(`@container`)&&n.push(e);n.sort((e,t)=>(e.match(Am)?.[1]||0)-+(t.match(Am)?.[1]||0));let r=t;for(let e=0;e<n.length;e+=1){let t=n[e],i=r[t];delete r[t],r[t]=i}return r}function Mm(e){for(let t in e)if(t.startsWith(`@container`))return!0;return!1}function Nm(e,t){return t===`@`||t.startsWith(`@`)&&(e.some(e=>t.startsWith(`@${e}`))||!!t.match(/^@\d/))}function Pm(e,t){let n=t.match(/^@([^/]+)?\/?(.+)?$/);if(!n)return null;let[,r,i]=n,a=Number.isNaN(+r)?r||0:+r;return e.containerQueries(i).up(a)}function Fm(e){let t=(e,t)=>e.replace(`@media`,t?`@container ${t}`:`@container`);function n(n,r){n.up=(...n)=>t(e.breakpoints.up(...n),r),n.down=(...n)=>t(e.breakpoints.down(...n),r),n.between=(...n)=>t(e.breakpoints.between(...n),r),n.only=(...n)=>t(e.breakpoints.only(...n),r),n.not=(...n)=>{let i=t(e.breakpoints.not(...n),r);return i.includes(`not all and`)?i.replace(`not all and `,``).replace(`min-width:`,`width<`).replace(`max-width:`,`width>`).replace(`and`,`or`):i}}let r={},i=e=>(n(r,e),r);return n(i),{...e,containerQueries:i}}var Im={borderRadius:4};function Lm(e){if(e==null)return!0;for(let t in e)return!1;return!0}function Rm(e,t){let n=Array.isArray(t),r=Array.isArray(e);return Um(t)?t:Wm(e)?Gm(t):n&&r?Vm(e,t):n===r?Km(e,t):Gm(t)}function zm(e){let t=0,n=e.length,r=Array(n);for(t=0;t<n;t+=1)r[t]=Gm(e[t]);return r}function Bm(e){let t={};for(let n in e)n!==`__proto__`&&n!==`constructor`&&n!==`prototype`&&(t[n]=Gm(e[n]));return t}function Vm(e,t){let n=e.length;for(let r=0;r<t.length;r+=1)e[n+r]=Gm(t[r]);return e}function Hm(e){return typeof e==`object`&&!!e&&!(e instanceof RegExp)&&!(e instanceof Date)}function Um(e){return typeof e!=`object`||!e}function Wm(e){return typeof e!=`object`||!e||e instanceof RegExp||e instanceof Date}function Gm(e){return Hm(e)?Array.isArray(e)?zm(e):Bm(e):e}function Km(e,t){for(let n in t)n!==`__proto__`&&n!==`constructor`&&n!==`prototype`&&(e[n]=n in e?Rm(e[n],t[n]):Gm(t[n]));return e}var qm={},Jm={xs:0,sm:600,md:900,lg:1200,xl:1536},Ym=km({values:Jm}),Xm={containerQueries:e=>({up:t=>{let n=typeof t==`number`?t:Jm[t]||t;return typeof n==`number`&&(n=`${n}px`),e?`@container ${e} (min-width:${n})`:`@container (min-width:${n})`}})};function Zm(e,t,n){let r={};return Qm(r,e.theme,t,(e,t,i)=>{let a=n(t,i);e?r[e]=a:Rm(r,a)})}function Qm(e,t,n,r){if(t??=qm,Array.isArray(n)){let i=t.breakpoints??Ym;for(let t=0;t<n.length;t+=1)$m(e,i.up(i.keys[t]),n[t],void 0,r);return e}if(typeof n==`object`){let i=t.breakpoints??Ym,a=i.values??Jm;for(let o in n)if(Nm(i.keys,o)){let i=Pm(t.containerQueries?t:Xm,o);i&&$m(e,i,n[o],o,r)}else if(o in a)$m(e,i.up(o),n[o],o,r);else{let t=o;e[t]=n[t]}return e}return r(void 0,n),e}function $m(e,t,n,r,i){e[t]??={},i(t,n,r)}function eh(e=Ym){let{internal_mediaKeys:t}=e,n={};for(let e=0;e<t.length;e+=1)n[t[e]]={};return n}function th(e,t){let n=e.internal_mediaKeys;for(let e=0;e<n.length;e+=1){let r=n[e];Lm(t[r])&&delete t[r]}return t}function nh(e,t){if(Array.isArray(t))return!0;if(typeof t==`object`&&t){for(let n=0;n<e.keys.length;n+=1)if(e.keys[n]in t)return!0;let n=Object.keys(t);for(let t=0;t<n.length;t+=1)if(Nm(e.keys,n[t]))return!0}return!1}function rh(e){if(typeof e!=`string`)throw Error(uf(7));return e.charAt(0).toUpperCase()+e.slice(1)}function ih(e,t,n,r){let i;return i=typeof e==`function`?e(n):Array.isArray(e)?e[n]||n:typeof n==`string`&&ah(e,n,!0,r)||n,t&&(i=t(i,n,e)),i}function ah(e,t,n=!0,r=void 0){if(!e||!t)return null;let i=t.split(`.`);if(e.vars&&n){let t=oh(e.vars,i,r);if(t!=null)return t}return oh(e,i,r)}function oh(e,t,n=void 0){let r,i=e,a=0;for(;a<t.length;){if(i==null)return i;r=i,i=i[t[a]],a+=1}if(n&&i===void 0){let e=t[t.length-1],i=`${n}${e==="default"?``:rh(e)}`;return r?.[i]}return i}function sh(e){let{prop:t,cssProperty:n=e.prop,themeKey:r,transform:i}=e,a=e=>{if(e[t]==null)return null;let a=e[t],o=e.theme,s=ah(o,r)||{};return Zm(e,a,e=>{let r=ih(s,i,e,t);return n===!1?r:{[n]:r}})};return a.propTypes={},a.filterProps=[t],a}var ch={internal_cache:{}},lh={m:`margin`,p:`padding`},uh={t:`Top`,r:`Right`,b:`Bottom`,l:`Left`,x:[`Left`,`Right`],y:[`Top`,`Bottom`]},dh={marginX:`mx`,marginY:`my`,paddingX:`px`,paddingY:`py`},fh={};for(let e in lh)fh[e]=[lh[e]];for(let e in lh)for(let t in uh){let n=lh[e],r=uh[t],i=Array.isArray(r)?r.map(e=>n+e):[n+r];fh[e+t]=i}for(let e in dh)fh[e]=fh[dh[e]];var ph=new Set([`m`,`mt`,`mr`,`mb`,`ml`,`mx`,`my`,`margin`,`marginTop`,`marginRight`,`marginBottom`,`marginLeft`,`marginX`,`marginY`,`marginInline`,`marginInlineStart`,`marginInlineEnd`,`marginBlock`,`marginBlockStart`,`marginBlockEnd`]),mh=new Set([`p`,`pt`,`pr`,`pb`,`pl`,`px`,`py`,`padding`,`paddingTop`,`paddingRight`,`paddingBottom`,`paddingLeft`,`paddingX`,`paddingY`,`paddingInline`,`paddingInlineStart`,`paddingInlineEnd`,`paddingBlock`,`paddingBlockStart`,`paddingBlockEnd`]);[...ph,...mh];function hh(e,t,n,r){let i=ah(e,t,!0)??n;return typeof i==`number`||typeof i==`string`?e=>typeof e==`string`?e:typeof i==`string`?i.startsWith(`var(`)&&e===0?0:i.startsWith(`var(`)&&e===1?i:`calc(${e} * ${i})`:i*e:Array.isArray(i)?e=>{if(typeof e==`string`)return e;let t=i[Math.abs(e)];return e>=0?t:typeof t==`number`?-t:typeof t==`string`&&t.startsWith(`var(`)?`calc(-1 * ${t})`:`-${t}`}:typeof i==`function`?i:()=>void 0}function gh(e){return hh(e,`spacing`,8,`spacing`)}function _h(e,t){return typeof t==`string`||t==null?t:e(t)}var vh=[``];function yh(e,t){let n=e.theme??ch,r=n?.internal_cache?.unarySpacing??gh(n),i={};for(let n in e){if(!t.has(n))continue;let a=fh[n]??(vh[0]=n,vh),o=e[n];Qm(i,e.theme,o,(e,t)=>{let n=e?i[e]:i;for(let e=0;e<a.length;e+=1)n[a[e]]=_h(r,t)})}return i}function bh(e){return yh(e,ph)}bh.propTypes={},bh.filterProps=ph;var xh=bh;function Sh(e){return yh(e,mh)}Sh.propTypes={},Sh.filterProps=mh;var Ch=Sh;function wh(e=8,t=gh({spacing:e})){if(e.mui)return e;let n=(...e)=>(e.length===0?[1]:e).map(e=>{let n=t(e);return typeof n==`number`?`${n}px`:n}).join(` `);return n.mui=!0,n}function Th(...e){let t=e.reduce((e,t)=>(t.filterProps.forEach(n=>{e[n]=t}),e),{}),n=e=>{let n={};for(let r in e)t[r]&&Rm(n,t[r](e));return n};return n.propTypes={},n.filterProps=e.reduce((e,t)=>e.concat(t.filterProps),[]),n}function Eh(e){return typeof e==`number`?`${e}px solid`:e}function Dh(e,t){return sh({prop:e,themeKey:`borders`,transform:t})}var Oh=Dh(`border`,Eh),kh=Dh(`borderTop`,Eh),Ah=Dh(`borderRight`,Eh),jh=Dh(`borderBottom`,Eh),Mh=Dh(`borderLeft`,Eh),Nh=Dh(`borderColor`),Ph=Dh(`borderTopColor`),Fh=Dh(`borderRightColor`),Ih=Dh(`borderBottomColor`),Lh=Dh(`borderLeftColor`),Rh=Dh(`outline`,Eh),zh=Dh(`outlineColor`),Bh=e=>{if(e.borderRadius!==void 0&&e.borderRadius!==null){let t=hh(e.theme,`shape.borderRadius`,4,`borderRadius`);return Zm(e,e.borderRadius,e=>({borderRadius:_h(t,e)}))}return null};Bh.propTypes={},Bh.filterProps=[`borderRadius`],Th(Oh,kh,Ah,jh,Mh,Nh,Ph,Fh,Ih,Lh,Bh,Rh,zh);var Vh=e=>{if(e.gap!==void 0&&e.gap!==null){let t=hh(e.theme,`spacing`,8,`gap`);return Zm(e,e.gap,e=>({gap:_h(t,e)}))}return null};Vh.propTypes={},Vh.filterProps=[`gap`];var Hh=e=>{if(e.columnGap!==void 0&&e.columnGap!==null){let t=hh(e.theme,`spacing`,8,`columnGap`);return Zm(e,e.columnGap,e=>({columnGap:_h(t,e)}))}return null};Hh.propTypes={},Hh.filterProps=[`columnGap`];var Uh=e=>{if(e.rowGap!==void 0&&e.rowGap!==null){let t=hh(e.theme,`spacing`,8,`rowGap`);return Zm(e,e.rowGap,e=>({rowGap:_h(t,e)}))}return null};Uh.propTypes={},Uh.filterProps=[`rowGap`],Th(Vh,Hh,Uh,sh({prop:`gridColumn`}),sh({prop:`gridRow`}),sh({prop:`gridAutoFlow`}),sh({prop:`gridAutoColumns`}),sh({prop:`gridAutoRows`}),sh({prop:`gridTemplateColumns`}),sh({prop:`gridTemplateRows`}),sh({prop:`gridTemplateAreas`}),sh({prop:`gridArea`}));function Wh(e,t){return t===`grey`?t:e}Th(sh({prop:`color`,themeKey:`palette`,transform:Wh}),sh({prop:`bgcolor`,cssProperty:`backgroundColor`,themeKey:`palette`,transform:Wh}),sh({prop:`backgroundColor`,themeKey:`palette`,transform:Wh}));var Gh=Jm;function Kh(e){return e<=1&&e!==0?`${e*100}%`:e}var qh=sh({prop:`width`,transform:Kh}),Jh=e=>e.maxWidth!==void 0&&e.maxWidth!==null?Zm(e,e.maxWidth,t=>{let n=e.theme?.breakpoints?.values?.[t]||Gh[t];return n?e.theme?.breakpoints?.unit===`px`?{maxWidth:n}:{maxWidth:`${n}${e.theme.breakpoints.unit}`}:{maxWidth:Kh(t)}}):null;Jh.filterProps=[`maxWidth`];var Yh=sh({prop:`minWidth`,transform:Kh}),Xh=sh({prop:`height`,transform:Kh}),Zh=sh({prop:`maxHeight`,transform:Kh}),Qh=sh({prop:`minHeight`,transform:Kh});sh({prop:`size`,cssProperty:`width`,transform:Kh}),sh({prop:`size`,cssProperty:`height`,transform:Kh}),Th(qh,Jh,Yh,Xh,Zh,Qh,sh({prop:`boxSizing`}));var $h={border:{themeKey:`borders`,transform:Eh},borderTop:{themeKey:`borders`,transform:Eh},borderRight:{themeKey:`borders`,transform:Eh},borderBottom:{themeKey:`borders`,transform:Eh},borderLeft:{themeKey:`borders`,transform:Eh},borderColor:{themeKey:`palette`},borderTopColor:{themeKey:`palette`},borderRightColor:{themeKey:`palette`},borderBottomColor:{themeKey:`palette`},borderLeftColor:{themeKey:`palette`},outline:{themeKey:`borders`,transform:Eh},outlineColor:{themeKey:`palette`},borderRadius:{themeKey:`shape.borderRadius`,style:Bh},color:{themeKey:`palette`,transform:Wh},bgcolor:{themeKey:`palette`,cssProperty:`backgroundColor`,transform:Wh},backgroundColor:{themeKey:`palette`,transform:Wh},p:{style:Ch},pt:{style:Ch},pr:{style:Ch},pb:{style:Ch},pl:{style:Ch},px:{style:Ch},py:{style:Ch},padding:{style:Ch},paddingTop:{style:Ch},paddingRight:{style:Ch},paddingBottom:{style:Ch},paddingLeft:{style:Ch},paddingX:{style:Ch},paddingY:{style:Ch},paddingInline:{style:Ch},paddingInlineStart:{style:Ch},paddingInlineEnd:{style:Ch},paddingBlock:{style:Ch},paddingBlockStart:{style:Ch},paddingBlockEnd:{style:Ch},m:{style:xh},mt:{style:xh},mr:{style:xh},mb:{style:xh},ml:{style:xh},mx:{style:xh},my:{style:xh},margin:{style:xh},marginTop:{style:xh},marginRight:{style:xh},marginBottom:{style:xh},marginLeft:{style:xh},marginX:{style:xh},marginY:{style:xh},marginInline:{style:xh},marginInlineStart:{style:xh},marginInlineEnd:{style:xh},marginBlock:{style:xh},marginBlockStart:{style:xh},marginBlockEnd:{style:xh},displayPrint:{cssProperty:!1,transform:e=>({"@media print":{display:e}})},display:{},overflow:{},textOverflow:{},visibility:{},whiteSpace:{},flexBasis:{},flexDirection:{},flexWrap:{},justifyContent:{},alignItems:{},alignContent:{},order:{},flex:{},flexGrow:{},flexShrink:{},alignSelf:{},justifyItems:{},justifySelf:{},gap:{style:Vh},rowGap:{style:Uh},columnGap:{style:Hh},gridColumn:{},gridRow:{},gridAutoFlow:{},gridAutoColumns:{},gridAutoRows:{},gridTemplateColumns:{},gridTemplateRows:{},gridTemplateAreas:{},gridArea:{},position:{},zIndex:{themeKey:`zIndex`},top:{},right:{},bottom:{},left:{},boxShadow:{themeKey:`shadows`},width:{transform:Kh},maxWidth:{style:Jh},minWidth:{transform:Kh},height:{transform:Kh},maxHeight:{transform:Kh},minHeight:{transform:Kh},boxSizing:{},font:{themeKey:`font`},fontFamily:{themeKey:`typography`},fontSize:{themeKey:`typography`},fontStyle:{themeKey:`typography`},fontWeight:{themeKey:`typography`},letterSpacing:{},textTransform:{},lineHeight:{},textAlign:{},typography:{cssProperty:!1,themeKey:`typography`}},eg={};function tg(){function e(t){if(!t.sx)return null;let{sx:n,theme:r=eg,nested:i}=t,a=r.unstable_sxConfig??$h,o={sx:null,theme:r,nested:!0};function s(n){let s=n;if(typeof n==`function`)s=n(r);else if(typeof n!=`object`)return n;if(!s)return null;let c=r.breakpoints??Ym,l=eh(c);for(let n in s){let i=ig(s[n],r);if(i!=null){if(typeof i!=`object`){rg(l,n,i,r,a);continue}if(a[n]){rg(l,n,i,r,a);continue}nh(c,i)?Qm(l,t.theme,i,(e,t)=>{l[e][n]=t}):(o.sx=i,l[n]=e(o))}}return!i&&r.modularCssLayers?{"@layer sx":jm(r,th(c,l))}:jm(r,th(c,l))}return Array.isArray(n)?n.map(s):s(n)}return e.filterProps=[`sx`],e}var ng=tg();function rg(e,t,n,r,i){let a=i[t];if(!a){e[t]=n;return}if(n==null)return;let{themeKey:o}=a;if(o===`typography`&&n===`inherit`){e[t]=n;return}let{style:s}=a;if(s){Rm(e,s({[t]:n,theme:r}));return}let{cssProperty:c=t,transform:l}=a,u=ah(r,o);Qm(e,r,n,(n,r)=>{let i=ih(u,l,r,t);c===!1?Rm(n?e[n]:e,i):n?e[n][c]=i:e[c]=i})}function ig(e,t){return typeof e==`function`?e(t):e}function ag(e,t){let n=this;if(n.vars){if(!n.colorSchemes?.[e]||typeof n.getColorSchemeSelector!=`function`)return{};let r=n.getColorSchemeSelector(e);return r===`&`?t:((r.includes(`data-`)||r.includes(`.`))&&(r=`*:where(${r.replace(/\s*&$/,``)}) &`),{[r]:t})}return n.palette.mode===e?t:{}}function og(e={},...t){let{breakpoints:n={},palette:r={},spacing:i,shape:a={},...o}=e,s=km(n),c=wh(i),l=Dm({breakpoints:s,direction:`ltr`,components:{},palette:{mode:`light`,...r},spacing:c,shape:{...Im,...a}},o);return l=Fm(l),l.applyStyles=ag,l=t.reduce((e,t)=>Dm(e,t),l),l.unstable_sxConfig={...$h,...o?.unstable_sxConfig},l.unstable_sx=function(e){return ng({sx:e,theme:this})},l.internal_cache={},l}function sg(e){return Object.keys(e).length===0}function cg(e=null){let t=v.useContext(Zp);return!t||sg(t)?e:t}var lg=og();function ug(e=lg){return cg(e)}function dg(e){let t=Sm(e);return e!==t&&t.styles?(t.styles.match(/^@layer\s+[^{]*$/)||(t.styles=`@layer global{${t.styles}}`),t):e}function fg({styles:e,themeId:t,defaultTheme:n={}}){let r=ug(n),i=t&&r[t]||r,a=typeof e==`function`?e(i):e;return i.modularCssLayers&&(a=Array.isArray(a)?a.map(e=>dg(typeof e==`function`?e(i):e)):dg(a)),(0,J.jsx)(vm,{styles:a})}var pg=e=>e,mg=(()=>{let e=pg;return{configure(t){e=t},generate(t){return e(t)},reset(){e=pg}}})();function hg(e){var t,n,r=``;if(typeof e==`string`||typeof e==`number`)r+=e;else if(typeof e==`object`){if(Array.isArray(e)){var i=e.length;for(t=0;t<i;t++)e[t]&&(n=hg(e[t]))&&(r&&(r+=` `),r+=n)}else for(n in e)e[n]&&(r&&(r+=` `),r+=n)}return r}function Y(){for(var e,t,n=0,r=``,i=arguments.length;n<i;n++)(e=arguments[n])&&(t=hg(e))&&(r&&(r+=` `),r+=t);return r}function gg(e={}){let{themeId:t,defaultTheme:n,defaultClassName:r=`MuiBox-root`,generateClassName:i}=e,a=ym(`div`,{shouldForwardProp:e=>e!==`theme`&&e!==`sx`&&e!==`as`})(ng);return v.forwardRef(function(e,o){let s=ug(n),{className:c,component:l=`div`,...u}=e;return(0,J.jsx)(a,{as:l,ref:o,className:Y(c,i?i(r):r),theme:t&&s[t]||s,...u})})}var _g={active:`active`,checked:`checked`,completed:`completed`,disabled:`disabled`,error:`error`,expanded:`expanded`,focused:`focused`,focusVisible:`focusVisible`,open:`open`,readOnly:`readOnly`,required:`required`,selected:`selected`};function vg(e,t,n=`Mui`){let r=_g[t];return r?`${n}-${r}`:`${mg.generate(e)}-${t}`}function yg(e,t,n=`Mui`){let r={};return t.forEach(t=>{r[t]=vg(e,t,n)}),r}function bg(e){let{variants:t,...n}=e,r={variants:t,style:Sm(n),isProcessed:!0};return r.style===n||t&&t.forEach(e=>{typeof e.style!=`function`&&(e.style=Sm(e.style))}),r}var xg=og();function Sg(e){return e!==`ownerState`&&e!==`theme`&&e!==`sx`&&e!==`as`}function Cg(e,t){return t&&e&&typeof e==`object`&&e.styles&&!e.styles.startsWith(`@layer`)&&(e.styles=`@layer ${t}{${String(e.styles)}}`),e}function wg(e){return e?(t,n)=>n[e]:null}function Tg(e,t,n){e.theme=Lm(e.theme)?n:e.theme[t]||e.theme}function Eg(e,t,n){let r=typeof t==`function`?t(e):t;if(Array.isArray(r))return r.flatMap(t=>Eg(e,t,n));if(Array.isArray(r?.variants)){let t;if(r.isProcessed)t=n?Cg(r.style,n):r.style;else{let{variants:e,...i}=r;t=n?Cg(Sm(i),n):i}return Dg(e,r.variants,[t],n)}return r?.isProcessed?n?Cg(Sm(r.style),n):r.style:n?Cg(Sm(r),n):r}function Dg(e,t,n=[],r=void 0){let i;variantLoop:for(let a=0;a<t.length;a+=1){let o=t[a];if(typeof o.props==`function`){if(i??={...e,...e.ownerState,ownerState:e.ownerState},!o.props(i))continue}else for(let t in o.props)if(e[t]!==o.props[t]&&e.ownerState?.[t]!==o.props[t])continue variantLoop;typeof o.style==`function`?(i??={...e,...e.ownerState,ownerState:e.ownerState},n.push(r?Cg(Sm(o.style(i)),r):o.style(i))):n.push(r?Cg(Sm(o.style),r):o.style)}return n}function Og(e={}){let{themeId:t,defaultTheme:n=xg,rootShouldForwardProp:r=Sg,slotShouldForwardProp:i=Sg}=e;function a(e){Tg(e,t,n)}return(e,t={})=>{bm(e,e=>e.filter(e=>e!==ng));let{name:n,slot:o,skipVariantsResolver:s,skipSx:c,overridesResolver:l=wg(Ag(o)),...u}=t,d=n&&n.startsWith(`Mui`)||o?`components`:`custom`,f=s===void 0?o&&o!==`Root`&&o!==`root`||!1:s,p=c||!1,m=Sg;o===`Root`||o===`root`?m=r:o?m=i:kg(e)&&(m=void 0);let h=ym(e,{shouldForwardProp:m,label:void 0,...u}),g=e=>{if(e.__emotion_real===e)return e;if(typeof e==`function`)return function(t){return Eg(t,e,t.theme.modularCssLayers?d:void 0)};if(Tm(e)){let t=bg(e);return function(e){return t.variants?Eg(e,t,e.theme.modularCssLayers?d:void 0):e.theme.modularCssLayers?Cg(t.style,d):t.style}}return e},_=(...t)=>{let r=[],i=t.map(g),o=[];if(r.push(a),n&&l&&o.push(function(e){let t=e.theme.components?.[n]?.styleOverrides;if(!t)return null;let r={};for(let n in t)r[n]=Eg(e,t[n],e.theme.modularCssLayers?`theme`:void 0);return l(e,r)}),n&&!f&&o.push(function(e){let t=e.theme?.components?.[n]?.variants;return t?Dg(e,t,[],e.theme.modularCssLayers?`theme`:void 0):null}),p||o.push(ng),Array.isArray(i[0])){let e=i.shift(),t=Array(r.length).fill(``),n=Array(o.length).fill(``),a;a=[...t,...e,...n],a.raw=[...t,...e.raw,...n],r.unshift(a)}let s=[...r,...i,...o],c=h(...s);return e.muiName&&(c.muiName=e.muiName),c};return h.withConfig&&(_.withConfig=h.withConfig),_}}function kg(e){return typeof e==`string`&&e.charCodeAt(0)>96}function Ag(e){return e&&e.charAt(0).toLowerCase()+e.slice(1)}function jg(e,t,n=!1){let r={...t};for(let i in e)if(Object.prototype.hasOwnProperty.call(e,i)){let a=i;if(a===`components`||a===`slots`)r[a]={...e[a],...r[a]};else if(a===`componentsProps`||a===`slotProps`){let i=e[a],o=t[a];if(!o)r[a]=i||{};else if(!i)r[a]=o;else{r[a]={...o};for(let e in i)if(Object.prototype.hasOwnProperty.call(i,e)){let t=e;r[a][t]=jg(i[t],o[t],n)}}}else a===`className`&&n&&t.className!==void 0?r.className=Y(e?.className,t?.className):a===`style`&&n&&t.style?r.style={...e?.style,...t?.style}:r[a]===void 0&&(r[a]=e[a])}return r}var Mg=typeof window<`u`?v.useLayoutEffect:v.useEffect;function Ng(e,t=-(2**53-1),n=2**53-1){return Math.max(t,Math.min(e,n))}function Pg(e,t=0,n=1){return Ng(e,t,n)}function Fg(e){e=e.slice(1);let t=RegExp(`.{1,${e.length>=6?2:1}}`,`g`),n=e.match(t);return n&&n[0].length===1&&(n=n.map(e=>e+e)),n?`rgb${n.length===4?`a`:``}(${n.map((e,t)=>t<3?parseInt(e,16):Math.round(parseInt(e,16)/255*1e3)/1e3).join(`, `)})`:``}function Ig(e){if(e.type)return e;if(e.charAt(0)===`#`)return Ig(Fg(e));let t=e.indexOf(`(`),n=e.substring(0,t);if(![`rgb`,`rgba`,`hsl`,`hsla`,`color`].includes(n))throw Error(uf(9,e));let r=e.substring(t+1,e.length-1),i;if(n===`color`){if(r=r.split(` `),i=r.shift(),r.length===4&&r[3].charAt(0)===`/`&&(r[3]=r[3].slice(1)),![`srgb`,`display-p3`,`a98-rgb`,`prophoto-rgb`,`rec-2020`].includes(i))throw Error(uf(10,i))}else r=r.split(`,`);return r=r.map(e=>parseFloat(e)),{type:n,values:r,colorSpace:i}}var Lg=e=>{let t=Ig(e);return t.values.slice(0,3).map((e,n)=>t.type.includes(`hsl`)&&n!==0?`${e}%`:e).join(` `)},Rg=(e,t)=>{try{return Lg(e)}catch{return e}};function zg(e){let{type:t,colorSpace:n}=e,{values:r}=e;return t.includes(`rgb`)?r=r.map((e,t)=>t<3?parseInt(e,10):e):t.includes(`hsl`)&&(r[1]=`${r[1]}%`,r[2]=`${r[2]}%`),r=t.includes(`color`)?`${n} ${r.join(` `)}`:`${r.join(`, `)}`,`${t}(${r})`}function Bg(e){e=Ig(e);let{values:t}=e,n=t[0],r=t[1]/100,i=t[2]/100,a=r*Math.min(i,1-i),o=(e,t=(e+n/30)%12)=>i-a*Math.max(Math.min(t-3,9-t,1),-1),s=`rgb`,c=[Math.round(o(0)*255),Math.round(o(8)*255),Math.round(o(4)*255)];return e.type===`hsla`&&(s+=`a`,c.push(t[3])),zg({type:s,values:c})}function Vg(e){e=Ig(e);let t=e.type===`hsl`||e.type===`hsla`?Ig(Bg(e)).values:e.values;return t=t.map(t=>(e.type!==`color`&&(t/=255),t<=.03928?t/12.92:((t+.055)/1.055)**2.4)),Number((.2126*t[0]+.7152*t[1]+.0722*t[2]).toFixed(3))}function Hg(e,t){let n=Vg(e),r=Vg(t);return(Math.max(n,r)+.05)/(Math.min(n,r)+.05)}function Ug(e,t){return e=Ig(e),t=Pg(t),(e.type===`rgb`||e.type===`hsl`)&&(e.type+=`a`),e.type===`color`?e.values[3]=`/${t}`:e.values[3]=t,zg(e)}function Wg(e,t,n){try{return Ug(e,t)}catch{return e}}function Gg(e,t){if(e=Ig(e),t=Pg(t),e.type.includes(`hsl`))e.values[2]*=1-t;else if(e.type.includes(`rgb`)||e.type.includes(`color`))for(let n=0;n<3;n+=1)e.values[n]*=1-t;return zg(e)}function Kg(e,t,n){try{return Gg(e,t)}catch{return e}}function qg(e,t){if(e=Ig(e),t=Pg(t),e.type.includes(`hsl`))e.values[2]+=(100-e.values[2])*t;else if(e.type.includes(`rgb`))for(let n=0;n<3;n+=1)e.values[n]+=(255-e.values[n])*t;else if(e.type.includes(`color`))for(let n=0;n<3;n+=1)e.values[n]+=(1-e.values[n])*t;return zg(e)}function Jg(e,t,n){try{return qg(e,t)}catch{return e}}function Yg(e,t=.15){return Vg(e)>.5?Gg(e,t):qg(e,t)}function Xg(e,t,n){try{return Yg(e,t)}catch{return e}}var Zg=v.createContext(),Qg=()=>v.useContext(Zg)??!1,$g=v.createContext(void 0);function e_(e){let{theme:t,name:n,props:r}=e;if(!t||!t.components||!t.components[n])return r;let i=t.components[n];return i.defaultProps?jg(i.defaultProps,r,t.components.mergeClassNameAndStyle):!i.styleOverrides&&!i.variants?jg(i,r,t.components.mergeClassNameAndStyle):r}function t_({props:e,name:t}){return e_({props:e,name:t,theme:{components:v.useContext($g)}})}var n_=0;function r_(e){let[t,n]=v.useState(e),r=e||t;return v.useEffect(()=>{t??(n_+=1,n(`mui-${n_}`))},[t]),r}var i_={...v}.useId;function a_(e){if(i_!==void 0){let t=i_();return e??t}return r_(e)}var o_={theme:void 0};function s_(e){let t,n;return function(r){let i=t;return(i===void 0||r.theme!==n)&&(o_.theme=r.theme,i=bg(e(o_)),t=i,n=r.theme),i}}function c_(e=``){function t(...n){if(!n.length)return``;let r=n[0];return typeof r==`string`&&!r.match(/(#|\(|\)|(-?(\d*\.)?\d+)(px|em|%|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc))|^(-?(\d*\.)?\d+)$|(\d+ \d+ \d+)/)?`, var(--${e?`${e}-`:``}${r}${t(...n.slice(1))})`:`, ${r}`}return(n,...r)=>`var(--${e?`${e}-`:``}${n}${t(...r)})`}var l_=new Set([`__proto__`,`constructor`,`prototype`]),u_=(e,t,n,r=[])=>{let i=e;for(let e=0;e<t.length;e+=1){let a=t[e];if(l_.has(a))break;e===t.length-1?Array.isArray(i)?i[Number(a)]=n:i&&typeof i==`object`&&(i[a]=n):i&&typeof i==`object`&&(i[a]||(i[a]=r.includes(a)?[]:{}),i=i[a])}},d_=(e,t,n)=>{function r(e,i=[],a=[]){Object.entries(e).forEach(([e,o])=>{(!n||n&&!n([...i,e]))&&o!=null&&(typeof o==`object`&&Object.keys(o).length>0?r(o,[...i,e],Array.isArray(o)?[...a,e]:a):t([...i,e],o,a))})}r(e)},f_=(e,t)=>typeof t==`number`?[`lineHeight`,`fontWeight`,`opacity`,`zIndex`].some(t=>e.includes(t))||e[e.length-1].toLowerCase().includes(`opacity`)?t:`${t}px`:t;function p_(e,t){let{prefix:n,shouldSkipGeneratingVar:r}=t||{},i={},a={},o={};return d_(e,(e,t,s)=>{if((typeof t==`string`||typeof t==`number`)&&(!r||!r(e,t))){let r=`--${n?`${n}-`:``}${e.join(`-`)}`,c=f_(e,t);Object.assign(i,{[r]:c}),u_(a,e,`var(${r})`,s),u_(o,e,`var(${r}, ${c})`,s)}},e=>e[0]===`vars`),{css:i,vars:a,varsWithDefaults:o}}function m_(e,t={}){let{getSelector:n=_,disableCssColorScheme:r,colorSchemeSelector:i,enableContrastVars:a}=t,{colorSchemes:o={},components:s,defaultColorScheme:c=`light`,...l}=e,{vars:u,css:d,varsWithDefaults:f}=p_(l,t),p=f,m={},{[c]:h,...g}=o;if(Object.entries(g||{}).forEach(([e,n])=>{let{vars:r,css:i,varsWithDefaults:a}=p_(n,t);p=Dm(p,a),m[e]={css:i,vars:r}}),h){let{css:e,vars:n,varsWithDefaults:r}=p_(h,t);p=Dm(p,r),m[c]={css:e,vars:n}}function _(t,n){let r=i;if(i===`class`&&(r=`.%s`),i===`data`&&(r=`[data-%s]`),i?.startsWith(`data-`)&&!i.includes(`%s`)&&(r=`[${i}="%s"]`),t){if(r===`media`)return e.defaultColorScheme===t?`:root`:{[`@media (prefers-color-scheme: ${o[t]?.palette?.mode||t})`]:{":root":n}};if(r)return e.defaultColorScheme===t?`:root, ${r.replace(`%s`,String(t))}`:r.replace(`%s`,String(t))}return`:root`}return{vars:p,generateThemeVars:()=>{let e={...u};return Object.entries(m).forEach(([,{vars:t}])=>{e=Dm(e,t)}),e},generateStyleSheets:()=>{let t=[],i=e.defaultColorScheme||`light`;function s(e,n){Object.keys(n).length&&t.push(typeof e==`string`?{[e]:{...n}}:e)}s(n(void 0,{...d}),d);let{[i]:c,...l}=m;if(c){let{css:e}=c,t=o[i]?.palette?.mode,a=!r&&t?{colorScheme:t,...e}:{...e};s(n(i,{...a}),a)}return Object.entries(l).forEach(([e,{css:t}])=>{let i=o[e]?.palette?.mode,a=!r&&i?{colorScheme:i,...t}:{...t};s(n(e,{...a}),a)}),a&&t.push({":root":{"--__l-threshold":`0.7`,"--__l":`clamp(0, (l / var(--__l-threshold) - 1) * -infinity, 1)`,"--__a":`clamp(0.87, (l / var(--__l-threshold) - 1) * -infinity, 1)`}}),t}}}function h_(e){return function(t){return e===`media`?`@media (prefers-color-scheme: ${t})`:e?e.startsWith(`data-`)&&!e.includes(`%s`)?`[${e}="${t}"] &`:e===`class`?`.${t} &`:e===`data`?`[data-${t}] &`:`${e.replace(`%s`,t)} &`:`&`}}function g_(e,t,n=void 0){let r={};for(let i in e){let a=e[i],o=``,s=!0;for(let e=0;e<a.length;e+=1){let r=a[e];r&&(o+=(s===!0?``:` `)+t(r),s=!1,n&&n[r]&&(o+=` `+n[r]))}r[i]=o}return r}function __(){return{text:{primary:`rgba(0, 0, 0, 0.87)`,secondary:`rgba(0, 0, 0, 0.6)`,disabled:`rgba(0, 0, 0, 0.38)`},divider:`rgba(0, 0, 0, 0.12)`,background:{paper:tf.white,default:tf.white},action:{active:`rgba(0, 0, 0, 0.54)`,hover:`rgba(0, 0, 0, 0.04)`,hoverOpacity:.04,selected:`rgba(0, 0, 0, 0.08)`,selectedOpacity:.08,disabled:`rgba(0, 0, 0, 0.26)`,disabledBackground:`rgba(0, 0, 0, 0.12)`,disabledOpacity:.38,focus:`rgba(0, 0, 0, 0.12)`,focusOpacity:.12,activatedOpacity:.12}}}var v_=__();function y_(){return{text:{primary:tf.white,secondary:`rgba(255, 255, 255, 0.7)`,disabled:`rgba(255, 255, 255, 0.5)`,icon:`rgba(255, 255, 255, 0.5)`},divider:`rgba(255, 255, 255, 0.12)`,background:{paper:`#121212`,default:`#121212`},action:{active:tf.white,hover:`rgba(255, 255, 255, 0.08)`,hoverOpacity:.08,selected:`rgba(255, 255, 255, 0.16)`,selectedOpacity:.16,disabled:`rgba(255, 255, 255, 0.3)`,disabledBackground:`rgba(255, 255, 255, 0.12)`,disabledOpacity:.38,focus:`rgba(255, 255, 255, 0.12)`,focusOpacity:.12,activatedOpacity:.24}}}var b_=y_();function x_(e,t,n,r){let i=r.light||r,a=r.dark||r*1.5;e[t]||(e.hasOwnProperty(n)?e[t]=e[n]:t===`light`?e.light=qg(e.main,i):t===`dark`&&(e.dark=Gg(e.main,a)))}function S_(e,t,n,r,i){let a=i.light||i,o=i.dark||i*1.5;t[n]||(t.hasOwnProperty(r)?t[n]=t[r]:n===`light`?t.light=`color-mix(in ${e}, ${t.main}, #fff ${(a*100).toFixed(0)}%)`:n===`dark`&&(t.dark=`color-mix(in ${e}, ${t.main}, #000 ${(o*100).toFixed(0)}%)`))}function C_(e=`light`){return e===`dark`?{main:af[200],light:af[50],dark:af[400]}:{main:af[700],light:af[400],dark:af[800]}}function w_(e=`light`){return e===`dark`?{main:rf[200],light:rf[50],dark:rf[400]}:{main:rf[500],light:rf[300],dark:rf[700]}}function T_(e=`light`){return e===`dark`?{main:nf[500],light:nf[300],dark:nf[700]}:{main:nf[700],light:nf[400],dark:nf[800]}}function E_(e=`light`){return e===`dark`?{main:of[400],light:of[300],dark:of[700]}:{main:of[700],light:of[500],dark:of[900]}}function D_(e=`light`){return e===`dark`?{main:sf[400],light:sf[300],dark:sf[700]}:{main:sf[800],light:sf[500],dark:sf[900]}}function O_(e=`light`){return e===`dark`?{main:cf[400],light:cf[300],dark:cf[700]}:{main:`#ed6c02`,light:cf[500],dark:cf[900]}}function k_(e){return`oklch(from ${e} var(--__l) 0 h / var(--__a))`}function A_(e){let{mode:t=`light`,contrastThreshold:n=3,tonalOffset:r=.2,colorSpace:i,...a}=e,o=e.primary||C_(t),s=e.secondary||w_(t),c=e.error||T_(t),l=e.info||E_(t),u=e.success||D_(t),d=e.warning||O_(t);function f(e){return i?k_(e):Hg(e,b_.text.primary)>=n?b_.text.primary:v_.text.primary}let p=({color:e,name:t,mainShade:n=500,lightShade:a=300,darkShade:o=700})=>{if(e={...e},!e.main&&e[n]&&(e.main=e[n]),!e.hasOwnProperty(`main`))throw Error(uf(11,t?` (${t})`:``,n));if(typeof e.main!=`string`)throw Error(uf(12,t?` (${t})`:``,JSON.stringify(e.main)));return i?(S_(i,e,`light`,a,r),S_(i,e,`dark`,o,r)):(x_(e,`light`,a,r),x_(e,`dark`,o,r)),e.contrastText||(e.contrastText=f(e.main)),e},m;return t===`light`?m=__():t===`dark`&&(m=y_()),Dm({common:{...tf},mode:t,primary:p({color:o,name:`primary`}),secondary:p({color:s,name:`secondary`,mainShade:`A400`,lightShade:`A200`,darkShade:`A700`}),error:p({color:c,name:`error`}),warning:p({color:d,name:`warning`}),info:p({color:l,name:`info`}),success:p({color:u,name:`success`}),grey:lf,contrastThreshold:n,getContrastText:f,augmentColor:p,tonalOffset:r,...m},a)}function j_(e){let t={};return Object.entries(e).forEach(e=>{let[n,r]=e;typeof r==`object`&&(t[n]=`${r.fontStyle?`${r.fontStyle} `:``}${r.fontVariant?`${r.fontVariant} `:``}${r.fontWeight?`${r.fontWeight} `:``}${r.fontStretch?`${r.fontStretch} `:``}${r.fontSize||``}${r.lineHeight?`/${r.lineHeight} `:``}${r.fontFamily||``}`)}),t}function M_(e,t){return{toolbar:{minHeight:56,[e.up(`xs`)]:{"@media (orientation: landscape)":{minHeight:48}},[e.up(`sm`)]:{minHeight:64}},...t}}function N_(e){return Math.round(e*1e5)/1e5}var P_={textTransform:`uppercase`},F_=`"Roboto", "Helvetica", "Arial", sans-serif`;function I_(e,t){let{fontFamily:n=F_,fontSize:r=14,fontWeightLight:i=300,fontWeightRegular:a=400,fontWeightMedium:o=500,fontWeightBold:s=700,htmlFontSize:c=16,allVariants:l,pxToRem:u,...d}=typeof t==`function`?t(e):t,f=r/14,p=u||(e=>`${e/c*f}rem`),m=(e,t,r,i,a)=>({fontFamily:n,fontWeight:e,fontSize:p(t),lineHeight:r,...n===F_?{letterSpacing:`${N_(i/t)}em`}:{},...a,...l});return Dm({htmlFontSize:c,pxToRem:p,fontFamily:n,fontSize:r,fontWeightLight:i,fontWeightRegular:a,fontWeightMedium:o,fontWeightBold:s,h1:m(i,96,1.167,-1.5),h2:m(i,60,1.2,-.5),h3:m(a,48,1.167,0),h4:m(a,34,1.235,.25),h5:m(a,24,1.334,0),h6:m(o,20,1.6,.15),subtitle1:m(a,16,1.75,.15),subtitle2:m(o,14,1.57,.1),body1:m(a,16,1.5,.15),body2:m(a,14,1.43,.15),button:m(o,14,1.75,.4,P_),caption:m(a,12,1.66,.4),overline:m(a,12,2.66,1,P_),inherit:{fontFamily:`inherit`,fontWeight:`inherit`,fontSize:`inherit`,lineHeight:`inherit`,letterSpacing:`inherit`}},d,{clone:!1})}var L_=.2,R_=.14,z_=.12;function B_(...e){return[`${e[0]}px ${e[1]}px ${e[2]}px ${e[3]}px rgba(0,0,0,${L_})`,`${e[4]}px ${e[5]}px ${e[6]}px ${e[7]}px rgba(0,0,0,${R_})`,`${e[8]}px ${e[9]}px ${e[10]}px ${e[11]}px rgba(0,0,0,${z_})`].join(`,`)}var V_=[`none`,B_(0,2,1,-1,0,1,1,0,0,1,3,0),B_(0,3,1,-2,0,2,2,0,0,1,5,0),B_(0,3,3,-2,0,3,4,0,0,1,8,0),B_(0,2,4,-1,0,4,5,0,0,1,10,0),B_(0,3,5,-1,0,5,8,0,0,1,14,0),B_(0,3,5,-1,0,6,10,0,0,1,18,0),B_(0,4,5,-2,0,7,10,1,0,2,16,1),B_(0,5,5,-3,0,8,10,1,0,3,14,2),B_(0,5,6,-3,0,9,12,1,0,3,16,2),B_(0,6,6,-3,0,10,14,1,0,4,18,3),B_(0,6,7,-4,0,11,15,1,0,4,20,3),B_(0,7,8,-4,0,12,17,2,0,5,22,4),B_(0,7,8,-4,0,13,19,2,0,5,24,4),B_(0,7,9,-4,0,14,21,2,0,5,26,4),B_(0,8,9,-5,0,15,22,2,0,6,28,5),B_(0,8,10,-5,0,16,24,2,0,6,30,5),B_(0,8,11,-5,0,17,26,2,0,6,32,5),B_(0,9,11,-5,0,18,28,2,0,7,34,6),B_(0,9,12,-6,0,19,29,2,0,7,36,6),B_(0,10,13,-6,0,20,31,3,0,8,38,7),B_(0,10,13,-6,0,21,33,3,0,8,40,7),B_(0,10,14,-6,0,22,35,3,0,8,42,7),B_(0,11,14,-7,0,23,36,3,0,9,44,8),B_(0,11,15,-7,0,24,38,3,0,9,46,8)],H_=[`all`],U_={},W_={easeInOut:`cubic-bezier(0.4, 0, 0.2, 1)`,easeOut:`cubic-bezier(0.0, 0, 0.2, 1)`,easeIn:`cubic-bezier(0.4, 0, 1, 1)`,sharp:`cubic-bezier(0.4, 0, 0.6, 1)`},G_={shortest:150,shorter:200,short:250,standard:300,complex:375,enteringScreen:225,leavingScreen:195};function K_(e){return`${Math.round(e)}ms`}function q_(e){if(!e)return 0;let t=e/36;return Math.min(Math.round((4+15*t**.25+t/5)*10),3e3)}function J_(e){let t={...e};delete t.reducedMotion;let n={...W_,...t.easing},r={...G_,...t.duration};return{getAutoHeightDuration:q_,create:t.create??((e=H_,t=U_)=>{let{duration:i=r.standard,easing:a=n.easeInOut,delay:o=0,...s}=t;return(Array.isArray(e)?e:[e]).map(e=>`${e} ${typeof i==`string`?i:K_(i)} ${a} ${typeof o==`string`?o:K_(o)}`).join(`,`)}),...t,easing:n,duration:r}}var Y_={};function X_(e=Y_){return{reducedMotion:`never`,...e}}var Z_={mobileStepper:1e3,fab:1050,speedDial:1050,appBar:1100,drawer:1200,modal:1300,snackbar:1400,tooltip:1500};function Q_(e){return Tm(e)||e===void 0||typeof e==`string`||typeof e==`boolean`||typeof e==`number`||Array.isArray(e)}function $_(e={}){let t={...e};function n(e){let t=Object.entries(e);for(let r=0;r<t.length;r++){let[i,a]=t[r];!Q_(a)||i.startsWith(`unstable_`)||i.startsWith(`internal_`)?delete e[i]:Tm(a)&&(e[i]={...a},n(e[i]))}}return n(t),`import { unstable_createBreakpoints as createBreakpoints, createTransitions } from '@mui/material/styles';
+`+n)}}catch{}}throw e}}_request(e,t){typeof e==`string`?(t||={},t.url=e):t=e||{},t=rd(this.defaults,t);let{transitional:n,paramsSerializer:r,headers:i}=t;n!==void 0&&Ud.assertOptions(n,{silentJSONParsing:Wd.transitional(Wd.boolean),forcedJSONParsing:Wd.transitional(Wd.boolean),clarifyTimeoutError:Wd.transitional(Wd.boolean),legacyInterceptorReqResOrdering:Wd.transitional(Wd.boolean),advertiseZstdAcceptEncoding:Wd.transitional(Wd.boolean),validateStatusUndefinedResolves:Wd.transitional(Wd.boolean)},!1),r!=null&&(V.isFunction(r)?t.paramsSerializer={serialize:r}:Ud.assertOptions(r,{encode:Wd.function,serialize:Wd.function},!0)),t.allowAbsoluteUrls!==void 0||(this.defaults.allowAbsoluteUrls===void 0?t.allowAbsoluteUrls=!0:t.allowAbsoluteUrls=this.defaults.allowAbsoluteUrls),Ud.assertOptions(t,{baseUrl:Wd.spelling(`baseURL`),withXsrfToken:Wd.spelling(`withXSRFToken`)},!0),t.method=(t.method||this.defaults.method||`get`).toLowerCase();let a=i&&V.merge(i.common,i[t.method]);i&&V.forEach([`delete`,`get`,`head`,`post`,`put`,`patch`,`query`,`common`],e=>{delete i[e]}),t.headers=Zl.concat(a,i);let o=[],s=!0;this.interceptors.request.forEach(function(e){if(typeof e.runWhen==`function`&&e.runWhen(t)===!1)return;s&&=e.synchronous;let n=t.transitional||hu;n&&n.legacyInterceptorReqResOrdering?o.unshift(e.fulfilled,e.rejected):o.push(e.fulfilled,e.rejected)});let c=[];this.interceptors.response.forEach(function(e){c.push(e.fulfilled,e.rejected)});let l,u=0,d;if(!s){let e=[zd.bind(this),void 0];for(e.unshift(...o),e.push(...c),d=e.length,l=Promise.resolve(t);u<d;)l=l.then(e[u++],e[u++]);return l}d=o.length;let f=t;for(;u<d;){let e=o[u++],t=o[u++];try{f=e?e(f):f}catch(e){if(!t){l=Promise.reject(e);break}try{let n=t.call(this,e);V.isThenable(n)&&(l=Promise.resolve(n).then(()=>zd.call(this,f)))}catch(e){l=Promise.reject(e)}break}}if(!l)try{l=zd.call(this,f)}catch(e){l=Promise.reject(e)}for(u=0,d=c.length;u<d;)l=l.then(c[u++],c[u++]);return l}getUri(e){return e=rd(this.defaults,e),pu(ed(e.baseURL,e.url,e.allowAbsoluteUrls,e),e.params,e.paramsSerializer)}};V.forEach([`delete`,`get`,`head`,`options`],function(e){Gd.prototype[e]=function(t,n){return this.request(rd(n||{},{method:e,url:t,data:n&&V.hasOwnProp(n,`data`)?n.data:void 0}))}}),V.forEach([`post`,`put`,`patch`,`query`],function(e){function t(t){return function(n,r,i){return this.request(rd(i||{},{method:e,headers:t?{"Content-Type":`multipart/form-data`}:{},url:n,data:r}))}}Gd.prototype[e]=t(),e!==`query`&&(Gd.prototype[e+`Form`]=t(!0))});var Kd=class e{constructor(e){if(typeof e!=`function`)throw TypeError(`executor must be a function.`);let t;this.promise=new Promise(function(e){t=e});let n=this;this.promise.then(e=>{if(!n._listeners)return;let t=n._listeners.length;for(;t-->0;)n._listeners[t](e);n._listeners=null}),this.promise.then=e=>{let t,r=new Promise(e=>{n.subscribe(e),t=e}).then(e);return r.cancel=function(){n.unsubscribe(t)},r},e(function(e,r,i){n.reason||(n.reason=new Fu(e,r,i),t(n.reason))})}throwIfRequested(){if(this.reason)throw this.reason}subscribe(e){if(this.reason){e(this.reason);return}this._listeners?this._listeners.push(e):this._listeners=[e]}unsubscribe(e){if(!this._listeners)return;let t=this._listeners.indexOf(e);t!==-1&&this._listeners.splice(t,1)}toAbortSignal(){let e=new AbortController,t=t=>{e.abort(t)};return this.subscribe(t),e.signal.unsubscribe=()=>this.unsubscribe(t),e.signal}static source(){let t;return{token:new e(function(e){t=e}),cancel:t}}};function qd(e){return function(t){return e.apply(null,t)}}function Jd(e){return V.isObject(e)&&e.isAxiosError===!0}var Yd={Continue:100,SwitchingProtocols:101,Processing:102,EarlyHints:103,Ok:200,Created:201,Accepted:202,NonAuthoritativeInformation:203,NoContent:204,ResetContent:205,PartialContent:206,MultiStatus:207,AlreadyReported:208,ImUsed:226,MultipleChoices:300,MovedPermanently:301,Found:302,SeeOther:303,NotModified:304,UseProxy:305,Unused:306,TemporaryRedirect:307,PermanentRedirect:308,BadRequest:400,Unauthorized:401,PaymentRequired:402,Forbidden:403,NotFound:404,MethodNotAllowed:405,NotAcceptable:406,ProxyAuthenticationRequired:407,RequestTimeout:408,Conflict:409,Gone:410,LengthRequired:411,PreconditionFailed:412,PayloadTooLarge:413,UriTooLong:414,UnsupportedMediaType:415,RangeNotSatisfiable:416,ExpectationFailed:417,ImATeapot:418,MisdirectedRequest:421,UnprocessableEntity:422,Locked:423,FailedDependency:424,TooEarly:425,UpgradeRequired:426,PreconditionRequired:428,TooManyRequests:429,RequestHeaderFieldsTooLarge:431,UnavailableForLegalReasons:451,InternalServerError:500,NotImplemented:501,BadGateway:502,ServiceUnavailable:503,GatewayTimeout:504,HttpVersionNotSupported:505,VariantAlsoNegotiates:506,InsufficientStorage:507,LoopDetected:508,NotExtended:510,NetworkAuthenticationRequired:511,WebServerReturnsAnUnknownError:520,WebServerIsDown:521,ConnectionTimedOut:522,OriginIsUnreachable:523,TimeoutOccurred:524,SslHandshakeFailed:525,InvalidSslCertificate:526};Object.entries(Yd).forEach(([e,t])=>{Yd[t]=e});function Xd(e){let t=new Gd(e),n=gc(Gd.prototype.request,t);return V.extend(n,Gd.prototype,t,{allOwnKeys:!0}),V.extend(n,t,null,{allOwnKeys:!0}),n.create=function(t){return Xd(rd(e,t))},n}var Zd=Xd(Mu);Zd.Axios=Gd,Zd.CanceledError=Fu,Zd.CancelToken=Kd,Zd.isCancel=Pu,Zd.VERSION=wd,Zd.toFormData=cu,Zd.AxiosError=G,Zd.Cancel=Zd.CanceledError,Zd.all=function(e){return Promise.all(e)},Zd.spread=qd,Zd.isAxiosError=Jd,Zd.mergeConfig=rd,Zd.AxiosHeaders=Zl,Zd.formToJSON=e=>ku(V.isHTMLForm(e)?new FormData(e):e),Zd.getAdapter=Ld.getAdapter,Zd.HttpStatusCode=Yd,Zd.default=Zd;var Qd=Zd.create({baseURL:`http://192.168.1.38:1337/api`}),$d=(e=`en`)=>Qd.get(`/what-to-dos?locale=${e}&populate=*`),ef=(e=`en`)=>Qd.get(`/what-not-to-dos?locale=${e}&populate=*`),tf={black:`#000`,white:`#fff`},nf={50:`#ffebee`,100:`#ffcdd2`,200:`#ef9a9a`,300:`#e57373`,400:`#ef5350`,500:`#f44336`,600:`#e53935`,700:`#d32f2f`,800:`#c62828`,900:`#b71c1c`,A100:`#ff8a80`,A200:`#ff5252`,A400:`#ff1744`,A700:`#d50000`},rf={50:`#f3e5f5`,100:`#e1bee7`,200:`#ce93d8`,300:`#ba68c8`,400:`#ab47bc`,500:`#9c27b0`,600:`#8e24aa`,700:`#7b1fa2`,800:`#6a1b9a`,900:`#4a148c`,A100:`#ea80fc`,A200:`#e040fb`,A400:`#d500f9`,A700:`#aa00ff`},af={50:`#e3f2fd`,100:`#bbdefb`,200:`#90caf9`,300:`#64b5f6`,400:`#42a5f5`,500:`#2196f3`,600:`#1e88e5`,700:`#1976d2`,800:`#1565c0`,900:`#0d47a1`,A100:`#82b1ff`,A200:`#448aff`,A400:`#2979ff`,A700:`#2962ff`},of={50:`#e1f5fe`,100:`#b3e5fc`,200:`#81d4fa`,300:`#4fc3f7`,400:`#29b6f6`,500:`#03a9f4`,600:`#039be5`,700:`#0288d1`,800:`#0277bd`,900:`#01579b`,A100:`#80d8ff`,A200:`#40c4ff`,A400:`#00b0ff`,A700:`#0091ea`},sf={50:`#e8f5e9`,100:`#c8e6c9`,200:`#a5d6a7`,300:`#81c784`,400:`#66bb6a`,500:`#4caf50`,600:`#43a047`,700:`#388e3c`,800:`#2e7d32`,900:`#1b5e20`,A100:`#b9f6ca`,A200:`#69f0ae`,A400:`#00e676`,A700:`#00c853`},cf={50:`#fff3e0`,100:`#ffe0b2`,200:`#ffcc80`,300:`#ffb74d`,400:`#ffa726`,500:`#ff9800`,600:`#fb8c00`,700:`#f57c00`,800:`#ef6c00`,900:`#e65100`,A100:`#ffd180`,A200:`#ffab40`,A400:`#ff9100`,A700:`#ff6d00`},lf={50:`#fafafa`,100:`#f5f5f5`,200:`#eeeeee`,300:`#e0e0e0`,400:`#bdbdbd`,500:`#9e9e9e`,600:`#757575`,700:`#616161`,800:`#424242`,900:`#212121`,A100:`#f5f5f5`,A200:`#eeeeee`,A400:`#bdbdbd`,A700:`#616161`};function uf(e,...t){let n=new URL(`https://mui.com/production-error/?code=${e}`);return t.forEach(e=>n.searchParams.append(`args[]`,e)),`Minified MUI error #${e}; visit ${n} for the full message.`}var df=`$$material`;function ff(){return ff=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},ff.apply(null,arguments)}function pf(e){if(e.sheet)return e.sheet;for(var t=0;t<document.styleSheets.length;t++)if(document.styleSheets[t].ownerNode===e)return document.styleSheets[t]}function mf(e){var t=document.createElement(`style`);return t.setAttribute(`data-emotion`,e.key),e.nonce!==void 0&&t.setAttribute(`nonce`,e.nonce),t.appendChild(document.createTextNode(``)),t.setAttribute(`data-s`,``),t}var hf=function(){function e(e){var t=this;this._insertTag=function(e){var n=t.tags.length===0?t.insertionPoint?t.insertionPoint.nextSibling:t.prepend?t.container.firstChild:t.before:t.tags[t.tags.length-1].nextSibling;t.container.insertBefore(e,n),t.tags.push(e)},this.isSpeedy=e.speedy===void 0||e.speedy,this.tags=[],this.ctr=0,this.nonce=e.nonce,this.key=e.key,this.container=e.container,this.prepend=e.prepend,this.insertionPoint=e.insertionPoint,this.before=null}var t=e.prototype;return t.hydrate=function(e){e.forEach(this._insertTag)},t.insert=function(e){this.ctr%(this.isSpeedy?65e3:1)==0&&this._insertTag(mf(this));var t=this.tags[this.tags.length-1];if(this.isSpeedy){var n=pf(t);try{n.insertRule(e,n.cssRules.length)}catch{}}else t.appendChild(document.createTextNode(e));this.ctr++},t.flush=function(){this.tags.forEach(function(e){return e.parentNode?.removeChild(e)}),this.tags=[],this.ctr=0},e}(),gf=`-ms-`,_f=`-moz-`,q=`-webkit-`,vf=`comm`,yf=`rule`,bf=`decl`,xf=`@import`,Sf=`@keyframes`,Cf=`@layer`,wf=Math.abs,Tf=String.fromCharCode,Ef=Object.assign;function Df(e,t){return Mf(e,0)^45?(((t<<2^Mf(e,0))<<2^Mf(e,1))<<2^Mf(e,2))<<2^Mf(e,3):0}function Of(e){return e.trim()}function kf(e,t){return(e=t.exec(e))?e[0]:e}function Af(e,t,n){return e.replace(t,n)}function jf(e,t){return e.indexOf(t)}function Mf(e,t){return e.charCodeAt(t)|0}function Nf(e,t,n){return e.slice(t,n)}function Pf(e){return e.length}function Ff(e){return e.length}function If(e,t){return t.push(e),e}function Lf(e,t){return e.map(t).join(``)}var Rf=1,zf=1,Bf=0,Vf=0,Hf=0,Uf=``;function Wf(e,t,n,r,i,a,o){return{value:e,root:t,parent:n,type:r,props:i,children:a,line:Rf,column:zf,length:o,return:``}}function Gf(e,t){return Ef(Wf(``,null,null,``,null,null,0),e,{length:-e.length},t)}function Kf(){return Hf}function qf(){return Hf=Vf>0?Mf(Uf,--Vf):0,zf--,Hf===10&&(zf=1,Rf--),Hf}function Jf(){return Hf=Vf<Bf?Mf(Uf,Vf++):0,zf++,Hf===10&&(zf=1,Rf++),Hf}function Yf(){return Mf(Uf,Vf)}function Xf(){return Vf}function Zf(e,t){return Nf(Uf,e,t)}function Qf(e){switch(e){case 0:case 9:case 10:case 13:case 32:return 5;case 33:case 43:case 44:case 47:case 62:case 64:case 126:case 59:case 123:case 125:return 4;case 58:return 3;case 34:case 39:case 40:case 91:return 2;case 41:case 93:return 1}return 0}function $f(e){return Rf=zf=1,Bf=Pf(Uf=e),Vf=0,[]}function ep(e){return Uf=``,e}function tp(e){return Of(Zf(Vf-1,ip(e===91?e+2:e===40?e+1:e)))}function np(e){for(;(Hf=Yf())&&Hf<33;)Jf();return Qf(e)>2||Qf(Hf)>3?``:` `}function rp(e,t){for(;--t&&Jf()&&!(Hf<48||Hf>102||Hf>57&&Hf<65||Hf>70&&Hf<97););return Zf(e,Xf()+(t<6&&Yf()==32&&Jf()==32))}function ip(e){for(;Jf();)switch(Hf){case e:return Vf;case 34:case 39:e!==34&&e!==39&&ip(Hf);break;case 40:e===41&&ip(e);break;case 92:Jf();break}return Vf}function ap(e,t){for(;Jf()&&e+Hf!==57&&(e+Hf!==84||Yf()!==47););return`/*`+Zf(t,Vf-1)+`*`+Tf(e===47?e:Jf())}function op(e){for(;!Qf(Yf());)Jf();return Zf(e,Vf)}function sp(e){return ep(cp(``,null,null,null,[``],e=$f(e),0,[0],e))}function cp(e,t,n,r,i,a,o,s,c){for(var l=0,u=0,d=o,f=0,p=0,m=0,h=1,g=1,_=1,v=0,y=``,b=i,x=a,S=r,C=y;g;)switch(m=v,v=Jf()){case 40:if(m!=108&&Mf(C,d-1)==58){jf(C+=Af(tp(v),`&`,`&\f`),`&\f`)!=-1&&(_=-1);break}case 34:case 39:case 91:C+=tp(v);break;case 9:case 10:case 13:case 32:C+=np(m);break;case 92:C+=rp(Xf()-1,7);continue;case 47:switch(Yf()){case 42:case 47:If(up(ap(Jf(),Xf()),t,n),c);break;default:C+=`/`}break;case 123*h:s[l++]=Pf(C)*_;case 125*h:case 59:case 0:switch(v){case 0:case 125:g=0;case 59+u:_==-1&&(C=Af(C,/\f/g,``)),p>0&&Pf(C)-d&&If(p>32?dp(C+`;`,r,n,d-1):dp(Af(C,` `,``)+`;`,r,n,d-2),c);break;case 59:C+=`;`;default:if(If(S=lp(C,t,n,l,u,i,s,y,b=[],x=[],d),a),v===123){if(u===0)cp(C,t,S,S,b,a,d,s,x);else switch(f===99&&Mf(C,3)===110?100:f){case 100:case 108:case 109:case 115:cp(e,S,S,r&&If(lp(e,S,S,0,0,i,s,y,i,b=[],d),x),i,x,d,s,r?b:x);break;default:cp(C,S,S,S,[``],x,0,s,x)}}}l=u=p=0,h=_=1,y=C=``,d=o;break;case 58:d=1+Pf(C),p=m;default:if(h<1){if(v==123)--h;else if(v==125&&h++==0&&qf()==125)continue}switch(C+=Tf(v),v*h){case 38:_=u>0?1:(C+=`\f`,-1);break;case 44:s[l++]=(Pf(C)-1)*_,_=1;break;case 64:Yf()===45&&(C+=tp(Jf())),f=Yf(),u=d=Pf(y=C+=op(Xf())),v++;break;case 45:m===45&&Pf(C)==2&&(h=0)}}return a}function lp(e,t,n,r,i,a,o,s,c,l,u){for(var d=i-1,f=i===0?a:[``],p=Ff(f),m=0,h=0,g=0;m<r;++m)for(var _=0,v=Nf(e,d+1,d=wf(h=o[m])),y=e;_<p;++_)(y=Of(h>0?f[_]+` `+v:Af(v,/&\f/g,f[_])))&&(c[g++]=y);return Wf(e,t,n,i===0?yf:s,c,l,u)}function up(e,t,n){return Wf(e,t,n,vf,Tf(Kf()),Nf(e,2,-2),0)}function dp(e,t,n,r){return Wf(e,t,n,bf,Nf(e,0,r),Nf(e,r+1,-1),r)}function fp(e,t){for(var n=``,r=Ff(e),i=0;i<r;i++)n+=t(e[i],i,e,t)||``;return n}function pp(e,t,n,r){switch(e.type){case Cf:if(e.children.length)break;case xf:case bf:return e.return=e.return||e.value;case vf:return``;case Sf:return e.return=e.value+`{`+fp(e.children,r)+`}`;case yf:e.value=e.props.join(`,`)}return Pf(n=fp(e.children,r))?e.return=e.value+`{`+n+`}`:``}function mp(e){var t=Ff(e);return function(n,r,i,a){for(var o=``,s=0;s<t;s++)o+=e[s](n,r,i,a)||``;return o}}function hp(e){return function(t){t.root||(t=t.return)&&e(t)}}function gp(e){var t=Object.create(null);return function(n){return t[n]===void 0&&(t[n]=e(n)),t[n]}}var _p=function(e,t,n){for(var r=0,i=0;r=i,i=Yf(),r===38&&i===12&&(t[n]=1),!Qf(i);)Jf();return Zf(e,Vf)},vp=function(e,t){var n=-1,r=44;do switch(Qf(r)){case 0:r===38&&Yf()===12&&(t[n]=1),e[n]+=_p(Vf-1,t,n);break;case 2:e[n]+=tp(r);break;case 4:if(r===44){e[++n]=Yf()===58?`&\f`:``,t[n]=e[n].length;break}default:e[n]+=Tf(r)}while(r=Jf());return e},yp=function(e,t){return ep(vp($f(e),t))},bp=new WeakMap,xp=function(e){if(!(e.type!==`rule`||!e.parent||e.length<1)){for(var t=e.value,n=e.parent,r=e.column===n.column&&e.line===n.line;n.type!==`rule`;)if(n=n.parent,!n)return;if(!(e.props.length===1&&t.charCodeAt(0)!==58&&!bp.get(n))&&!r){bp.set(e,!0);for(var i=[],a=yp(t,i),o=n.props,s=0,c=0;s<a.length;s++)for(var l=0;l<o.length;l++,c++)e.props[c]=i[s]?a[s].replace(/&\f/g,o[l]):o[l]+` `+a[s]}}},Sp=function(e){if(e.type===`decl`){var t=e.value;t.charCodeAt(0)===108&&t.charCodeAt(2)===98&&(e.return=``,e.value=``)}};function Cp(e,t){switch(Df(e,t)){case 5103:return q+`print-`+e+e;case 5737:case 4201:case 3177:case 3433:case 1641:case 4457:case 2921:case 5572:case 6356:case 5844:case 3191:case 6645:case 3005:case 6391:case 5879:case 5623:case 6135:case 4599:case 4855:case 4215:case 6389:case 5109:case 5365:case 5621:case 3829:return q+e+e;case 5349:case 4246:case 4810:case 6968:case 2756:return q+e+_f+e+gf+e+e;case 6828:case 4268:return q+e+gf+e+e;case 6165:return q+e+gf+`flex-`+e+e;case 5187:return q+e+Af(e,/(\w+).+(:[^]+)/,q+`box-$1$2`+gf+`flex-$1$2`)+e;case 5443:return q+e+gf+`flex-item-`+Af(e,/flex-|-self/,``)+e;case 4675:return q+e+gf+`flex-line-pack`+Af(e,/align-content|flex-|-self/,``)+e;case 5548:return q+e+gf+Af(e,`shrink`,`negative`)+e;case 5292:return q+e+gf+Af(e,`basis`,`preferred-size`)+e;case 6060:return q+`box-`+Af(e,`-grow`,``)+q+e+gf+Af(e,`grow`,`positive`)+e;case 4554:return q+Af(e,/([^-])(transform)/g,`$1`+q+`$2`)+e;case 6187:return Af(Af(Af(e,/(zoom-|grab)/,q+`$1`),/(image-set)/,q+`$1`),e,``)+e;case 5495:case 3959:return Af(e,/(image-set\([^]*)/,q+"$1$`$1");case 4968:return Af(Af(e,/(.+:)(flex-)?(.*)/,q+`box-pack:$3`+gf+`flex-pack:$3`),/s.+-b[^;]+/,`justify`)+q+e+e;case 4095:case 3583:case 4068:case 2532:return Af(e,/(.+)-inline(.+)/,q+`$1$2`)+e;case 8116:case 7059:case 5753:case 5535:case 5445:case 5701:case 4933:case 4677:case 5533:case 5789:case 5021:case 4765:if(Pf(e)-1-t>6)switch(Mf(e,t+1)){case 109:if(Mf(e,t+4)!==45)break;case 102:return Af(e,/(.+:)(.+)-([^]+)/,`$1`+q+`$2-$3$1`+_f+(Mf(e,t+3)==108?`$3`:`$2-$3`))+e;case 115:return~jf(e,`stretch`)?Cp(Af(e,`stretch`,`fill-available`),t)+e:e}break;case 4949:if(Mf(e,t+1)!==115)break;case 6444:switch(Mf(e,Pf(e)-3-(~jf(e,`!important`)&&10))){case 107:return Af(e,`:`,`:`+q)+e;case 101:return Af(e,/(.+:)([^;!]+)(;|!.+)?/,`$1`+q+(Mf(e,14)===45?`inline-`:``)+`box$3$1`+q+`$2$3$1`+gf+`$2box$3`)+e}break;case 5936:switch(Mf(e,t+11)){case 114:return q+e+gf+Af(e,/[svh]\w+-[tblr]{2}/,`tb`)+e;case 108:return q+e+gf+Af(e,/[svh]\w+-[tblr]{2}/,`tb-rl`)+e;case 45:return q+e+gf+Af(e,/[svh]\w+-[tblr]{2}/,`lr`)+e}return q+e+gf+e+e}return e}var wp=[function(e,t,n,r){if(e.length>-1&&!e.return)switch(e.type){case bf:e.return=Cp(e.value,e.length);break;case Sf:return fp([Gf(e,{value:Af(e.value,`@`,`@`+q)})],r);case yf:if(e.length)return Lf(e.props,function(t){switch(kf(t,/(::plac\w+|:read-\w+)/)){case`:read-only`:case`:read-write`:return fp([Gf(e,{props:[Af(t,/:(read-\w+)/,`:`+_f+`$1`)]})],r);case`::placeholder`:return fp([Gf(e,{props:[Af(t,/:(plac\w+)/,`:`+q+`input-$1`)]}),Gf(e,{props:[Af(t,/:(plac\w+)/,`:`+_f+`$1`)]}),Gf(e,{props:[Af(t,/:(plac\w+)/,gf+`input-$1`)]})],r)}return``})}}],Tp=function(e){var t=e.key;if(t===`css`){var n=document.querySelectorAll(`style[data-emotion]:not([data-s])`);Array.prototype.forEach.call(n,function(e){e.getAttribute(`data-emotion`).indexOf(` `)!==-1&&(document.head.appendChild(e),e.setAttribute(`data-s`,``))})}var r=e.stylisPlugins||wp,i={},a,o=[];a=e.container||document.head,Array.prototype.forEach.call(document.querySelectorAll(`style[data-emotion^="`+t+` "]`),function(e){for(var t=e.getAttribute(`data-emotion`).split(` `),n=1;n<t.length;n++)i[t[n]]=!0;o.push(e)});var s,c=[xp,Sp],l,u=[pp,hp(function(e){l.insert(e)})],d=mp(c.concat(r,u)),f=function(e){return fp(sp(e),d)};s=function(e,t,n,r){l=n,f(e?e+`{`+t.styles+`}`:t.styles),r&&(p.inserted[t.name]=!0)};var p={key:t,sheet:new hf({key:t,container:a,nonce:e.nonce,speedy:e.speedy,prepend:e.prepend,insertionPoint:e.insertionPoint}),nonce:e.nonce,inserted:i,registered:{},insert:s};return p.sheet.hydrate(o),p},Ep=o((e=>{var t=typeof Symbol==`function`&&Symbol.for,n=t?Symbol.for(`react.element`):60103,r=t?Symbol.for(`react.portal`):60106,i=t?Symbol.for(`react.fragment`):60107,a=t?Symbol.for(`react.strict_mode`):60108,o=t?Symbol.for(`react.profiler`):60114,s=t?Symbol.for(`react.provider`):60109,c=t?Symbol.for(`react.context`):60110,l=t?Symbol.for(`react.async_mode`):60111,u=t?Symbol.for(`react.concurrent_mode`):60111,d=t?Symbol.for(`react.forward_ref`):60112,f=t?Symbol.for(`react.suspense`):60113,p=t?Symbol.for(`react.suspense_list`):60120,m=t?Symbol.for(`react.memo`):60115,h=t?Symbol.for(`react.lazy`):60116,g=t?Symbol.for(`react.block`):60121,_=t?Symbol.for(`react.fundamental`):60117,v=t?Symbol.for(`react.responder`):60118,y=t?Symbol.for(`react.scope`):60119;function b(e){if(typeof e==`object`&&e){var t=e.$$typeof;switch(t){case n:switch(e=e.type,e){case l:case u:case i:case o:case a:case f:return e;default:switch(e&&=e.$$typeof,e){case c:case d:case h:case m:case s:return e;default:return t}}case r:return t}}}function x(e){return b(e)===u}e.AsyncMode=l,e.ConcurrentMode=u,e.ContextConsumer=c,e.ContextProvider=s,e.Element=n,e.ForwardRef=d,e.Fragment=i,e.Lazy=h,e.Memo=m,e.Portal=r,e.Profiler=o,e.StrictMode=a,e.Suspense=f,e.isAsyncMode=function(e){return x(e)||b(e)===l},e.isConcurrentMode=x,e.isContextConsumer=function(e){return b(e)===c},e.isContextProvider=function(e){return b(e)===s},e.isElement=function(e){return typeof e==`object`&&!!e&&e.$$typeof===n},e.isForwardRef=function(e){return b(e)===d},e.isFragment=function(e){return b(e)===i},e.isLazy=function(e){return b(e)===h},e.isMemo=function(e){return b(e)===m},e.isPortal=function(e){return b(e)===r},e.isProfiler=function(e){return b(e)===o},e.isStrictMode=function(e){return b(e)===a},e.isSuspense=function(e){return b(e)===f},e.isValidElementType=function(e){return typeof e==`string`||typeof e==`function`||e===i||e===u||e===o||e===a||e===f||e===p||typeof e==`object`&&!!e&&(e.$$typeof===h||e.$$typeof===m||e.$$typeof===s||e.$$typeof===c||e.$$typeof===d||e.$$typeof===_||e.$$typeof===v||e.$$typeof===y||e.$$typeof===g)},e.typeOf=b})),Dp=o(((e,t)=>{t.exports=Ep()})),Op=o(((e,t)=>{var n=Dp(),r={childContextTypes:!0,contextType:!0,contextTypes:!0,defaultProps:!0,displayName:!0,getDefaultProps:!0,getDerivedStateFromError:!0,getDerivedStateFromProps:!0,mixins:!0,propTypes:!0,type:!0},i={name:!0,length:!0,prototype:!0,caller:!0,callee:!0,arguments:!0,arity:!0},a={$$typeof:!0,render:!0,defaultProps:!0,displayName:!0,propTypes:!0},o={$$typeof:!0,compare:!0,defaultProps:!0,displayName:!0,propTypes:!0,type:!0},s={};s[n.ForwardRef]=a,s[n.Memo]=o;function c(e){return n.isMemo(e)?o:s[e.$$typeof]||r}var l=Object.defineProperty,u=Object.getOwnPropertyNames,d=Object.getOwnPropertySymbols,f=Object.getOwnPropertyDescriptor,p=Object.getPrototypeOf,m=Object.prototype;function h(e,t,n){if(typeof t!=`string`){if(m){var r=p(t);r&&r!==m&&h(e,r,n)}var a=u(t);d&&(a=a.concat(d(t)));for(var o=c(e),s=c(t),g=0;g<a.length;++g){var _=a[g];if(!i[_]&&!(n&&n[_])&&!(s&&s[_])&&!(o&&o[_])){var v=f(t,_);try{l(e,_,v)}catch{}}}}return e}t.exports=h}));function kp(e,t,n){var r=``;return n.split(` `).forEach(function(n){e[n]===void 0?n&&(r+=n+` `):t.push(e[n]+`;`)}),r}var Ap=function(e,t,n){var r=e.key+`-`+t.name;n===!1&&e.registered[r]===void 0&&(e.registered[r]=t.styles)},jp=function(e,t,n){Ap(e,t,n);var r=e.key+`-`+t.name;if(e.inserted[t.name]===void 0){var i=t;do e.insert(t===i?`.`+r:``,i,e.sheet,!0),i=i.next;while(i!==void 0)}};function Mp(e){for(var t=0,n,r=0,i=e.length;i>=4;++r,i-=4)n=e.charCodeAt(r)&255|(e.charCodeAt(++r)&255)<<8|(e.charCodeAt(++r)&255)<<16|(e.charCodeAt(++r)&255)<<24,n=(n&65535)*1540483477+((n>>>16)*59797<<16),n^=n>>>24,t=(n&65535)*1540483477+((n>>>16)*59797<<16)^(t&65535)*1540483477+((t>>>16)*59797<<16);switch(i){case 3:t^=(e.charCodeAt(r+2)&255)<<16;case 2:t^=(e.charCodeAt(r+1)&255)<<8;case 1:t^=e.charCodeAt(r)&255,t=(t&65535)*1540483477+((t>>>16)*59797<<16)}return t^=t>>>13,t=(t&65535)*1540483477+((t>>>16)*59797<<16),((t^t>>>15)>>>0).toString(36)}var Np={animationIterationCount:1,aspectRatio:1,borderImageOutset:1,borderImageSlice:1,borderImageWidth:1,boxFlex:1,boxFlexGroup:1,boxOrdinalGroup:1,columnCount:1,columns:1,flex:1,flexGrow:1,flexPositive:1,flexShrink:1,flexNegative:1,flexOrder:1,gridRow:1,gridRowEnd:1,gridRowSpan:1,gridRowStart:1,gridColumn:1,gridColumnEnd:1,gridColumnSpan:1,gridColumnStart:1,msGridRow:1,msGridRowSpan:1,msGridColumn:1,msGridColumnSpan:1,fontWeight:1,lineHeight:1,opacity:1,order:1,orphans:1,scale:1,tabSize:1,widows:1,zIndex:1,zoom:1,WebkitLineClamp:1,fillOpacity:1,floodOpacity:1,stopOpacity:1,strokeDasharray:1,strokeDashoffset:1,strokeMiterlimit:1,strokeOpacity:1,strokeWidth:1},Pp=/[A-Z]|^ms/g,Fp=/_EMO_([^_]+?)_([^]*?)_EMO_/g,Ip=function(e){return e.charCodeAt(1)===45},Lp=function(e){return e!=null&&typeof e!=`boolean`},Rp=gp(function(e){return Ip(e)?e:e.replace(Pp,`-$&`).toLowerCase()}),zp=function(e,t){switch(e){case`animation`:case`animationName`:if(typeof t==`string`)return t.replace(Fp,function(e,t,n){return Up={name:t,styles:n,next:Up},t})}return Np[e]!==1&&!Ip(e)&&typeof t==`number`&&t!==0?t+`px`:t};function Bp(e,t,n){if(n==null)return``;var r=n;if(r.__emotion_styles!==void 0)return r;switch(typeof n){case`boolean`:return``;case`object`:var i=n;if(i.anim===1)return Up={name:i.name,styles:i.styles,next:Up},i.name;var a=n;if(a.styles!==void 0){var o=a.next;if(o!==void 0)for(;o!==void 0;)Up={name:o.name,styles:o.styles,next:Up},o=o.next;return a.styles+`;`}return Vp(e,t,n);case`function`:if(e!==void 0){var s=Up,c=n(e);return Up=s,Bp(e,t,c)}}var l=n;if(t==null)return l;var u=t[l];return u===void 0?l:u}function Vp(e,t,n){var r=``;if(Array.isArray(n))for(var i=0;i<n.length;i++)r+=Bp(e,t,n[i])+`;`;else for(var a in n){var o=n[a];if(typeof o!=`object`){var s=o;t!=null&&t[s]!==void 0?r+=a+`{`+t[s]+`}`:Lp(s)&&(r+=Rp(a)+`:`+zp(a,s)+`;`)}else if(Array.isArray(o)&&typeof o[0]==`string`&&(t==null||t[o[0]]===void 0))for(var c=0;c<o.length;c++)Lp(o[c])&&(r+=Rp(a)+`:`+zp(a,o[c])+`;`);else{var l=Bp(e,t,o);switch(a){case`animation`:case`animationName`:r+=Rp(a)+`:`+l+`;`;break;default:r+=a+`{`+l+`}`}}}return r}var Hp=/label:\s*([^\s;{]+)\s*(;|$)/g,Up;function Wp(e,t,n){if(e.length===1&&typeof e[0]==`object`&&e[0]!==null&&e[0].styles!==void 0)return e[0];var r=!0,i=``;Up=void 0;var a=e[0];a==null||a.raw===void 0?(r=!1,i+=Bp(n,t,a)):i+=a[0];for(var o=1;o<e.length;o++)i+=Bp(n,t,e[o]),r&&(i+=a[o]);Hp.lastIndex=0;for(var s=``,c;(c=Hp.exec(i))!==null;)s+=`-`+c[1];return{name:Mp(i)+s,styles:i,next:Up}}var Gp=function(e){return e()},Kp=v.useInsertionEffect?v.useInsertionEffect:!1,qp=Kp||Gp,Jp=Kp||v.useLayoutEffect,Yp=v.createContext(typeof HTMLElement<`u`?Tp({key:`css`}):null);Yp.Provider;var Xp=function(e){return(0,v.forwardRef)(function(t,n){return e(t,(0,v.useContext)(Yp),n)})},Zp=v.createContext({}),Qp={}.hasOwnProperty,$p=`__EMOTION_TYPE_PLEASE_DO_NOT_USE__`,em=function(e,t){var n={};for(var r in t)Qp.call(t,r)&&(n[r]=t[r]);return n[$p]=e,n},tm=function(e){var t=e.cache,n=e.serialized,r=e.isStringTag;return Ap(t,n,r),qp(function(){return jp(t,n,r)}),null},nm=Xp(function(e,t,n){var r=e.css;typeof r==`string`&&t.registered[r]!==void 0&&(r=t.registered[r]);var i=e[$p],a=[r],o=``;typeof e.className==`string`?o=kp(t.registered,a,e.className):e.className!=null&&(o=e.className+` `);var s=Wp(a,void 0,v.useContext(Zp));o+=t.key+`-`+s.name;var c={};for(var l in e)Qp.call(e,l)&&l!==`css`&&l!==$p&&(c[l]=e[l]);return c.className=o,n&&(c.ref=n),v.createElement(v.Fragment,null,v.createElement(tm,{cache:t,serialized:s,isStringTag:typeof i==`string`}),v.createElement(i,c))});Op();var rm=function(e,t){var n=arguments;if(t==null||!Qp.call(t,`css`))return v.createElement.apply(void 0,n);var r=n.length,i=Array(r);i[0]=nm,i[1]=em(e,t);for(var a=2;a<r;a++)i[a]=n[a];return v.createElement.apply(null,i)};(function(e){var t;t||=e.JSX||={}})(rm||={});var im=Xp(function(e,t){var n=e.styles,r=Wp([n],void 0,v.useContext(Zp)),i=v.useRef();return Jp(function(){var e=t.key+`-global`,n=new t.sheet.constructor({key:e,nonce:t.sheet.nonce,container:t.sheet.container,speedy:t.sheet.isSpeedy}),a=!1,o=document.querySelector(`style[data-emotion="`+e+` `+r.name+`"]`);return t.sheet.tags.length&&(n.before=t.sheet.tags[0]),o!==null&&(a=!0,o.setAttribute(`data-emotion`,e),n.hydrate([o])),i.current=[n,a],function(){n.flush()}},[t]),Jp(function(){var e=i.current,n=e[0];if(e[1]){e[1]=!1;return}r.next!==void 0&&jp(t,r.next,!0),n.tags.length&&(n.before=n.tags[n.tags.length-1].nextElementSibling,n.flush()),t.insert(``,r,n,!1)},[t,r.name]),null});function am(){return Wp([...arguments])}function om(){var e=am.apply(void 0,arguments),t=`animation-`+e.name;return{name:t,styles:`@keyframes `+t+`{`+e.styles+`}`,anim:1,toString:function(){return`_EMO_`+this.name+`_`+this.styles+`_EMO_`}}}var sm=/^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|abbr|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|decoding|default|defer|dir|disabled|disablePictureInPicture|disableRemotePlayback|download|draggable|encType|enterKeyHint|fetchpriority|fetchPriority|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loading|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|popover|popoverTarget|popoverTargetAction|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|translate|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|incremental|fallback|inert|itemProp|itemScope|itemType|itemID|itemRef|on|option|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/,cm=gp(function(e){return sm.test(e)||e.charCodeAt(0)===111&&e.charCodeAt(1)===110&&e.charCodeAt(2)<91}),lm=function(e){return e!==`theme`},um=function(e){return typeof e==`string`&&e.charCodeAt(0)>96?cm:lm},dm=function(e,t,n){var r;if(t){var i=t.shouldForwardProp;r=e.__emotion_forwardProp&&i?function(t){return e.__emotion_forwardProp(t)&&i(t)}:i}return typeof r!=`function`&&n&&(r=e.__emotion_forwardProp),r},fm=function(e){var t=e.cache,n=e.serialized,r=e.isStringTag;return Ap(t,n,r),qp(function(){return jp(t,n,r)}),null},pm=function e(t,n){var r=t.__emotion_real===t,i=r&&t.__emotion_base||t,a,o;n!==void 0&&(a=n.label,o=n.target);var s=dm(t,n,r),c=s||um(i),l=!c(`as`);return function(){var u=arguments,d=r&&t.__emotion_styles!==void 0?t.__emotion_styles.slice(0):[];if(a!==void 0&&d.push(`label:`+a+`;`),u[0]==null||u[0].raw===void 0)d.push.apply(d,u);else{var f=u[0];d.push(f[0]);for(var p=u.length,m=1;m<p;m++)d.push(u[m],f[m])}var h=Xp(function(e,t,n){var r=l&&e.as||i,a=``,u=[],f=e;if(e.theme==null){for(var p in f={},e)f[p]=e[p];f.theme=v.useContext(Zp)}typeof e.className==`string`?a=kp(t.registered,u,e.className):e.className!=null&&(a=e.className+` `);var m=Wp(d.concat(u),t.registered,f);a+=t.key+`-`+m.name,o!==void 0&&(a+=` `+o);var h=l&&s===void 0?um(r):c,g={};for(var _ in e)l&&_===`as`||h(_)&&(g[_]=e[_]);return g.className=a,n&&(g.ref=n),v.createElement(v.Fragment,null,v.createElement(fm,{cache:t,serialized:m,isStringTag:typeof r==`string`}),v.createElement(r,g))});return h.displayName=a===void 0?`Styled(`+(typeof i==`string`?i:i.displayName||i.name||`Component`)+`)`:a,h.defaultProps=t.defaultProps,h.__emotion_real=h,h.__emotion_base=i,h.__emotion_styles=d,h.__emotion_forwardProp=s,Object.defineProperty(h,"toString",{value:function(){return`.`+o}}),h.withComponent=function(t,r){return e(t,ff({},n,r,{shouldForwardProp:dm(h,r,!0)})).apply(void 0,d)},h}},mm=`a.abbr.address.area.article.aside.audio.b.base.bdi.bdo.big.blockquote.body.br.button.canvas.caption.cite.code.col.colgroup.data.datalist.dd.del.details.dfn.dialog.div.dl.dt.em.embed.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.head.header.hgroup.hr.html.i.iframe.img.input.ins.kbd.keygen.label.legend.li.link.main.map.mark.marquee.menu.menuitem.meta.meter.nav.noscript.object.ol.optgroup.option.output.p.param.picture.pre.progress.q.rp.rt.ruby.s.samp.script.section.select.small.source.span.strong.style.sub.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.title.tr.track.u.ul.var.video.wbr.circle.clipPath.defs.ellipse.foreignObject.g.image.line.linearGradient.mask.path.pattern.polygon.polyline.radialGradient.rect.stop.svg.text.tspan`.split(`.`),hm=pm.bind(null);mm.forEach(function(e){hm[e]=hm(e)});var gm=o((e=>{var t=Symbol.for(`react.transitional.element`);function n(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.jsx=n,e.jsxs=n})),J=o(((e,t)=>{t.exports=gm()}))();function _m(e){return e==null||Object.keys(e).length===0}function vm(e){let{styles:t,defaultTheme:n={}}=e;return(0,J.jsx)(im,{styles:typeof t==`function`?e=>t(_m(e)?n:e):t})}function ym(e,t){return hm(e,t)}function bm(e,t){Array.isArray(e.__emotion_styles)&&(e.__emotion_styles=t(e.__emotion_styles))}var xm=[];function Sm(e){return xm[0]=e,Wp(xm)}var Cm=o((e=>{var t=Symbol.for(`react.fragment`),n=Symbol.for(`react.strict_mode`),r=Symbol.for(`react.profiler`),i=Symbol.for(`react.consumer`),a=Symbol.for(`react.context`),o=Symbol.for(`react.forward_ref`),s=Symbol.for(`react.suspense`),c=Symbol.for(`react.suspense_list`),l=Symbol.for(`react.memo`),u=Symbol.for(`react.lazy`),d=Symbol.for(`react.client.reference`);e.isValidElementType=function(e){return!!(typeof e==`string`||typeof e==`function`||e===t||e===r||e===n||e===s||e===c||typeof e==`object`&&e&&(e.$$typeof===u||e.$$typeof===l||e.$$typeof===a||e.$$typeof===i||e.$$typeof===o||e.$$typeof===d||e.getModuleId!==void 0))}})),wm=o(((e,t)=>{t.exports=Cm()}))();function Tm(e){if(typeof e!=`object`||!e)return!1;let t=Object.getPrototypeOf(e);return(t===null||t===Object.prototype||Object.getPrototypeOf(t)===null)&&!(Symbol.toStringTag in e)&&!(Symbol.iterator in e)}function Em(e){if(v.isValidElement(e)||(0,wm.isValidElementType)(e)||!Tm(e))return e;let t={};return Object.keys(e).forEach(n=>{t[n]=Em(e[n])}),t}function Dm(e,t,n={clone:!0}){let r=n.clone?{...e}:e;return Tm(e)&&Tm(t)&&Object.keys(t).forEach(i=>{v.isValidElement(t[i])||(0,wm.isValidElementType)(t[i])?r[i]=t[i]:Tm(t[i])&&Object.prototype.hasOwnProperty.call(e,i)&&Tm(e[i])?r[i]=Dm(e[i],t[i],n):n.clone?r[i]=Tm(t[i])?Em(t[i]):t[i]:r[i]=t[i]}),r}var Om=e=>{let t=Object.keys(e).map(t=>({key:t,val:e[t]}))||[];return t.sort((e,t)=>e.val-t.val),t.reduce((e,t)=>({...e,[t.key]:t.val}),{})};function km(e){let{values:t={xs:0,sm:600,md:900,lg:1200,xl:1536},unit:n=`px`,step:r=5,...i}=e,a=Om(t),o=Object.keys(a);function s(e){return`@media (min-width:${typeof t[e]==`number`?t[e]:e}${n})`}function c(e){return`@media (max-width:${(typeof t[e]==`number`?t[e]:e)-r/100}${n})`}function l(e,i){let a=o.indexOf(i);return`@media (min-width:${typeof t[e]==`number`?t[e]:e}${n}) and (max-width:${(a!==-1&&typeof t[o[a]]==`number`?t[o[a]]:i)-r/100}${n})`}function u(e){return o.indexOf(e)+1<o.length?l(e,o[o.indexOf(e)+1]):s(e)}function d(e){let t=o.indexOf(e);return t===0?s(o[1]):t===o.length-1?c(o[t]):l(e,o[o.indexOf(e)+1]).replace(`@media`,`@media not all and`)}let f=[];for(let e=0;e<o.length;e+=1)f.push(s(o[e]));return{keys:o,values:a,up:s,down:c,between:l,only:u,not:d,unit:n,internal_mediaKeys:f,...i}}var Am=/min-width:\s*([0-9.]+)/;function jm(e,t){if(!e.containerQueries||!Mm(t))return t;let n=[];for(let e in t)e.startsWith(`@container`)&&n.push(e);n.sort((e,t)=>(e.match(Am)?.[1]||0)-+(t.match(Am)?.[1]||0));let r=t;for(let e=0;e<n.length;e+=1){let t=n[e],i=r[t];delete r[t],r[t]=i}return r}function Mm(e){for(let t in e)if(t.startsWith(`@container`))return!0;return!1}function Nm(e,t){return t===`@`||t.startsWith(`@`)&&(e.some(e=>t.startsWith(`@${e}`))||!!t.match(/^@\d/))}function Pm(e,t){let n=t.match(/^@([^/]+)?\/?(.+)?$/);if(!n)return null;let[,r,i]=n,a=Number.isNaN(+r)?r||0:+r;return e.containerQueries(i).up(a)}function Fm(e){let t=(e,t)=>e.replace(`@media`,t?`@container ${t}`:`@container`);function n(n,r){n.up=(...n)=>t(e.breakpoints.up(...n),r),n.down=(...n)=>t(e.breakpoints.down(...n),r),n.between=(...n)=>t(e.breakpoints.between(...n),r),n.only=(...n)=>t(e.breakpoints.only(...n),r),n.not=(...n)=>{let i=t(e.breakpoints.not(...n),r);return i.includes(`not all and`)?i.replace(`not all and `,``).replace(`min-width:`,`width<`).replace(`max-width:`,`width>`).replace(`and`,`or`):i}}let r={},i=e=>(n(r,e),r);return n(i),{...e,containerQueries:i}}var Im={borderRadius:4};function Lm(e){if(e==null)return!0;for(let t in e)return!1;return!0}function Rm(e,t){let n=Array.isArray(t),r=Array.isArray(e);return Um(t)?t:Wm(e)?Gm(t):n&&r?Vm(e,t):n===r?Km(e,t):Gm(t)}function zm(e){let t=0,n=e.length,r=Array(n);for(t=0;t<n;t+=1)r[t]=Gm(e[t]);return r}function Bm(e){let t={};for(let n in e)n!==`__proto__`&&n!==`constructor`&&n!==`prototype`&&(t[n]=Gm(e[n]));return t}function Vm(e,t){let n=e.length;for(let r=0;r<t.length;r+=1)e[n+r]=Gm(t[r]);return e}function Hm(e){return typeof e==`object`&&!!e&&!(e instanceof RegExp)&&!(e instanceof Date)}function Um(e){return typeof e!=`object`||!e}function Wm(e){return typeof e!=`object`||!e||e instanceof RegExp||e instanceof Date}function Gm(e){return Hm(e)?Array.isArray(e)?zm(e):Bm(e):e}function Km(e,t){for(let n in t)n!==`__proto__`&&n!==`constructor`&&n!==`prototype`&&(e[n]=n in e?Rm(e[n],t[n]):Gm(t[n]));return e}var qm={},Jm={xs:0,sm:600,md:900,lg:1200,xl:1536},Ym=km({values:Jm}),Xm={containerQueries:e=>({up:t=>{let n=typeof t==`number`?t:Jm[t]||t;return typeof n==`number`&&(n=`${n}px`),e?`@container ${e} (min-width:${n})`:`@container (min-width:${n})`}})};function Zm(e,t,n){let r={};return Qm(r,e.theme,t,(e,t,i)=>{let a=n(t,i);e?r[e]=a:Rm(r,a)})}function Qm(e,t,n,r){if(t??=qm,Array.isArray(n)){let i=t.breakpoints??Ym;for(let t=0;t<n.length;t+=1)$m(e,i.up(i.keys[t]),n[t],void 0,r);return e}if(typeof n==`object`){let i=t.breakpoints??Ym,a=i.values??Jm;for(let o in n)if(Nm(i.keys,o)){let i=Pm(t.containerQueries?t:Xm,o);i&&$m(e,i,n[o],o,r)}else if(o in a)$m(e,i.up(o),n[o],o,r);else{let t=o;e[t]=n[t]}return e}return r(void 0,n),e}function $m(e,t,n,r,i){e[t]??={},i(t,n,r)}function eh(e=Ym){let{internal_mediaKeys:t}=e,n={};for(let e=0;e<t.length;e+=1)n[t[e]]={};return n}function th(e,t){let n=e.internal_mediaKeys;for(let e=0;e<n.length;e+=1){let r=n[e];Lm(t[r])&&delete t[r]}return t}function nh(e,t){if(Array.isArray(t))return!0;if(typeof t==`object`&&t){for(let n=0;n<e.keys.length;n+=1)if(e.keys[n]in t)return!0;let n=Object.keys(t);for(let t=0;t<n.length;t+=1)if(Nm(e.keys,n[t]))return!0}return!1}function rh(e){if(typeof e!=`string`)throw Error(uf(7));return e.charAt(0).toUpperCase()+e.slice(1)}function ih(e,t,n,r){let i;return i=typeof e==`function`?e(n):Array.isArray(e)?e[n]||n:typeof n==`string`&&ah(e,n,!0,r)||n,t&&(i=t(i,n,e)),i}function ah(e,t,n=!0,r=void 0){if(!e||!t)return null;let i=t.split(`.`);if(e.vars&&n){let t=oh(e.vars,i,r);if(t!=null)return t}return oh(e,i,r)}function oh(e,t,n=void 0){let r,i=e,a=0;for(;a<t.length;){if(i==null)return i;r=i,i=i[t[a]],a+=1}if(n&&i===void 0){let e=t[t.length-1],i=`${n}${e==="default"?``:rh(e)}`;return r?.[i]}return i}function sh(e){let{prop:t,cssProperty:n=e.prop,themeKey:r,transform:i}=e,a=e=>{if(e[t]==null)return null;let a=e[t],o=e.theme,s=ah(o,r)||{};return Zm(e,a,e=>{let r=ih(s,i,e,t);return n===!1?r:{[n]:r}})};return a.propTypes={},a.filterProps=[t],a}var ch={internal_cache:{}},lh={m:`margin`,p:`padding`},uh={t:`Top`,r:`Right`,b:`Bottom`,l:`Left`,x:[`Left`,`Right`],y:[`Top`,`Bottom`]},dh={marginX:`mx`,marginY:`my`,paddingX:`px`,paddingY:`py`},fh={};for(let e in lh)fh[e]=[lh[e]];for(let e in lh)for(let t in uh){let n=lh[e],r=uh[t],i=Array.isArray(r)?r.map(e=>n+e):[n+r];fh[e+t]=i}for(let e in dh)fh[e]=fh[dh[e]];var ph=new Set([`m`,`mt`,`mr`,`mb`,`ml`,`mx`,`my`,`margin`,`marginTop`,`marginRight`,`marginBottom`,`marginLeft`,`marginX`,`marginY`,`marginInline`,`marginInlineStart`,`marginInlineEnd`,`marginBlock`,`marginBlockStart`,`marginBlockEnd`]),mh=new Set([`p`,`pt`,`pr`,`pb`,`pl`,`px`,`py`,`padding`,`paddingTop`,`paddingRight`,`paddingBottom`,`paddingLeft`,`paddingX`,`paddingY`,`paddingInline`,`paddingInlineStart`,`paddingInlineEnd`,`paddingBlock`,`paddingBlockStart`,`paddingBlockEnd`]);[...ph,...mh];function hh(e,t,n,r){let i=ah(e,t,!0)??n;return typeof i==`number`||typeof i==`string`?e=>typeof e==`string`?e:typeof i==`string`?i.startsWith(`var(`)&&e===0?0:i.startsWith(`var(`)&&e===1?i:`calc(${e} * ${i})`:i*e:Array.isArray(i)?e=>{if(typeof e==`string`)return e;let t=i[Math.abs(e)];return e>=0?t:typeof t==`number`?-t:typeof t==`string`&&t.startsWith(`var(`)?`calc(-1 * ${t})`:`-${t}`}:typeof i==`function`?i:()=>void 0}function gh(e){return hh(e,`spacing`,8,`spacing`)}function _h(e,t){return typeof t==`string`||t==null?t:e(t)}var vh=[``];function yh(e,t){let n=e.theme??ch,r=n?.internal_cache?.unarySpacing??gh(n),i={};for(let n in e){if(!t.has(n))continue;let a=fh[n]??(vh[0]=n,vh),o=e[n];Qm(i,e.theme,o,(e,t)=>{let n=e?i[e]:i;for(let e=0;e<a.length;e+=1)n[a[e]]=_h(r,t)})}return i}function bh(e){return yh(e,ph)}bh.propTypes={},bh.filterProps=ph;var xh=bh;function Sh(e){return yh(e,mh)}Sh.propTypes={},Sh.filterProps=mh;var Ch=Sh;function wh(e=8,t=gh({spacing:e})){if(e.mui)return e;let n=(...e)=>(e.length===0?[1]:e).map(e=>{let n=t(e);return typeof n==`number`?`${n}px`:n}).join(` `);return n.mui=!0,n}function Th(...e){let t=e.reduce((e,t)=>(t.filterProps.forEach(n=>{e[n]=t}),e),{}),n=e=>{let n={};for(let r in e)t[r]&&Rm(n,t[r](e));return n};return n.propTypes={},n.filterProps=e.reduce((e,t)=>e.concat(t.filterProps),[]),n}function Eh(e){return typeof e==`number`?`${e}px solid`:e}function Dh(e,t){return sh({prop:e,themeKey:`borders`,transform:t})}var Oh=Dh(`border`,Eh),kh=Dh(`borderTop`,Eh),Ah=Dh(`borderRight`,Eh),jh=Dh(`borderBottom`,Eh),Mh=Dh(`borderLeft`,Eh),Nh=Dh(`borderColor`),Ph=Dh(`borderTopColor`),Fh=Dh(`borderRightColor`),Ih=Dh(`borderBottomColor`),Lh=Dh(`borderLeftColor`),Rh=Dh(`outline`,Eh),zh=Dh(`outlineColor`),Bh=e=>{if(e.borderRadius!==void 0&&e.borderRadius!==null){let t=hh(e.theme,`shape.borderRadius`,4,`borderRadius`);return Zm(e,e.borderRadius,e=>({borderRadius:_h(t,e)}))}return null};Bh.propTypes={},Bh.filterProps=[`borderRadius`],Th(Oh,kh,Ah,jh,Mh,Nh,Ph,Fh,Ih,Lh,Bh,Rh,zh);var Vh=e=>{if(e.gap!==void 0&&e.gap!==null){let t=hh(e.theme,`spacing`,8,`gap`);return Zm(e,e.gap,e=>({gap:_h(t,e)}))}return null};Vh.propTypes={},Vh.filterProps=[`gap`];var Hh=e=>{if(e.columnGap!==void 0&&e.columnGap!==null){let t=hh(e.theme,`spacing`,8,`columnGap`);return Zm(e,e.columnGap,e=>({columnGap:_h(t,e)}))}return null};Hh.propTypes={},Hh.filterProps=[`columnGap`];var Uh=e=>{if(e.rowGap!==void 0&&e.rowGap!==null){let t=hh(e.theme,`spacing`,8,`rowGap`);return Zm(e,e.rowGap,e=>({rowGap:_h(t,e)}))}return null};Uh.propTypes={},Uh.filterProps=[`rowGap`],Th(Vh,Hh,Uh,sh({prop:`gridColumn`}),sh({prop:`gridRow`}),sh({prop:`gridAutoFlow`}),sh({prop:`gridAutoColumns`}),sh({prop:`gridAutoRows`}),sh({prop:`gridTemplateColumns`}),sh({prop:`gridTemplateRows`}),sh({prop:`gridTemplateAreas`}),sh({prop:`gridArea`}));function Wh(e,t){return t===`grey`?t:e}Th(sh({prop:`color`,themeKey:`palette`,transform:Wh}),sh({prop:`bgcolor`,cssProperty:`backgroundColor`,themeKey:`palette`,transform:Wh}),sh({prop:`backgroundColor`,themeKey:`palette`,transform:Wh}));var Gh=Jm;function Kh(e){return e<=1&&e!==0?`${e*100}%`:e}var qh=sh({prop:`width`,transform:Kh}),Jh=e=>e.maxWidth!==void 0&&e.maxWidth!==null?Zm(e,e.maxWidth,t=>{let n=e.theme?.breakpoints?.values?.[t]||Gh[t];return n?e.theme?.breakpoints?.unit===`px`?{maxWidth:n}:{maxWidth:`${n}${e.theme.breakpoints.unit}`}:{maxWidth:Kh(t)}}):null;Jh.filterProps=[`maxWidth`];var Yh=sh({prop:`minWidth`,transform:Kh}),Xh=sh({prop:`height`,transform:Kh}),Zh=sh({prop:`maxHeight`,transform:Kh}),Qh=sh({prop:`minHeight`,transform:Kh});sh({prop:`size`,cssProperty:`width`,transform:Kh}),sh({prop:`size`,cssProperty:`height`,transform:Kh}),Th(qh,Jh,Yh,Xh,Zh,Qh,sh({prop:`boxSizing`}));var $h={border:{themeKey:`borders`,transform:Eh},borderTop:{themeKey:`borders`,transform:Eh},borderRight:{themeKey:`borders`,transform:Eh},borderBottom:{themeKey:`borders`,transform:Eh},borderLeft:{themeKey:`borders`,transform:Eh},borderColor:{themeKey:`palette`},borderTopColor:{themeKey:`palette`},borderRightColor:{themeKey:`palette`},borderBottomColor:{themeKey:`palette`},borderLeftColor:{themeKey:`palette`},outline:{themeKey:`borders`,transform:Eh},outlineColor:{themeKey:`palette`},borderRadius:{themeKey:`shape.borderRadius`,style:Bh},color:{themeKey:`palette`,transform:Wh},bgcolor:{themeKey:`palette`,cssProperty:`backgroundColor`,transform:Wh},backgroundColor:{themeKey:`palette`,transform:Wh},p:{style:Ch},pt:{style:Ch},pr:{style:Ch},pb:{style:Ch},pl:{style:Ch},px:{style:Ch},py:{style:Ch},padding:{style:Ch},paddingTop:{style:Ch},paddingRight:{style:Ch},paddingBottom:{style:Ch},paddingLeft:{style:Ch},paddingX:{style:Ch},paddingY:{style:Ch},paddingInline:{style:Ch},paddingInlineStart:{style:Ch},paddingInlineEnd:{style:Ch},paddingBlock:{style:Ch},paddingBlockStart:{style:Ch},paddingBlockEnd:{style:Ch},m:{style:xh},mt:{style:xh},mr:{style:xh},mb:{style:xh},ml:{style:xh},mx:{style:xh},my:{style:xh},margin:{style:xh},marginTop:{style:xh},marginRight:{style:xh},marginBottom:{style:xh},marginLeft:{style:xh},marginX:{style:xh},marginY:{style:xh},marginInline:{style:xh},marginInlineStart:{style:xh},marginInlineEnd:{style:xh},marginBlock:{style:xh},marginBlockStart:{style:xh},marginBlockEnd:{style:xh},displayPrint:{cssProperty:!1,transform:e=>({"@media print":{display:e}})},display:{},overflow:{},textOverflow:{},visibility:{},whiteSpace:{},flexBasis:{},flexDirection:{},flexWrap:{},justifyContent:{},alignItems:{},alignContent:{},order:{},flex:{},flexGrow:{},flexShrink:{},alignSelf:{},justifyItems:{},justifySelf:{},gap:{style:Vh},rowGap:{style:Uh},columnGap:{style:Hh},gridColumn:{},gridRow:{},gridAutoFlow:{},gridAutoColumns:{},gridAutoRows:{},gridTemplateColumns:{},gridTemplateRows:{},gridTemplateAreas:{},gridArea:{},position:{},zIndex:{themeKey:`zIndex`},top:{},right:{},bottom:{},left:{},boxShadow:{themeKey:`shadows`},width:{transform:Kh},maxWidth:{style:Jh},minWidth:{transform:Kh},height:{transform:Kh},maxHeight:{transform:Kh},minHeight:{transform:Kh},boxSizing:{},font:{themeKey:`font`},fontFamily:{themeKey:`typography`},fontSize:{themeKey:`typography`},fontStyle:{themeKey:`typography`},fontWeight:{themeKey:`typography`},letterSpacing:{},textTransform:{},lineHeight:{},textAlign:{},typography:{cssProperty:!1,themeKey:`typography`}},eg={};function tg(){function e(t){if(!t.sx)return null;let{sx:n,theme:r=eg,nested:i}=t,a=r.unstable_sxConfig??$h,o={sx:null,theme:r,nested:!0};function s(n){let s=n;if(typeof n==`function`)s=n(r);else if(typeof n!=`object`)return n;if(!s)return null;let c=r.breakpoints??Ym,l=eh(c);for(let n in s){let i=ig(s[n],r);if(i!=null){if(typeof i!=`object`){rg(l,n,i,r,a);continue}if(a[n]){rg(l,n,i,r,a);continue}nh(c,i)?Qm(l,t.theme,i,(e,t)=>{l[e][n]=t}):(o.sx=i,l[n]=e(o))}}return!i&&r.modularCssLayers?{"@layer sx":jm(r,th(c,l))}:jm(r,th(c,l))}return Array.isArray(n)?n.map(s):s(n)}return e.filterProps=[`sx`],e}var ng=tg();function rg(e,t,n,r,i){let a=i[t];if(!a){e[t]=n;return}if(n==null)return;let{themeKey:o}=a;if(o===`typography`&&n===`inherit`){e[t]=n;return}let{style:s}=a;if(s){Rm(e,s({[t]:n,theme:r}));return}let{cssProperty:c=t,transform:l}=a,u=ah(r,o);Qm(e,r,n,(n,r)=>{let i=ih(u,l,r,t);c===!1?Rm(n?e[n]:e,i):n?e[n][c]=i:e[c]=i})}function ig(e,t){return typeof e==`function`?e(t):e}function ag(e,t){let n=this;if(n.vars){if(!n.colorSchemes?.[e]||typeof n.getColorSchemeSelector!=`function`)return{};let r=n.getColorSchemeSelector(e);return r===`&`?t:((r.includes(`data-`)||r.includes(`.`))&&(r=`*:where(${r.replace(/\s*&$/,``)}) &`),{[r]:t})}return n.palette.mode===e?t:{}}function og(e={},...t){let{breakpoints:n={},palette:r={},spacing:i,shape:a={},...o}=e,s=km(n),c=wh(i),l=Dm({breakpoints:s,direction:`ltr`,components:{},palette:{mode:`light`,...r},spacing:c,shape:{...Im,...a}},o);return l=Fm(l),l.applyStyles=ag,l=t.reduce((e,t)=>Dm(e,t),l),l.unstable_sxConfig={...$h,...o?.unstable_sxConfig},l.unstable_sx=function(e){return ng({sx:e,theme:this})},l.internal_cache={},l}function sg(e){return Object.keys(e).length===0}function cg(e=null){let t=v.useContext(Zp);return!t||sg(t)?e:t}var lg=og();function ug(e=lg){return cg(e)}function dg(e){let t=Sm(e);return e!==t&&t.styles?(t.styles.match(/^@layer\s+[^{]*$/)||(t.styles=`@layer global{${t.styles}}`),t):e}function fg({styles:e,themeId:t,defaultTheme:n={}}){let r=ug(n),i=t&&r[t]||r,a=typeof e==`function`?e(i):e;return i.modularCssLayers&&(a=Array.isArray(a)?a.map(e=>dg(typeof e==`function`?e(i):e)):dg(a)),(0,J.jsx)(vm,{styles:a})}var pg=e=>e,mg=(()=>{let e=pg;return{configure(t){e=t},generate(t){return e(t)},reset(){e=pg}}})();function hg(e){var t,n,r=``;if(typeof e==`string`||typeof e==`number`)r+=e;else if(typeof e==`object`){if(Array.isArray(e)){var i=e.length;for(t=0;t<i;t++)e[t]&&(n=hg(e[t]))&&(r&&(r+=` `),r+=n)}else for(n in e)e[n]&&(r&&(r+=` `),r+=n)}return r}function Y(){for(var e,t,n=0,r=``,i=arguments.length;n<i;n++)(e=arguments[n])&&(t=hg(e))&&(r&&(r+=` `),r+=t);return r}function gg(e={}){let{themeId:t,defaultTheme:n,defaultClassName:r=`MuiBox-root`,generateClassName:i}=e,a=ym(`div`,{shouldForwardProp:e=>e!==`theme`&&e!==`sx`&&e!==`as`})(ng);return v.forwardRef(function(e,o){let s=ug(n),{className:c,component:l=`div`,...u}=e;return(0,J.jsx)(a,{as:l,ref:o,className:Y(c,i?i(r):r),theme:t&&s[t]||s,...u})})}var _g={active:`active`,checked:`checked`,completed:`completed`,disabled:`disabled`,error:`error`,expanded:`expanded`,focused:`focused`,focusVisible:`focusVisible`,open:`open`,readOnly:`readOnly`,required:`required`,selected:`selected`};function vg(e,t,n=`Mui`){let r=_g[t];return r?`${n}-${r}`:`${mg.generate(e)}-${t}`}function yg(e,t,n=`Mui`){let r={};return t.forEach(t=>{r[t]=vg(e,t,n)}),r}function bg(e){let{variants:t,...n}=e,r={variants:t,style:Sm(n),isProcessed:!0};return r.style===n||t&&t.forEach(e=>{typeof e.style!=`function`&&(e.style=Sm(e.style))}),r}var xg=og();function Sg(e){return e!==`ownerState`&&e!==`theme`&&e!==`sx`&&e!==`as`}function Cg(e,t){return t&&e&&typeof e==`object`&&e.styles&&!e.styles.startsWith(`@layer`)&&(e.styles=`@layer ${t}{${String(e.styles)}}`),e}function wg(e){return e?(t,n)=>n[e]:null}function Tg(e,t,n){e.theme=Lm(e.theme)?n:e.theme[t]||e.theme}function Eg(e,t,n){let r=typeof t==`function`?t(e):t;if(Array.isArray(r))return r.flatMap(t=>Eg(e,t,n));if(Array.isArray(r?.variants)){let t;if(r.isProcessed)t=n?Cg(r.style,n):r.style;else{let{variants:e,...i}=r;t=n?Cg(Sm(i),n):i}return Dg(e,r.variants,[t],n)}return r?.isProcessed?n?Cg(Sm(r.style),n):r.style:n?Cg(Sm(r),n):r}function Dg(e,t,n=[],r=void 0){let i;variantLoop:for(let a=0;a<t.length;a+=1){let o=t[a];if(typeof o.props==`function`){if(i??={...e,...e.ownerState,ownerState:e.ownerState},!o.props(i))continue}else for(let t in o.props)if(e[t]!==o.props[t]&&e.ownerState?.[t]!==o.props[t])continue variantLoop;typeof o.style==`function`?(i??={...e,...e.ownerState,ownerState:e.ownerState},n.push(r?Cg(Sm(o.style(i)),r):o.style(i))):n.push(r?Cg(Sm(o.style),r):o.style)}return n}function Og(e={}){let{themeId:t,defaultTheme:n=xg,rootShouldForwardProp:r=Sg,slotShouldForwardProp:i=Sg}=e;function a(e){Tg(e,t,n)}return(e,t={})=>{bm(e,e=>e.filter(e=>e!==ng));let{name:n,slot:o,skipVariantsResolver:s,skipSx:c,overridesResolver:l=wg(Ag(o)),...u}=t,d=n&&n.startsWith(`Mui`)||o?`components`:`custom`,f=s===void 0?o&&o!==`Root`&&o!==`root`||!1:s,p=c||!1,m=Sg;o===`Root`||o===`root`?m=r:o?m=i:kg(e)&&(m=void 0);let h=ym(e,{shouldForwardProp:m,label:void 0,...u}),g=e=>{if(e.__emotion_real===e)return e;if(typeof e==`function`)return function(t){return Eg(t,e,t.theme.modularCssLayers?d:void 0)};if(Tm(e)){let t=bg(e);return function(e){return t.variants?Eg(e,t,e.theme.modularCssLayers?d:void 0):e.theme.modularCssLayers?Cg(t.style,d):t.style}}return e},_=(...t)=>{let r=[],i=t.map(g),o=[];if(r.push(a),n&&l&&o.push(function(e){let t=e.theme.components?.[n]?.styleOverrides;if(!t)return null;let r={};for(let n in t)r[n]=Eg(e,t[n],e.theme.modularCssLayers?`theme`:void 0);return l(e,r)}),n&&!f&&o.push(function(e){let t=e.theme?.components?.[n]?.variants;return t?Dg(e,t,[],e.theme.modularCssLayers?`theme`:void 0):null}),p||o.push(ng),Array.isArray(i[0])){let e=i.shift(),t=Array(r.length).fill(``),n=Array(o.length).fill(``),a;a=[...t,...e,...n],a.raw=[...t,...e.raw,...n],r.unshift(a)}let s=[...r,...i,...o],c=h(...s);return e.muiName&&(c.muiName=e.muiName),c};return h.withConfig&&(_.withConfig=h.withConfig),_}}function kg(e){return typeof e==`string`&&e.charCodeAt(0)>96}function Ag(e){return e&&e.charAt(0).toLowerCase()+e.slice(1)}function jg(e,t,n=!1){let r={...t};for(let i in e)if(Object.prototype.hasOwnProperty.call(e,i)){let a=i;if(a===`components`||a===`slots`)r[a]={...e[a],...r[a]};else if(a===`componentsProps`||a===`slotProps`){let i=e[a],o=t[a];if(!o)r[a]=i||{};else if(!i)r[a]=o;else{r[a]={...o};for(let e in i)if(Object.prototype.hasOwnProperty.call(i,e)){let t=e;r[a][t]=jg(i[t],o[t],n)}}}else a===`className`&&n&&t.className!==void 0?r.className=Y(e?.className,t?.className):a===`style`&&n&&t.style?r.style={...e?.style,...t?.style}:r[a]===void 0&&(r[a]=e[a])}return r}var Mg=typeof window<`u`?v.useLayoutEffect:v.useEffect;function Ng(e,t=-(2**53-1),n=2**53-1){return Math.max(t,Math.min(e,n))}function Pg(e,t=0,n=1){return Ng(e,t,n)}function Fg(e){e=e.slice(1);let t=RegExp(`.{1,${e.length>=6?2:1}}`,`g`),n=e.match(t);return n&&n[0].length===1&&(n=n.map(e=>e+e)),n?`rgb${n.length===4?`a`:``}(${n.map((e,t)=>t<3?parseInt(e,16):Math.round(parseInt(e,16)/255*1e3)/1e3).join(`, `)})`:``}function Ig(e){if(e.type)return e;if(e.charAt(0)===`#`)return Ig(Fg(e));let t=e.indexOf(`(`),n=e.substring(0,t);if(![`rgb`,`rgba`,`hsl`,`hsla`,`color`].includes(n))throw Error(uf(9,e));let r=e.substring(t+1,e.length-1),i;if(n===`color`){if(r=r.split(` `),i=r.shift(),r.length===4&&r[3].charAt(0)===`/`&&(r[3]=r[3].slice(1)),![`srgb`,`display-p3`,`a98-rgb`,`prophoto-rgb`,`rec-2020`].includes(i))throw Error(uf(10,i))}else r=r.split(`,`);return r=r.map(e=>parseFloat(e)),{type:n,values:r,colorSpace:i}}var Lg=e=>{let t=Ig(e);return t.values.slice(0,3).map((e,n)=>t.type.includes(`hsl`)&&n!==0?`${e}%`:e).join(` `)},Rg=(e,t)=>{try{return Lg(e)}catch{return e}};function zg(e){let{type:t,colorSpace:n}=e,{values:r}=e;return t.includes(`rgb`)?r=r.map((e,t)=>t<3?parseInt(e,10):e):t.includes(`hsl`)&&(r[1]=`${r[1]}%`,r[2]=`${r[2]}%`),r=t.includes(`color`)?`${n} ${r.join(` `)}`:`${r.join(`, `)}`,`${t}(${r})`}function Bg(e){e=Ig(e);let{values:t}=e,n=t[0],r=t[1]/100,i=t[2]/100,a=r*Math.min(i,1-i),o=(e,t=(e+n/30)%12)=>i-a*Math.max(Math.min(t-3,9-t,1),-1),s=`rgb`,c=[Math.round(o(0)*255),Math.round(o(8)*255),Math.round(o(4)*255)];return e.type===`hsla`&&(s+=`a`,c.push(t[3])),zg({type:s,values:c})}function Vg(e){e=Ig(e);let t=e.type===`hsl`||e.type===`hsla`?Ig(Bg(e)).values:e.values;return t=t.map(t=>(e.type!==`color`&&(t/=255),t<=.03928?t/12.92:((t+.055)/1.055)**2.4)),Number((.2126*t[0]+.7152*t[1]+.0722*t[2]).toFixed(3))}function Hg(e,t){let n=Vg(e),r=Vg(t);return(Math.max(n,r)+.05)/(Math.min(n,r)+.05)}function Ug(e,t){return e=Ig(e),t=Pg(t),(e.type===`rgb`||e.type===`hsl`)&&(e.type+=`a`),e.type===`color`?e.values[3]=`/${t}`:e.values[3]=t,zg(e)}function Wg(e,t,n){try{return Ug(e,t)}catch{return e}}function Gg(e,t){if(e=Ig(e),t=Pg(t),e.type.includes(`hsl`))e.values[2]*=1-t;else if(e.type.includes(`rgb`)||e.type.includes(`color`))for(let n=0;n<3;n+=1)e.values[n]*=1-t;return zg(e)}function Kg(e,t,n){try{return Gg(e,t)}catch{return e}}function qg(e,t){if(e=Ig(e),t=Pg(t),e.type.includes(`hsl`))e.values[2]+=(100-e.values[2])*t;else if(e.type.includes(`rgb`))for(let n=0;n<3;n+=1)e.values[n]+=(255-e.values[n])*t;else if(e.type.includes(`color`))for(let n=0;n<3;n+=1)e.values[n]+=(1-e.values[n])*t;return zg(e)}function Jg(e,t,n){try{return qg(e,t)}catch{return e}}function Yg(e,t=.15){return Vg(e)>.5?Gg(e,t):qg(e,t)}function Xg(e,t,n){try{return Yg(e,t)}catch{return e}}var Zg=v.createContext(),Qg=()=>v.useContext(Zg)??!1,$g=v.createContext(void 0);function e_(e){let{theme:t,name:n,props:r}=e;if(!t||!t.components||!t.components[n])return r;let i=t.components[n];return i.defaultProps?jg(i.defaultProps,r,t.components.mergeClassNameAndStyle):!i.styleOverrides&&!i.variants?jg(i,r,t.components.mergeClassNameAndStyle):r}function t_({props:e,name:t}){return e_({props:e,name:t,theme:{components:v.useContext($g)}})}var n_=0;function r_(e){let[t,n]=v.useState(e),r=e||t;return v.useEffect(()=>{t??(n_+=1,n(`mui-${n_}`))},[t]),r}var i_={...v}.useId;function a_(e){if(i_!==void 0){let t=i_();return e??t}return r_(e)}var o_={theme:void 0};function s_(e){let t,n;return function(r){let i=t;return(i===void 0||r.theme!==n)&&(o_.theme=r.theme,i=bg(e(o_)),t=i,n=r.theme),i}}function c_(e=``){function t(...n){if(!n.length)return``;let r=n[0];return typeof r==`string`&&!r.match(/(#|\(|\)|(-?(\d*\.)?\d+)(px|em|%|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc))|^(-?(\d*\.)?\d+)$|(\d+ \d+ \d+)/)?`, var(--${e?`${e}-`:``}${r}${t(...n.slice(1))})`:`, ${r}`}return(n,...r)=>`var(--${e?`${e}-`:``}${n}${t(...r)})`}var l_=new Set([`__proto__`,`constructor`,`prototype`]),u_=(e,t,n,r=[])=>{let i=e;for(let e=0;e<t.length;e+=1){let a=t[e];if(l_.has(a))break;e===t.length-1?Array.isArray(i)?i[Number(a)]=n:i&&typeof i==`object`&&(i[a]=n):i&&typeof i==`object`&&(i[a]||(i[a]=r.includes(a)?[]:{}),i=i[a])}},d_=(e,t,n)=>{function r(e,i=[],a=[]){Object.entries(e).forEach(([e,o])=>{(!n||n&&!n([...i,e]))&&o!=null&&(typeof o==`object`&&Object.keys(o).length>0?r(o,[...i,e],Array.isArray(o)?[...a,e]:a):t([...i,e],o,a))})}r(e)},f_=(e,t)=>typeof t==`number`?[`lineHeight`,`fontWeight`,`opacity`,`zIndex`].some(t=>e.includes(t))||e[e.length-1].toLowerCase().includes(`opacity`)?t:`${t}px`:t;function p_(e,t){let{prefix:n,shouldSkipGeneratingVar:r}=t||{},i={},a={},o={};return d_(e,(e,t,s)=>{if((typeof t==`string`||typeof t==`number`)&&(!r||!r(e,t))){let r=`--${n?`${n}-`:``}${e.join(`-`)}`,c=f_(e,t);Object.assign(i,{[r]:c}),u_(a,e,`var(${r})`,s),u_(o,e,`var(${r}, ${c})`,s)}},e=>e[0]===`vars`),{css:i,vars:a,varsWithDefaults:o}}function m_(e,t={}){let{getSelector:n=_,disableCssColorScheme:r,colorSchemeSelector:i,enableContrastVars:a}=t,{colorSchemes:o={},components:s,defaultColorScheme:c=`light`,...l}=e,{vars:u,css:d,varsWithDefaults:f}=p_(l,t),p=f,m={},{[c]:h,...g}=o;if(Object.entries(g||{}).forEach(([e,n])=>{let{vars:r,css:i,varsWithDefaults:a}=p_(n,t);p=Dm(p,a),m[e]={css:i,vars:r}}),h){let{css:e,vars:n,varsWithDefaults:r}=p_(h,t);p=Dm(p,r),m[c]={css:e,vars:n}}function _(t,n){let r=i;if(i===`class`&&(r=`.%s`),i===`data`&&(r=`[data-%s]`),i?.startsWith(`data-`)&&!i.includes(`%s`)&&(r=`[${i}="%s"]`),t){if(r===`media`)return e.defaultColorScheme===t?`:root`:{[`@media (prefers-color-scheme: ${o[t]?.palette?.mode||t})`]:{":root":n}};if(r)return e.defaultColorScheme===t?`:root, ${r.replace(`%s`,String(t))}`:r.replace(`%s`,String(t))}return`:root`}return{vars:p,generateThemeVars:()=>{let e={...u};return Object.entries(m).forEach(([,{vars:t}])=>{e=Dm(e,t)}),e},generateStyleSheets:()=>{let t=[],i=e.defaultColorScheme||`light`;function s(e,n){Object.keys(n).length&&t.push(typeof e==`string`?{[e]:{...n}}:e)}s(n(void 0,{...d}),d);let{[i]:c,...l}=m;if(c){let{css:e}=c,t=o[i]?.palette?.mode,a=!r&&t?{colorScheme:t,...e}:{...e};s(n(i,{...a}),a)}return Object.entries(l).forEach(([e,{css:t}])=>{let i=o[e]?.palette?.mode,a=!r&&i?{colorScheme:i,...t}:{...t};s(n(e,{...a}),a)}),a&&t.push({":root":{"--__l-threshold":`0.7`,"--__l":`clamp(0, (l / var(--__l-threshold) - 1) * -infinity, 1)`,"--__a":`clamp(0.87, (l / var(--__l-threshold) - 1) * -infinity, 1)`}}),t}}}function h_(e){return function(t){return e===`media`?`@media (prefers-color-scheme: ${t})`:e?e.startsWith(`data-`)&&!e.includes(`%s`)?`[${e}="${t}"] &`:e===`class`?`.${t} &`:e===`data`?`[data-${t}] &`:`${e.replace(`%s`,t)} &`:`&`}}function g_(e,t,n=void 0){let r={};for(let i in e){let a=e[i],o=``,s=!0;for(let e=0;e<a.length;e+=1){let r=a[e];r&&(o+=(s===!0?``:` `)+t(r),s=!1,n&&n[r]&&(o+=` `+n[r]))}r[i]=o}return r}function __(){return{text:{primary:`rgba(0, 0, 0, 0.87)`,secondary:`rgba(0, 0, 0, 0.6)`,disabled:`rgba(0, 0, 0, 0.38)`},divider:`rgba(0, 0, 0, 0.12)`,background:{paper:tf.white,default:tf.white},action:{active:`rgba(0, 0, 0, 0.54)`,hover:`rgba(0, 0, 0, 0.04)`,hoverOpacity:.04,selected:`rgba(0, 0, 0, 0.08)`,selectedOpacity:.08,disabled:`rgba(0, 0, 0, 0.26)`,disabledBackground:`rgba(0, 0, 0, 0.12)`,disabledOpacity:.38,focus:`rgba(0, 0, 0, 0.12)`,focusOpacity:.12,activatedOpacity:.12}}}var v_=__();function y_(){return{text:{primary:tf.white,secondary:`rgba(255, 255, 255, 0.7)`,disabled:`rgba(255, 255, 255, 0.5)`,icon:`rgba(255, 255, 255, 0.5)`},divider:`rgba(255, 255, 255, 0.12)`,background:{paper:`#121212`,default:`#121212`},action:{active:tf.white,hover:`rgba(255, 255, 255, 0.08)`,hoverOpacity:.08,selected:`rgba(255, 255, 255, 0.16)`,selectedOpacity:.16,disabled:`rgba(255, 255, 255, 0.3)`,disabledBackground:`rgba(255, 255, 255, 0.12)`,disabledOpacity:.38,focus:`rgba(255, 255, 255, 0.12)`,focusOpacity:.12,activatedOpacity:.24}}}var b_=y_();function x_(e,t,n,r){let i=r.light||r,a=r.dark||r*1.5;e[t]||(e.hasOwnProperty(n)?e[t]=e[n]:t===`light`?e.light=qg(e.main,i):t===`dark`&&(e.dark=Gg(e.main,a)))}function S_(e,t,n,r,i){let a=i.light||i,o=i.dark||i*1.5;t[n]||(t.hasOwnProperty(r)?t[n]=t[r]:n===`light`?t.light=`color-mix(in ${e}, ${t.main}, #fff ${(a*100).toFixed(0)}%)`:n===`dark`&&(t.dark=`color-mix(in ${e}, ${t.main}, #000 ${(o*100).toFixed(0)}%)`))}function C_(e=`light`){return e===`dark`?{main:af[200],light:af[50],dark:af[400]}:{main:af[700],light:af[400],dark:af[800]}}function w_(e=`light`){return e===`dark`?{main:rf[200],light:rf[50],dark:rf[400]}:{main:rf[500],light:rf[300],dark:rf[700]}}function T_(e=`light`){return e===`dark`?{main:nf[500],light:nf[300],dark:nf[700]}:{main:nf[700],light:nf[400],dark:nf[800]}}function E_(e=`light`){return e===`dark`?{main:of[400],light:of[300],dark:of[700]}:{main:of[700],light:of[500],dark:of[900]}}function D_(e=`light`){return e===`dark`?{main:sf[400],light:sf[300],dark:sf[700]}:{main:sf[800],light:sf[500],dark:sf[900]}}function O_(e=`light`){return e===`dark`?{main:cf[400],light:cf[300],dark:cf[700]}:{main:`#ed6c02`,light:cf[500],dark:cf[900]}}function k_(e){return`oklch(from ${e} var(--__l) 0 h / var(--__a))`}function A_(e){let{mode:t=`light`,contrastThreshold:n=3,tonalOffset:r=.2,colorSpace:i,...a}=e,o=e.primary||C_(t),s=e.secondary||w_(t),c=e.error||T_(t),l=e.info||E_(t),u=e.success||D_(t),d=e.warning||O_(t);function f(e){return i?k_(e):Hg(e,b_.text.primary)>=n?b_.text.primary:v_.text.primary}let p=({color:e,name:t,mainShade:n=500,lightShade:a=300,darkShade:o=700})=>{if(e={...e},!e.main&&e[n]&&(e.main=e[n]),!e.hasOwnProperty(`main`))throw Error(uf(11,t?` (${t})`:``,n));if(typeof e.main!=`string`)throw Error(uf(12,t?` (${t})`:``,JSON.stringify(e.main)));return i?(S_(i,e,`light`,a,r),S_(i,e,`dark`,o,r)):(x_(e,`light`,a,r),x_(e,`dark`,o,r)),e.contrastText||(e.contrastText=f(e.main)),e},m;return t===`light`?m=__():t===`dark`&&(m=y_()),Dm({common:{...tf},mode:t,primary:p({color:o,name:`primary`}),secondary:p({color:s,name:`secondary`,mainShade:`A400`,lightShade:`A200`,darkShade:`A700`}),error:p({color:c,name:`error`}),warning:p({color:d,name:`warning`}),info:p({color:l,name:`info`}),success:p({color:u,name:`success`}),grey:lf,contrastThreshold:n,getContrastText:f,augmentColor:p,tonalOffset:r,...m},a)}function j_(e){let t={};return Object.entries(e).forEach(e=>{let[n,r]=e;typeof r==`object`&&(t[n]=`${r.fontStyle?`${r.fontStyle} `:``}${r.fontVariant?`${r.fontVariant} `:``}${r.fontWeight?`${r.fontWeight} `:``}${r.fontStretch?`${r.fontStretch} `:``}${r.fontSize||``}${r.lineHeight?`/${r.lineHeight} `:``}${r.fontFamily||``}`)}),t}function M_(e,t){return{toolbar:{minHeight:56,[e.up(`xs`)]:{"@media (orientation: landscape)":{minHeight:48}},[e.up(`sm`)]:{minHeight:64}},...t}}function N_(e){return Math.round(e*1e5)/1e5}var P_={textTransform:`uppercase`},F_=`"Roboto", "Helvetica", "Arial", sans-serif`;function I_(e,t){let{fontFamily:n=F_,fontSize:r=14,fontWeightLight:i=300,fontWeightRegular:a=400,fontWeightMedium:o=500,fontWeightBold:s=700,htmlFontSize:c=16,allVariants:l,pxToRem:u,...d}=typeof t==`function`?t(e):t,f=r/14,p=u||(e=>`${e/c*f}rem`),m=(e,t,r,i,a)=>({fontFamily:n,fontWeight:e,fontSize:p(t),lineHeight:r,...n===F_?{letterSpacing:`${N_(i/t)}em`}:{},...a,...l});return Dm({htmlFontSize:c,pxToRem:p,fontFamily:n,fontSize:r,fontWeightLight:i,fontWeightRegular:a,fontWeightMedium:o,fontWeightBold:s,h1:m(i,96,1.167,-1.5),h2:m(i,60,1.2,-.5),h3:m(a,48,1.167,0),h4:m(a,34,1.235,.25),h5:m(a,24,1.334,0),h6:m(o,20,1.6,.15),subtitle1:m(a,16,1.75,.15),subtitle2:m(o,14,1.57,.1),body1:m(a,16,1.5,.15),body2:m(a,14,1.43,.15),button:m(o,14,1.75,.4,P_),caption:m(a,12,1.66,.4),overline:m(a,12,2.66,1,P_),inherit:{fontFamily:`inherit`,fontWeight:`inherit`,fontSize:`inherit`,lineHeight:`inherit`,letterSpacing:`inherit`}},d,{clone:!1})}var L_=.2,R_=.14,z_=.12;function B_(...e){return[`${e[0]}px ${e[1]}px ${e[2]}px ${e[3]}px rgba(0,0,0,${L_})`,`${e[4]}px ${e[5]}px ${e[6]}px ${e[7]}px rgba(0,0,0,${R_})`,`${e[8]}px ${e[9]}px ${e[10]}px ${e[11]}px rgba(0,0,0,${z_})`].join(`,`)}var V_=[`none`,B_(0,2,1,-1,0,1,1,0,0,1,3,0),B_(0,3,1,-2,0,2,2,0,0,1,5,0),B_(0,3,3,-2,0,3,4,0,0,1,8,0),B_(0,2,4,-1,0,4,5,0,0,1,10,0),B_(0,3,5,-1,0,5,8,0,0,1,14,0),B_(0,3,5,-1,0,6,10,0,0,1,18,0),B_(0,4,5,-2,0,7,10,1,0,2,16,1),B_(0,5,5,-3,0,8,10,1,0,3,14,2),B_(0,5,6,-3,0,9,12,1,0,3,16,2),B_(0,6,6,-3,0,10,14,1,0,4,18,3),B_(0,6,7,-4,0,11,15,1,0,4,20,3),B_(0,7,8,-4,0,12,17,2,0,5,22,4),B_(0,7,8,-4,0,13,19,2,0,5,24,4),B_(0,7,9,-4,0,14,21,2,0,5,26,4),B_(0,8,9,-5,0,15,22,2,0,6,28,5),B_(0,8,10,-5,0,16,24,2,0,6,30,5),B_(0,8,11,-5,0,17,26,2,0,6,32,5),B_(0,9,11,-5,0,18,28,2,0,7,34,6),B_(0,9,12,-6,0,19,29,2,0,7,36,6),B_(0,10,13,-6,0,20,31,3,0,8,38,7),B_(0,10,13,-6,0,21,33,3,0,8,40,7),B_(0,10,14,-6,0,22,35,3,0,8,42,7),B_(0,11,14,-7,0,23,36,3,0,9,44,8),B_(0,11,15,-7,0,24,38,3,0,9,46,8)],H_=[`all`],U_={},W_={easeInOut:`cubic-bezier(0.4, 0, 0.2, 1)`,easeOut:`cubic-bezier(0.0, 0, 0.2, 1)`,easeIn:`cubic-bezier(0.4, 0, 1, 1)`,sharp:`cubic-bezier(0.4, 0, 0.6, 1)`},G_={shortest:150,shorter:200,short:250,standard:300,complex:375,enteringScreen:225,leavingScreen:195};function K_(e){return`${Math.round(e)}ms`}function q_(e){if(!e)return 0;let t=e/36;return Math.min(Math.round((4+15*t**.25+t/5)*10),3e3)}function J_(e){let t={...e};delete t.reducedMotion;let n={...W_,...t.easing},r={...G_,...t.duration};return{getAutoHeightDuration:q_,create:t.create??((e=H_,t=U_)=>{let{duration:i=r.standard,easing:a=n.easeInOut,delay:o=0,...s}=t;return(Array.isArray(e)?e:[e]).map(e=>`${e} ${typeof i==`string`?i:K_(i)} ${a} ${typeof o==`string`?o:K_(o)}`).join(`,`)}),...t,easing:n,duration:r}}var Y_={};function X_(e=Y_){return{reducedMotion:`never`,...e}}var Z_={mobileStepper:1e3,fab:1050,speedDial:1050,appBar:1100,drawer:1200,modal:1300,snackbar:1400,tooltip:1500};function Q_(e){return Tm(e)||e===void 0||typeof e==`string`||typeof e==`boolean`||typeof e==`number`||Array.isArray(e)}function $_(e={}){let t={...e};function n(e){let t=Object.entries(e);for(let r=0;r<t.length;r++){let[i,a]=t[r];!Q_(a)||i.startsWith(`unstable_`)||i.startsWith(`internal_`)?delete e[i]:Tm(a)&&(e[i]={...a},n(e[i]))}}return n(t),`import { unstable_createBreakpoints as createBreakpoints, createTransitions } from '@mui/material/styles';
 
 const theme = ${JSON.stringify(t,null,2)};
 
